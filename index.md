@@ -4,9 +4,9 @@
 
 # Document
 
-- User's Manual
-- Installation Guide
-- API Reference
+- 사용자 매뉴얼 (User's Manual)
+- 설치 가이드 (Installation Guide)
+- API 레퍼런스 (API Reference)
 
 # Download
 
