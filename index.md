@@ -4,7 +4,7 @@
 
 # Document
 
-- [사용자 매뉴얼 (User's Manual)](manual/UserManual.md)
+- [사용자 매뉴얼 (User's Manual)](document/UserManual.md)
 - 설치 가이드 (Installation Guide)
 - API 레퍼런스 (API Reference)
 
