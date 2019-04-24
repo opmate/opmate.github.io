@@ -43,80 +43,85 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
         &limit=$limit
         &offset=$offset
   ```
-$idSubstr : 노드 ID의 일부 문자열
-$agentVerSubstr : 에이전트 버젼의 일부 문자열
-$ipSubstr : IP의 일부 문자열
-$osNameSubstr : OS의 일부 문자열
-$hostnameSubstr : HOSTNAME의 일부 문자열
-$stauts : E | D
+  - $idSubstr : 노드 ID의 일부 문자열
+  - $agentVerSubstr : 에이전트 버젼의 일부 문자열
+  - $ipSubstr : IP의 일부 문자열
+  - $osNameSubstr : OS의 일부 문자열
+  - $hostnameSubstr : HOSTNAME의 일부 문자열
+  - $stauts : E | D
 
+- RESPONSE
 
-RESPONSE
+  ```
+  {"nodeList":[{"id":"$id"
+               ,"agentGuid":"$agentGuid"
+               ,"agentVer":"$agentVer"
+               ,"osName":"$osName"
+               ,"ip":"$ip"
+               ,"hostname":"$hostname"
+               ,"ownerUserId":"$ownerUserId"
+               ,"status":"$status"
+               ,"heartbeatDt":"$heartbeatDt"
+               ,"crtDt":"$crtDt"}
+              ,...]
+  ,"currentCnt":$currentCnt
+  ,"totalCnt":$totalCnt
+  ,"resultCode":"$resultCode"
+  ,"resultMsg":"$resultMsg"}
+  ```
 
-{"nodeList":[{"id":"$id"
-             ,"agentGuid":"$agentGuid"
-             ,"agentVer":"$agentVer"
-             ,"osName":"$osName"
-             ,"ip":"$ip"
-             ,"hostname":"$hostname"
-             ,"ownerUserId":"$ownerUserId"
-             ,"status":"$status"
-             ,"heartbeatDt":"$heartbeatDt"
-             ,"crtDt":"$crtDt"}
-            ,...]
-,"currentCnt":$currentCnt
-,"totalCnt":$totalCnt
-,"resultCode":"$resultCode"
-,"resultMsg":"$resultMsg"}
+## 태스크
 
+### 태스크목록
 
-태스크
-태스크목록
-REQUEST
+- REQUEST
 
-GET : /opmate/task
-      ?id=$idsubstr
-      &ownerUserId=$ownerUserId
-      &apprStatus=$apprStatus
-      &apprUserId=$apprUserId
-      &execScheduler=$execScheduler
-      &execOndemand=$execOndemand
-      &execTask=$execTask
-      &targetNodeId=$targetNodeId
-      &limit=$limit
-      &offset=$offset
-$idsubstr : 태스크 ID의 일부 문자열
+  ```
+  GET : /opmate/task
+        ?id=$idsubstr
+        &ownerUserId=$ownerUserId
+        &apprStatus=$apprStatus
+        &apprUserId=$apprUserId
+        &execScheduler=$execScheduler
+        &execOndemand=$execOndemand
+        &execTask=$execTask
+        &targetNodeId=$targetNodeId
+        &limit=$limit
+        &offset=$offset
+  ```
+  - $idsubstr : 태스크 ID의 일부 문자열
 
+- RESPONSE
+  ```
+  {"taskList":[{"id":"$id"
+               ,"revisionNo":$revisionNo
+               ,"ownerUserId":"$ownerUserId"
+               ,"scriptName":"$scriptName"
+               ,"osUser":"$osUser"
+               ,"execScheduler":"$execScheduler"
+               ,"execOndemand":"$execOndemand"
+               ,"execTask":"$execTask"
+               ,"nextTaskId":"$nextTaskId"
+               ,"apprvStatus":"$apprvStatus"
+               ,"apprvUserId":"$apprvUserId"}
+              ,...]
 
-RESPONSE
+  ,"currentCnt":$currentCnt
+  ,"totalCnt":$totalCnt
+  ,"resultCode":"$resultCode"
+  ,"resultMsg":"$resultMsg"}
+  ```
+  - $execScheduler : E | D
+  - $execOndemand : E | D
+  - $execTask : E | D
+  - $apprvStatus
+    - N : N/A
+    - Q : request
+    - A : approval
+    - R : reject
 
-{"taskList":[{"id":"$id"
-             ,"revisionNo":$revisionNo
-             ,"ownerUserId":"$ownerUserId"
-             ,"scriptName":"$scriptName"
-             ,"osUser":"$osUser"
-             ,"execScheduler":"$execScheduler"
-             ,"execOndemand":"$execOndemand"
-             ,"execTask":"$execTask"
-             ,"nextTaskId":"$nextTaskId"
-             ,"apprvStatus":"$apprvStatus"
-             ,"apprvUserId":"$apprvUserId"}
-            ,...]
-,"currentCnt":$currentCnt
-,"totalCnt":$totalCnt
-,"resultCode":"$resultCode"
-,"resultMsg":"$resultMsg"}
+### 재실행
 
-$execScheduler : E | D
-$execOndemand : E | D
-$execTask : E | D
-$apprvStatus
-N : N/A
-Q : request
-A : approval
-R : reject
-
-재실행
 REQUEST
 
 PUT : /opmate/taskinstance/$instance_no/node/$node_id
