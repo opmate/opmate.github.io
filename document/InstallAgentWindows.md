@@ -1,10 +1,10 @@
-# Windows 설치
+# 윈도우즈용 에이전트 설치
 
 ---
 
 ## 파일 준비
 
-최신 버전의 설치 파일(ex.opma-inst-0.9.019-20190128.exe)을 준비하여 C:\ 에 복사합니다.
+최신 버전의 설치 파일(ex.opma-inst-1.0.001-20190425.exe)을 준비하여 C:\ 에 복사합니다.
 
 ## 명령 프롬프트 실행
 
@@ -13,15 +13,15 @@
 ```
 C:\Users\Administrator> cd /d C:\
 C:\> dir *.exe
-opma-inst-0.9.019-20190128.exe
+opma-inst-1.0.001-20190425.exe
 ```
 
 ## 압축 해제 및 인스톨러 실행
 
 ```
-C:\> opma-inst-0.9.019-20190128.exe
-C:\> cd opma-inst-0.9.019-20190128
-C:\opma-inst-0.9.019-20190128> install.bat
+C:\> opma-inst-1.0.001-20190425.exe
+C:\> cd opma-inst-1.0.001-20190425
+C:\opma-inst-1.0.001-20190425> install.bat
 ```
 
 ## 입력
@@ -70,8 +70,8 @@ C:\ sc start "OpMate Agent Service"
 설치 과정 중 취소하거나 강제 종료하였을 경우, 다시 설치를 진행하기 위해서는 아래와 같이 압축 해제한 디렉토리를 제거한 후 3번 과정부터 다시 시작합니다.
 
 ```
-C:\> rmdir /s opma-inst-0.9.019-20190128
-C:\> cd opma-inst-0.9.019-20190128
-C:\opma-inst-0.9.019-20190128> install.bat
+C:\> rmdir /s opma-inst-1.0.001-20190425
+C:\> cd opma-inst-1.0.001-20190425
+C:\opma-inst-1.0.001-20190425> install.bat
 ...
 ```
