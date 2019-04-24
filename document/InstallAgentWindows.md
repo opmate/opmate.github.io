@@ -1,5 +1,5 @@
-# Winodws 에이전트 설치
-
+---
+title: Winodws 에이전트 설치
 ---
 
 ## 파일 준비
