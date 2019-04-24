@@ -13,8 +13,8 @@
 
 ## 에이전트 설치 가이드
 
-- 윈도우용 에이전트 설치
-- Linux용 에이전트 설치
+- [윈도우용 에이전트 설치](InstallAgentWindows.md)
+- [Linux용 에이전트 설치](InstallAgentLinux.md)
 
 ## 개발자 가이드
 
