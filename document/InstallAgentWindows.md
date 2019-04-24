@@ -64,14 +64,3 @@ C:\ sc config "OpMate Agent Service" start= auto
 ```
 C:\ sc start "OpMate Agent Service"
 ```
-
-## 기타
-
-설치 과정 중 취소하거나 강제 종료하였을 경우, 다시 설치를 진행하기 위해서는 아래와 같이 압축 해제한 디렉토리를 제거한 후 다시 시작합니다.
-
-```
-C:\> rmdir /s opma-inst-1.0.001-20190425
-C:\> cd opma-inst-1.0.001-20190425
-C:\opma-inst-1.0.001-20190425> install.bat
-...
-```
