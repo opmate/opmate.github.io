@@ -1,3 +1,8 @@
+---
+title: OpMate
+description: 인프라 운영 자동화 플랫폼
+---
+
 # 새소식
 
 - (2019/05/02) OpMate V1.0 이 릴리스 되었습니다.
