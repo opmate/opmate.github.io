@@ -215,8 +215,8 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
         &limit=$limit
         &offset=$offset
   ```
-  - $stdoutYn : Y | N
-  - $stderrYn : Y | N
+  - $stdoutYn : Y or N
+  - $stderrYn : Y or N
   - $nodeIdSubstr : 노드 ID 의 일부 문자열
 
 - RESPONSE
