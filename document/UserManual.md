@@ -1,10 +1,5 @@
 ---
 title: OpMate 사용자 매뉴얼
-image: /files/covers/opensource.jpg
----
-
-# 사용자 매뉴얼
-
 ---
 
 ## 사용자 (User)
