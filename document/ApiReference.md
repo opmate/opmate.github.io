@@ -48,7 +48,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   - $ipSubstr : IP의 일부 문자열
   - $osNameSubstr : OS의 일부 문자열
   - $hostnameSubstr : HOSTNAME의 일부 문자열
-  - $stauts : E | D
+  - $stauts : E or D
 
 - RESPONSE
 
@@ -111,9 +111,9 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ,"resultCode":"$resultCode"
   ,"resultMsg":"$resultMsg"}
   ```
-  - $execScheduler : E | D
-  - $execOndemand : E | D
-  - $execTask : E | D
+  - $execScheduler : E or D
+  - $execOndemand : E or D
+  - $execTask : E or D
   - $apprvStatus
     - N : N/A
     - Q : request
@@ -122,103 +122,122 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
 
 ### 재실행
 
-REQUEST
+- REQUEST
 
-PUT : /opmate/taskinstance/$instance_no/node/$node_id
+  ```
+  PUT : /opmate/taskinstance/$instance_no/node/$node_id
+  ```
+  ```
+  N/A
+  ```
 
+- RESPONSE
 
-N/A
+  ```
+  {"resultCode":"$resultCode"
+  ,"resultMsg":"$resultMessage"}
+  ```
 
-RESPONSE
+### 인스턴스목록
 
-{"resultCode":"$resultCode"
-,"resultMsg":"$resultMessage"}
-인스턴스목록
-REQUEST
+- REQUEST
 
-GET : /opmate/task/$task_id/instance
-      ?startDtGe=$startDtGe
-      &startDtLe=$startDtLe
-      &runnerId=$runnerId
-      &nextTaskId=$nextTaskId
-      &limit=$limit
-      &offset=$offset
+  ```
+  GET : /opmate/task/$task_id/instance
+        ?startDtGe=$startDtGe
+        &startDtLe=$startDtLe
+        &runnerId=$runnerId
+        &nextTaskId=$nextTaskId
+        &limit=$limit
+        &offset=$offset
+  ```
 
-RESPONSE
+- RESPONSE
 
-{"instanceList":[{"taskInstanceNo":$taskInstanceNo
-                 ,"taskId":"$taskId"
-                 ,"startDt":"$startDt"
-                 ,"endDt":"$endDt"
-                 ,"runnerId":"$runnerId"
-                 ,"runnerGubun":"$runnerGubun"
-                 ,"nextTaskInstanceNo":"$nextTaskInstanceNo"
-                 ,"nextTaskId":"$nextTaskId"}
-                ,...]
-,"currentCnt":$currentCnt
-,"totalCnt":$totalCnt
-,"resultCode":"$resultCode"
-,"resultMsg":"$resultMsg"}
-
-
-특정노드실행결과
-REQUEST
-
-GET : /opmate/taskinstance/$instance_no/node/$node_id
-      ?execNo=$execNo
-
-RESPONSE
-
-{"insNodeList":[{"taskId":"$taskId"
-                ,"taskInstanceNo":$taskInstanceNo
-                ,"nodeId":"$nodeId"
-                ,"execNo":$execNo
-                ,"status":"$status"
-                ,"startDt":"$startDt"
-                ,"endDt":"$endDt"
-                ,"runnerId":"$runnerId"
-                ,"runnerGubun":"$runnerGubun"
-                ,"resultCd":"$resultCd"
-                ,"exitCd":$exitCd
-                ,"encbase64out":"$encbase64out"
-                ,"encbase64err":"$encbase64err"}]
-,"resultCode":"$resultCode"
-,"resultMsg":"$resultMsg"}
+  ```
+  {"instanceList":[{"taskInstanceNo":$taskInstanceNo
+                   ,"taskId":"$taskId"
+                   ,"startDt":"$startDt"
+                   ,"endDt":"$endDt"
+                   ,"runnerId":"$runnerId"
+                   ,"runnerGubun":"$runnerGubun"
+                   ,"nextTaskInstanceNo":"$nextTaskInstanceNo"
+                   ,"nextTaskId":"$nextTaskId"}
+                  ,...]
+  ,"currentCnt":$currentCnt
+  ,"totalCnt":$totalCnt
+  ,"resultCode":"$resultCode"
+  ,"resultMsg":"$resultMsg"}
+  ```
 
 
-모든노드실행결과
-REQUEST
+### 특정노드실행결과
 
-GET : /opmate/taskinstance/$instance_no/node
-      ?stdoutYn=$stdoutYn
-      &stderrYn=$stderrYn
-      &nodeId=$nodeIdSubstr
-      &execStatus=$execStatus
-      &result=$result
-      &exitCd=$exitCd
-      &limit=$limit
-      &offset=$offset
-$stdoutYn : Y | N
-$stderrYn : Y | N
-$nodeIdSubstr : 노드 ID 의 일부 문자열
+- REQUEST
 
-RESPONSE
+  ```
+  GET : /opmate/taskinstance/$instance_no/node/$node_id
+        ?execNo=$execNo
+  ```
 
-{"insNodeList":[{"taskId":"$taskId"
-                ,"taskInstanceNo":$taskInstanceNo
-				,"nodeId":"$nodeId"
-                ,"execNo":$execNo
-                ,"status":"$status"
-                ,"startDt":"$startDt"
-                ,"endDt":"$endDt"
-				,"runnerId":"$runnerId"
-				,"runnerGubun":"$runnerGubun"
-                ,"resultCd":"$resultCd"
-                ,"exitCd":$exitCd
-                ,"encbase64out":"$encbase64out"
-                ,"encbase64err":"$encbase64err"}
-			   ,...]
-,"currentCnt":$currentCnt
-,"totalCnt":$totalCnt
-,"resultCode":"$resultCode"
-,"resultMsg":"$resultMsg"}
+- RESPONSE
+
+  ```
+  {"insNodeList":[{"taskId":"$taskId"
+                  ,"taskInstanceNo":$taskInstanceNo
+                  ,"nodeId":"$nodeId"
+                  ,"execNo":$execNo
+                  ,"status":"$status"
+                  ,"startDt":"$startDt"
+                  ,"endDt":"$endDt"
+                  ,"runnerId":"$runnerId"
+                  ,"runnerGubun":"$runnerGubun"
+                  ,"resultCd":"$resultCd"
+                  ,"exitCd":$exitCd
+                  ,"encbase64out":"$encbase64out"
+                  ,"encbase64err":"$encbase64err"}]
+  ,"resultCode":"$resultCode"
+  ,"resultMsg":"$resultMsg"}
+  ```
+
+### 모든노드실행결과
+
+- REQUEST
+
+  ```
+  GET : /opmate/taskinstance/$instance_no/node
+        ?stdoutYn=$stdoutYn
+        &stderrYn=$stderrYn
+        &nodeId=$nodeIdSubstr
+        &execStatus=$execStatus
+        &result=$result
+        &exitCd=$exitCd
+        &limit=$limit
+        &offset=$offset
+  ```
+  - $stdoutYn : Y | N
+  - $stderrYn : Y | N
+  - $nodeIdSubstr : 노드 ID 의 일부 문자열
+
+- RESPONSE
+
+  ```
+  {"insNodeList":[{"taskId":"$taskId"
+                  ,"taskInstanceNo":$taskInstanceNo
+                  ,"nodeId":"$nodeId"
+                  ,"execNo":$execNo
+                  ,"status":"$status"
+                  ,"startDt":"$startDt"
+                  ,"endDt":"$endDt"
+                  ,"runnerId":"$runnerId"
+                  ,"runnerGubun":"$runnerGubun"
+                  ,"resultCd":"$resultCd"
+                  ,"exitCd":$exitCd
+                  ,"encbase64out":"$encbase64out"
+                  ,"encbase64err":"$encbase64err"}
+                  ,...]
+  ,"currentCnt":$currentCnt
+  ,"totalCnt":$totalCnt
+  ,"resultCode":"$resultCode"
+  ,"resultMsg":"$resultMsg"}
+  ```
