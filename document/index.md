@@ -5,7 +5,7 @@
 ## 사용자 가이드
 
 - [사용자 매뉴얼](UserManual.md)
-- [CLI Usage]
+- Command Line Usage
 
 ## 운영자 가이드
 
