@@ -1,13 +1,7 @@
-# News
+# 새소식
 
-- OpMate V1.0 will be released on 2019/05/02.
+- (2019/05/02) OpMate V1.0 이 릴리스 되었습니다.
 
-# Document
+# OpMate?
 
-- [사용자 매뉴얼 (User's Manual)](document/UserManual.md)
-- 설치 가이드 (Installation Guide)
-- API 레퍼런스 (API Reference)
-
-# Download
-
-- OpMate V1.0
+IT 인프라 운영시 대량 단순 반복 작업을 자동으로 수행할 수 있는 운영자동화플랫폼입니다.
