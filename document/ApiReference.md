@@ -1,4 +1,4 @@
-# OpMate 마스터 API 레퍼런스
+# 마스터 API 레퍼런스
 
 ---
 
@@ -11,7 +11,9 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
 
 - REQUEST
   
+  ```
   POST : /opmate/user/$user_id/login
+  ```
   ```
   {"password":"$password"}
   ```
@@ -23,20 +25,24 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ,"resultMsg":"$resultMessage"}
   ```
 
-노드
-노드목록
-REQUEST
+## 노드
 
-GET : /opmate/node
-      ?id=$idSubstr
-      &agentVer=$agentVerSubstr
-      &ip=$ipSubstr
-      &osName=$osNameSubstr
-      &hostname=$hostnameSubstr
-      &ownerUserId=$ownerUserId
-      &stauts=$stauts
-      &limit=$limit
-      &offset=$offset
+### 노드목록
+
+- REQUEST
+
+  ```
+  GET : /opmate/node
+        ?id=$idSubstr
+        &agentVer=$agentVerSubstr
+        &ip=$ipSubstr
+        &osName=$osNameSubstr
+        &hostname=$hostnameSubstr
+        &ownerUserId=$ownerUserId
+        &stauts=$stauts
+        &limit=$limit
+        &offset=$offset
+  ```
 $idSubstr : 노드 ID의 일부 문자열
 $agentVerSubstr : 에이전트 버젼의 일부 문자열
 $ipSubstr : IP의 일부 문자열
