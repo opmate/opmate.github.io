@@ -38,10 +38,10 @@ Input 'yes' to proceed installation : yes
 
 실행 메뉴에서 wordpad 를 입력하여 워드패드를 실행 한 후, 설치된 디렉토리의 설정 파일(ex. C:\infsw\opma\cfg\agent.conf)을 열고,
 
-라인별 맨 앞의 주석표기(#기호)를 삭제하고 올바른 마스터서버의 접속 정보(ex. 111.222.333.444)로 수정합니다.
+라인별 맨 앞의 주석표기(#기호)를 삭제하고 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
 
 ```
-master_ip = 111.222.333.444
+master_ip = 10.0.0.1
 master_port = 34813
 ```
 
@@ -49,7 +49,7 @@ master_port = 34813
 
 인스톨러의 안내에 따라, 다음과 같이 입력하여 OS 부팅시 자동으로 시작되도록 설정합니다.
 
-:warning: "start=" 와 "auto" 사이에 공백이 하나 있습니다.
+> (주의) "start=" 와 "auto" 사이에 공백이 하나 있습니다.
 
 ```
 C:\ sc config "OpMate Agent Service" start= auto
