@@ -49,7 +49,7 @@ master_port = 34813
 
 인스톨러의 안내에 따라, 다음과 같이 입력하여 OS 부팅시 자동으로 시작되도록 설정합니다.
 
-:warning: "start=" 와 "auto" 사이에 공백이 하나 있습니다.
+> (주의) "start=" 와 "auto" 사이에 공백이 하나 있습니다.
 
 ```
 C:\ sc config "OpMate Agent Service" start= auto
