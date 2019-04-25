@@ -40,11 +40,11 @@ Input 'yes' to proceed installation : yes
 
 설치된 디렉토리의 설정 파일(ex. /infsw/opma/cfg/agent.conf)을 열고,
 
-라인별 맨 앞의 주석표기(#기호)를 삭제하고 올바른 마스터서버의 접속 정보(ex. 172.30.4.189)로 수정합니다.
+라인별 맨 앞의 주석표기(#기호)를 삭제하고 올바른 마스터서버의 접속 정보(ex. 111.222.333.444)로 수정합니다.
 
 ```
 $ vi /infsw/opma/cfg/agent.conf
-master_ip = 172.30.4.189
+master_ip = 111.222.333.444
 master_port = 34813
 ```
 
