@@ -4,7 +4,7 @@ title: 문서
 
 ## 활용 가이드
 
-- [사용자  매뉴얼](UserManual.md)
+- [사용자 매뉴얼](UserManual.md)
 - [Command Line Usage](CliUsage.md)
 
 ## 에이전트 설치
