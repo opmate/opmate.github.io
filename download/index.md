@@ -11,4 +11,4 @@ title: 다운로드
       - CentOS 7.x - x86_64bit    
   - [opma-inst-1.0.001-20190425.exe](opma-inst-1.0.001-20190425.exe_)
     - 지원 OS
-      - Windows 2003~2016 - x86_64bit/x86_32bit
+      - Windows 2003~2016 - x86_64bit / x86_32bit
