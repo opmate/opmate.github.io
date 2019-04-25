@@ -36,9 +36,8 @@ Input 'yes' to proceed installation : yes
 
 ## 설정 파일 수정
 
-실행 메뉴에서 wordpad 를 입력하여 워드패드를 실행 한 후, 설치된 디렉토리의 설정 파일(ex. C:\infsw\opma\cfg\agent.conf)을 열고,
-
-라인별 맨 앞의 주석표기(#기호)를 삭제하고 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
+실행 메뉴에서 wordpad 를 입력하여 워드패드를 실행한 후 에이전트가 설치된 디렉토리의 설정 파일(ex. C:\infsw\opma\cfg\agent.conf)을 편집합니다.
+라인별 맨 앞의 주석(#기호) 제거하고 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
 
 ```
 master_ip = 10.0.0.1
