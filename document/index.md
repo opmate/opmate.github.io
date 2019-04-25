@@ -5,7 +5,7 @@ title: 문서
 ## 사용자 매뉴얼
 
 - [사용자 매뉴얼](UserManual.md)
-- Command Line Usage
+- [Command Line Usage](CliUsage.md)
 
 ## 운영자 매뉴얼
 
