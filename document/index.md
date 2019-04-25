@@ -7,7 +7,7 @@ title: 문서
 - [사용자 매뉴얼](UserManual.md)
 - [Command Line Usage](CliUsage.md)
 
-## 에이전트 설치
+## 설치 가이드
 
 - [윈도우용 에이전트 설치](InstallAgentWindows.md)
 - [리눅스용 에이전트 설치](InstallAgentLinux.md)
