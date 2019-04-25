@@ -250,18 +250,9 @@ usage: opmate nodegroup addattr -id <nodegroup-id> -ak <key> -av <value>
 ```
 
 ```
-usage: opmate nodegroup
-       <list|view|create|edit|delete|listnode|addnode|rmnode|listattr|addattr|rm
-       attr|copy> [help|<options>]
-
-
-```
-
-```
-usage: opmate nodegroup
-       <list|view|create|edit|delete|listnode|addnode|rmnode|listattr|addattr|rm
-       attr|copy> [help|<options>]
-
+usage: opmate nodegroup rmattr -id <nodegroup-id> -ak <key>
+  -id,--id <nodegroup-id>  Nodegroup ID
+  -ak,--key <key>          Attribute key to remove
 
 ```
 
