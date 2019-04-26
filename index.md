@@ -9,7 +9,7 @@ description: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 ## Hot link
 
-- [사용자 매뉴얼](/document/UserManual.md)
+- [사용자 매뉴얼](/document/Overview.md)
 - [Command Line Usage](/document/CliUsage.md)
 - [에이전트 다운로드](/download/index.md#에이전트)
 
