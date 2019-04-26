@@ -13,6 +13,6 @@ IT 인프라 운영시 대량 단순 반복 작업을 자동으로 수행할 수
 
 # Hot link
 
-- [사용자 매뉴얼](UserManual.md)
-- [Command Line Usage](CliUsage.md)
+- [사용자 매뉴얼](/document/UserManual.md)
+- [Command Line Usage](/document/CliUsage.md)
 - [에이전트 다운로드](/download/index.md#에이전트)
