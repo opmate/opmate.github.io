@@ -27,8 +27,8 @@ usage: opmate user view -id <user-id>
 ```bash
 usage: opmate user create -id <user-id> -nm <name> -pn <phone-num> -ea
        <email-address> [-de <free-text>]
-  -id,--id <user-id>           User's ID
-  -nm,--name <name>            User's name
+  -id,--id <user-id>           User ID
+  -nm,--name <name>            User name
   -pn,--phone <phone-num>      Phone number
   -ea,--email <email-address>  E-mail Address
   -de,--desc <free-text>       Description
@@ -39,9 +39,9 @@ usage: opmate user create -id <user-id> -nm <name> -pn <phone-num> -ea
 usage: opmate user edit -id <user-id> [-wi <user-id>] [-nm <name>] [-pn
        <phone-num>] [-ea <email-address>] [-de <free-text>] [-ro <role-num>]
        [-st <E|D>]
-  -id,--id <user-id>           User's ID
+  -id,--id <user-id>           User ID
   -wi,--newid <user-id>        New ID
-  -nm,--name <name>            User's name
+  -nm,--name <name>            User name
   -pn,--phone <phone-num>      Phone number
   -ea,--email <email-address>  E-mail Address
   -de,--desc <free-text>       Description
@@ -56,7 +56,7 @@ usage: opmate user edit -id <user-id> [-wi <user-id>] [-nm <name>] [-pn
 
 ```bash
 usage: opmate user passwd -id <user-id>
-  -id,--id <user-id>  User's ID
+  -id,--id <user-id>  User ID
 
 ```
 
@@ -68,7 +68,7 @@ usage: opmate user delete -id <user-id>
 
 ```bash
 usage: opmate user login -id <user-id>
-  -id,--id <user-id>  User's ID
+  -id,--id <user-id>  User ID
 
 ```
 
