@@ -4,7 +4,7 @@ title: 문서
 
 ## 활용 가이드
 
-- [사용자 매뉴얼](UserManual.md)
+- [사용자 매뉴얼](Overview.md)
 - [Command Line Usage](CliUsage.md)
 
 ## 설치 가이드
