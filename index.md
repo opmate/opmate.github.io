@@ -26,3 +26,8 @@ $ opmate task run -id diskusage
 ```bash
 $ opmate task addschedule -id checkstatus -si s01 -tf '08:00'
 ```
+
+소프트웨어 패치 파일을 일괄로 배포하세요.
+```bash
+$ opmate task run -id downpatch -ag 'patch.tar.gz'
+```
