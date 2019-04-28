@@ -5,7 +5,7 @@ description: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 ## News
 
-- 2019/04/25 - **OpMate V1.0** 이 릴리스 되었습니다.
+- 2019/04/25 - **OpMate v1.0** 이 릴리스 되었습니다.
 
 ## Hot link
 
