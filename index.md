@@ -20,9 +20,8 @@ IT 인프라 운영시 대량 단순 반복 작업을 자동으로 수행할 수
 ### 이렇게 활용하세요
 
 한번의 명령으로 모든 서버의 디스크 사용률을 조사해보세요.
-```bash
-$ opmate task run -id diskusage
-```
+
+`$ opmate task run -id diskusage`
 
 스케쥴을 설정하여 자동으로 일일 점검 결과를 받아보세요.
 ```bash
