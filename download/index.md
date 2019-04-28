@@ -4,7 +4,7 @@ title: 다운로드
 
 ## 에이전트
 
-- **v1.0_.001_**
+- **v1.0 _.001_**
   - [opma-inst-1.0.001-20190425.tar.gz](opma-inst-1.0.001-20190425.tar.gz)
     - CentOS 6 - x86_64bit
     - CentOS 7 - x86_64bit
