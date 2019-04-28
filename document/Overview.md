@@ -216,9 +216,7 @@ title: OpMate 사용자 매뉴얼
 
 다음 예제는, 마스터 서버 리파지토리의 /mydir/install-tomcat-1.0.tar.gz 파일을 받아와 노드의 /home/was/install-tomcat-1.0.tar.gz 에 저장하는 명령이다.
 
-```
-$ opmfget master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz
-```
+`$ opmfget master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz`
 
 ### 파일 수집
 
@@ -226,7 +224,5 @@ $ opmfget master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz
 
 다음 예제는, 노드의 /home/web/apache/conf/server.cfg 파일을 마스터 서버 리파지토리의 /mydir/node1/server.cfg 에 저장하는 명령이다.
 
-```
-$ opmfput master:/mydir/node1/server.cfg /home/web/apache/server.cfg
-```
+`$ opmfput master:/mydir/node1/server.cfg /home/web/apache/server.cfg`
 
