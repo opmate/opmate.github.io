@@ -13,8 +13,6 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   
   ```
   POST : /opmate/user/$user_id/login
-  ```
-  ```
   {"password":"$password"}
   ```
 
@@ -126,9 +124,6 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
 
   ```
   PUT : /opmate/taskinstance/$instance_no/node/$node_id
-  ```
-  ```
-  N/A
   ```
 
 - RESPONSE
