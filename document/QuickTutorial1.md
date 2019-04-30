@@ -3,6 +3,9 @@ title: Quick Tutorial
 description: CLI 사용법 및 초기 설정
 ---
 
+[첫페이지](QuickTutorial.md) [다음](QuickTutorial2.md)
+
+
 ```sh
 $ opmate
 usage: opmate <user|usergroup|node|nodegroup|task|file|info> <action>
