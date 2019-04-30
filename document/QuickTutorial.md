@@ -2,7 +2,7 @@
 title: Quick Tutorial
 ---
 
-![Alt text](/img/checkmate.png)
+![Alt text](/img/checkmate-small.png)
 
 Class 1. [CLI 사용법 및 초기 설정](QuickTutorial1.md)
 
