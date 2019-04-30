@@ -19,7 +19,7 @@ Requesting https://127.0.0.1:8443/opmate;user=admin
 +--------+---------------+------+---------+
 | ID     | NAME          | ROLE | STATUS  |
 +--------+---------------+------+---------+
-| admin  | admin         | 0    | enable  |
+| admin  | nimda         | 0    | enable  |
 | oprim  | Optimus Prime | 1    | enable  |
 | bumbee | Bumblebee     | 3    | disable |
 +--------+---------------+------+---------+
