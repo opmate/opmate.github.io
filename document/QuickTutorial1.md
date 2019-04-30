@@ -5,14 +5,14 @@ description: CLI 사용법 및 초기 설정
 
 [첫페이지](QuickTutorial.md) / [다음페이지](QuickTutorial2.md)
 
-OpMate CLI 명령어는 `opmate <object> <action> <option)`의 형식으로 이루어져 있다.
-각각의 가능한 파라미터를 보고 싶으면 다음과 같은 형식으로 `help`를 붙이면 된다.
+OpMate CLI 명령어는 `opmate <object> <action> <option>`의 형식으로 이루어져 있습니다.
+각각의 가능한 파라미터를 보고 싶으면 다음과 같은 형식으로 `help`를 붙이면 됩니다.
 
 - `opmate help`
 - `opmate <object> help`
 - `opmate <object> <action> help`
 
-다음은 활용 예제이다.
+다음은 활용 예제입니다.
 
 ```sh
 $ opmate help
@@ -37,6 +37,9 @@ usage: opmate user list [-id <substring>] [-nm <substring>] [-ro <role-num>]
   -lm,--limit <number>    Maximum number of rows
   -of,--offset <number>   First row number, starting at 0
 ```
+
+처음 `opmate`라는 명령을 실행하는 것만으로 홈디렉토리의 .opm/config 경로로 설정파일이 생성됩니다.
+이 파일을 수정하여 마스터의 URL을 입력해야 정상적으로 사용이 가능합니다.
 
 ```sh
 $ vi ~/.opm/config
