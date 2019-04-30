@@ -13,7 +13,7 @@ description: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 - [사용자 매뉴얼](/document/Overview.md)
 - [Quick Tutorial](/document/QuickTutorial.md)
-- [에이전트 다운로드](/download/index.md#에이전트)
+- 에이전트 설치 ([Linux](/document/AgentInstallLinux.md)/[Windows](/document/AgentInstallWindows.md))
 
 ## OpMate?
 
