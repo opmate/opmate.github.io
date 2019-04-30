@@ -3,7 +3,7 @@ title: Quick Tutorial
 description: 사용자 계정 생성 및 로그인
 ---
 
-[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial1.md) [다음페이지](QuickTutorial3.md)
+[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial1.md) / [다음페이지](QuickTutorial3.md)
 
 ```sh
 $ opmate user create -id bumbee -nm 'Bumblebee' -pn '010-2222-2222' -ea 'bumbee@email.com'
@@ -38,4 +38,4 @@ Enter password:
 bumbee has been logged in successfully.
 ```
 
-[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial1.md) [다음페이지](QuickTutorial3.md)
+[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial1.md) / [다음페이지](QuickTutorial3.md)
