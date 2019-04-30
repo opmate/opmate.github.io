@@ -37,3 +37,22 @@ $ opmate user edit -id bumbee -ro 2 -st E
 Requesting https://127.0.0.1:8443/opmate;user=admin
 bumbee has been modified successfully.
 ```
+
+```
+$ opmate user login -id bumbee
+Requesting https://127.0.0.1:8443/opmate
+Enter password: 
+bumbee has been logged in successfully.
+```
+```
+$ opmate node list
+Requesting https://127.0.0.1:8443/opmate;user=bumbee
++----------------------------------+--------------------+-----------+-------+----------+-------+------------------+---------+
+| ID                               | AGENT VERSION      | IP        | OS    | HOSTNAME | OWNER | HEARTBEAT        | STATUS  |
++----------------------------------+--------------------+-----------+-------+----------+-------+------------------+---------+
+| 3106E85BCF76465F8F9B16BC3873C380 | 1.0.001.20190425.1 | 10.0.0.92 | Linux | myhost2  |       | 2019/04/30 14:10 | disable |
+| 6FE9E69A10B44EBEAFC3A9F05078066C | 1.0.001.20190425.1 | 10.0.0.91 | Linux | myhost1  |       | 2019/04/30 14:10 | disable |
++----------------------------------+--------------------+-----------+-------+----------+-------+------------------+---------+
+
+ROWS COUNT : 2/2
+```
