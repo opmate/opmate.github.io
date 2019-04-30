@@ -35,7 +35,8 @@ Requesting https://127.0.0.1:8443/opmate;user=admin
 ROWS COUNT : 3/3
 ```
 
-bumbee라는 사용자가 추가된 것을 확인하고, 다음과 같은 명령으로 활성화 및 ROLE을 부여합니다.
+bumbee라는 사용자가 추가된 것을 확인하고, 다음과 같은 명령으로 활성화 및 ROLE 2를 부여합니다.
+ROLE은 권한 레벨을 의미하며, 최소 2레벨이 되어야 각종 작업을 수행할 수 있습니다.
 
 ```
 $ opmate user edit -id bumbee -ro 2 -st E
