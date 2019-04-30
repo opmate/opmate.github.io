@@ -25,4 +25,16 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 diskusage's approval has been requested successfully.
 ```
 
+```
+$ opmate task listappr
+Requesting https://127.0.0.1:8443/opmate;user=oprim
++-----------+--------+--------------+---------+---------+---------+---------+-----------+-------------+------------------+------------+-------------+
+| ID        | OWNER  | SCRIPT       | OS USER | BY SCH. | BY OND. | BY TASK | NEXT TASK | APPRV STAT. | APPRV REQ REASON | APPRV USER | DESCRIPTION |
++-----------+--------+--------------+---------+---------+---------+---------+-----------+-------------+------------------+------------+-------------+
+| diskusage | bumbee | diskusage.sh | root    | disable | enable  | disable |           | request     |                  | oprim      |             |
++-----------+--------+--------------+---------+---------+---------+---------+-----------+-------------+------------------+------------+-------------+
+
+ROWS COUNT : 1
+```
+
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial4.md) / [다음페이지](QuickTutorial6.md)
