@@ -2,6 +2,8 @@
 title: Quick Tutorial
 ---
 
+![Alt text](/img/checkmate.png)
+
 Class 1. [CLI 사용법 및 초기 설정](QuickTutorial1.md)
 
 Class 2. [사용자 계정 생성 및 로그인](QuickTutorial2.md)
