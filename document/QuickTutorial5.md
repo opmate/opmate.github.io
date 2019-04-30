@@ -19,4 +19,10 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 ROWS COUNT : 3/3
 ```
 
+```
+$ opmate task reqappr -id diskusage -ai oprim
+Requesting https://127.0.0.1:8443/opmate;user=bumbee
+diskusage's approval has been requested successfully.
+```
+
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial4.md) / [다음페이지](QuickTutorial6.md)
