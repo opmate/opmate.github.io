@@ -25,10 +25,12 @@ IT 인프라 운영시 대량 단순 반복 작업을 자동으로 수행할 수
 
 `$ opmate task run -id diskusage`
 
+*소프트웨어 패치 파일을 일괄로 배포하세요.*
+
+`$ opmate task run -id downpatch -ag 'patch.tar.gz'`
+
 *스케쥴을 설정하여 자동으로 일일 점검 결과를 받아보세요.*
 
 `$ opmate task addschedule -id checkstatus -si s01 -tf '08:00'`
 
-*소프트웨어 패치 파일을 일괄로 배포하세요.*
-
-`$ opmate task run -id downpatch -ag 'patch.tar.gz'`
+![Alt text](/img/dashboard.jpg)
