@@ -5,7 +5,7 @@ description: 사용자 계정 생성 및 로그인
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial1.md) / [다음페이지](QuickTutorial3.md)
 
-다음과 같이 나의 사용자 계정을 만듭니다. 사용자ID는 bumbee이고, 이름, 전화번호, 이메일 등을 입력하였습니다.
+다음과 같이 나의 사용자 계정을 만듭니다. 사용자ID는 bumbee이고, 이름, 전화번호, 이메일 등을 입력합니다.
 
 ```sh
 $ opmate user create -id bumbee -nm 'Bumblebee' -pn '010-2222-2222' -ea 'bumbee@email.com'
