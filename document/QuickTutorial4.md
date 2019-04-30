@@ -3,6 +3,8 @@ title: Quick Tutorial
 description: 태스크 정의
 ---
 
+[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial3.md) / [다음페이지](QuickTutorial5.md)
+
 ```sh
 $ vi diskusage.sh
 #!/bin/sh
@@ -65,3 +67,5 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 |                  | linux02(N)   |
 +------------------+--------------+
 ```
+
+[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial3.md) / [다음페이지](QuickTutorial5.md)
