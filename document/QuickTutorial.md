@@ -33,18 +33,20 @@ Requesting https://127.0.0.1:8443/opmate;user=admin
 +--------+---------------+------+---------+
 
 ROWS COUNT : 3/3
+
 $ opmate user edit -id bumbee -ro 2 -st E     
 Requesting https://127.0.0.1:8443/opmate;user=admin
 bumbee has been modified successfully.
 ```
 
-```
+```sh
 $ opmate user login -id bumbee
 Requesting https://127.0.0.1:8443/opmate
 Enter password: 
 bumbee has been logged in successfully.
 ```
-```
+
+```sh
 $ opmate node list
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +----------------------------------+--------------------+-----------+-------+----------+-------+------------------+---------+
@@ -56,7 +58,8 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 
 ROWS COUNT : 2/2
 ```
-```
+
+```sh
 $ opmate node edit -id 6FE9E69A10B44EBEAFC3A9F05078066C -wi linux01 -st E
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 6FE9E69A10B44EBEAFC3A9F05078066C has been modified successfully.
