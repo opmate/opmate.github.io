@@ -17,4 +17,4 @@ $ vi ~/.opm/config
 master_url=https://127.0.0.1:8443/opmate
 ```
 
-[첫페이지](QuickTutorial.md) [다음](QuickTutorial2.md)
+[첫페이지](QuickTutorial.md) [다음페이지](QuickTutorial2.md)
