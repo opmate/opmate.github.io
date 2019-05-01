@@ -3,7 +3,7 @@ title: OpMate
 description: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 ---
 
-![Alt text](/img/logo-small.png)
+![Alt text](/img/logo-compact.png)
 
 
 ## News
