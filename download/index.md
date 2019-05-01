@@ -2,8 +2,6 @@
 title: 다운로드
 ---
 
-![Alt text](/img/logo-compact.png)
-
 ## 에이전트
 
 - **v1.0 _.001_**
@@ -16,3 +14,5 @@ title: 다운로드
     - Windows Server 2008 - x86_64bit / x86_32bit
     - Windows Server 2003 - x86_64bit / x86_32bit
 
+
+![Alt text](/img/logo-compact.png)
