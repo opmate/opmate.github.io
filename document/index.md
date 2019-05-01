@@ -2,6 +2,8 @@
 title: 문서
 ---
 
+![Alt text](/img/checkmate-small.png)
+
 ## 활용 가이드
 
 - [사용자 매뉴얼](Overview.md)
