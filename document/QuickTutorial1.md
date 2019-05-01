@@ -38,8 +38,7 @@ usage: opmate user list [-id <substring>] [-nm <substring>] [-ro <role-num>]
   -of,--offset <number>   First row number, starting at 0
 ```
 
-처음 `opmate`라는 명령을 실행하면, 사용자 홈디렉토리 밑 .opm/ 디렉토리에 config 파일이 생성됩니다.
-이 파일에 OpMate 마스터의 URL을 추가해야 정상적으로 CLI를 사용할 수 있습니다.
+최초로 `opmate`라는 명령을 실행하면, 사용자 홈디렉토리 밑 .opm/ 디렉토리에 config 파일이 생성됩니다. config 파일에 OpMate 마스터의 URL을 설정해야 정상적으로 CLI를 사용할 수 있습니다.
 
 ```sh
 $ vi ~/.opm/config
