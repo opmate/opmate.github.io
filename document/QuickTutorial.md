@@ -14,4 +14,4 @@ title: Quick Tutorial
 
 - 제6강 [태스크 실행](QuickTutorial6.md)
 
-![Alt text](/img/checkmate-small.png)
+![Alt text](/img/opmate-small.png)
