@@ -3,6 +3,9 @@ title: OpMate
 description: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 ---
 
+![Alt text](/img/logo-small.png)
+
+
 ## News
 
 - 2019/04/25 - **OpMate v1.0** 이 릴리스 되었습니다.
