@@ -15,4 +15,4 @@ title: 다운로드
     - Windows Server 2003 - x86_64bit / x86_32bit
 
 
-![Alt text](/img/logo-compact.png)
+![Alt text](/img/poweron.png)
