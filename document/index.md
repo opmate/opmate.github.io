@@ -2,8 +2,6 @@
 title: 문서
 ---
 
-![Alt text](/img/checkmate-small.png)
-
 ## 활용 가이드
 
 - [사용자 매뉴얼](Overview.md)
@@ -18,3 +16,5 @@ title: 문서
 ## 개발 가이드
 
 - [API 레퍼런스](ApiReference.md)
+
+![Alt text](/img/checkmate-small.png)
