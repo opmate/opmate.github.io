@@ -2,6 +2,8 @@
 title: 다운로드
 ---
 
+![Alt text](/img/logo-compact.png)
+
 ## 에이전트
 
 - **v1.0 _.001_**
