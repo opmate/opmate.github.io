@@ -90,7 +90,7 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +------------------+--------------+
 ```
 
-리비젼(REVISION)은 1로 바뀌어 있고, 승인상태(APPRV STATUS)도 승인(approval)로 변경되었네요.
+리비젼(REVISION)은 1로 바뀌어 있고, 승인상태(APPRV STATUS)도 승인(approval)으로 변경되었네요.
 자, 이제 이 태스크를 실행할 준비가 되었습니다.
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial4.md) / [다음페이지](QuickTutorial6.md)
