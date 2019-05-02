@@ -17,8 +17,8 @@ df -h
 ```
 
 `diskusage`라는 ID로 태스크를 생성합니다.
-위에서 만든 쉘스크립트 파일의 경로로 주고, 해당 서버에서 실행할 사용자명은 root로 지정합니다.
-온디맨드 방식으로 실행이 가능하도록, `-eo E` 옵션도 추가합니다.
+위에서 만든 쉘스크립트 파일의 경로를 주고, 서버에서 실행할 OS 사용자명은 root로 지정합니다.
+또한, 온디맨드 방식으로 실행할 수 있도록, `-eo E` 옵션도 추가합니다.
 
 ```sh
 $ opmate task create -id diskusage -sf ./diskusage.sh -ou root -eo E
