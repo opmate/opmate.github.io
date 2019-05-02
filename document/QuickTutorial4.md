@@ -59,34 +59,34 @@ ROWS COUNT : 1/1
 ```
 $ opmate task view -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
-+------------------+--------------+
-| FIELD            | VALUE        |
-+------------------+--------------+
-| [BASIS]          |              |
-|                  |              |
-| ID               | diskusage    |
-| REVISION         | 0            |
-| OWNER            | bumbee       |
-| SCRIPT           | diskusage.sh |
-| OS USER          | root         |
-| BY SCHEDULER     | disable      |
-| BY ONDEMAND      | enable       |
-| BY TASK          | disable      |
-| NEXT TASK        |              |
-| APPRV STATUS     | N/A          |
-| APPRV REQ REASON |              |
-| APPRV RJT REASON |              |
-| APPRV USER       |              |
-| DESCRIPTION      |              |
-|                  |              |
-| [SCHEDULES]      |              |
-|                  |              |
-| [RUNNERS]        |              |
-|                  |              |
-| [TARGETS]        |              |
-|                  | linux01(N)   |
-|                  | linux02(N)   |
-+------------------+--------------+
++------------------+---------------+
+| FIELD            | VALUE         |
++------------------+---------------+
+| [BASIS]          |               |
+|                  |               |
+| ID               | diskusage     |
+| REVISION         | 0             |
+| OWNER            | bumbee        |
+| SCRIPT           | diskusage.sh  |
+| OS USER          | root          |
+| BY SCHEDULER     | disable       |
+| BY ONDEMAND      | enable        |
+| BY TASK          | disable       |
+| NEXT TASK        |               |
+| APPRV STATUS     | N/A           |
+| APPRV REQ REASON |               |
+| APPRV RJT REASON |               |
+| APPRV USER       |               |
+| DESCRIPTION      |               |
+|                  |               |
+| [SCHEDULES]      |               |
+|                  |               |
+| [RUNNERS]        |               |
+|                  |               |
+| [TARGETS]        |               |
+|                  | linux01(Node) |
+|                  | linux02(Node) |
++------------------+---------------+
 ```
 
 잘 생성되었지만 아직 아니랍니다.
