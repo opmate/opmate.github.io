@@ -53,7 +53,7 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 ROWS COUNT : 2/2
 ```
 
-활성화도 되었고 ID도 사용하기 편하도록 짧게 바뀌었습니다.
+노드가 활성화 되었고 ID도 사용하기 편하도록 짧게 바뀌었습니다.
 소유자(OWNER)는 bumbee가 되었네요.
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial2.md) / [다음페이지](QuickTutorial4.md)
