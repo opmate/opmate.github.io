@@ -86,6 +86,6 @@ tmpfs                    100M     0  100M   0% /run/user/0
 스크립트의 실행결과인 표준에러와 표준출력을 확인할 수 있습니다.
 
 지금까지 간단한 예제를 통해 기초적인 이해와 사용 방법을 익히셨습니다.
-실전에서 사용하기 위한 세부적인 내용과 다양한 명령어는 [사용자 매뉴얼](OverView.md)과 [Command Line Usage](CliUsage.md)를 참고하시기 바랍니다.
+실전에서 사용하기 위한 세부적인 내용과 다양한 명령어는 [사용자 매뉴얼](Overview.md)과 [Command Line Usage](CliUsage.md)를 참고하시기 바랍니다.
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial5.md)
