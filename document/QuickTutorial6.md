@@ -5,11 +5,18 @@ description: 태스크 실행
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial5.md)
 
+드디어, 태스크 실행입니다.
+
 ```sh
 $ opmate task run -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 Instance(142) of task has been created.
 ```
+
+태스크를 한번 실행하면 그와 대응하는 태스크 인스턴스(Task Instance)가 만들어집니다.
+위에서는 142으로 인스턴스가 생성되었고, 이 번호는 전체 태스크에서 고유한 번호입니다.
+
+태스크 diskusage의 인스턴스를 조회해보겠습니다.
 
 ```
 $ opmate task listrun -id diskusage   
@@ -23,6 +30,11 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 ROWS COUNT : 1/1
 ```
 
+최초로 실행했기 때문에 하나만 보이고, 시작시간과(START_DT)과 종료시간(END DT)이 보입니다.
+종료시간이 보이다는 것은 이 태스크에 소속된 타겟 노드가 전체가 완료되었다는 뜻입니다.
+
+이 인스턴스의 노드별 결과도 확인해보겠습니다.
+
 ```
 $ opmate task listrunnode -in 142
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
@@ -33,6 +45,10 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 | linux02 | 1       | Complete | 2019/04/30 17:50:03 | 2019/04/30 17:50:03 | Success | 0       |
 +---------+---------+----------+---------------------+---------------------+---------+---------+
 ```
+
+각 노드별로 상태 및 결과를 출력되는군요.
+
+하나의 노드를 지정해서 조금더 상세히 조회해 보겠습니다.
 
 ```
 $ opmate task viewrun -in 142 -ni linux01
@@ -66,5 +82,7 @@ tmpfs                    496M     0  496M   0% /sys/fs/cgroup
 /dev/mapper/centos-home   47G  101M   47G   1% /home
 tmpfs                    100M     0  100M   0% /run/user/0
 ```
+
+스크립트의 실행결과인 표준에러와 표준출력을 확인할 수 있습니다.
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial5.md)
