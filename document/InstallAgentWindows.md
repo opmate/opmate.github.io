@@ -26,7 +26,7 @@ C:\opma-inst-1.0.001-20190425> install.bat
 
 ## 입력
 
-설치할 경로를 입력한 후 yes 를 입력하여 설치를 진행합니다.
+설치할 경로를 입력하고, 출력되는 내용을 확인 후 설치를 진행합니다.
 
 ```
 Input installation directory (ex. C:\infsw\opma) : C:\infsw\opma
