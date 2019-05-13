@@ -63,7 +63,7 @@ master_port = 34813
   $ systemctl enable opmagent
   ```
 
-- CentOS 6.x 기준
+- CentOS 6.x/5.x 기준
   ```
   $ chkconfig --add opmagent
   ```
@@ -84,7 +84,7 @@ master_port = 34813
   $ systemctl start opmagent
   ```
 
-- CentOS 6.x 기준
+- CentOS 6.x/5.x 기준
   ```
   $ service opmagent start
   ```
