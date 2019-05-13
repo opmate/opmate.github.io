@@ -566,26 +566,25 @@ usage: opmate task rerun -in <task-instance-no> -ni <node-id>
 ```
 
 ```bash
-usage: opmate file list [-sp <server-path>] [-lm <limit>] [-of <offset>]
-  -sp,--serverpath <server-path>  Server Directory Path
+usage: opmate file list -rp <remote-path> [-lm <limit>] [-of <offset>]
+  -rp,--remotepath <remote-path>  Remote directory path
   -lm,--limit <limit>             Maximum number of rows
   -of,--offset <offset>           First row number, starting at 0
 
 ```
 
 ```bash
-usage: opmate file get -nm <file-name> [-sp <server-path>] [-lp <local-path>]
-  -nm,--name <file-name>          File Name
-  -sp,--serverpath <server-path>  Server Directory Path
-  -lp,--localpath <local-path>    Local Directory Path
+usage: opmate file get [-ow] -rp <remote-path> [-lp <local-path>]
+  -ow,--overwrite                 Overwrite local file
+  -rp,--remotepath <remote-path>  Remote file path
+  -lp,--localpath <local-path>    Local file/direcotry path
 
 ```
 
 ```bash
-usage: opmate file put -nm <file-name> [-sp <server-path>] [-lp <local-path>]
-  -nm,--name <file-name>          File Name
-  -sp,--serverpath <server-path>  Server Directory Path
-  -lp,--localpath <local-path>    Local Directory Path
+usage: opmate file put -rp <remote-path> -lp <local-path>
+  -rp,--remotepath <remote-path>  Remote file path
+  -lp,--localpath <local-path>    Local file path
 
 ```
 
