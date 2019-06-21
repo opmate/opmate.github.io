@@ -7,8 +7,6 @@ description: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 2019/04/25 - **OPMATE v1.0** 이 릴리스 되었습니다.
 
-![Alt text](/img/logo-blue-small.png)
-
 ## Hot link
 
 [사용자 매뉴얼](/document/Overview.md)
@@ -37,4 +35,4 @@ IT 인프라 운영시 대량 단순 반복 작업을 자동으로 수행할 수
 
 `$ opmate task addschedule -id checkstatus -si s01 -tf '08:00'`
 
-
+![Alt text](/img/logo-blue-small.png)
