@@ -37,4 +37,4 @@ IT 인프라 운영시 대량 단순 반복 작업을 자동으로 수행할 수
 
 `$ opmate task addschedule -id checkstatus -si s01 -tf '08:00'`
 
-![Alt text](/img/dashboard.jpg)
+
