@@ -17,7 +17,10 @@
   <body>
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
+        <!--
         <h1>{{ page.title | site.title | default: site.github.repository_name }}</h1>
+        -->
+        <img src="/img/Logo_b_394x72.png">
         {% if page.description or site.description or site.github.project_tagline %}
           <p>{{ page.description | site.description | default: site.github.project_tagline }}</p>
         {% endif %}
