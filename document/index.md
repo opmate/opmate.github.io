@@ -1,5 +1,5 @@
 ---
-title: 문서
+title: Guidance Document
 ---
 
 ## 활용 가이드
