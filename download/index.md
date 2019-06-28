@@ -1,5 +1,5 @@
 ---
-title: 다운로드
+title: Software Download
 ---
 
 ## 에이전트
