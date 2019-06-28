@@ -1,5 +1,5 @@
 ---
-title: OPMATE
+title: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 description: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 ---
 
