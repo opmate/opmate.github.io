@@ -25,7 +25,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
 
 ## 노드
 
-### 노드목록
+### 노드 목록 조회
 
 - REQUEST
 
@@ -70,7 +70,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
 
 ## 태스크
 
-### 태스크목록
+### 태스크 목록 조회
 
 - REQUEST
 
@@ -118,7 +118,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
     - A : approval
     - R : reject
 
-### 실행
+### 태스크 인스턴스 생성
 
 - REQUEST
 
@@ -136,7 +136,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ,"resultMsg":"$resultMessage"}
   ```
 
-### 재실행
+### 노드 단위 태스크 인스턴스 재생성
 
 - REQUEST
 
@@ -151,7 +151,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ,"resultMsg":"$resultMessage"}
   ```
 
-### 인스턴스목록
+### 태스크 인스턴스 목록 조회
 
 - REQUEST
 
@@ -184,7 +184,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ```
 
 
-### 특정노드실행결과
+### 노드 단위 태스크 인스턴스 조회
 
 - REQUEST
 
@@ -213,7 +213,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ,"resultMsg":"$resultMsg"}
   ```
 
-### 모든노드실행결과
+### 전체 노드 태스크 인스턴스 조회
 
 - REQUEST
 
