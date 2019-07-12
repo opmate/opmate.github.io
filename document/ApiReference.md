@@ -136,7 +136,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ,"resultMsg":"$resultMessage"}
   ```
 
-### 노드 단위 태스크 인스턴스 재생성
+### 태스크 인스턴스 노드 단위 재생성
 
 - REQUEST
 
@@ -184,7 +184,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ```
 
 
-### 노드 단위 태스크 인스턴스 조회
+### 태스크 인스턴스 노드별 상세 조회
 
 - REQUEST
 
@@ -213,7 +213,7 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ,"resultMsg":"$resultMsg"}
   ```
 
-### 전체 노드 태스크 인스턴스 조회
+### 태스크 인스턴스 노드별 상세 목록 조회
 
 - REQUEST
 
