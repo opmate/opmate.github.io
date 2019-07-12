@@ -213,7 +213,7 @@ title: Overview
 
 ### 파일 배포
 
-마스터 서버에 존재하는 파일을 노드에 배포할 경우에 사용한다. 
+마스터 서버의 파일을 노드에 배포할 경우에 사용한다. 
 
 다음 예제는, 마스터 서버 리파지토리의 /mydir/install-tomcat-1.0.tar.gz 파일을 받아와 노드의 /home/was/install-tomcat-1.0.tar.gz 에 저장하는 명령이다.
 
@@ -221,7 +221,7 @@ title: Overview
 
 ### 파일 수집
 
-노드에 존재하는 파일을 마스터 서버로 전송할 경우 사용한다.
+노드의 파일을 마스터 서버로 수집할 경우에 사용한다.
 
 다음 예제는, 노드의 /home/web/apache/conf/server.cfg 파일을 마스터 서버 리파지토리의 /mydir/node1/server.cfg 에 저장하는 명령이다.
 
