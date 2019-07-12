@@ -118,6 +118,24 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
     - A : approval
     - R : reject
 
+### 실행
+
+- REQUEST
+
+  ```
+  POST : /opmate/task/$task_id/instance
+  {"nodeIdList":["$nodeId",...]
+  ,"arguments":["$argument",...]}
+  ```
+
+- RESPONSE
+
+  ```
+  {"taskInstanceNo":$taskInstanceNo
+  ,"resultCode":"$resultCode"
+  ,"resultMsg":"$resultMessage"}
+  ```
+
 ### 재실행
 
 - REQUEST
