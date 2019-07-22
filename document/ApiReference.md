@@ -184,6 +184,30 @@ JSON 데이터 형식의 Indentation은 가독성을 위한 것으로 실제의 
   ```
 
 
+### 태스크 인스턴스 상세 조회
+
+- REQUEST
+
+  ```
+  GET : /opmate/taskinstance/$instance_no
+  ```
+
+- RESPONSE
+
+  ```
+  {"instanceList":[{"taskInstanceNo":$taskInstanceNo
+                   ,"taskId":"$taskId"
+                   ,"startDt":"$startDt"
+                   ,"endDt":"$endDt"
+                   ,"runnerId":"$runnerId"
+                   ,"runnerGubun":"$runnerGubun"
+                   ,"nextTaskInstanceNo":"$nextTaskInstanceNo"
+                   ,"nextTaskId":"$nextTaskId"}]
+  ,"resultCode":"$resultCode"
+  ,"resultMsg":"$resultMsg"}
+  ```
+
+
 ### 태스크 인스턴스 노드별 상세 조회
 
 - REQUEST
