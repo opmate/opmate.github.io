@@ -5,8 +5,7 @@ description: 태스크 정의
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial3.md) / [다음페이지](QuickTutorial5.md)
 
-서버에 실행되는 작업을 태스크(Task)라고 합니다.
-실행하기 위해 태스크를 먼저 정의해야 합니다.
+에이전트가 설치된 노드에 명령을 실행하기 위해서, 태스크(Task)를 정의해야 합니다.
 
 먼저, 쉘스크립트 파일을 만듭니다.
 
