@@ -10,14 +10,14 @@ title: Guidance Document
 
 ## 에이전트 관리
 
-### 윈도우즈
+### Windows
 
-- [에이전트 설치](InstallAgentWindows.md)
-- [에이전트 삭제](UninstallAgentWindows.md)
+- [윈도우즈용 에이전트 **설치**](InstallAgentWindows.md)
+- [윈도우즈용 에이전트 **삭제**](UninstallAgentWindows.md)
 
-### 리눅스/유닉스
+### Linux/Unix
 
-- [에이전트 설치](InstallAgentLinux.md)
-- [에이전트 삭제](UninstallAgentLinux.md)
+- [리눅스/유닉스용 에이전트 **설치**](InstallAgentLinux.md)
+- [리눅스/유닉스용 에이전트 **삭제**](UninstallAgentLinux.md)
 
 ![Alt text](/img/checkmate-small.png)
