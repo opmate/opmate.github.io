@@ -12,9 +12,9 @@ title: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 [Quick Tutorial](/document/QuickTutorial.md)
 
-[리눅스 에이전트 설치](/document/InstallAgentLinux.md)
+[리눅스/유닉스용 에이전트 설치](/document/InstallAgentLinux.md)
 
-[윈도우즈 에이전트 설치](/document/InstallAgentWindows.md)
+[윈도우즈용 에이전트 설치](/document/InstallAgentWindows.md)
 
 ## OPMATE?
 
