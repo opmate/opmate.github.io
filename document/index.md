@@ -10,11 +10,11 @@ title: Guidance Document
 
 ## 에이전트 관리
 
-### 윈도우즈 에이전트
+### 윈도우즈
 
 - [윈도우용 에이전트 설치](InstallAgentWindows.md)
 
-### 리눅스/유닉스 에이전트
+### 리눅스/유닉스
 
 - [리눅스용 에이전트 설치](InstallAgentLinux.md)
 
