@@ -60,34 +60,34 @@ diskusage has been approved successfully.
 ```sh
 $ opmate task view -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
-+------------------+--------------+
-| FIELD            | VALUE        |
-+------------------+--------------+
-| [BASIS]          |              |
-|                  |              |
-| ID               | diskusage    |
-| REVISION         | 1            |
-| OWNER            | bumbee       |
-| SCRIPT           | diskusage.sh |
-| OS USER          | root         |
-| BY SCHEDULER     | disable      |
-| BY ONDEMAND      | enable       |
-| BY TASK          | disable      |
-| NEXT TASK        |              |
-| APPRV STATUS     | approval     |
-| APPRV REQ REASON |              |
-| APPRV RJT REASON |              |
-| APPRV USER       | oprim        |
-| DESCRIPTION      |              |
-|                  |              |
-| [SCHEDULES]      |              |
-|                  |              |
-| [RUNNERS]        |              |
-|                  |              |
-| [TARGETS]        |              |
-|                  | linux01(N)   |
-|                  | linux02(N)   |
-+------------------+--------------+
++------------------+---------------+
+| FIELD            | VALUE         |
++------------------+---------------+
+| [BASIS]          |               |
+|                  |               |
+| ID               | diskusage     |
+| REVISION         | 1             |
+| OWNER            | bumbee        |
+| SCRIPT           | diskusage.sh  |
+| OS USER          | root          |
+| BY SCHEDULER     | disable       |
+| BY ONDEMAND      | enable        |
+| BY TASK          | disable       |
+| NEXT TASK        |               |
+| APPRV STATUS     | approval      |
+| APPRV REQ REASON |               |
+| APPRV RJT REASON |               |
+| APPRV USER       | oprim         |
+| DESCRIPTION      |               |
+|                  |               |
+| [SCHEDULES]      |               |
+|                  |               |
+| [RUNNERS]        |               |
+|                  |               |
+| [TARGETS]        |               |
+|                  | linux01(Node) |
+|                  | linux02(Node) |
++------------------+---------------+
 ```
 
 리비젼(REVISION)은 1로 바뀌어 있고, 승인상태(APPRV STATUS)도 승인(approval)으로 변경되었네요.
