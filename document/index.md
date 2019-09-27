@@ -18,5 +18,6 @@ title: Guidance Document
 ### 리눅스/유닉스
 
 - [에이전트 설치](InstallAgentLinux.md)
+- [에이전트 삭제](UninstallAgentLinux.md)
 
 ![Alt text](/img/checkmate-small.png)
