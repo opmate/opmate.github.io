@@ -2,13 +2,13 @@
 title: Guidance Document
 ---
 
-## 사용자 활용 가이드
+## 사용자 가이드
 
 - [사용자 매뉴얼](Overview.md)
 - [Quick Tutorial](QuickTutorial.md)
 - [Command Line Usage](CliUsage.md)
 
-## 에이전트 관리 가이드
+## 에이전트 관리
 
 ### 윈도우즈 에이전트
 
