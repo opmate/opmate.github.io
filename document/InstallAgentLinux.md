@@ -52,12 +52,6 @@ master_port = 34813
 
 인스톨러의 안내에 따라, OS 별로 다음과 같이 입력하여 OS 부팅시 자동으로 시작되도록 설정합니다.
 
-- AIX 기준
-  ```
-  $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/S99opmagent
-  $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/K01opmagent
-  ```
-
 - CentOS 7.x 기준
   ```
   $ systemctl enable opmagent
@@ -67,17 +61,18 @@ master_port = 34813
   ```
   $ chkconfig --add opmagent
   ```
+  
+- AIX 기준
+  ```
+  $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/S99opmagent
+  $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/K01opmagent
+  ```
 
 ## 구동
 
 인스톨러의 안내에 따라, OS별로 다음과 같이 입력하여 구동합니다.
 
 구동 후 로그 파일 (ex. /infsw/opma/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
-
-- AIX 기준
-  ```
-  $ /infsw/opma/bin/start.sh
-  ```
 
 - CentOS 7.x 기준
   ```
@@ -87,6 +82,11 @@ master_port = 34813
 - CentOS 6.x/5.x 기준
   ```
   $ service opmagent start
+  ```
+
+- AIX 기준
+  ```
+  $ /infsw/opma/bin/start.sh
   ```
 
 ## 주의사항
