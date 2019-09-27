@@ -33,7 +33,7 @@ $ opmate node edit -id 6FE9E69A10B44EBEAFC3A9F05078066C -wi linux01 -st E
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 6FE9E69A10B44EBEAFC3A9F05078066C has been modified successfully.
 
-$ opmate node edit -id 3106E85BCF76465F8F9B16BC3873C380 -wi linux02 -st E                                 
+$ opmate node edit -id 3106E85BCF76465F8F9B16BC3873C380 -wi linux02 -st E
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 3106E85BCF76465F8F9B16BC3873C380 has been modified successfully.
 ```
