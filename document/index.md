@@ -12,7 +12,8 @@ title: Guidance Document
 
 ### 윈도우즈
 
-- [에이전트 설치](InstallAgentWindows.md)
+- [에이전트 설치방법](InstallAgentWindows.md)
+- [에이전트 삭제](UninstallAgentWindows.md)
 
 ### 리눅스/유닉스
 
