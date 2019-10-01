@@ -4,8 +4,8 @@ title: Guidance Document
 
 ## 활용 가이드
 
-- [사용자 매뉴얼](Overview.md)
 - [튜토리얼](QuickTutorial.md)
+- [사용자 매뉴얼](Overview.md)
 - [명령어 사용법](CliUsage.md)
 
 ## 운영 가이드
