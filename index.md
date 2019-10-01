@@ -10,7 +10,7 @@ title: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 [사용자 매뉴얼](/document/Overview.md)
 
-[Quick Tutorial](/document/QuickTutorial.md)
+[튜토리얼](/document/QuickTutorial.md)
 
 [리눅스/유닉스용 에이전트 설치](/document/InstallAgentLinux.md)
 
