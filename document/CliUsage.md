@@ -590,5 +590,5 @@ usage: opmate file put -rp <remote-path> -lp <local-path>
 
 ```
 usage: opmate info list [-v]
-  -v,--version  OpMate-Version
+  -v,--version  OPMATE-Version
 ```
