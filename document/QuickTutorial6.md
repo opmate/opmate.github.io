@@ -7,7 +7,7 @@ description: 태스크 실행
 
 드디어, 태스크 실행입니다.
 
-```sh
+```
 $ opmate task run -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 Instance(142) of task has been created.
