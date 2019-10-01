@@ -6,7 +6,7 @@ title: Guidance Document
 
 - [튜토리얼](QuickTutorial.md)
 - [사용자 매뉴얼](Overview.md)
-- [명령어 사용법](CliUsage.md)
+- [Command Line Usage](CliUsage.md)
 
 ## 운영 가이드
 
