@@ -2,7 +2,7 @@
 title: Command Line Usage
 ---
 
-```bash
+```
 usage: opmate user list [-id <substring>] [-nm <substring>] [-ro <role-num>]
        [-st <E|D>] [-lm <number>] [-of <number>]
   -id,--id <substring>    Filter by ID
@@ -18,13 +18,13 @@ usage: opmate user list [-id <substring>] [-nm <substring>] [-ro <role-num>]
 
 ```
 
-```bash
+```
 usage: opmate user view -id <user-id>
   -id,--id <user-id>  User ID
 
 ```
 
-```bash
+```
 usage: opmate user create -id <user-id> -nm <name> -pn <phone-num> -ea
        <email-address> [-de <free-text>]
   -id,--id <user-id>           User ID
@@ -35,7 +35,7 @@ usage: opmate user create -id <user-id> -nm <name> -pn <phone-num> -ea
 
 ```
 
-```bash
+```
 usage: opmate user edit -id <user-id> [-wi <user-id>] [-nm <name>] [-pn
        <phone-num>] [-ea <email-address>] [-de <free-text>] [-ro <role-num>]
        [-st <E|D>]
@@ -54,31 +54,31 @@ usage: opmate user edit -id <user-id> [-wi <user-id>] [-nm <name>] [-pn
 
 ```
 
-```bash
+```
 usage: opmate user passwd -id <user-id>
   -id,--id <user-id>  User ID
 
 ```
 
-```bash
+```
 usage: opmate user delete -id <user-id>
   -id,--id <user-id>  User ID
 
 ```
 
-```bash
+```
 usage: opmate user login -id <user-id>
   -id,--id <user-id>  User ID
 
 ```
 
-```bash
+```
 usage: opmate user logout
 
 
 ```
 
-```bash
+```
 usage: opmate usergroup list [-id <substring>] [-oi <user-id>] [-lm <number>]
        [-of <number>]
   -id,--id <substring>   Filter by ID
@@ -88,20 +88,20 @@ usage: opmate usergroup list [-id <substring>] [-oi <user-id>] [-lm <number>]
 
 ```
 
-```bash
+```
 usage: opmate usergroup view -id <usergroup-id>
   -id,--id <usergroup-id>  Usergroup ID
 
 ```
 
-```bash
+```
 usage: opmate usergroup create -id <usergroup-id> [-de <free-text>]
   -id,--id <usergroup-id>  Usergroup ID
   -de,--desc <free-text>   Description
 
 ```
 
-```bash
+```
 usage: opmate usergroup edit -id <usergroup-id> [-wi <usergroup-id>] [-oi
        <user-id>] [-de <free-text>]
   -id,--id <usergroup-id>     Usergroup ID
@@ -111,33 +111,33 @@ usage: opmate usergroup edit -id <usergroup-id> [-wi <usergroup-id>] [-oi
 
 ```
 
-```bash
+```
 usage: opmate usergroup delete -id <usergroup-id>
   -id,--id <usergroup-id>  Usergroup ID
 
 ```
 
-```bash
+```
 usage: opmate usergroup listuser -id <usergroup-id>
   -id,--id <usergroup-id>  Usergroup ID
 
 ```
 
-```bash
+```
 usage: opmate usergroup adduser -id <usergroup-id> -ui <user-id>
   -id,--id <usergroup-id>  Usergroup ID
   -ui,--userid <user-id>   User to add
 
 ```
 
-```bash
+```
 usage: opmate usergroup rmuser -id <usergroup-id> -ui <user-id>
   -id,--id <usergroup-id>  Usergroup ID
   -ui,--userid <user-id>   User to remove
 
 ```
 
-```bash
+```
 usage: opmate node list [-id <substring>] [-av <substring>] [-ip <substring>]
        [-os <substring>] [-hn <substring>] [-oi <user-id>] [-st <E|D>] [-lm
        <number>] [-of <number>]
@@ -153,13 +153,13 @@ usage: opmate node list [-id <substring>] [-av <substring>] [-ip <substring>]
 
 ```
 
-```bash
+```
 usage: opmate node view -id <node-id>
   -id,--id <node-id>  Node ID
 
 ```
 
-```bash
+```
 usage: opmate node edit -id <node-id> [-wi <node-id>] [-oi <user-id>] [-de
        <free-text>] [-st <E|D>]
   -id,--id <node-id>      Node ID
@@ -170,13 +170,13 @@ usage: opmate node edit -id <node-id> [-wi <node-id>] [-oi <user-id>] [-de
 
 ```
 
-```bash
+```
 usage: opmate node delete -id <node-id>
   -id,--id <node-id>  Node ID
 
 ```
 
-```bash
+```
 usage: opmate nodegroup list [-id <substring>] [-oi <user-id>] [-lm <number>]
        [-of <number>]
   -id,--id <substring>   Filter by ID
@@ -186,20 +186,20 @@ usage: opmate nodegroup list [-id <substring>] [-oi <user-id>] [-lm <number>]
 
 ```
 
-```bash
+```
 usage: opmate nodegroup view -id <nodegroup-id>
   -id,--id <nodegroup-id>  Nodegroup ID
 
 ```
 
-```bash
+```
 usage: opmate nodegroup create -id <nodegroup-id> [-de <free-text>]
   -id,--id <nodegroup-id>  Nodegroup ID
   -de,--desc <free-text>   Description
 
 ```
 
-```bash
+```
 usage: opmate nodegroup edit -id <nodegroup-id> [-wi <nodegroup-id>] [-oi
        <user-id>] [-de <free-text>]
   -id,--id <nodegroup-id>     Nodegroup ID
@@ -209,39 +209,39 @@ usage: opmate nodegroup edit -id <nodegroup-id> [-wi <nodegroup-id>] [-oi
 
 ```
 
-```bash
+```
 usage: opmate nodegroup delete -id <nodegroup-id>
   -id,--id <nodegroup-id>  Nodegroup ID
 
 ```
 
-```bash
+```
 usage: opmate nodegroup listnode -id <nodegroup-id>
   -id,--id <nodegroup-id>  Nodegroup ID
 
 ```
 
-```bash
+```
 usage: opmate nodegroup addnode -id <nodegroup-id> -ni <node-id>
   -id,--id <nodegroup-id>  Nodegroup ID
   -ni,--nodeid <node-id>   Node to add
 
 ```
 
-```bash
+```
 usage: opmate nodegroup rmnode -id <nodegroup-id> -ni <node-id>
   -id,--id <nodegroup-id>  Nodegroup ID
   -ni,--nodeid <node-id>   Node to remove
 
 ```
 
-```bash
+```
 usage: opmate nodegroup listattr -id <nodegroup-id>
   -id,--id <nodegroup-id>  Nodegroup ID
 
 ```
 
-```bash
+```
 usage: opmate nodegroup addattr -id <nodegroup-id> -ak <key> -av <value>
   -id,--id <nodegroup-id>  Nodegroup ID
   -ak,--key <key>          Attribute key to add
@@ -249,21 +249,21 @@ usage: opmate nodegroup addattr -id <nodegroup-id> -ak <key> -av <value>
 
 ```
 
-```bash
+```
 usage: opmate nodegroup rmattr -id <nodegroup-id> -ak <key>
   -id,--id <nodegroup-id>  Nodegroup ID
   -ak,--key <key>          Attribute key to remove
 
 ```
 
-```bash
+```
 usage: opmate nodegroup copy -id <nodegroup-id> -ng <nodegroup-id>
   -id,--id <nodegroup-id>        Source nodegroup
   -ng,--newgroup <nodegroup-id>  New nodegroup
 
 ```
 
-```bash
+```
 usage: opmate task list [-id <substring>] [-oi <user-id>] [-es <E|D>] [-eo
        <E|D>] [-et <E|D>] [-as <N|Q|A|R>] [-ai <user-id>] [-nd <node-id>] [-lm
        <number>] [-of <number>]
@@ -284,14 +284,14 @@ usage: opmate task list [-id <substring>] [-oi <user-id>] [-es <E|D>] [-eo
 
 ```
 
-```bash
+```
 usage: opmate task view -id <task-id> [-rv <revision-num>]
   -id,--id <task-id>             Task ID
   -rv,--revision <revision-num>  Revision number
 
 ```
 
-```bash
+```
 usage: opmate task history -id <task-id> [-lm <limit>] [-of <offset>]
   -id,--id <task-id>     Task ID
   -lm,--limit <limit>    Maximum number of rows
@@ -299,7 +299,7 @@ usage: opmate task history -id <task-id> [-lm <limit>] [-of <offset>]
 
 ```
 
-```bash
+```
 usage: opmate task checkscript -id <task-id> [-rv <revision-num>] [-se
        <charset>]
   -id,--id <task-id>             Task ID
@@ -308,7 +308,7 @@ usage: opmate task checkscript -id <task-id> [-rv <revision-num>] [-se
 
 ```
 
-```bash
+```
 usage: opmate task diff -id <task-id> [-rv <revision-num1 revision-num2>] [-se
        <charset>] [-wd <number>]
   -id,--id <task-id>                            Task ID
@@ -318,7 +318,7 @@ usage: opmate task diff -id <task-id> [-rv <revision-num1 revision-num2>] [-se
 
 ```
 
-```bash
+```
 usage: opmate task downscript -id <task-id> [-rv <revision-num>] [-pt
        <directory-name>]
   -id,--id <task-id>              Task ID
@@ -327,7 +327,7 @@ usage: opmate task downscript -id <task-id> [-rv <revision-num>] [-pt
 
 ```
 
-```bash
+```
 usage: opmate task create -id <task-id> -sf <file-path> -ou <os-user-name> [-es
        <E|D>] [-eo <E|D>] [-et <E|D>] [-xi <task-id>] [-de <free-text>]
   -id,--id <task-id>            Task ID
@@ -341,7 +341,7 @@ usage: opmate task create -id <task-id> -sf <file-path> -ou <os-user-name> [-es
 
 ```
 
-```bash
+```
 usage: opmate task edit -id <task-id> [-sf <file-path>] [-ou <os-user-name>]
        [-es <E|D>] [-eo <E|D>] [-et <E|D>] [-xi <task-id>] [-de <free-text>]
        [-oi <user-id>] [-ai <user-id>]
@@ -358,27 +358,27 @@ usage: opmate task edit -id <task-id> [-sf <file-path>] [-ou <os-user-name>]
 
 ```
 
-```bash
+```
 usage: opmate task delete -id <task-id>
   -id,--id <task-id>  Task ID
 
 ```
 
-```bash
+```
 usage: opmate task rename -id <task-id> -wi <task-id>
   -id,--id <task-id>     Task ID
   -wi,--newid <task-id>  New Task ID
 
 ```
 
-```bash
+```
 usage: opmate task listtarget -id <task-id> [-rv <revision-num>]
   -id,--id <task-id>             Task ID
   -rv,--revision <revision-num>  Revision number
 
 ```
 
-```bash
+```
 usage: opmate task addtarget -id <task-id> [-nd <node-id>] [-ng <nodegroup-id>]
   -id,--id <task-id>              Task ID
   -nd,--node <node-id>            Node to add as target
@@ -386,7 +386,7 @@ usage: opmate task addtarget -id <task-id> [-nd <node-id>] [-ng <nodegroup-id>]
 
 ```
 
-```bash
+```
 usage: opmate task rmtarget -id <task-id> [-nd <node-id>] [-ng <nodegroup-id>]
   -id,--id <task-id>              Task ID
   -nd,--node <node-id>            Node to remove as target
@@ -394,14 +394,14 @@ usage: opmate task rmtarget -id <task-id> [-nd <node-id>] [-ng <nodegroup-id>]
 
 ```
 
-```bash
+```
 usage: opmate task listrunner -id <task-id> [-rv <revision-num>]
   -id,--id <task-id>             Task ID
   -rv,--revision <revision-num>  Revision number
 
 ```
 
-```bash
+```
 usage: opmate task addrunner -id <task-id> [-us <user-id>] [-ug <usergroup-id>]
        [-ts <task-id>]
   -id,--id <task-id>              Task ID
@@ -411,7 +411,7 @@ usage: opmate task addrunner -id <task-id> [-us <user-id>] [-ug <usergroup-id>]
 
 ```
 
-```bash
+```
 usage: opmate task rmrunner -id <task-id> [-us <user-id>] [-ug <usergroup-id>]
        [-ts <task-id>]
   -id,--id <task-id>              Task ID
@@ -421,7 +421,7 @@ usage: opmate task rmrunner -id <task-id> [-us <user-id>] [-ug <usergroup-id>]
 
 ```
 
-```bash
+```
 usage: opmate task listschedule -id <task-id> [-rv <revision-num>] [-cy
        <Y|M|W|D|H|O>] [-st <E|D>]
   -id,--id <task-id>             Task ID
@@ -437,7 +437,7 @@ usage: opmate task listschedule -id <task-id> [-rv <revision-num>] [-cy
 
 ```
 
-```bash
+```
 usage: opmate task addschedule -id <task-id> -si <schedule-id> -tf <time-format>
        [-st <E|D>]
   -id,--id <task-id>              Task ID
@@ -455,7 +455,7 @@ usage: opmate task addschedule -id <task-id> -si <schedule-id> -tf <time-format>
 
 ```
 
-```bash
+```
 usage: opmate task editschedule -id <task-id> -si <schedule-id> [-tf
        <time-format>] [-st <E|D>]
   -id,--id <task-id>              Task ID
@@ -473,20 +473,20 @@ usage: opmate task editschedule -id <task-id> -si <schedule-id> [-tf
 
 ```
 
-```bash
+```
 usage: opmate task rmschedule -id <task-id> -si <schedule-id>
   -id,--id <task-id>              Task ID
   -si,--scheduleid <schedule-id>  Schedule ID
 
 ```
 
-```bash
+```
 usage: opmate task listappr [-oi <user-id>]
   -oi,--owner <user-id>  Filter by owner
 
 ```
 
-```bash
+```
 usage: opmate task reqappr -id <task-id> [-ai <user-id>] [-qr <free-text>]
   -id,--id <task-id>        Task ID
   -ai,--appruser <user-id>  Approver
@@ -494,20 +494,20 @@ usage: opmate task reqappr -id <task-id> [-ai <user-id>] [-qr <free-text>]
 
 ```
 
-```bash
+```
 usage: opmate task acceptappr -id <task-id>
   -id,--id <task-id>  Task ID
 
 ```
 
-```bash
+```
 usage: opmate task rejectappr -id <task-id> [-rr <free-text>]
   -id,--id <task-id>        Task ID
   -rr,--reason <free-text>  Reject reason
 
 ```
 
-```bash
+```
 usage: opmate task listrun -id <task-id> [-stge <YYYYMMDD>] [-stle <YYYYMMDD>]
        [-ri <runner-id>] [-xi <next-task-id>] [-lm <number>] [-of <number>]
   -id,--id <task-id>             Task ID
@@ -522,7 +522,7 @@ usage: opmate task listrun -id <task-id> [-stge <YYYYMMDD>] [-stle <YYYYMMDD>]
 
 ```
 
-```bash
+```
 usage: opmate task run -id <task-id> [-ni <node-id>] [-ag <script-args>]
   -id,--id <task-id>            Task ID
   -ni,--nodeid <node-id>        For targeting only one node
@@ -530,7 +530,7 @@ usage: opmate task run -id <task-id> [-ni <node-id>] [-ag <script-args>]
 
 ```
 
-```bash
+```
 usage: opmate task listrunnode -in <task-instance-no> [-ni <substring>] [-st
        <R|C|S|F>] [-rs <N|S|F>] [-ec <exit-cd>] [-lm <number>] [-of <number>]
   -in,--instanceno <task-instance-no>  Task Instance No
@@ -550,7 +550,7 @@ usage: opmate task listrunnode -in <task-instance-no> [-ni <substring>] [-st
 
 ```
 
-```bash
+```
 usage: opmate task viewrun -in <task-instance-no> -ni <node-id> [-en <exec-no>]
   -in,--instanceno <task-instance-no>  Task Instance No
   -ni,--nodeid <node-id>               Node ID
@@ -558,14 +558,14 @@ usage: opmate task viewrun -in <task-instance-no> -ni <node-id> [-en <exec-no>]
 
 ```
 
-```bash
+```
 usage: opmate task rerun -in <task-instance-no> -ni <node-id>
   -in,--instanceno <task-instance-no>  Instance to re-run
   -ni,--nodeid <node-id>               Target node to re-run
 
 ```
 
-```bash
+```
 usage: opmate file list -rp <remote-path> [-lm <limit>] [-of <offset>]
   -rp,--remotepath <remote-path>  Remote directory path
   -lm,--limit <limit>             Maximum number of rows
@@ -573,7 +573,7 @@ usage: opmate file list -rp <remote-path> [-lm <limit>] [-of <offset>]
 
 ```
 
-```bash
+```
 usage: opmate file get [-ow] -rp <remote-path> [-lp <local-path>]
   -ow,--overwrite                 Overwrite local file
   -rp,--remotepath <remote-path>  Remote file path
@@ -581,14 +581,14 @@ usage: opmate file get [-ow] -rp <remote-path> [-lp <local-path>]
 
 ```
 
-```bash
+```
 usage: opmate file put -rp <remote-path> -lp <local-path>
   -rp,--remotepath <remote-path>  Remote file path
   -lp,--localpath <local-path>    Local file path
 
 ```
 
-```bash
+```
 usage: opmate info list [-v]
   -v,--version  OpMate-Version
 ```
