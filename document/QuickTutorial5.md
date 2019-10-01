@@ -26,7 +26,7 @@ ROWS COUNT : 3/3
 ROLE이 1 또는 0인 사용자가 승인 권한을 가지고 있습니다.
 사용자 oprim에게 승인 요청을 하겠습니다.
 
-```sh
+```
 $ opmate task reqappr -id diskusage -ai oprim
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 diskusage's approval has been requested successfully.
