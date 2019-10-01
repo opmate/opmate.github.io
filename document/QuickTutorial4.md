@@ -9,7 +9,7 @@ description: 태스크 정의
 
 먼저, 스크립트 파일을 만듭니다.
 
-```sh
+```
 $ vi diskusage.sh
 #!/bin/sh
 df -h
@@ -19,7 +19,7 @@ df -h
 위에서 만든 쉘스크립트 파일의 경로를 주고, 서버에서 실행할 OS 사용자명은 root로 지정합니다.
 또한, 온디맨드 방식으로 실행할 수 있도록, `-eo E` 옵션도 추가합니다.
 
-```sh
+```
 $ opmate task create -id diskusage -sf ./diskusage.sh -ou root -eo E
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 diskusage has been created successfully.
@@ -41,7 +41,7 @@ linux02 has been added to target successfully.
 태스크가 잘 생성되었는지 확인해 보겠습니다.
 태스크가 많으면 목록이 너무 길어질테니, 소유자(OWNER)가 bumbee인 태스크만 조회해 봅니다.
 
-```sh
+```
 $ opmate task list -oi bumbee
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +-----------+------+--------+--------------+---------+-----------+-------------+------------+
