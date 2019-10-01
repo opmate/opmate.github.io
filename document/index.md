@@ -2,13 +2,13 @@
 title: Guidance Document
 ---
 
-## 사용자 가이드
+## 활용 가이드
 
 - [사용자 매뉴얼](Overview.md)
-- [Quick Tutorial](QuickTutorial.md)
-- [Command Line Usage](CliUsage.md)
+- [튜토리얼](QuickTutorial.md)
+- [명령어 사용법](CliUsage.md)
 
-## 에이전트 관리
+## 운영 가이드
 
 ### Linux/Unix
 
