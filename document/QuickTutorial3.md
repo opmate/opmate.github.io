@@ -1,5 +1,5 @@
 ---
-title: Quick Tutorial
+title: Tutorial
 description: 노드 활성화
 ---
 
