@@ -1,5 +1,5 @@
 ---
-title: Quick Tutorial
+title: Tutorial
 ---
 
 - 제1강 [CLI 사용법 및 초기 설정](QuickTutorial1.md)
