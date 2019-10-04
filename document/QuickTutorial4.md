@@ -1,5 +1,5 @@
 ---
-title: Quick Tutorial
+title: Tutorial
 description: 태스크 정의
 ---
 
