@@ -1,5 +1,5 @@
 ---
-title: Quick Tutorial
+title: Tutorial
 description: CLI 사용법 및 초기 설정
 ---
 
