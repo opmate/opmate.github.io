@@ -1,5 +1,5 @@
 ---
-title: Quick Tutorial
+title: Tutorial
 description: 사용자 계정 생성 및 로그인
 ---
 
