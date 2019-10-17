@@ -4,7 +4,7 @@ title: 윈도우용 에이전트 설치
 
 ## 파일 준비
 
-최신 버전의 설치 파일(ex. opma-inst-1.0.001-20190425.exe)을 준비하여 C:\ 에 복사합니다.
+최신 버전의 설치 파일(e.g. opma-inst-1.0.001-20190425.exe)을 준비하여 C:\ 에 복사합니다.
 
 ## 명령 프롬프트 실행
 
@@ -36,7 +36,7 @@ Input 'yes' to proceed installation : yes
 
 ## 설정 파일 수정
 
-실행 메뉴에서 wordpad 를 입력하여 워드패드를 실행한 후 에이전트가 설치된 디렉토리의 설정 파일(ex. C:\infsw\opma\cfg\agent.conf)을 편집합니다.
+실행 메뉴에서 wordpad 를 입력하여 워드패드를 실행한 후 에이전트가 설치된 디렉토리의 설정 파일(e.g. C:\infsw\opma\cfg\agent.conf)을 편집합니다.
 라인별 맨 앞의 주석(#기호) 제거하고 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
 
 ```
@@ -58,7 +58,7 @@ C:\ sc config "OpMate Agent Service" start= auto
 
 인스톨러의 안내에 따라, 다음과 같이 입력하여 구동합니다.
 
-구동 후 로그 파일 (ex. C:\infsw\opma\log\opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
+구동 후 로그 파일 (e.g. C:\infsw\opma\log\opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
 
 ```
 C:\ sc start "OpMate Agent Service"
