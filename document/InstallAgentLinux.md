@@ -4,7 +4,7 @@ title: 리눅스/유닉스용 에이전트 설치
 
 ## 파일 준비
 
-최신 버전의 설치 파일을 준비합니다.(ex. opma-inst-1.0.001-20190425.tar.gz)
+최신 버전의 설치 파일을 준비합니다.(e.g. opma-inst-1.0.001-20190425.tar.gz)
 
 ```
 $ ls
@@ -38,7 +38,7 @@ Input 'yes' to proceed installation : yes
 
 ## 설정 파일 수정
 
-설치된 디렉토리의 설정 파일(ex. /infsw/opma/cfg/agent.conf)을 열고,
+설치된 디렉토리의 설정 파일(e.g. /infsw/opma/cfg/agent.conf)을 열고,
 
 라인별 맨 앞의 주석표기(#기호)를 삭제하고 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
 
@@ -72,7 +72,7 @@ master_port = 34813
 
 인스톨러의 안내에 따라, OS별로 다음과 같이 입력하여 구동합니다.
 
-구동 후 로그 파일 (ex. /infsw/opma/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
+구동 후 로그 파일 (e.g. /infsw/opma/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
 
 - CentOS 7.x 기준
   ```
