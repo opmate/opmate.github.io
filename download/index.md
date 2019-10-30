@@ -9,7 +9,7 @@ title: Software Download
 - **OPMATE Agent _v1.0.008_** (_OPMATE Master v1.0.20190902 이상 필요_)
   - [opma-inst-1.0.008-20191017.tar.gz](opma-inst-1.0.008-20191017.tar.gz)
     - CentOS 7/6/5 - x86_64bit
-    - AIX 7.1/6.1/5.3 - ppc_64bit
+    - AIX 7.2/7.1/6.1/5.3 - ppc_64bit
   - [opma-inst-1.0.008-20191017.exe](opma-inst-1.0.008-20191017.exe_)
     - Windows Server 2016/2012/2008/2003 - x86_64bit / x86_32bit
 
