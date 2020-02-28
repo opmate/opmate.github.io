@@ -22,6 +22,6 @@ title: Guidance Document
 
 ## 이전 버전 문서
 
-- [OPMATE v1.0](/document/v1.0/index.md)
+- [OPMATE v1.0](/document/v1.0)
 
 ![Alt text](/img/checkmate-small.png)
