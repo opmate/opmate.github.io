@@ -1,5 +1,5 @@
 ---
-title: Guidance Document
+title: Guidance Document for V1.0
 ---
 
 ## 활용 가이드
