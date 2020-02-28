@@ -20,4 +20,8 @@ title: Guidance Document
 - [윈도우즈용 에이전트 *설치*](InstallAgentWindows.md)
 - [윈도우즈용 에이전트 *삭제*](UninstallAgentWindows.md)
 
+## 이전 버전 문서
+
+- [OPMATE v1.0](/document/v1.0/index.md)
+
 ![Alt text](/img/checkmate-small.png)
