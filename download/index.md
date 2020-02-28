@@ -4,11 +4,11 @@ title: Software Download
 
 버전에 따라 지원하는 운영체제와 호환 가능한 마스터 버전이 다를 수 있습니다. 확인 후 설치하시기 바랍니다.
 
-## OPMATE V1.1 에이전트
+## OPMATE V1.1
 
 - 준비중
 
-## OPMATE V1.0 에이전트
+## OPMATE V1.0
 
 - **OPMATE Agent _v1.0.009_**
   - [opma-inst-1.0.009-20191216.tar.gz](opma-inst-1.0.009-20191216.tar.gz)
