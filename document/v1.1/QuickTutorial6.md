@@ -10,7 +10,7 @@ description: 태스크 실행
 ```
 $ opmate task run -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
-Instance(234) of task has been created.
+task-instance #234 has been created successfully.
 ```
 
 태스크를 한번 실행하면 그와 대응하는 태스크 인스턴스(Task Instance)가 만들어집니다.
