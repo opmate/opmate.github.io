@@ -4,7 +4,7 @@ title: 윈도우용 에이전트 설치
 
 ## 파일 준비
 
-최신 버전의 설치 파일(e.g. opma-inst-1.0.001-20190425.exe)을 준비하여 C:\ 에 복사합니다.
+최신 버전의 설치 파일(e.g. opma-inst-1.1.001-20200301.exe)을 준비하여 C:\ 에 복사합니다.
 
 ## 명령 프롬프트 실행
 
@@ -13,15 +13,15 @@ title: 윈도우용 에이전트 설치
 ```
 C:\Users\Administrator> cd /d C:\
 C:\> dir *.exe
-opma-inst-1.0.001-20190425.exe
+opma-inst-1.1.001-20200301.exe
 ```
 
 ## 압축 해제 및 인스톨러 실행
 
 ```
-C:\> opma-inst-1.0.001-20190425.exe
-C:\> cd opma-inst-1.0.001-20190425
-C:\opma-inst-1.0.001-20190425> install.bat
+C:\> opma-inst-1.1.001-20200301.exe
+C:\> cd opma-inst-1.1.001-20200301
+C:\opma-inst-1.1.001-20200301> install.bat
 ```
 
 ## 입력
@@ -37,7 +37,7 @@ Input 'yes' to proceed installation : yes
 ## 설정 파일 수정
 
 실행 메뉴에서 wordpad 를 입력하여 워드패드를 실행한 후 에이전트가 설치된 디렉토리의 설정 파일(e.g. C:\infsw\opma\cfg\agent.conf)을 편집합니다.
-라인별 맨 앞의 주석(#기호) 제거하고 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
+다음 예와 같이 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
 
 ```
 master_ip = 10.0.0.1

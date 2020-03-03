@@ -4,11 +4,11 @@ title: 리눅스/유닉스용 에이전트 설치
 
 ## 파일 준비
 
-최신 버전의 설치 파일을 준비합니다.(e.g. opma-inst-1.0.001-20190425.tar.gz)
+최신 버전의 설치 파일을 준비합니다.(e.g. opma-inst-1.1.001-20200301.tar.gz)
 
 ```
 $ ls
-opma-inst-1.0.001-20190425.tar.gz
+opma-inst-1.1.001-20200301.tar.gz
 ```
 
 ## root 로 로그인
@@ -20,9 +20,9 @@ $ su -
 ## 압축 해제 및 인스톨러 실행
 
 ```
-$ gunzip opma-inst-1.0.001-20190425.tar.gz
-$ tar -xvf opma-inst-1.0.001-20190425.tar
-$ cd opma-inst-1.0.001-20190425
+$ gunzip opma-inst-1.1.001-20200301.tar.gz
+$ tar -xvf opma-inst-1.1.001-20200301.tar
+$ cd opma-inst-1.1.001-20200301
 $ ./install.sh
 ```
 
@@ -40,7 +40,7 @@ Input 'yes' to proceed installation : yes
 
 설치된 디렉토리의 설정 파일(e.g. /infsw/opma/cfg/agent.conf)을 열고,
 
-라인별 맨 앞의 주석표기(#기호)를 삭제하고 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
+다음 예와 같이 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
 
 ```
 $ vi /infsw/opma/cfg/agent.conf
@@ -67,7 +67,13 @@ master_port = 34813
   $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/S99opmagent
   $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/K01opmagent
   ```
-
+  
+- SunOS 기준
+  ```
+  $ ln -s /etc/init.d/opmagent /etc/rc3.d/S99opmagent
+  $ ln -s /etc/init.d/opmagent /etc/rc3.d/K01opmagent
+  ```
+  
 ## 구동
 
 인스톨러의 안내에 따라, OS별로 다음과 같이 입력하여 구동합니다.
@@ -85,6 +91,11 @@ master_port = 34813
   ```
 
 - AIX 기준
+  ```
+  $ /infsw/opma/bin/start.sh
+  ```
+  
+- SunOS 기준
   ```
   $ /infsw/opma/bin/start.sh
   ```

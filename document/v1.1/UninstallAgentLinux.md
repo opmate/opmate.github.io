@@ -26,6 +26,10 @@ $ service opmagent stop
 ```
 $ /infsw/opma/bin/stop.sh
 ```
+- SunOS 기준
+```
+$ /infsw/opma/bin/stop.sh
+```
 
 ## 중지 상태 확인
 
@@ -51,7 +55,12 @@ $ rm /etc/rc.d/rc2.d/S99opmagent
 $ rm /etc/rc.d/rc2.d/K01opmagent
 $ rm /etc/rc.d/init.d/opmagent
 ```
-
+- SunOS 기준
+```
+$ rm /etc/rc3.d/S99opmagent
+$ rm /etc/rc3.d/K01opmagent
+$ rm /etc/init.d/opmagent
+```
 
 ## 파일 삭제
 
