@@ -1,6 +1,6 @@
 ---
 title: Tutorial
-description: CLI 사용법 및 초기 설정
+description: CLI 사용법
 ---
 
 [첫페이지](QuickTutorial.md) / [다음페이지](QuickTutorial2.md)
