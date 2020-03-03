@@ -15,7 +15,9 @@ OPMATE CLI 명령어는 `opmate <object> <action> <option>`의 형식으로 이�
 
 ```
 $ opmate help
-usage: opmate <user|usergroup|node|nodegroup|task|file|info> <action>
+usage: opmate 
+  user
+  usergroup|node|nodegroup|task|file|info> <action>
        [help|<options>]
 ```
 ```
