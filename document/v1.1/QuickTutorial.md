@@ -2,7 +2,7 @@
 title: Tutorial
 ---
 
-- 제1강 [CLI 사용법 및 초기 설정](QuickTutorial1.md)
+- 제1강 [CLI 사용법](QuickTutorial1.md)
 
 - 제2강 [사용자 계정 생성 및 로그인](QuickTutorial2.md)
 
