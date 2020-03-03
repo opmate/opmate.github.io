@@ -19,7 +19,7 @@ task-instance #234 has been created successfully.
 태스크 diskusage의 인스턴스를 조회해보겠습니다.
 
 ```
-$ opmate taskinstance list 
+$ opmate taskinstance list -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +------------------+-------------+---------------------+---------------------+--------------+-----------+
 | TASK INSTANCE NO | TASK ID     | START DT            | END DT              | RUNNER       | NEXT TASK |
