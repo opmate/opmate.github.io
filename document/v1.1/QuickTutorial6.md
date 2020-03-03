@@ -69,10 +69,10 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 | EXIT CD          | 0                   |
 +------------------+---------------------+
 
-[Standard error]
+[STDERR]
 No content.
 
-[Standard output]
+[STDOUT]
 Filesystem               Size  Used Avail Use% Mounted on
 /dev/mapper/centos-root   50G  1.3G   49G   3% /
 devtmpfs                 486M     0  486M   0% /dev
