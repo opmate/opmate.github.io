@@ -27,7 +27,7 @@ ROLE이 1 또는 0인 사용자가 승인 권한을 가지고 있습니다.
 사용자 oprim에게 승인 요청을 하겠습니다.
 
 ```
-$ opmate task reqappr -id diskusage -ai oprim
+$ opmate approval request -id diskusage -ai oprim
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 diskusage's approval has been requested successfully.
 ```
@@ -37,11 +37,11 @@ diskusage's approval has been requested successfully.
 ```
 $ opmate task listappr
 Requesting https://127.0.0.1:8443/opmate;user=oprim
-+-----------+--------+--------------+---------+---------+---------+---------+-----------+-------------+------------------+------------+-------------+
-| ID        | OWNER  | SCRIPT       | OS USER | BY SCH. | BY OND. | BY TASK | NEXT TASK | APPRV STAT. | APPRV REQ REASON | APPRV USER | DESCRIPTION |
-+-----------+--------+--------------+---------+---------+---------+---------+-----------+-------------+------------------+------------+-------------+
-| diskusage | bumbee | diskusage.sh | root    | disable | enable  | disable |           | request     |                  | oprim      |             |
-+-----------+--------+--------------+---------+---------+---------+---------+-----------+-------------+------------------+------------+-------------+
++------+-----------+---------+---------------+---------+---------+---------+----------+-----------+------------+
+| TYPE | ID        | OWNER   | SCRIPT        | OS USER | BY SCH. | BY OND. | BY TASK  | NEXT TASK | APPRV USER |
++------+-----------+---------+---------------+---------+---------+---------+----------+-----------+------------+
+| Send | diskusage | bumbee  | diskusage.sh  | root    | disable | enable  | disable  |           | oprim      |
++------+-----------+---------+---------------+---------+---------+---------+----------+-----------+------------+
 
 ROWS COUNT : 1
 ```
@@ -50,7 +50,7 @@ diskusage라는 태스크가 목록에 있네요.
 다음과 같이 태스크를 승인합니다.
 
 ```
-$ opmate task acceptappr -id diskusage
+$ opmate approval accept -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=oprim
 diskusage has been approved successfully.
 ```
