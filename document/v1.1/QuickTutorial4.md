@@ -90,6 +90,6 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 
 잘 생성되었지만 아직 아니랍니다.
 리비젼(REVISION) 번호가 0인 것과 승인상태(APPRV STATUS)가 N/A인 것에 주목하세요.
-태스크는 승인을 받아야 실제로 실행할 수 있습니다.
+태스크는 승인을 받아야 실제로 실행할 수 있습니다. :sweat:
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial3.md) / [다음페이지](QuickTutorial5.md)
