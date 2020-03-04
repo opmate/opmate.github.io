@@ -9,15 +9,15 @@ title: Guidance Document for V1.1
 
 ## 운영 가이드
 
-### Linux/Unix
+### 프로그램 설치
 
 - [리눅스/유닉스용 에이전트 *설치*](InstallAgentLinux.md)
-- [리눅스/유닉스용 에이전트 *삭제*](UninstallAgentLinux.md)
-
-### Windows
-
 - [윈도우즈용 에이전트 *설치*](InstallAgentWindows.md)
-- [윈도우즈용 에이전트 *삭제*](UninstallAgentWindows.md)
+
+### 프로그램 제거
+
+- [리눅스/유닉스용 에이전트 *제거*](UninstallAgentLinux.md)
+- [윈도우즈용 에이전트 *제거*](UninstallAgentWindows.md)
 
 ## 이전 버전 문서
 
