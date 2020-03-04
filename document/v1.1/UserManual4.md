@@ -1,6 +1,6 @@
 ---
 title: 사용자 매뉴얼
-description: 3. 사용자그룹
+description: 4. 노드
 ---
 
 [목차](UserManual.md) / [이전페이지](UserManual3.md) / [다음페이지](UserManual5.md)

@@ -1,6 +1,6 @@
 ---
 title: 사용자 매뉴얼
-description: 3. 사용자그룹
+description: 5. 노드 그룹
 ---
 
 [목차](UserManual.md) / [이전페이지](UserManual4.md) / [다음페이지](UserManual6.md)
@@ -33,7 +33,7 @@ OS의 종류/버전 또는 태스크 수행의 목적이나 Host의 용도 등�
 @OPM_ATTR.TOMCAT_HOME@/bin/startup.sh
 ```
 
-```
+```shell
 #!/bin/sh
 
 /home/tomcat/bin/startup.sh
