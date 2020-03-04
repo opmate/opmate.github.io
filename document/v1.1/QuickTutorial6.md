@@ -7,7 +7,7 @@ description: 태스크 실행
 
 드디어, 태스크 실행입니다.
 
-```shell
+```
 $ opmate task run -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 task-instance #234 has been created successfully.
@@ -18,7 +18,7 @@ task-instance #234 has been created successfully.
 
 태스크 diskusage의 인스턴스를 조회해보겠습니다.
 
-```shell
+```
 $ opmate taskinstance list -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +------------------+-------------+---------------------+---------------------+--------------+-----------+
@@ -36,7 +36,7 @@ ROWS COUNT : 1/1
 
 이 인스턴스의 타겟 노드별 결과도 확인해보겠습니다.
 
-```shell
+```
 $ opmate taskinstance listnode -in 234
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +---------+---------+----------+---------------------+---------------------+---------+---------+
@@ -51,7 +51,7 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 
 하나의 노드를 지정해서 조금 더 상세히 조회해 보겠습니다.
 
-```shell
+```
 $ opmate taskinstance viewnode -in 234 -ni linux01
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +------------------+---------------------+

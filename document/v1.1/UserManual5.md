@@ -27,13 +27,13 @@ OS의 종류/버전 또는 태스크 수행의 목적이나 Host의 용도 등�
 
 예를 들어, 특정 그룹에 TOMCAT_HOME=/home/tomcat 와 같은 속성을 정의하면 소속된 모든 노드의 속성으로 동일하게 적용되며, 스크립트에 해당 속성의 치환 변수(@OPM_ATTR.속성명@)가 사용되었을 경우 정의된 값으로 치환된다.
 
-```shell
+```
 #!/bin/sh
 
 @OPM_ATTR.TOMCAT_HOME@/bin/startup.sh
 ```
 
-```shell
+```
 #!/bin/sh
 
 /home/tomcat/bin/startup.sh

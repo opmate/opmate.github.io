@@ -16,19 +16,19 @@ description: 8. 파일 배포/수집
 
 user1 계정이 1.txt 파일을 현재 작업 공간에서 임시 공간에 올린다.
 
-```shell
+```
 $ opmate file put -rp master:/user1/1.txt -lp ./1.txt 
 ```
 
 임시 공간에 올린 1.txt 파일을 확인한다.
 
-```shell
+```
 $ opmate file list -rp master:/user1/1.txt 
 ```
 
 임시 공간에 올린 1.txt 파일을 로컬 경로 (/temp) 로 내린다.
 
-```shell
+```
 $ opmate file get -rp master:/user/1.txt -lp /temp/1.txt 
 ```
 

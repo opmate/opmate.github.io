@@ -34,13 +34,13 @@ GUID와 노드ID는 유사한 개념이나, 주체에 따라서 구분되어 진
 
 옵션이 없어도 조회가 가능하며, 30개 행을 보여준다.
 
-```shell
+```
 $ opmate node list 
 ```
 
 limit 옵션으로 더 많은 행 조회가 가능하며, 전체 조회의 경우 값을 0 으로 준다.
 
-```shell
+```
 $ opmate node list -lm 0
 ```
 
@@ -52,7 +52,7 @@ $ opmate node list -lm 0
 하지만, 호스트명은 중복될 가능성이 있기 때문에, 노드ID도 중복되어 변경이 실패할 수 있다.
 이러한 경우, 호스트명과 다른 문자를 조합하여 *고유한 노드ID로 부여*하는 것을 권장한다.
 
-```shell
+```
 $ opmate node edit -id DF9CAC56C0D441778CFBF3CCDFEAAC0D -wi myhost -st E
 ```
 
@@ -61,7 +61,7 @@ $ opmate node edit -id DF9CAC56C0D441778CFBF3CCDFEAAC0D -wi myhost -st E
 
 소유자는 노드의 정보를 변경할 수 있으며, 소유자를 다른 사용자로 변경할 수도 있다.
 
-```shell
+```
 $ opmate node edit -id DF9CAC56C0D441778CFBF3CCDFEAAC0D -oi scott
 ```
 
@@ -72,7 +72,7 @@ $ opmate node edit -id DF9CAC56C0D441778CFBF3CCDFEAAC0D -oi scott
 노드를 비활성화하면 해당 노드가 태스크의 대상 노드(Target Node)로 등록되어 있더라도, 태스크 실행시에 대상에서 제외된다.
 특수한 상황으로 인하여, 해당 노드에 어떠한 태스크라도 수행되는 것을 막고 싶을 경우에 유용하다.
 
-```shell
+```
 $ opmate node edit -id myhost -st D
 ```
 
