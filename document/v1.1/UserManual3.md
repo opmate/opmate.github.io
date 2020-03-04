@@ -7,7 +7,7 @@ description: 3. 사용자그룹
 
 ## 사용자 그룹 (User Group)
 
-사용자 그룹은 여러명의 사용자가 모여 있는 집합니다..
+사용자 그룹은 여러명의 사용자가 모여 있는 집합이다..
 다수의 사용자들을 동시에 지정하기 위한 용도로 사용되며, 
 한 명의 사용자는 여러 개의 사용자 그룹에 소속될 수 있다.
 
@@ -20,5 +20,29 @@ description: 3. 사용자그룹
 
 소유자는 그룹의 각종 속성, 소속 사용자 등을 변경하거나 삭제할 수 있으며,
 소유자를 다른 사용자로 변경할 수도 있다.
+
+### 사용자 그룹 생성
+
+```$ opmate usergroup create -id mygroup ```
+
+### 사용자 그룹 사용자 추가 / 삭제
+
+```
+$ opmate usergroup adduser -id mygroup -ui user1
+$ opmate usergroup rmuser -id mygroup -ui user1
+
+ ```
+
+### 사용자 그룹 목록 조회 / 상세 보기
+
+```
+$ opmate usergroup list -id mygroup
+$ opmate usergroup view -id mygroup
+```
+
+### 사용자 그룹 편집
+
+```$ opmate usergroup edit -id mygroup -wi newgroup ```
+
 
 [목차](UserManual.md) / [이전페이지](UserManual2.md) / [다음페이지](UserManual4.md)
