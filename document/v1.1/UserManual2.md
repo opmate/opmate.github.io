@@ -26,13 +26,13 @@ $ opmate user view -id scott
 +-------------+---------------+
 | FIELD       | VALUE         |
 +-------------+---------------+
-| ID          | scott         |   <- 사용자 ID
-| NAME        | scott         |   <- 사용자 명
-| EMAIL       | scott@e.mail  |   <- 사용자 이메일
-| PHONE       | 010-1234-1234 |   <- 사용자 휴대전화
-| ROLE        | 3             |   <- 사용자 역할
-| STATUS      | disable       |   <- 사용자 활성상태
-| DESCRIPTION |               |   <- 사용자 설명
+| ID          | scott         |   ☞ 사용자 ID
+| NAME        | scott         |   ☞ 사용자 명
+| EMAIL       | scott@e.mail  |   ☞ 사용자 이메일
+| PHONE       | 010-1234-1234 |   ☞ 사용자 휴대전화
+| ROLE        | 3             |   ☞ 사용자 역할
+| STATUS      | disable       |   ☞ 사용자 활성상태
+| DESCRIPTION |               |   ☞ 사용자 설명
 +-------------+---------------+
 ```
 
