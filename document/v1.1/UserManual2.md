@@ -15,12 +15,16 @@ description: 2. 사용자
 
 - 사용자ID, 사용자명, 휴대전화, 이메일
 
-```$ opmate user create -id test -nm "테스트" -pn "010-1234-1234" -ea "test@test.com" ```
+```shell
+$ opmate user create -id test -nm "테스트" -pn "010-1234-1234" -ea "test@test.com" 
+```
 
 계정을 생성했다면, Level 0 의 관리자 권한을 가진 계정으로 생성한 계정을 활성화하여 사용을 시작한다.
  (ADMIN 이 신규 계정에 Role 부여 수행)
 
-```$ opmate user edit -id test -ro 0 ```
+```shell
+$ opmate user edit -id test -ro 0 
+```
 
 이제 생성된 계정으로 사용환경/방법에 따라 적절하게 권한 부여를 하여 사용한다.
 

@@ -14,7 +14,8 @@ OPMATE CLI 명령어는 `opmate <object> <action> <option>`의 형식으로 이�
 다음은 활용 예제입니다.
 
 opmate 에 어떤 object 가 있는지 확인합니다.
-```
+
+```shell
 $ opmate help
 usage: opmate <object> <action> [<arguments>|help]
 
@@ -32,7 +33,7 @@ usage: opmate <object> <action> [<arguments>|help]
 
 [object] user 에는 어떤 action 이 있는지 확인합니다.
 
-```
+```shell
 $ opmate user help
 usage: opmate user <action> [<arguments>|help]
 
@@ -49,7 +50,7 @@ usage: opmate user <action> [<arguments>|help]
 
 [action] list 에는 어떤 option 이 있는지 확인합니다.
 
-```
+```shell
 $ opmate user list help
 usage: opmate user list [-id <substring>] [-nm <substring>] [-ro <role-num>]
        [-st <E|D>] [-lm <number>] [-of <number>]

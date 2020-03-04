@@ -23,26 +23,29 @@ description: 3. 사용자그룹
 
 ### 사용자 그룹 생성
 
-```$ opmate usergroup create -id mygroup ```
+```shell
+$ opmate usergroup create -id mygroup 
+```
 
 ### 사용자 그룹 사용자 추가 / 삭제
 
-```
+```shell
 $ opmate usergroup adduser -id mygroup -ui user1
 $ opmate usergroup rmuser -id mygroup -ui user1
-
- ```
+```
 
 ### 사용자 그룹 목록 조회 / 상세 보기
 
-```
+```shell
 $ opmate usergroup list -id mygroup
 $ opmate usergroup view -id mygroup
 ```
 
 ### 사용자 그룹 편집
 
-```$ opmate usergroup edit -id mygroup -wi newgroup ```
+```shell
+$ opmate usergroup edit -id mygroup -wi newgroup
+```
 
 
 [목차](UserManual.md) / [이전페이지](UserManual2.md) / [다음페이지](UserManual4.md)

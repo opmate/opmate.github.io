@@ -6,20 +6,20 @@ title: 리눅스/유닉스용 에이전트 설치
 
 최신 버전의 설치 파일을 준비합니다.(e.g. opma-inst-1.1.001-20200301.tar.gz)
 
-```
+```shell
 $ ls
 opma-inst-1.1.001-20200301.tar.gz
 ```
 
 ## root 로 로그인
 
-```
+```shell
 $ su -
 ```
 
 ## 압축 해제 및 인스톨러 실행
 
-```
+```shell
 $ gunzip opma-inst-1.1.001-20200301.tar.gz
 $ tar -xvf opma-inst-1.1.001-20200301.tar
 $ cd opma-inst-1.1.001-20200301
@@ -30,7 +30,7 @@ $ ./install.sh
 
 설치할 경로를 입력하고, 출력되는 내용을 확인 후 설치를 진행합니다.
 
-```
+```shell
 Input installation directory (ex. /infsw/opma) : /infsw/opma
 ...
 Input 'yes' to proceed installation : yes
@@ -42,7 +42,7 @@ Input 'yes' to proceed installation : yes
 
 다음 예와 같이 올바른 마스터서버의 접속 정보(ex. 10.0.0.1)로 수정합니다.
 
-```
+```shell
 $ vi /infsw/opma/cfg/agent.conf
 master_ip = 10.0.0.1
 master_port = 34813
@@ -53,23 +53,23 @@ master_port = 34813
 인스톨러의 안내에 따라, OS 별로 다음과 같이 입력하여 OS 부팅시 자동으로 시작되도록 설정합니다.
 
 - CentOS 7.x 기준
-  ```
+  ```shell
   $ systemctl enable opmagent
   ```
 
 - CentOS 6.x/5.x 기준
-  ```
+  ```shell
   $ chkconfig --add opmagent
   ```
   
 - AIX 기준
-  ```
+  ```shell
   $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/S99opmagent
   $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/K01opmagent
   ```
   
 - SunOS 기준
-  ```
+  ```shell
   $ ln -s /etc/init.d/opmagent /etc/rc3.d/S99opmagent
   $ ln -s /etc/init.d/opmagent /etc/rc3.d/K01opmagent
   ```
@@ -81,22 +81,22 @@ master_port = 34813
 구동 후 로그 파일 (e.g. /infsw/opma/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
 
 - CentOS 7.x 기준
-  ```
+  ```shell
   $ systemctl start opmagent
   ```
 
 - CentOS 6.x/5.x 기준
-  ```
+  ```shell
   $ service opmagent start
   ```
 
 - AIX 기준
-  ```
+  ```shell
   $ /infsw/opma/bin/start.sh
   ```
   
 - SunOS 기준
-  ```
+  ```shell
   $ /infsw/opma/bin/start.sh
   ```
 

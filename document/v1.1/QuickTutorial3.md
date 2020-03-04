@@ -10,7 +10,7 @@ description: 노드 활성화
 
 우선, 노드의 목록을 조회해 보겠습니다.
 
-```
+```shell
 $ opmate node list
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +----------------------------------+-----------+------------+-------+----------+-------+------------------+---------+
@@ -28,7 +28,7 @@ ROWS COUNT : 2/2
 정상적으로 사용하기 위해서는 활성화(enable)시켜야 합니다.
 활성화하면서 너무 긴 ID도 줄여보겠습니다.
 
-```
+```shell
 $ opmate node edit -id 6FE9E69A10B44EBEAFC3A9F05078066C -wi linux01 -st E
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 6FE9E69A10B44EBEAFC3A9F05078066C has been modified successfully.
@@ -40,7 +40,7 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 
 다시 조회합니다.
 
-```
+```shell
 $ opmate node list
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +---------+-----------+------------+-------+----------+--------+------------------+--------+

@@ -6,7 +6,7 @@ title: 리눅스/유닉스용 에이전트 삭제
 
 ## root로 로그인
 
-```
+```shell
 $ su -
 ```
 
@@ -15,48 +15,48 @@ $ su -
 실행중인 에이전트를 중지시킵니다.
 
 - CentOS 7.x 기준
-```
+```shell
 $ systemctl stop opmagent
 ```
 - CentOS 6.x/5.x 기준
-```
+```shell
 $ service opmagent stop
 ```
 - AIX 기준
-```
+```shell
 $ /infsw/opma/bin/stop.sh
 ```
 - SunOS 기준
-```
+```shell
 $ /infsw/opma/bin/stop.sh
 ```
 
 ## 중지 상태 확인
 
-```
+```shell
 $ ps -ef | grep opmagent
 ```
 
 ## 서비스에서 제거
 
 - CentOS 7.x 기준
-```
+```shell
 $ systemctl disable opmagent
 $ rm /etc/systemd/system/opmagent.service
 ```
 - CentOS 6.x/5.x 기준
-```
+```shell
 $ chkconfig --del opmagent
 $ rm /etc/init.d/opmagent
 ```
 - AIX 기준
-```
+```shell
 $ rm /etc/rc.d/rc2.d/S99opmagent
 $ rm /etc/rc.d/rc2.d/K01opmagent
 $ rm /etc/rc.d/init.d/opmagent
 ```
 - SunOS 기준
-```
+```shell
 $ rm /etc/rc3.d/S99opmagent
 $ rm /etc/rc3.d/K01opmagent
 $ rm /etc/init.d/opmagent
@@ -66,7 +66,7 @@ $ rm /etc/init.d/opmagent
 
 에이전트가 설치된 디렉토리 전체를 삭제합니다.
 
-```
+```shell
 $ rm -rf /infsw/opma
 $ rm -f /usr/bin/opmfget
 $ rm -f /usr/bin/opmfput
