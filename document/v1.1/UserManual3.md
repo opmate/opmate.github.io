@@ -21,31 +21,24 @@ description: 3. 사용자그룹
 소유자는 그룹의 각종 속성, 소속 사용자 등을 변경하거나 삭제할 수 있으며,
 소유자를 다른 사용자로 변경할 수도 있다.
 
-### 사용자 그룹 생성
+### **참고**
 
 ```
-$ opmate usergroup create -id mygroup 
-```
+$ opmate usergroup view -id mygroup 
 
-### 사용자 그룹 사용자 추가 / 삭제
-
++-------------+--------------+
+| FIELD       | VALUE        |
++-------------+--------------+
+| [BASIS]     |              |
+|             |              |
+| ID          | mygroup      |      ☞ 사용자 그룹 ID
+| OWNER       | aa11         |      ☞ 사용자 그룹 소유자
+| DESCRIPTION |              |      ☞ 사용자 그룹 설명
+|             |              |      
+| [USERS]     |              |      ☞ 사용자 그룹 사용자정보
+|             | 하하하(bb11) |         (계정/이름)
+|             | haha(cc11)   |      
++-------------+--------------+      
 ```
-$ opmate usergroup adduser -id mygroup -ui user1
-$ opmate usergroup rmuser -id mygroup -ui user1
-```
-
-### 사용자 그룹 목록 조회 / 상세 보기
-
-```
-$ opmate usergroup list -id mygroup
-$ opmate usergroup view -id mygroup
-```
-
-### 사용자 그룹 편집
-
-```
-$ opmate usergroup edit -id mygroup -wi newgroup
-```
-
 
 [목차](UserManual.md) / [이전페이지](UserManual2.md) / [다음페이지](UserManual4.md)
