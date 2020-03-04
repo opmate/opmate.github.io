@@ -6,7 +6,6 @@ title: Guidance Document for V1.1
 
 - [튜토리얼](QuickTutorial.md)
 - [사용자 매뉴얼](UserManual.md)
-- [Command Line Usage](CliUsage.md)
 
 ## 운영 가이드
 
