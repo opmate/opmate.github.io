@@ -15,19 +15,26 @@ description: 2. 사용자
 
 - 사용자ID, 사용자명, 휴대전화, 이메일
 
-```
-$ opmate user create -id test -nm "테스트" -pn "010-1234-1234" -ea "test@test.com" 
-```
-
 계정을 생성했다면, Level 0 의 관리자 권한을 가진 계정으로 생성한 계정을 활성화하여 사용을 시작한다.
- (ADMIN 이 신규 계정에 Role 부여 수행)
-
-```
-$ opmate user edit -id test -ro 0 
-```
 
 이제 생성된 계정으로 사용환경/방법에 따라 적절하게 권한 부여를 하여 사용한다.
 
+> **참고**
+```
+$ opmate user view -id scott
+
++-------------+---------------+
+| FIELD       | VALUE         |
++-------------+---------------+
+| ID          | scott         |   <- 사용자 ID
+| NAME        | scott         |   <- 사용자 명
+| EMAIL       | scott@e.mail  |   <- 사용자 이메일
+| PHONE       | 010-1234-1234 |   <- 사용자 휴대전화
+| ROLE        | 3             |   <- 사용자 역할
+| STATUS      | disable       |   <- 사용자 활성상태
+| DESCRIPTION |               |   <- 사용자 설명
++-------------+---------------+
+```
 
 ### 역할 (Role)
 
