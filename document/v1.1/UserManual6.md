@@ -16,6 +16,44 @@ description: 6. 태스크
 태스크의 주요 구성 정보는 다음과 같다.
 > 태스크ID, 스크립트(Script), 대상 노드(Target Node), 스케쥴(Schedule), 실행 방식, 실행 권한, 다음 태스크(Next Task), 소유자(Owner)
 
+```
++-------------------+---------------------------------+
+| FIELD             | VALUE                           |
++-------------------+---------------------------------+
+| [BASIS]           |                                 |
+|                   |                                 |
+| ID                | check_user_account              |   ☞ 태스크ID
+| REVISION          | 6                               |
+| OWNER             | bumbee                          |   ☞ 소유자(Owner)
+| SCRIPT            | cat_passwd.sh                   |   ☞ 스크립트(Script)
+| OS USER           | root                            |
+| BY SCHEDULER      | enable                          |   ☞ 실행 방식
+| BY ONDEMAND       | enable                          |   ☞ 실행 방식
+| BY TASK           | disable                         |   ☞ 실행 방식
+| NEXT TASK         |                                 |   ☞ 다음 태스크(Next Task)
+| APPRV STATUS      | approval                        |
+| APPRV REQ REASON  |                                 |
+| APPRV RJT REASON  |                                 |
+| APPRV USER        | oprim                           |
+| APPRV CHANGE DATE | 2020/03/02 10:55                |
+| DESCRIPTION       | Reading etc/passwd file         |
+|                   |                                 |
+| CREATE DATE       | 2020/02/28 16:48                |
+| CREATE USER       | bumbee                          |
+| UPDATE DATE       | 2020/03/02 10:21                |
+| UPDATE USER       | bumbee                          |
+|                   |                                 |
+| [SCHEDULES]       |                                 |   ☞ 스케쥴(Schedule)
+|                   | yearly01(yearly, */01/01 01:20) |
+|                   |                                 |
+| [RUNNERS]         |                                 |   ☞ 실행 권한
+|                   | oprim(user)                     |
+|                   |                                 |
+| [TARGETS]         |                                 |   ☞ 대상 노드(Target Node)
+|                   | linux_tomcat(node-group)        |
++-------------------+---------------------------------+
+```
+
 ### 스크립트 (Script)
 
 스크립트가 기술된 파일(bash 쉘스크립트 파일 등)과 해당 스크립트를 실행할 사용자명(OS의 계정명)을 등록한다.
