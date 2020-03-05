@@ -16,6 +16,32 @@ description: 7. 태스크 인스턴스
 
 태스크 인스턴스 번호와 노드를 지정하면 태스크 인스턴스의 노드별 상세를 확인할 수 있다. 각 노드별로 다음과 같은 속성값을 가지고 있다.
 
+```
++------------------+---------------------+
+| FIELD            | VALUE               |
++------------------+---------------------+
+| TASK INSTANCE NO | 5                   |
+| TASK ID          | top                 |
+| NODE ID          | linux1              |
+| EXEC NO          | 1                   |
+| STATUS           | Complete            |     ☞ 진행 상태
+| START DT         | 2020/03/03 15:08:04 |
+| END DT           | 2020/03/03 15:08:04 |
+| RUNNER           | scott(user)         |
+| RESULT           | Success             |     ☞ 실행 결과
+| EXIT CD          | 0                   |     ☞ 실행 결과 코드
++------------------+---------------------+
+
+[Standard error]                               ☞ 표준에러
+No content.
+
+[Standard output]                              ☞ 표준출력
+Tasks: 108 total,   1 running, 107 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  1014972 total,   407180 free,   350032 used,   257760 buff/cache
+KiB Swap:  2097148 total,  2097148 free,        0 used.   494512 avail Mem 
+```
+
 >**진행 상태**<br>
 >- 준비 : 노드에 아직 실행 요청을 보내기 전 상태<br>
 >- 요청(실행중) : 노드에 실행 요청을 보낸 상태<br>
