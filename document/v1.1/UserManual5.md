@@ -14,6 +14,8 @@ description: 5. 노드 그룹
 > 노드그룹ID, 소유자(Owner), 속성(Attribute), 포함 노드, 설명
 
 ```
+$ opmate nodegroup view -id linux_tomcat
+
 +--------------+--------------------------+
 | FIELD        | VALUE                    |
 +--------------+--------------------------+

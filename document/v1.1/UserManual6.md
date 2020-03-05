@@ -17,6 +17,8 @@ description: 6. 태스크
 > 태스크ID, 스크립트(Script), 대상 노드(Target Node), 스케쥴(Schedule), 실행 방식, 실행 권한, 다음 태스크(Next Task), 소유자(Owner)
 
 ```
+$ opmate task view -id check_user_account
+
 +-------------------+---------------------------------+
 | FIELD             | VALUE                           |
 +-------------------+---------------------------------+
