@@ -79,7 +79,7 @@ description: 6. 태스크
 | --- | ---------------------- | ----------------- |
 | 매시 | mm분                                  | mm : 00 ~ 59      |
 | 매일 | hh시 mm분                           | hh : 00 ~ 23      |
-| 매주 | WWW hh시 mm분                    | WWW : sun|mon|tue|wed|thu|fri|sat |
+| 매주 | WWW hh시 mm분                    | WWW : sun\|mon\|tue\|wed\|thu\|fri\|sat |
 | 매월 | DD일 hh시 mm분                    | DD : 01 ~ 31      |
 | 매년 | MM월 DD일 hh시 mm분             | MM : 01 ~ 12      |
 | 한번 | YYYY년 MM월 DD일 hh시 mm분  | YYYY : 2000~9999  |
