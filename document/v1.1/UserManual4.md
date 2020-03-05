@@ -21,12 +21,12 @@ description: 4. 노드
 | CONNECT IP    | 192.168.XX.XX                                |   ☞ IP주소
 | OS            | Linux                                        |   ☞ OS종류
 | HOSTNAME      | linux01                                      |   ☞ 호스트명
-| OWNER         | admin                                        |   ☞ 소유자(Owner)
+| OWNER         | bumbee                                       |   ☞ 소유자(Owner)
 | STATUS        | enable                                       |   ☞ 활성상태
 | GUID          | f66ec379-4927-48d4-ac8b-0129ab7d4f2c         |   ☞ GUID
 | HEARTBEAT     | 2020/03/05 10:03                             |
 | CREATE        | 2019/12/12 13:49                             |
-| DESCRIPTION   | linux01 for test                             |
+| DESCRIPTION   | linux01 for Test                             |
 |               |                                              |
 | UPDATE DATE   | 2020/03/03 09:53                             |
 | UPDATE USER   | admin                                        |
