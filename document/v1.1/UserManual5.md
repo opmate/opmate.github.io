@@ -13,6 +13,30 @@ description: 5. 노드 그룹
 하나의 노드 그룹은 다음과 같은 정보로 구성된다.
 > 노드그룹ID, 소유자(Owner), 속성(Attribute), 포함 노드, 설명
 
+```
++--------------+--------------------------+
+| FIELD        | VALUE                    |
++--------------+--------------------------+
+| [BASIS]      |                          |
+|              |                          |
+| ID           | linux_tomcat             |   ☞ 노드그룹ID
+| OWNER        | bumbee                   |   ☞ 소유자(Owner)
+| DESCRIPTION  | Installed Tomcat         |
+|              |                          |
+| CREATE DATE  | 2020/02/24 11:08         |
+| CREATE USER  | bumbee                   |
+| UPDATE DATE  | 2020/02/24 11:08         |
+| UPDATE USER  | bumbee                   |
+|              |                          |
+| [NODES]      |                          |   ☞ 포함 노드
+|              | linux01                  |
+|              | linux02                  |
+|              | linux07                  |
+| [ATTRIBUTES] |                          |   ☞ 속성(Attribute)
+|              | TOMCAT_HOME=/home/tomcat |
++--------------+--------------------------+
+```
+
 태스크를 정의할 때 다수 노드를 쉽게 추가하기 위해 사용할 수 있으며, 공통 속성을 정의하기 위해 사용할 수 있다.
 
 OS의 종류/버전 또는 태스크 수행의 목적이나 Host의 용도 등에 따라서 적절한 그룹을 생성하고 유지관리하는 것은 
