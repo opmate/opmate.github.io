@@ -22,12 +22,12 @@ description: 7. 태스크 인스턴스
 +------------------+---------------------+
 | TASK INSTANCE NO | 5                   |
 | TASK ID          | top                 |
-| NODE ID          | opma1               |
+| NODE ID          | linux1              |
 | EXEC NO          | 1                   |
 | STATUS           | Complete            |     ☞ 진행 상태
 | START DT         | 2020/03/03 15:08:04 |
 | END DT           | 2020/03/03 15:08:04 |
-| RUNNER           | admin(user)         |
+| RUNNER           | scott(user)         |
 | RESULT           | Success             |     ☞ 실행 결과
 | EXIT CD          | 0                   |     ☞ 실행 결과 코드
 +------------------+---------------------+
