@@ -32,12 +32,12 @@ $ opmate usergroup view -id mygroup
 | [BASIS]     |              |
 |             |              |
 | ID          | mygroup      |      ☞ 사용자 그룹 ID
-| OWNER       | aa11         |      ☞ 사용자 그룹 소유자
+| OWNER       | myaccount    |      ☞ 사용자 그룹 소유자
 | DESCRIPTION |              |      ☞ 사용자 그룹 설명
 |             |              |      
 | [USERS]     |              |      ☞ 사용자 그룹 사용자정보
-|             | 하하하(bb11) |         (계정/이름)
-|             | haha(cc11)   |      
+|             | 계정1(user1) |         (계정/이름)
+|             | 계정2(user2) |      
 +-------------+--------------+      
 ```
 
