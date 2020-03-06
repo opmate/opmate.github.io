@@ -16,27 +16,39 @@ description: 3. 사용자그룹
 
 하나의 사용자 그룹은 다음과 같은 정보로 구성된다.
 
-> 사용자그룹ID, 소유자(Owner), 설명, 포함 사용자정보(계정/이름)
+> 사용자그룹ID, 소유자(Owner), 설명, 포함 사용자정보(멤버)
 
 ```
-$ opmate usergroup view -id mygroup 
+$ opmate usergroup view -id mw_user_grp01 
 
-+-------------+--------------+
-| FIELD       | VALUE        |
-+-------------+--------------+
-| [BASIS]     |              |
-|             |              |
-| ID          | mygroup      |      ☞ 사용자 그룹 ID
-| OWNER       | myaccount    |      ☞ 사용자 그룹 소유자
-| DESCRIPTION |              |      ☞ 사용자 그룹 설명
-|             |              |      
-| [USERS]     |              |      ☞ 사용자 그룹 사용자정보
-|             | 계정1(user1) |         (계정/이름)
-|             | 계정2(user2) |      
-+-------------+--------------+      
++-------------+----------------------+
+| FIELD       | VALUE                |
++-------------+----------------------+
+| [BASIS]     |                      |
+|             |                      |
+| ID          | mw_user_grp01        |      ☞ 사용자그룹ID
+| OWNER       | oprim                |      ☞ 소유자(Owner)
+| DESCRIPTION | Tomcat Operators.    |      ☞ 설명
+|             |                      |
+| CREATE DATE | 2020/02/10 11:08     |
+| CREATE USER | oprim                |
+| UPDATE DATE | 2020/02/10 11:15     |
+| UPDATE USER | oprim                |
+|             |                      |      
+| [USERS]     |                      |      ☞ 사용자정보(멤버)
+|             | Optimus Prime(oprim) |      
+|             | Bumblebee(bumbee)    |
++-------------+----------------------+
 ```
 
-소유자는 그룹의 각종 속성, 소속 사용자 등을 변경하거나 삭제할 수 있으며,
-소유자를 다른 사용자로 변경할 수도 있다.
+소유자는 자신이 소유하고 있는 사용자 그룹의 사용자(멤버)를 구성할 수 있는 권한을 가진다.
+ 
+이외에도 사용자 그룹의 속성을 변경할 수 있으며, 소유권을 다른 사용자에게 이전 시킬 수도 있다.
+
+아래는 CLI 명령을 이용하여 *mw_user_grp01* 사용자 그룹에 *bumbee* 라는 ID를 가진 사용자를 추가하는 예를 보여주고 있다.
+
+```
+$ opmate usergroup adduser -id mw_user_grp01 -ui bumbee
+```
 
 [목차](UserManual.md) / [이전페이지](UserManual2.md) / [다음페이지](UserManual4.md)
