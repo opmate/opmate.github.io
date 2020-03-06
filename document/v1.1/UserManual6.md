@@ -24,10 +24,10 @@ $ opmate task view -id check_user_account
 +-------------------+---------------------------------+
 | [BASIS]           |                                 |
 |                   |                                 |
-| ID                | check_user_account              |   ☞ 태스크ID
+| ID                | diskusage                       |   ☞ 태스크ID
 | REVISION          | 6                               |
 | OWNER             | bumbee                          |   ☞ 소유자(Owner)
-| SCRIPT            | cat_passwd.sh                   |   ☞ 스크립트(Script)
+| SCRIPT            | diskusage.sh                    |   ☞ 스크립트(Script)
 | OS USER           | root                            |
 | BY SCHEDULER      | enable                          |   ☞ 실행 방식
 | BY ONDEMAND       | enable                          |   ☞ 실행 방식
@@ -71,6 +71,13 @@ $ opmate task view -id check_user_account
 
 노드 또는 노드 그룹으로 추가할 수 있으며, 노드와 노드 그룹을 혼용하여 지정할 수도 있다. 
 *(노드 A가 노드 그룹 G1/G2에 모두 속해 있더라도, 태스크에 노드 그룹 G1/G2를 지정할 수 있다.)* 
+
+아래의 그림은 사용자가 지정한 대상에 대해서, OPMATE가 실제 태스크 수행시에 대상을 어떻게 관리하는지 보여주고 있다.
+
+사용자는 노드그룹 G1/G2를 태스크의 대상으로 지정했으며, 두 개의 노드그룹에서 노드A는 중복 지정되어 있다.*(그림 좌측)*
+이러한 경우, OPMATE는 태스크의 수행 대상 노드를 합집합의 형태로 관리하게 된다.*(그림 우측)*
+
+![Target_Node](../../img/target.png)
 
 ### 스케쥴 (Schedule)
 
