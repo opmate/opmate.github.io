@@ -18,11 +18,6 @@ description: 3. 사용자그룹
 
 > 사용자그룹ID, 소유자(Owner), 설명, 포함 사용자정보(계정/이름)
 
-소유자는 그룹의 각종 속성, 소속 사용자 등을 변경하거나 삭제할 수 있으며,
-소유자를 다른 사용자로 변경할 수도 있다.
-
-### **참고**
-
 ```
 $ opmate usergroup view -id mygroup 
 
@@ -40,5 +35,8 @@ $ opmate usergroup view -id mygroup
 |             | 계정2(user2) |      
 +-------------+--------------+      
 ```
+
+소유자는 그룹의 각종 속성, 소속 사용자 등을 변경하거나 삭제할 수 있으며,
+소유자를 다른 사용자로 변경할 수도 있다.
 
 [목차](UserManual.md) / [이전페이지](UserManual2.md) / [다음페이지](UserManual4.md)
