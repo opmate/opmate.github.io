@@ -39,11 +39,10 @@ $ opmate node view -id linux01
 
 노드는 별도의 등록 작업없이, 에이전트를 설치한 후 에이전트의 최초 기동시에 **자동으로 등록**된다.
 
-등록된 노드는 고유의 *GUID*가 자동으로 부여되고, *노드ID* 역시 GUID와 유사하게 자동 부여된다.
-GUID와 노드ID는 유사한 개념이나, 주체에 따라서 구분되어 진다.
+등록된 노드는 고유의 *GUID*가 자동으로 부여되고, *노드ID* 역시 GUID와 유사하게 자동 부여된다. GUID와 노드ID는 유사한 개념이나 주체에 따라서 구분되어 진다.
 
-- **GUID** &nbsp;&nbsp;&nbsp;: *OPMATE가 시스템의 입장에서 각 노드를 인지하지 위한 고유식별자*
-- **노드ID** : *OPMATE의 사용자가 각 노드를 인지하기 위한 고유식별자*
+- **GUID** &nbsp;&nbsp;&nbsp;: OPMATE가 시스템의 입장에서 각 노드를 인지하지 위한 고유식별자
+- **노드ID** : OPMATE의 사용자가 각 노드를 인지하기 위한 고유식별자
 
 또한, 에이전트버전 / 호스트명 / IP주소 / OS종류와 같은 속성들은 에이전트에서 자동 수집하여 마스터로 전달하고 저장한다.
 
@@ -58,17 +57,21 @@ GUID와 노드ID는 유사한 개념이나, 주체에 따라서 구분되어 진
 하지만, 호스트명은 중복될 가능성이 있기 때문에, 노드ID도 중복되어 변경이 실패할 수 있다.
 이러한 경우, 호스트명과 다른 문자를 조합하여 *고유한 노드ID로 부여*하는 것을 권장한다.
 
+아래의 예시는 OPMATE의 CLI 명령어를 통해서 에이전트 최초 기동시에 자동 부여된 노드ID를 사용자가 인지하기 쉽도록 변경하고 노드를 활성상태로 변경 시키고 있다.
+**DF9CAC56C0D441778CFBF3CCDFEAAC0D** 는 자동 등록시에 중복을 피하기 위해 복잡한 난수 형태로 부여된 값이기에, 사용자에게 친숙한 **linux01** 로 변경하는 것이다. 
+
 ```
-$ opmate node edit -id DF9CAC56C0D441778CFBF3CCDFEAAC0D -wi myhost -st E
+$ opmate node edit -id DF9CAC56C0D441778CFBF3CCDFEAAC0D -wi linux01 -st E
 ```
 
 소유자가 지정되지 않은 노드는 작업자 이상의 권한을 가지고 있는 사용자가 변경할 수 있다.
 이때, 별도로 지정하지 않는다면 *처음 변경한 사용자*가 해당 노드의 **소유자(Owner)**가 된다.
 
 소유자는 노드의 정보를 변경할 수 있으며, 소유자를 다른 사용자로 변경할 수도 있다.
+아래의 예시는 CLI 명령어를 통해서 **linux01** 노드의 소유자를 **bumbee** 로 변경하고 있다.
 
 ```
-$ opmate node edit -id DF9CAC56C0D441778CFBF3CCDFEAAC0D -oi scott
+$ opmate node edit -id linux01 -oi bumbee
 ```
 
 단, 노드의 삭제와 비활성화는 관리자만 가능하다.
@@ -78,8 +81,10 @@ $ opmate node edit -id DF9CAC56C0D441778CFBF3CCDFEAAC0D -oi scott
 노드를 비활성화하면 해당 노드가 태스크의 대상 노드(Target Node)로 등록되어 있더라도, 태스크 실행시에 대상에서 제외된다.
 특수한 상황으로 인하여, 해당 노드에 어떠한 태스크라도 수행되는 것을 막고 싶을 경우에 유용하다.
 
+관리자는 아래와 같은 CLI 명령으로 **linux01** 노드에서의 모든 태스크 실행을 막을 수 있다.
+
 ```
-$ opmate node edit -id myhost -st D
+$ opmate node edit -id linux01 -st D
 ```
 
 [목차](UserManual.md) / [이전페이지](UserManual3.md) / [다음페이지](UserManual5.md)
