@@ -11,6 +11,6 @@ title: 사용자 매뉴얼
 - [7. 태스크 인스턴스](UserManual7.md)
 - [8. 파일 배포/수집](UserManual8.md)
 - [별첨 #1. CLI 사용법 개요](UserManual9.md)
-- [별첨 #2. 스크립트 작성 시 예약어 사용법](UserManual10.md)
+- [별첨 #2. 스크립트 작성 시 예약어 사용](UserManual10.md)
 
 ![Alt text](/img/opmate-small.png)
