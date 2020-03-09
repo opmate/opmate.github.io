@@ -19,7 +19,20 @@ OPMATE CLI 는 object, action, arguments 의 3가지 레벨로 구성되어 있�
 >> **action** : 지정한 object 에 대해서 수행하려는 명령.(생성/수정/삭제/목록 조회/상세보기 등)<br>
 >> **arguments** : action 에 종속적인 옵션(파라미터)
 
-### help 명령어 사용법
+CLI 의 명령어들은 OS 의 프롬프트에서 제공하는 다양한 명령어들과 적절히 결합하여, 연속적인 질의를 하거나 원하는 결과 만을 취합하는 형태로의 사용이 가능하다.
+*(Linux 의 Shell 스크립트 내에서의 사용 등이 가능)*
+
+다음은 Linux OS에서 OPMATE CLI 명령어와 grep 명령어를 결합하여, *linux_tomcat* 노드 그룹의 조회 결과 중 *prod* 키워드를 포함하는 노드ID 만을 출력한다. 
+
+```
+$ opmate nodegroup view -id linux_tomcat | grep 'prod'
+|              | linux-prodap01 |
+|              | linux-prodap02 |
+|              | linux-proddb01 |
+|              | linux-proddb02 |
+```
+
+### help 명령어
 
 CLI 에서는 적절한 명령어를 입력하지 않으면, 잘못된 입력에 대해서 적절한 명령을 입력할 수 있도록 사용자에게 CLI 의 사용법을 보여준다.
 
@@ -93,5 +106,71 @@ option 은 위의 예시에서 보이는 바와 같이, Short/Long option name �
 *(Short : Single Dash, Long : Double Dash)*
 
 위와 같이 OPMATE CLI 는 help 키워드를 통해서 사용법을 확인하고 직관적으로 사용할 수 있도록 단순한 커맨드 조합으로 구성되어 있다.
+
+### 조회 명령
+
+OPMATE object 들에 대한 조회는 대부분 view 또는 list 명령(action)으로 수행할 수 있다.
+아래에서 view와 list의 차이에 대해서 설명한다.
+
+#### view (상세조회)
+
+view 명령은 특정 object의 지정한 ID(key)에 해당하는 상세정보를 출력한다.
+
+ID는 중복을 허용하지 않는 Unique 한 값이며, 사용자가 입력한 ID로 OPMATE에 등록된 object를 조회하여 그에 해당하는 상세 정보를 출력한다.
+*(일부 상세정보가 필요치 않은 object에 대해서는 view 명령을 제공하지 않는다.)*
+
+다음의 예시와 같이 view 명령의 결과는 **FIELD/VALUE** 의 쌍으로 출력되며, 좌측은 FIELD(항목명)를 우측은 VALUE(값)을 보여준다.  
+
+```
+$ opmate user view -id bumbee
+
++-------------+------------------+
+| FIELD       | VALUE            |
++-------------+------------------+
+| ID          | bumbee           |
+| NAME        | Bumblebee        |
+| EMAIL       | bumbee@email.com |
+| PHONE       | 010-2222-2222    |
+| ROLE        | 2                |
+| STATUS      | enable           |
+| DESCRIPTION |                  |
+|             |                  |
+| CREATE DATE | 2020/03/06 13:48 |
+| CREATE USER |                  |
+| UPDATE DATE | 2020/03/06 13:48 |
+| UPDATE USER |                  |
++-------------+------------------+
+```
+
+#### list (목록조회)
+
+list 명령은 특정 object 에 등록된 목록을 출력한다.
+
+list 명령은 각종 옵션과 같이 사용가능 하며, 옵션에 지정한 항목에 따라서 유사어 검색(like) 또는 일치 검색(exact) 된다.
+
+조회 결과는 기본 30건까지만 출력되지만, 아래의 옵션을 지정하여 전체 목록 중 부분 출력(페이징)도 가능하다.
+
+>-lm(--limit) : 조회 건수를 지정한다. 지정하지 않으면 30건(default 30) 출력하고, 0을 입력하면 전체 목록을 출력한다.
+
+>-of(--offset) : 조회의 시작점을 지정한다. 지정하지 않으면 첫번째 항목(default 0)부터 출력하고, 양의 정수를 입력하면 해당 항목부터 출력한다.
+
+limit와 offset 옵션을 통해서 ***"특정 항목부터(offset) 몇 개(limit)"*** 의 형태로 출력을 지정할 수 있다. 
+
+다음의 예시와 같이 list 명령의 결과는 Grid 형태로 출력되며, **상단(첫 줄)에 항목명을 출력**하고 **이하에는 조회된 목록을 출력**한다.
+출력된 결과의 최하단에는 ***"화면출력건수/전체조회건수"*** 의 형식으로 조회의 결과 건수가 출력된다.
+
+```
+$ opmate user list -st E
+
++--------+---------------+------+--------+
+| ID     | NAME          | ROLE | STATUS |
++--------+---------------+------+--------+
+| admin  | admin         | 0    | enable |
+| oprim  | Optimus Prime | 1    | enable |
+| bumbee | Bumblebee     | 2    | enable |
++--------+---------------+------+--------+
+
+ROWS COUNT : 3/3
+```
 
 [목차](UserManual.md) / [이전페이지](UserManual8.md) / [다음페이지](UserManual10.md)
