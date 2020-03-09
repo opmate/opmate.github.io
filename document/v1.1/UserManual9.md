@@ -14,7 +14,7 @@ OPMATE CLI 는 object, action, arguments 의 3가지 레벨로 구성되어 있�
 
 사용자는 다음과 같은 형식으로 OS 명령 프롬프트에 질의할 수 있다.
 
->opmate &lt;object&gt; &lt;action&gt; [&lt;arguments&gt;|help]<br>
+>$ opmate &lt;object&gt; &lt;action&gt; [&lt;arguments&gt;|help]<br>
 >> **object** : OPMATE 를 구성하는 주요 요소들의 집합.(사용자/노드/태스크 등)<br>
 >> **action** : 지정한 object 에 대해서 수행하려는 명령.(생성/수정/삭제/목록 조회/상세보기 등)<br>
 >> **arguments** : action 에 종속적인 옵션(파라미터)
