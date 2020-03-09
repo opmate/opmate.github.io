@@ -3,7 +3,7 @@ title: 사용자 매뉴얼
 description: 8. 파일 배포/수집
 ---
 
-[목차](UserManual.md) / [이전페이지](UserManual7.md) / [다음페이지](UserManual.md)
+[목차](UserManual.md) / [이전페이지](UserManual7.md) / [다음페이지](UserManual9.md)
 
 ## 파일 배포/수집
 
@@ -37,4 +37,4 @@ $ opmfput master:/mydir/node1/server.cfg /home/web/apache/server.cfg
 ```
 
 
-[목차](UserManual.md) / [이전페이지](UserManual7.md) / [다음페이지](UserManual.md)
+[목차](UserManual.md) / [이전페이지](UserManual7.md) / [다음페이지](UserManual9.md)
