@@ -45,7 +45,7 @@ CLI 의 사용법은 **object, action, arguments** 의 각 레벨에 따라서 �
 ```
 $ opmate help
 
-usage: opmate <object> <action> [<arguments>|help]
+usage: opmate \<object\> \<action\> [\<arguments\>|help]
 
 [objects]
         user          Operator or service account that uses OPMATE with given roles.
