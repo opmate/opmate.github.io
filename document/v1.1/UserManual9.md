@@ -1,6 +1,6 @@
 ---
 title: 사용자 매뉴얼
-description: 별첨 #1. CLI 사용법 개요
+description: 별첨  &#35;1. CLI 사용법 개요
 ---
 
 [목차](UserManual.md) / [이전페이지](UserManual8.md) / [다음페이지](UserManual10.md)
