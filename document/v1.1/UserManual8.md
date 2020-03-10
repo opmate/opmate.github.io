@@ -28,13 +28,13 @@ File Repository 의 데이터는 일정 기간이 경과하면 자동 삭제되�
 태스크에 정의된 스크립트에서는 아래의 세가지 OPMATE 파일 유틸리티의 사용이 가능하다.
 
 >**opmfls** : File Repository 의 파일 조회<br>
->Usage : opmfls <token> <master:/master-directory-path> [glob]
+>Usage : opmfls &lt;token&gt; &lt;master:/master-directory-path&gt; [glob]
 
 >**opmfput** : File Repository 로의 파일 업로드<br>
-Usage : opmfput [--overwrite] <token> <master:/master-file-path> <local-file-path>
+Usage : opmfput [--overwrite] &lt;token&gt; &lt;master:/master-file-path&gt; &lt;local-file-path&gt;
 
 >**opmfget** : File Repository 에서 파일 다운로드<br>
-Usage : opmfget [--overwrite] <token> <master:/master-file-path> [local-file-path]
+Usage : opmfget [--overwrite] &lt;token&gt; &lt;master:/master-file-path&gt; [local-file-path]
 
 파일 조회는 사용자가 지정한 원격 경로(File Repository)에 존재하는 파일의 목록을 보여주며, 이 때 하위 디렉토리 및 그에 속한 파일은 조회할 수 없다. *(서버 보안 유지)*<br>
 조회대상 파일명에는 glob 패턴을 사용할 수 있다.(glob : 와일드카드 문자로 여러 파일 이름의 집합을 지정. Unix 계열 환경에서 사용되는 것과 동일함.)
@@ -57,7 +57,7 @@ Usage : opmfget [--overwrite] <token> <master:/master-file-path> [local-file-pat
 
 token="@OPM_ATTR.FILE_TOKEN@"
 
-opmfget **$token** master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz
+opmfget $token master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz
 ```
 
 어떠한 태스크에서는 태스크에 지정된 스크립트에서 별도의 백그라운드 프로세스를 호출하여, 태스크 종료 후에도 태스크와 관련된 수행이 지속될 수 있다.
