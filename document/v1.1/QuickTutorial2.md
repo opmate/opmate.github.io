@@ -1,6 +1,6 @@
 ---
 title: Tutorial
-description: 사용자 계정 생성 및 로그인
+description: 계정 생성 및 로그인
 ---
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial1.md) / [다음페이지](QuickTutorial3.md)
