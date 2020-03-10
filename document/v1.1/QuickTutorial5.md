@@ -40,7 +40,7 @@ Requesting https://127.0.0.1:8443/opmate;user=oprim
 +---------+-----------+--------+------------+------------------+
 | TYPE    | ID        | OWNER  | APPRV USER | APPRV UPDATED AT |
 +---------+-----------+--------+------------+------------------+
-| Receive | diskusage | bumbee | oprim      | 2020/03/10 12:59 |
+| Receive | diskusage | bumbee | oprim      | 2020/03/14 14:10 |
 +---------+-----------+--------+------------+------------------+
 
 ROWS COUNT : 1
@@ -60,37 +60,42 @@ diskusage has been approved successfully.
 ```
 $ opmate task view -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
-+------------------+---------------+
-| FIELD            | VALUE         |
-+------------------+---------------+
-| [BASIS]          |               |
-|                  |               |
-| ID               | diskusage     |
-| REVISION         | 1             |
-| OWNER            | bumbee        |
-| SCRIPT           | diskusage.sh  |
-| OS USER          | root          |
-| BY SCHEDULER     | disable       |
-| BY ONDEMAND      | enable        |
-| BY TASK          | disable       |
-| NEXT TASK        |               |
-| APPRV STATUS     | approval      |
-| APPRV REQ REASON |               |
-| APPRV RJT REASON |               |
-| APPRV USER       | oprim         |
-| DESCRIPTION      |               |
-|                  |               |
-| [SCHEDULES]      |               |
-|                  |               |
-| [RUNNERS]        |               |
-|                  |               |
-| [TARGETS]        |               |
-|                  | linux01(Node) |
-|                  | linux02(Node) |
-+------------------+---------------+
++------------------+------------------+
+| FIELD            | VALUE            |
++------------------+------------------+
+| [BASIS]          |                  |
+|                  |                  |
+| ID               | diskusage        |
+| REVISION         | 1                |
+| OWNER            | bumbee           |
+| SCRIPT           | diskusage.sh     |
+| OS USER          | root             |
+| BY SCHEDULER     | disable          |
+| BY ONDEMAND      | enable           |
+| BY TASK          | disable          |
+| NEXT TASK        |                  |
+| APPRV STATUS     | approved         |
+| APPRV REQ REASON |                  |
+| APPRV RJT REASON |                  |
+| APPRV USER       | oprim            |
+| APPRV UPDATED AT | 2020/03/14 14:21 |
+| DESCRIPTION      |                  |
+| CREATED AT       | 2020/03/14 14:01 |
+| CREATED BY       | bumbee           |
+| UPDATED AT       | 2020/03/14 14:01 |
+| UPDATED BY       | bumbee           |
+|                  |                  |
+| [SCHEDULES]      |                  |
+|                  |                  |
+| [RUNNERS]        |                  |
+|                  |                  |
+| [TARGETS]        |                  |
+|                  | linux01(Node)    |
+|                  | linux02(Node)    |
++------------------+------------------+
 ```
 
-리비젼(REVISION)은 1로 바뀌어 있고, 승인상태(APPRV STATUS)도 승인(approval)으로 변경되었네요.
+리비젼(REVISION)은 1로 바뀌어 있고, 승인상태(APPRV STATUS)도 승인(approved)으로 변경되었네요.
 자, 이제 이 태스크를 실행할 준비가 되었습니다.
 
 [첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial4.md) / [다음페이지](QuickTutorial6.md)
