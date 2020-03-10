@@ -17,15 +17,15 @@ Repository에 저장된 파일은 일정 기간 후 자동으로 삭제된다.
 ## 보안성 강화 조치 적용
 
 opmfile 유틸리티(opmfget, opmfput, opmfls) 사용 시, 토큰 방식을 통해 태스크 스크립트 외에서 실행 가능한 취약점을 강화한다.
-즉, Task 만들 때 토큰 설정을 해주고 해당 Task를 수행하면 Agent 가 받아 유효한 토큰으로 변경하고 실행한다.
+Task 만들 때 토큰 설정을 해주고 해당 Task를 수행하면 Agent 가 받아 유효한 토큰으로 변경하고 실행한다.
 
 사용자는 Task에서 opmfile 유틸리티를 쓸 때 아래와 같은 내용을 추가한다.
 
-- #!/bin/sh
-- 
-- token="@OPM_ATTR.FILE_TOKEN@"
-- 
-- opmfget **$token** master:/mydir/patch.tar.gz
+> #!/bin/sh
+> 
+> token="@OPM_ATTR.FILE_TOKEN@"
+> 
+> opmfget **$token** master:/mydir/patch.tar.gz
 
 그러면, Task 실행 전 에이전트가 스크립트를 전처리하여 치환하고, 그 토큰은 **태스크가 실행 중인 시간에만 유효**하도록 적용된다.
 
@@ -38,7 +38,7 @@ opmfile 유틸리티(opmfget, opmfput, opmfls) 사용 시, 토큰 방식을 통�
 노드의 /home/was/install-tomcat-1.0.tar.gz 에 저장하는 명령이다.
 
 ```
-          ☞토큰 ☞ 마스터서버의 가상 절대 경로      ☞ 로컬서버의 절대 경로
+          ☞토큰 ☞ 마스터서버의 가상 절대 경로       ☞ 로컬서버의 절대 경로
 $ opmfget $token master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz
 ```
 
@@ -50,7 +50,7 @@ $ opmfget $token master:/mydir/install-apache.tar.gz /home/web/install-apache.ta
 마스터 서버 Repository의 /mydir/node1/server.cfg 에 저장하는 명령이다.
 
 ```
-          ☞토큰 ☞ 마스터서버의 가상 절대 경로 ☞ 로컬서버의 절대 경로
+          ☞토큰 ☞ 마스터서버의 가상 절대 경로  ☞ 로컬서버의 절대 경로
 $ opmfput $token master:/mydir/node1/server.cfg /home/web/apache/server.cfg
 ```
 
@@ -61,7 +61,7 @@ $ opmfput $token master:/mydir/node1/server.cfg /home/web/apache/server.cfg
 다음 예제는, 마스터 서버 Repository 의 /mydir/node1/server.cfg 파일이 있는지 확인하는 명령이다.
 
 ```
-         ☞토큰 ☞ 마스터서버의 가상 절대 경로
+         ☞토큰  ☞ 마스터서버의 가상 절대 경로
 $ opmfls $token master:/mydir/node1/server.cfg
 ```
 
