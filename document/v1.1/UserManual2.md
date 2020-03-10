@@ -22,7 +22,7 @@ $ opmate user view -id bumbee
 | PHONE       | 010-2222-2222    | ☜ 휴대전화
 | ROLE        | 3                | ☜ 역할
 | STATUS      | disable          | ☜ 활성상태
-| DESCRIPTION |                  | ☜ 설명
+| DESCRIPTION | Sometimes Camaro | ☜ 설명
 |             |                  |
 | CREATE DATE | 2020/01/24 13:57 |
 | CREATE USER |                  |
