@@ -35,13 +35,13 @@ diskusage's approval has been requested successfully.
 사용자 oprim은 bumbee에게 태스크를 승인해달라고 얘기를 듣고, 다음과 같이 승인해야할 목록을 조회해 봅니다.
 
 ```
-$ opmate task listappr
+$ opmate approval list
 Requesting https://127.0.0.1:8443/opmate;user=oprim
-+------+-----------+---------+---------------+---------+---------+---------+----------+-----------+------------+
-| TYPE | ID        | OWNER   | SCRIPT        | OS USER | BY SCH. | BY OND. | BY TASK  | NEXT TASK | APPRV USER |
-+------+-----------+---------+---------------+---------+---------+---------+----------+-----------+------------+
-| Send | diskusage | bumbee  | diskusage.sh  | root    | disable | enable  | disable  |           | oprim      |
-+------+-----------+---------+---------------+---------+---------+---------+----------+-----------+------------+
++---------+-----------+--------+------------+------------------+
+| TYPE    | ID        | OWNER  | APPRV USER | APPRV UPDATED AT |
++---------+-----------+--------+------------+------------------+
+| Receive | diskusage | bumbee | oprim      | 2020/03/10 12:59 |
++---------+-----------+--------+------------+------------------+
 
 ROWS COUNT : 1
 ```
