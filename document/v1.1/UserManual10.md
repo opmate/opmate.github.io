@@ -61,7 +61,42 @@ OPMATE 의 노드, 태스크에서 Key로 사용되는 주요한 속성들 중�
 ```
 사용 예시 및 용도 추가 필요.
 ```
+<div class="float_banner"><!-- 고정배너 -->
+<pre>[목차](UserManual.md)</pre>
+</div>
 
 
+<div class="float_banner"><!-- 고정배너 -->
+	<div id='scrollmenu' name="scrolltop">
+		<div align="center">
+			<a href="javascript://" class="top" onclick="goTop(); return false;">
+				<pre>위로가기</pre>
+				<!--img src="../../img/next.png" onmouseover='this.src="../../img/up2.png"' onmouseout='this.src="../../img/next.png"' border=0 alt="위로가기"-->
+			</a>
+		</div>
+		<div align="center">
+			<a href="javascript://" class="bottom" onclick="goBottom(); return false;">
+				<pre>아래가기</pre>
+				<!--img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기"-->
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- 스크롤바 제어메뉴 시작 -->
+<script language="JavaScript">
+function goTop(){
+	window.scrollTo(0,0); //맨위로
+}
+
+function goMiddle(){
+	window.scrollTo(0,500); //중간쯤 위치를 입맛에 맞게 조절하세요.
+}
+
+function goBottom(){
+	var scr = document.body.scrollHeight; //페이지의 길이를 체크
+	window.scrollTo(0,scr); //맨아래로
+}
+</script>
 
 [목차](UserManual.md) / [이전페이지](UserManual9.md)
