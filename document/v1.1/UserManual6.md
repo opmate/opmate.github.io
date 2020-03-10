@@ -33,17 +33,16 @@ $ opmate task view -id diskusage
 | BY ONDEMAND       | enable                          |   ☞ 실행 방식
 | BY TASK           | disable                         |   ☞ 실행 방식
 | NEXT TASK         |                                 |   ☞ 다음 태스크(Next Task)
-| APPRV STATUS      | approval                        |
+| APPRV STATUS      | approved                        |
 | APPRV REQ REASON  |                                 |
 | APPRV RJT REASON  |                                 |
 | APPRV USER        | oprim                           |
-| APPRV CHANGE DATE | 2020/03/02 10:55                |
+| APPRV UPDATED AT  | 2020/03/02 10:55                |
 | DESCRIPTION       | Reading etc/passwd file         |
-|                   |                                 |
-| CREATE DATE       | 2020/02/28 16:48                |
-| CREATE USER       | bumbee                          |
-| UPDATE DATE       | 2020/03/02 10:21                |
-| UPDATE USER       | bumbee                          |
+| CREATED AT        | 2020/02/28 16:48                |
+| CREATED BY        | bumbee                          |
+| UPDATED AT        | 2020/03/02 10:21                |
+| UPDATED BY        | bumbee                          |
 |                   |                                 |
 | [SCHEDULES]       |                                 |   ☞ 스케쥴(Schedule)
 |                   | yearly01(yearly, */01/01 01:20) |
