@@ -12,7 +12,7 @@ description: 별첨  &#35;1. CLI 사용법
 CLI 명령어는 운영체제의 쉘에서 제공하는 다양한 명령어들과 적절히 결합하여, 연속적인 질의를 하거나 원하는 결과 만을 취합하는 형태로의 사용이 가능하다.
 *(리눅스의 쉘스크립트 파일 내에서 사용 가능)*
 
-다음은 Linux OS에서 OPMATE CLI 명령어와 grep 명령어를 결합하여, *linux_tomcat* 노드 그룹의 조회 결과 중 *prod* 키워드를 포함하는 노드ID 만을 출력한다. 
+다음은 운영체제 쉘에서 OPMATE CLI 명령어와 grep 명령어를 결합하여, *linux_tomcat* 노드 그룹의 조회 결과 중 *prod* 키워드를 포함하는 노드ID 만을 출력하는 예시이다.
 
 ```
 $ opmate nodegroup view -id linux_tomcat | grep 'prod'
@@ -39,7 +39,7 @@ CLI 의 사용법은 **object, action, arguments** 의 각 레벨에 따라서 �
 
 또한, 각 레벨의 Command 대신에 명시적으로 help 키워드를 사용하여 사용법을 확인할 수도 있다. 
 
-아래는 OPMATE 의 object 레벨에서 help 키워드를 사용한 경우의 결과이다.
+다음은 object 레벨에서 help 명령어를 사용한 경우의 결과이다.
 
 ```
 $ opmate help
@@ -79,7 +79,7 @@ usage: opmate user <action> [<arguments>|help]
 ```
 
 해당 action 에서 사용할 수 있는 option의 목록은 다음과 같이 확인할 수 있다.
-*(**user** object의 **list** action에 해당되는 option 목록을 출력한다.)*
+*(**user** object의 **list** action에 해당되는 arguments 목록을 출력한다.)*
 
 ```
 $ opmate user list help
@@ -100,18 +100,29 @@ List information about users.
   -of,--offset <number>   First row number, starting at 0
 ```
 
-option 은 위의 예시에서 보이는 바와 같이, Short/Long option name 형태를 제공하고 있다.
-두가지 방식 모두 동일하게 동작하며 사용자의 취향에 따라 선택하여 사용 가능하다.<br>
+이와 같이 OPMATE CLI 는 help 키워드를 통해서 사용법을 확인하고 직관적으로 사용할 수 있도록 단순한 커맨드 조합으로 구성되어 있다.
+
+### Arguments
+
+```
+usage: opmate user create -id <user-id> -nm <name> -pn <phone-num> -ea
+       <email-address> [-de <free-text>]
+
+Create user's account.
+  -id,--id <user-id>           User ID
+  -nm,--name <name>            User name
+  -pn,--phone <phone-num>      Phone number
+  -ea,--email <email-address>  E-mail Address
+  -de,--desc <free-text>       Description
+```
+
+arguments 는 위의 예시 중 `-ea` 와 `--email` 과 같이 short/long arguments name 형태로 제공된다.
+두가지 방식 모두 동일하게 동작하며 사용자의 취향에 따라 선택하여 사용 가능하다.
 *(Short : Single Dash, Long : Double Dash)*
 
-위와 같이 OPMATE CLI 는 help 키워드를 통해서 사용법을 확인하고 직관적으로 사용할 수 있도록 단순한 커맨드 조합으로 구성되어 있다.
+또한, *필수* 항목과 *선택* 항목이 있으며, 선택 항목의 경우에 usage에 `[-de <free-text>]`와 같이 `[ ]` 로 표시된다.
 
-### 조회 명령
-
-OPMATE object 들에 대한 조회는 대부분 view 또는 list 명령(action)으로 수행할 수 있다.
-아래에서 view와 list의 차이에 대해서 설명한다.
-
-#### view (상세조회)
+### 상세조회 (view)
 
 view 명령은 특정 object의 지정한 ID(key)에 해당하는 상세정보를 출력한다.
 
@@ -140,7 +151,7 @@ $ opmate user view -id bumbee
 +-------------+------------------+
 ```
 
-#### list (목록조회)
+### 목록조회 (list)
 
 list 명령은 특정 object 에 등록된 목록을 출력한다.
 
