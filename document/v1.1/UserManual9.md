@@ -1,26 +1,23 @@
 ---
 title: 사용자 매뉴얼
-description: 별첨  &#35;1. CLI 사용법 개요
+description: 별첨  &#35;1. CLI 사용법
 ---
 
 [목차](UserManual.md) / [이전페이지](UserManual8.md) / [다음페이지](UserManual10.md)
 
-## CLI 사용법 개요
+## 개요
 
-OPMATE는 사용자가 OPMATE를 통해서 원하는 업무를 수행할 수 있도록 Client를 제공하고 있으며, 이번 장에서는 OPMATE의 기본 제공 Client인 OPMATE CLI*(Command Line Interface)*의 사용법을 개략적으로 설명한다.<br>
-*(OPMATE 대시보드도 제공하고 있으며, REST API 기반의 인터페이스를 통해 OPMATE의 사용이 가능하다.)*
+사용자가 명령을 실행하기 위한 클라이언트 프로그램인 OPMATE CLI*(Command Line Interface)*의 사용법을 개략적으로 설명한다.
 
-OPMATE CLI 는 object, action, arguments 의 3가지 레벨로 구성되어 있으며, 이를 조합하여 OPMATE Master 서버에 적절한 요청을 할 수 있다.
-
-사용자는 다음과 같은 형식으로 OS 명령 프롬프트에 질의할 수 있다.
+CLI 명령어는 object, action, arguments 의 3가지 레벨로 구성되어 있으며, 이를 조합하여 OPMATE Master에 적절한 요청을 할 수 있다.
 
 >**$ opmate &lt;object&gt; &lt;action&gt; [&lt;arguments&gt;]<br>**
 >> **object** : OPMATE 를 구성하는 주요 요소들의 집합.(사용자/노드/태스크 등)<br>
 >> **action** : 지정한 object 에 대해서 수행하려는 명령.(생성/수정/삭제/목록 조회/상세보기 등)<br>
 >> **arguments** : action 에 종속적인 옵션(파라미터)
 
-CLI 의 명령어들은 OS 의 프롬프트에서 제공하는 다양한 명령어들과 적절히 결합하여, 연속적인 질의를 하거나 원하는 결과 만을 취합하는 형태로의 사용이 가능하다.
-*(Linux 의 Shell 스크립트 내에서의 사용 등이 가능)*
+CLI 명령어는 운영체제의 쉘에서 제공하는 다양한 명령어들과 적절히 결합하여, 연속적인 질의를 하거나 원하는 결과 만을 취합하는 형태로의 사용이 가능하다.
+*(리눅스의 쉘스크립트 파일 내에서 사용 가능)*
 
 다음은 Linux OS에서 OPMATE CLI 명령어와 grep 명령어를 결합하여, *linux_tomcat* 노드 그룹의 조회 결과 중 *prod* 키워드를 포함하는 노드ID 만을 출력한다. 
 
@@ -32,7 +29,7 @@ $ opmate nodegroup view -id linux_tomcat | grep 'prod'
 |              | linux-proddb02 |
 ```
 
-### help 명령어
+## help 명령어
 
 CLI 에서는 적절한 명령어를 입력하지 않으면, 잘못된 입력에 대해서 적절한 명령을 입력할 수 있도록 사용자에게 CLI 의 사용법을 보여준다.
 
@@ -107,12 +104,12 @@ option 은 위의 예시에서 보이는 바와 같이, Short/Long option name �
 
 위와 같이 OPMATE CLI 는 help 키워드를 통해서 사용법을 확인하고 직관적으로 사용할 수 있도록 단순한 커맨드 조합으로 구성되어 있다.
 
-### 조회 명령
+## 조회 명령
 
 OPMATE object 들에 대한 조회는 대부분 view 또는 list 명령(action)으로 수행할 수 있다.
 아래에서 view와 list의 차이에 대해서 설명한다.
 
-#### view (상세조회)
+### view (상세조회)
 
 view 명령은 특정 object의 지정한 ID(key)에 해당하는 상세정보를 출력한다.
 
@@ -141,7 +138,7 @@ $ opmate user view -id bumbee
 +-------------+------------------+
 ```
 
-#### list (목록조회)
+### list (목록조회)
 
 list 명령은 특정 object 에 등록된 목록을 출력한다.
 

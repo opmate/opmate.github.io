@@ -22,7 +22,7 @@ task-instance #234 has been created successfully.
 $ opmate taskinstance list -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +------------------+-------------+---------------------+---------------------+--------------+-----------+
-| TASK INSTANCE NO | TASK ID     | START DT            | END DT              | RUNNER       | NEXT TASK |
+| TASK INSTANCE NO | TASK ID     | START AT            | END AT              | RUNNER       | NEXT TASK |
 +------------------+-------------+---------------------+---------------------+--------------+-----------+
 | 234              | diskusage   | 2020/03/16 17:49:54 | 2020/03/16 17:50:07 | bumbee(User) |           |
 +------------------+-------------+---------------------+---------------------+--------------+-----------+
@@ -31,7 +31,7 @@ ROWS COUNT : 1/1
 ```
 
 태스크 실행한 모든 인스턴스를 목록에서 볼 수 있습니다.
-인스턴스별 시작시간과(START DT)과 종료시간(END DT)이 출력되는데, 종료시간이 표시된다는 것은 태스크의 타겟 노드 전체가 완료되었다는 의미입니다.
+인스턴스별 시작시간과(START AT)과 종료시간(END AT)이 출력되는데, 종료시간이 표시된다는 것은 태스크의 타겟 노드 전체가 완료되었다는 의미입니다.
 단 한개의 노드라도 완료되지 않으면 표시되지 않습니다.
 
 이 인스턴스의 타겟 노드별 결과도 확인해보겠습니다.
@@ -40,7 +40,7 @@ ROWS COUNT : 1/1
 $ opmate taskinstance listnode -in 234
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +---------+---------+----------+---------------------+---------------------+---------+---------+
-| NODE ID | EXEC NO | STATUS   | START DT            | END DT              | RESULT  | EXIT CD |
+| NODE ID | EXEC NO | STATUS   | START AT            | END AT              | RESULT  | EXIT CD |
 +---------+---------+----------+---------------------+---------------------+---------+---------+
 | linux01 | 1       | Complete | 2020/03/16 17:50:03 | 2020/03/16 17:50:03 | Success | 0       |
 | linux02 | 1       | Complete | 2020/03/16 17:50:03 | 2020/03/16 17:50:03 | Success | 0       |
@@ -62,9 +62,9 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 | NODE ID          | linux01             |
 | EXEC NO          | 1                   |
 | STATUS           | Complete            |
-| START DT         | 2020/03/16 17:50:03 |
-| END DT           | 2020/03/16 17:50:03 |
-| RUNNER           | bumbee(User)        |
+| START AT         | 2020/03/16 17:50:03 |
+| END AT           | 2020/03/16 17:50:03 |
+| CREATED BY       | bumbee(User)        |
 | RESULT           | Success             |
 | EXIT CD          | 0                   |
 +------------------+---------------------+

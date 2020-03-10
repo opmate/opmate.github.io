@@ -44,11 +44,11 @@ linux02 has been added to target successfully.
 ```
 $ opmate task list -oi bumbee
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
-+-----------+------+--------+--------------+---------+-----------+-------------+------------+
-| ID        | REV. | OWNER  | SCRIPT       | OS USER | NEXT TASK | APPRV STAT. | APPRV USER |
-+-----------+------+--------+--------------+---------+-----------+-------------+------------+
-| diskusage | 0    | bumbee | diskusage.sh | root    |           | N/A         |            |
-+-----------+------+--------+--------------+---------+-----------+-------------+------------+
++-----------+------+--------+--------------+---------+-----------+-------------+
+| ID        | REV. | OWNER  | SCRIPT       | OS USER | NEXT TASK | APPROVED AT |
++-----------+------+--------+--------------+---------+-----------+-------------+
+| diskusage | 0    | bumbee | diskusage.sh | root    |           |             |
++-----------+------+--------+--------------+---------+-----------+-------------+
 
 ROWS COUNT : 1/1
 ```
@@ -58,34 +58,39 @@ ROWS COUNT : 1/1
 ```
 $ opmate task view -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
-+------------------+---------------+
-| FIELD            | VALUE         |
-+------------------+---------------+
-| [BASIS]          |               |
-|                  |               |
-| ID               | diskusage     |
-| REVISION         | 0             |
-| OWNER            | bumbee        |
-| SCRIPT           | diskusage.sh  |
-| OS USER          | root          |
-| BY SCHEDULER     | disable       |
-| BY ONDEMAND      | enable        |
-| BY TASK          | disable       |
-| NEXT TASK        |               |
-| APPRV STATUS     | N/A           |
-| APPRV REQ REASON |               |
-| APPRV RJT REASON |               |
-| APPRV USER       |               |
-| DESCRIPTION      |               |
-|                  |               |
-| [SCHEDULES]      |               |
-|                  |               |
-| [RUNNERS]        |               |
-|                  |               |
-| [TARGETS]        |               |
-|                  | linux01(Node) |
-|                  | linux02(Node) |
-+------------------+---------------+
++------------------+------------------+
+| FIELD            | VALUE            |
++------------------+------------------+
+| [BASIS]          |                  |
+|                  |                  |
+| ID               | diskusage        |
+| REVISION         | 0                |
+| OWNER            | bumbee           |
+| SCRIPT           | diskusage.sh     |
+| OS USER          | root             |
+| BY SCHEDULER     | disable          |
+| BY ONDEMAND      | enable           |
+| BY TASK          | disable          |
+| NEXT TASK        |                  |
+| APPRV STATUS     | N/A              |
+| APPRV REQ REASON |                  |
+| APPRV RJT REASON |                  |
+| APPRV USER       |                  |
+| APPRV UPDATED AT | 2020/03/14 14:01 |
+| DESCRIPTION      |                  |
+| CREATED AT       | 2020/03/14 14:01 |
+| CREATED BY       | bumbee           |
+| UPDATED AT       | 2020/03/14 14:01 |
+| UPDATED BY       | bumbee           |
+|                  |                  |
+| [SCHEDULES]      |                  |
+|                  |                  |
+| [RUNNERS]        |                  |
+|                  |                  |
+| [TARGETS]        |                  |
+|                  | linux01(Node)    |
+|                  | linux02(Node)    |
++------------------+------------------+
 ```
 
 잘 생성되었지만 아직 아니랍니다.

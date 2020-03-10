@@ -44,9 +44,9 @@ $ opmate taskinstance viewnode -in 71 -ni linux01
 | NODE ID          | linux01             |
 | EXEC NO          | 1                   |
 | STATUS           | Complete            |   ☞ 진행 상태
-| START DT         | 2020/03/03 15:08:04 |
-| END DT           | 2020/03/03 15:08:04 |
-| RUNNER           | bumbee(user)        |
+| START AT         | 2020/03/03 15:08:04 |
+| END AT           | 2020/03/03 15:08:04 |
+| CREATED BY       | bumbee(user)        |
 | RESULT           | Success             |   ☞ 실행 결과
 | EXIT CD          | 0                   |   ☞ 실행 결과 코드
 +------------------+---------------------+

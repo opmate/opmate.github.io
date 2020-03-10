@@ -13,10 +13,10 @@ OPMATE CLI 명령어는 `opmate <object> <action> <option>`의 형식으로 이�
 
 다음은 활용 예제입니다.
 
-opmate 에 어떤 object 가 있는지 확인합니다.
-
+`opmate`에 어떤 `<object>`가 있는지 확인해 보겠습니다.
 ```
 $ opmate help
+
 usage: opmate <object> <action> [<arguments>|help]
 
 [objects]
@@ -29,12 +29,13 @@ usage: opmate <object> <action> [<arguments>|help]
         approval      Approval of the OPMATE Task.
         file          File to receive or send from Master Repository.
         system        OPMATE System Information.
+
 ```
 
-[object] user 에는 어떤 action 이 있는지 확인합니다.
-
+`opmate user`에 가능한 `<action>`은 무엇이 있을까요?
 ```
 $ opmate user help
+
 usage: opmate user <action> [<arguments>|help]
 
 [actions]
@@ -46,12 +47,13 @@ usage: opmate user <action> [<arguments>|help]
         passwd        Change or Set user's password.
         login         Create a user authentication session.
         logout        Destroy a user authentication session.
+
 ```
 
-[action] list 에는 어떤 option 이 있는지 확인합니다.
-
+`opmate user list`에 상세한 옵션을 확인해 보겠습니다.
 ```
 $ opmate user list help
+
 usage: opmate user list [-id <substring>] [-nm <substring>] [-ro <role-num>]
        [-st <E|D>] [-lm <number>] [-of <number>]
 
@@ -60,12 +62,13 @@ List information about users.
   -nm,--name <substring>  Filter by name
   -ro,--role <role-num>   Filter by role
                           * 0 : Administrator
-                          * 1 : Approver
+                          * 1 : Manager
                           * 2 : Operator
-                          * 3 : Viewer
+                          * 3 : Guest
   -st,--status <E|D>      Filter by status : Enable/Disable
   -lm,--limit <number>    Maximum number of rows
   -of,--offset <number>   First row number, starting at 0
+
 ```
 
 [첫페이지](QuickTutorial.md) / [다음페이지](QuickTutorial2.md)
