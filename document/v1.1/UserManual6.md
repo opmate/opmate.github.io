@@ -24,33 +24,33 @@ $ opmate task view -id diskusage
 +-------------------+---------------------------------+
 | [BASIS]           |                                 |
 |                   |                                 |
-| ID                | diskusage                       |   ☞ 태스크ID
+| ID                | diskusage                       | ☜  태스크ID
 | REVISION          | 6                               |
-| OWNER             | bumbee                          |   ☞ 소유자(Owner)
-| SCRIPT            | diskusage.sh                    |   ☞ 스크립트(Script)
+| OWNER             | bumbee                          | ☜  소유자(Owner)
+| SCRIPT            | diskusage.sh                    | ☜  스크립트(Script)
 | OS USER           | root                            |
-| BY SCHEDULER      | enable                          |   ☞ 실행 방식
-| BY ONDEMAND       | enable                          |   ☞ 실행 방식
-| BY TASK           | disable                         |   ☞ 실행 방식
-| NEXT TASK         |                                 |   ☞ 다음 태스크(Next Task)
+| BY SCHEDULER      | enable                          | ☜  실행 방식
+| BY ONDEMAND       | enable                          | ☜  실행 방식
+| BY TASK           | disable                         | ☜  실행 방식
+| NEXT TASK         |                                 | ☜  다음 태스크(Next Task)
 | APPRV STATUS      | approved                        |
 | APPRV REQ REASON  |                                 |
 | APPRV RJT REASON  |                                 |
 | APPRV USER        | oprim                           |
 | APPRV UPDATED AT  | 2020/03/02 10:55                |
-| DESCRIPTION       | Reading etc/passwd file         |
+| DESCRIPTION       | check disk space usage          |
 | CREATED AT        | 2020/02/28 16:48                |
 | CREATED BY        | bumbee                          |
 | UPDATED AT        | 2020/03/02 10:21                |
 | UPDATED BY        | bumbee                          |
 |                   |                                 |
-| [SCHEDULES]       |                                 |   ☞ 스케쥴(Schedule)
+| [SCHEDULES]       |                                 | ☜  스케쥴(Schedule)
 |                   | yearly01(yearly, */01/01 01:20) |
 |                   |                                 |
-| [RUNNERS]         |                                 |   ☞ 실행 권한
+| [RUNNERS]         |                                 | ☜  실행 권한
 |                   | oprim(user)                     |
 |                   |                                 |
-| [TARGETS]         |                                 |   ☞ 대상 노드(Target Node)
+| [TARGETS]         |                                 | ☜  대상 노드(Target Node)
 |                   | linux_tomcat(node-group)        |
 +-------------------+---------------------------------+
 ```
