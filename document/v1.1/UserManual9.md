@@ -134,11 +134,10 @@ $ opmate user view -id bumbee
 | ROLE        | 2                |
 | STATUS      | enable           |
 | DESCRIPTION |                  |
-|             |                  |
-| CREATE DATE | 2020/03/06 13:48 |
-| CREATE USER |                  |
-| UPDATE DATE | 2020/03/06 13:48 |
-| UPDATE USER |                  |
+| CREATED AT  | 2020/03/06 13:48 |
+| CREATED BY  |                  |
+| UPDATED AT  | 2020/03/06 13:48 |
+| UPDATED BY  |                  |
 +-------------+------------------+
 ```
 

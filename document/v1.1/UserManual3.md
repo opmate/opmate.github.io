@@ -29,11 +29,10 @@ $ opmate usergroup view -id mw_user_grp01
 | ID          | mw_user_grp01        | ☜ 사용자그룹ID
 | OWNER       | oprim                | ☜ 소유자(Owner)
 | DESCRIPTION | Tomcat Operators.    | ☜ 설명
-|             |                      |
-| CREATE DATE | 2020/02/10 11:08     |
-| CREATE USER | oprim                |
-| UPDATE DATE | 2020/02/10 11:15     |
-| UPDATE USER | oprim                |
+| CREATED AT  | 2020/02/10 11:08     |
+| CREATED BY  | oprim                |
+| UPDATED AT  | 2020/02/10 11:15     |
+| UPDATED BY  | oprim                |
 |             |                      |      
 | [USERS]     |                      | ☜ 사용자정보(멤버)
 |             | Optimus Prime(oprim) |      

@@ -27,11 +27,10 @@ $ opmate node view -id linux01
 | STATUS        | enable                                       |   ☞ 활성상태
 | GUID          | f66ec379-4927-48d4-ac8b-0129ab7d4f2c         |   ☞ GUID
 | HEARTBEAT     | 2020/03/13 10:03                             |
-| CREATE        | 2020/03/11 13:49                             |
 | DESCRIPTION   | linux01 for Test                             |
-|               |                                              |
-| UPDATE DATE   | 2020/03/12 09:53                             |
-| UPDATE USER   | admin                                        |
+| CREATED AT    | 2020/03/11 13:49                             |
+| UPDATED AT    | 2020/03/12 09:53                             |
+| UPDATED BY    | admin                                        |
 +---------------+----------------------------------------------+
 ```
 

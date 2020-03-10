@@ -24,11 +24,10 @@ $ opmate nodegroup view -id linux_tomcat
 | ID           | linux_tomcat             |   ☞ 노드그룹ID
 | OWNER        | bumbee                   |   ☞ 소유자(Owner)
 | DESCRIPTION  | Installed Tomcat         |
-|              |                          |
-| CREATE DATE  | 2020/02/24 11:08         |
-| CREATE USER  | bumbee                   |
-| UPDATE DATE  | 2020/02/24 11:08         |
-| UPDATE USER  | bumbee                   |
+| CREATED AT   | 2020/02/24 11:08         |
+| CREATED BY   | bumbee                   |
+| UPDATED AT   | 2020/02/24 11:08         |
+| UPDATED BY   | bumbee                   |
 |              |                          |
 | [NODES]      |                          |   ☞ 포함 노드
 |              | linux01                  |

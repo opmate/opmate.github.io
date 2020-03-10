@@ -23,11 +23,10 @@ $ opmate user view -id bumbee
 | ROLE        | 3                | ☜ 역할
 | STATUS      | disable          | ☜ 활성상태
 | DESCRIPTION | Sometimes Camaro | ☜ 설명
-|             |                  |
-| CREATE DATE | 2020/01/24 13:57 |
-| CREATE USER |                  |
-| UPDATE DATE | 2020/01/24 13:57 |
-| UPDATE USER |                  |
+| CREATED AT  | 2020/01/24 13:57 |
+| CREATED BY  |                  |
+| UPDATED AT  | 2020/01/24 13:57 |
+| UPDATED BY  |                  |
 +-------------+------------------+
 ```
 
