@@ -29,9 +29,9 @@ CLI 명령어는 object, action, arguments 의 3가지 레벨로 구성되어 �
 >**$ opmate &lt;object&gt; &lt;action&gt; [&lt;arguments&gt;]<br>**
 >> **object** : OPMATE 를 구성하는 주요 요소들의 집합.(사용자/노드/태스크 등)<br>
 >> **action** : 지정한 object 에 대해서 수행하려는 명령.(생성/수정/삭제/목록 조회/상세보기 등)<br>
->> **arguments** : action 에 종속적인 옵션(파라미터)
+>> **arguments** : action 에 종속적인 인자(파라미터)
 
-### help 명령어
+### 도움말(help)
 
 CLI 에서는 적절한 명령어를 입력하지 않으면, 잘못된 입력에 대해서 적절한 명령을 입력할 수 있도록 사용자에게 CLI 의 사용법을 보여준다.
 
@@ -102,7 +102,7 @@ List information about users.
 
 이와 같이 OPMATE CLI 는 help 키워드를 통해서 사용법을 확인하고 직관적으로 사용할 수 있도록 단순한 커맨드 조합으로 구성되어 있다.
 
-### Arguments
+### 인자(arguments)
 
 ```
 usage: opmate user create -id <user-id> -nm <name> -pn <phone-num> -ea
@@ -120,9 +120,9 @@ arguments 는 위의 예시 중 `-ea` 와 `--email` 과 같이 short/long argume
 두가지 방식 모두 동일하게 동작하며 사용자의 취향에 따라 선택하여 사용 가능하다.
 *(Short : Single Dash, Long : Double Dash)*
 
-또한, *필수* 항목과 *선택* 항목이 있으며, 선택 항목의 경우에 usage에 `[-de <free-text>]`와 같이 `[ ]` 로 표시된다.
+또한, **필수** 항목과 **선택** 항목이 있으며, 선택 항목의 경우 usage에 `[-de <free-text>]`와 같이 `[...]` 로 표시된다.
 
-### 상세조회 (view)
+### 상세조회 (view action)
 
 view 명령은 특정 object의 지정한 ID(key)에 해당하는 상세정보를 출력한다.
 
@@ -151,11 +151,11 @@ $ opmate user view -id bumbee
 +-------------+------------------+
 ```
 
-### 목록조회 (list)
+### 목록조회 (list action)
 
 list 명령은 특정 object 에 등록된 목록을 출력한다.
 
-list 명령은 각종 옵션과 같이 사용가능 하며, 옵션에 지정한 항목에 따라서 유사어 검색(like) 또는 일치 검색(exact) 된다.
+list 명령은 각종 인자와 같이 사용가능 하며, 인자 항목에 따라서 전체일치 또는 부분일치로 검색된다.
 
 조회 결과는 기본 30건까지만 출력되지만, 아래의 옵션을 지정하여 전체 목록 중 부분 출력(페이징)도 가능하다.
 
@@ -166,7 +166,7 @@ list 명령은 각종 옵션과 같이 사용가능 하며, 옵션에 지정한 
 limit와 offset 옵션을 통해서 ***"특정 항목부터(offset) 몇 개(limit)"*** 의 형태로 출력을 지정할 수 있다. 
 
 다음의 예시와 같이 list 명령의 결과는 Grid 형태로 출력되며, **상단(첫 줄)에 항목명을 출력**하고 **이하에는 조회된 목록을 출력**한다.
-출력된 결과의 최하단에는 ***"화면출력건수/전체조회건수"*** 의 형식으로 조회의 결과 건수가 출력된다.
+출력된 결과의 최하단에는 ***"출력건수/전체건수"*** 의 형식으로 조회의 결과 건수가 출력된다.
 
 ```
 $ opmate user list -st E
