@@ -68,8 +68,8 @@ OPMATE 의 노드, 태스크에서 Key로 사용되는 주요한 속성들 중�
 	<div id='scrollmenu' name="scrolltop">
 		<div align="center">
 			<a href="javascript://" class="top" onclick="goTop(); return false;">
-				![up](../../img/up2.png)
-				<!--img src="../../img/next.png" onmouseover='this.src="../../img/up2.png"' onmouseout='this.src="../../img/next.png"' border=0 alt="위로가기"-->
+				<!--![up](../../img/up2.png)-->
+				<pre><img src="../../img/next.png" onmouseover='this.src="../../img/up2.png"' onmouseout='this.src="../../img/next.png"' border=0 alt="위로가기"></pre>
 			</a>
 		</div>
 		<div align="center">
