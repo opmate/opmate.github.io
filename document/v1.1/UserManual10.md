@@ -64,7 +64,7 @@ OPMATE 의 노드, 태스크에서 Key로 사용되는 주요한 속성들 중�
 
 
 
-<div class="float_banner2"><!-- 고정배너 -->
+<div class="float_banner"><!-- 고정배너 -->
 	<div id='scrollmenu' name="scrolltop">
 		<div align="center">
 			<a href="javascript://" class="top" onclick="goTop(); return false;">
@@ -77,9 +77,8 @@ OPMATE 의 노드, 태스크에서 Key로 사용되는 주요한 속성들 중�
 				<pre>아래가기</pre>
 				<!--img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기"-->
 			</a>
+		</div>
 	</div>
-</div>
-<!--- 스크롤바 제어메뉴 끝 -->
 </div>
 
 			
