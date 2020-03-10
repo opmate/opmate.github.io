@@ -16,13 +16,13 @@ $ opmate user view -id bumbee
 +-------------+------------------+
 | FIELD       | VALUE            |
 +-------------+------------------+
-| ID          | bumbee           |   ☞ 사용자ID
-| NAME        | Bumblebee        |   ☞ 사용자명
-| EMAIL       | bumbee@email.com |   ☞ 이메일
-| PHONE       | 010-2222-2222    |   ☞ 휴대전화
-| ROLE        | 3                |   ☞ 역할
-| STATUS      | disable          |   ☞ 활성상태
-| DESCRIPTION |                  |   ☞ 설명
+| ID          | bumbee           |   ☜ 사용자ID
+| NAME        | Bumblebee        |   ☜ 사용자명
+| EMAIL       | bumbee@email.com |   ☜ 이메일
+| PHONE       | 010-2222-2222    |   ☜ 휴대전화
+| ROLE        | 3                |   ☜ 역할
+| STATUS      | disable          |   ☜ 활성상태
+| DESCRIPTION |                  |   ☜ 설명
 |             |                  |
 | CREATE DATE | 2020/01/24 13:57 |
 | CREATE USER |                  |
