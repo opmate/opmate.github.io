@@ -13,7 +13,7 @@ OPMATE CLI 명령어는 `opmate <object> <action> <option>`의 형식으로 이�
 
 다음은 활용 예제입니다.
 
-`opmate`에 어떤 <object>가 있는지 확인해 보겠습니다.
+`opmate`에 어떤 `<object>`가 있는지 확인해 보겠습니다.
 ```
 $ opmate help
 
@@ -32,7 +32,7 @@ usage: opmate <object> <action> [<arguments>|help]
 
 ```
 
-`opmate user`에 가능한 <action>은 무엇이 있을까요?
+`opmate user`에 가능한 `<action>`은 무엇이 있을까요?
 ```
 $ opmate user help
 
