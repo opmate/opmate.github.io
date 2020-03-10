@@ -18,14 +18,14 @@ $ opmate node view -id linux01
 +---------------+----------------------------------------------+
 | FIELD         | VALUE                                        |
 +---------------+----------------------------------------------+
-| ID            | linux01                                      |   ☞ 노드ID
-| AGENT VERSION | OPMA Version 1.1.002.Linux.x86_64.20200309.1 |   ☞ 에이전트버전
-| CONNECT IP    | 192.168.XX.XX                                |   ☞ IP주소
-| OS            | Linux                                        |   ☞ OS종류
-| HOSTNAME      | linux01                                      |   ☞ 호스트명
-| OWNER         | bumbee                                       |   ☞ 소유자(Owner)
-| STATUS        | enable                                       |   ☞ 활성상태
-| GUID          | f66ec379-4927-48d4-ac8b-0129ab7d4f2c         |   ☞ GUID
+| ID            | linux01                                      | ☜  노드ID
+| AGENT VERSION | OPMA Version 1.1.002.Linux.x86_64.20200309.1 | ☜  에이전트버전
+| CONNECT IP    | 192.168.XX.XX                                | ☜  IP주소
+| OS            | Linux                                        | ☜  OS종류
+| HOSTNAME      | linux01                                      | ☜  호스트명
+| OWNER         | bumbee                                       | ☜  소유자(Owner)
+| STATUS        | enable                                       | ☜  활성상태
+| GUID          | f66ec379-4927-48d4-ac8b-0129ab7d4f2c         | ☜  GUID
 | HEARTBEAT     | 2020/03/13 10:03                             |
 | DESCRIPTION   | linux01 for Test                             |
 | CREATED AT    | 2020/03/11 13:49                             |

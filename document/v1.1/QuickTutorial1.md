@@ -5,7 +5,7 @@ description: CLI 사용법
 
 [첫페이지](QuickTutorial.md) / [다음페이지](QuickTutorial2.md)
 
-OPMATE CLI 명령어는 `opmate <object> <action> <option>`의 형식으로 이루어져 있습니다. 가능한 파라미터와 설명을 보고 싶다면, 다음의 형식으로 마지막에 `help`를 붙여주면 됩니다.
+OPMATE CLI 명령어는 `opmate <object> <action> <arguments>`의 형식으로 이루어져 있습니다. 가능한 파라미터와 설명을 보고 싶다면, 다음의 형식으로 마지막에 `help`를 붙여주면 됩니다.
 
 - `$ opmate help`
 - `$ opmate <object> help`
@@ -50,7 +50,7 @@ usage: opmate user <action> [<arguments>|help]
 
 ```
 
-`opmate user list`에 상세한 옵션을 확인해 보겠습니다.
+`opmate user list`에 상세한 인자(arguments)를 확인해 보겠습니다.
 ```
 $ opmate user list help
 
