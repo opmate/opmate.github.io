@@ -31,22 +31,35 @@ OPMATE 의 노드, 태스크에서 Key로 사용되는 주요한 속성들 중�
 >**@OPM_ATTR.TASK_ID@** : 스크립트를 등록한 태스크의 ID.<br>
 >**@OPM_ATTR.TASK_INSTANCE_NO@** : 스크립트 수행 시에 부여되는 태스크 인스턴스 번호. 모든 태스크의 수행에 대해서 고유(Unique)한 값.
 
+다음의 예제에서는 스크립트 수행의 결과를 특정 위치에 파일로 출력하고 있다.
+이때, OPMATE 의 주요 속성 값을 나타내는 예약어를 스크립트 내에서 사용하여 파일명이 중복되지 않도록 하는 용도로 사용하고 있다.  
+
 ```
-사용 예시 및 용도 추가 필요.
+#!/bin/sh
+
+중략...
+
+NODE_ID=@OPM_ATTR.NODE_ID@
+TASK_ID=@OPM_ATTR.TASK_ID@
+TASK_INSTANCE_NO=@OPM_ATTR.TASK_INSTANCE_NO@
+
+echo "Result File" > /tmp/${NODE_ID}.${TASK_ID}.${TASK_INSTANCE_NO};
+
+중략...
+
+exit 0;
 ```
 
 ### 2. 파일 전송 토큰
 
-매뉴얼의 "[8. 파일배포/수집](UserManual8.md)" 항목에서 기 설명한 파일과 관련한 항목이다.
+파일배포/수집 시에 보안성을 강화하기 위한 장치로서 사용되어, 파일 관련 유틸리티를 태스크 내에서만 사용할 수 있도록 한다.
 
 다음과 같이 스크립트 내에서 사용해야 한다.
 *(모든 문자가 아래와 일치해야 정상적으로 치환되며, 파일 관련 유틸리티 수행이 가능하다.)*
 
 >**@OPM_ATTR.FILE_TOKEN@**
 
-```
-사용 예시 및 용도 추가 필요.
-```
+자세한 내용은 매뉴얼의 "[8. 파일배포/수집](UserManual8.md)" 항목에서 기 설명하고 있으므로, 여기서는 생략하도록 한다.
 
 ### 3. 노드 그룹 속성(Attribute)
 
@@ -54,17 +67,14 @@ OPMATE 의 노드, 태스크에서 Key로 사용되는 주요한 속성들 중�
 
 다음과 같은 형식으로 스크립트에서 사용한다. **AttributeKey** 부분을 노드그룹에서 정의된 Key로 사용하면 된다.
 
-좀 더 자세한 내용은 앞서 설명한 "[5. 노드 그룹](UserManual5.md)" 항목을 참고하기 바란다.
-
 >**@OPM_ATTR.*AttributeKey*@**
 
-```
-사용 예시 및 용도 추가 필요.
-```
+좀 더 자세한 내용은 앞서 설명한 "[5. 노드 그룹](UserManual5.md)" 항목을 참고하기 바란다.
+
+
 <div class="float_banner"><!-- 고정배너 -->
 <pre>[목차](UserManual.md)</pre>
 </div>
-
 
 <div class="float_banner"><!-- 고정배너 -->
 	<div id='scrollmenu' name="scrolltop">
