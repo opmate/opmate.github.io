@@ -22,8 +22,8 @@ Repository에 저장된 파일은 일정 기간 후 자동으로 삭제된다.
 노드의 /home/was/install-tomcat-1.0.tar.gz 에 저장하는 명령이다.
 
 ```
-          ☞ 마스터서버의 가상 절대 경로      ☞ 로컬서버의 절대 경로
-$ opmfget master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz
+          ☞토큰 ☞ 마스터서버의 가상 절대 경로      ☞ 로컬서버의 절대 경로
+$ opmfget $token master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz
 ```
 
 ### 파일 수집
@@ -34,8 +34,19 @@ $ opmfget master:/mydir/install-apache.tar.gz /home/web/install-apache.tar.gz
 마스터 서버 Repository의 /mydir/node1/server.cfg 에 저장하는 명령이다.
 
 ```
-          ☞ 마스터서버의 가상 절대 경로 ☞ 로컬서버의 절대 경로
-$ opmfput master:/mydir/node1/server.cfg /home/web/apache/server.cfg
+          ☞토큰 ☞ 마스터서버의 가상 절대 경로 ☞ 로컬서버의 절대 경로
+$ opmfput $token master:/mydir/node1/server.cfg /home/web/apache/server.cfg
+```
+
+### 파일 조회
+
+작업자가 마스터 서버로 수집한 파일을 찾고자 할 때 사용한다.
+
+다음 예제는, 마스터 서버 Repository 의 /mydir/node1/server.cfg 파일이 있는지 확인하는 명령이다.
+
+```
+         ☞토큰 ☞ 마스터서버의 가상 절대 경로
+$ opmfls $token master:/mydir/node1/server.cfg
 ```
 
 
