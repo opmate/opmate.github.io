@@ -43,18 +43,18 @@ $ opmate taskinstance viewnode -in 71 -ni linux01
 | TASK ID          | diskusage           |
 | NODE ID          | linux01             |
 | EXEC NO          | 1                   |
-| STATUS           | Complete            |   ☞ 진행 상태
+| STATUS           | Complete            | ☜  진행 상태
 | START AT         | 2020/03/03 15:08:04 |
 | END AT           | 2020/03/03 15:08:04 |
 | CREATED BY       | bumbee(user)        |
-| RESULT           | Success             |   ☞ 실행 결과
-| EXIT CD          | 0                   |   ☞ 실행 결과 코드
+| RESULT           | Success             | ☜  실행 결과
+| EXIT CD          | 0                   | ☜  실행 결과 코드
 +------------------+---------------------+
 
-[STDERR]                                     ☞ 표준에러
+[STDERR]                                   ☜  표준에러
 No content.
 
-[STDOUT]                                     ☞ 표준출력
+[STDOUT]                                   ☜  표준출력
 Filesystem               Size  Used Avail Use% Mounted on
 /dev/mapper/centos-root   50G  1.3G   49G   3% /
 devtmpfs                 486M     0  486M   0% /dev

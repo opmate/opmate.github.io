@@ -21,19 +21,19 @@ $ opmate nodegroup view -id linux_tomcat
 +--------------+--------------------------+
 | [BASIS]      |                          |
 |              |                          |
-| ID           | linux_tomcat             |   ☞ 노드그룹ID
-| OWNER        | bumbee                   |   ☞ 소유자(Owner)
+| ID           | linux_tomcat             | ☜  노드그룹ID
+| OWNER        | bumbee                   | ☜  소유자(Owner)
 | DESCRIPTION  | Installed Tomcat         |
 | CREATED AT   | 2020/02/24 11:08         |
 | CREATED BY   | bumbee                   |
 | UPDATED AT   | 2020/02/24 11:08         |
 | UPDATED BY   | bumbee                   |
 |              |                          |
-| [NODES]      |                          |   ☞ 포함 노드
+| [NODES]      |                          | ☜  포함 노드
 |              | linux01                  |
 |              | linux02                  |
 |              | linux07                  |
-| [ATTRIBUTES] |                          |   ☞ 속성(Attribute)
+| [ATTRIBUTES] |                          | ☜  속성(Attribute)
 |              | TOMCAT_HOME=/home/tomcat |
 +--------------+--------------------------+
 ```
