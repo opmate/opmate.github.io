@@ -37,7 +37,7 @@ $ opmate task view -id diskusage
 | APPRV REQ REASON  |                                 |
 | APPRV RJT REASON  |                                 |
 | APPRV USER        | oprim                           |
-| APPRV CHANGE DATE | 2020/03/02 10:55                |
+| APPRV UPDATED AT  | 2020/03/02 10:55                |
 | DESCRIPTION       | Reading etc/passwd file         |
 | CREATED AT        | 2020/02/28 16:48                |
 | CREATED BY        | bumbee                          |
