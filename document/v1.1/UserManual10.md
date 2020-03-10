@@ -64,4 +64,56 @@ OPMATE 의 노드, 태스크에서 Key로 사용되는 주요한 속성들 중�
 
 
 
+<div class="float_banner2"><!-- 고정배너 -->
+
+<div id='scrollmenu' name="scrolltop">
+
+<div align="center"><a href="javascript://" class="top" onclick="goTop(); return false;"><img src="./images/up.png" onmouseover='this.src="./images/up2.png"' onmouseout='this.src="./images/up.png"' border=0 alt="위로가기"></a></div>
+
+
+
+
+<div align="center"><a href="javascript://" class="bottom" onclick="goBottom(); return false;"><img src="./images/down.png" onmouseover='this.src="./images/down2.png"' onmouseout='this.src="./images/down.png"'border=0 alt="아래가기"></a></div>
+
+</div>
+
+<!--- 스크롤바 제어메뉴 끝 -->
+
+</div>
+
+			
+
+			<!-- 스크롤바 제어메뉴 시작 --->
+
+<script language="JavaScript">
+
+<!--
+
+function goTop(){
+
+window.scrollTo(0,0); //맨위로
+
+}
+
+function goMiddle(){
+
+window.scrollTo(0,500); //중간쯤 위치를 입맛에 맞게 조절하세요.
+
+}
+
+function goBottom(){
+
+var scr = document.body.scrollHeight; //페이지의 길이를 체크
+
+window.scrollTo(0,scr); //맨아래로
+
+}
+
+//-->
+
+</script>
+
+.float_banner2   {   position:absolute; position:fixed; right:10PX; bottom:35px;    padding:0   }
+
+
 [목차](UserManual.md) / [이전페이지](UserManual9.md)
