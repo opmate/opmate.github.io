@@ -85,7 +85,6 @@ OPMATE 의 노드, 태스크에서 Key로 사용되는 주요한 속성들 중�
 
 <!-- 스크롤바 제어메뉴 시작 -->
 <script language="JavaScript">
-<!--
 function goTop(){
 	window.scrollTo(0,0); //맨위로
 }
@@ -98,7 +97,6 @@ function goBottom(){
 	var scr = document.body.scrollHeight; //페이지의 길이를 체크
 	window.scrollTo(0,scr); //맨아래로
 }
-//-->
 </script>
 
 [목차](UserManual.md) / [이전페이지](UserManual9.md)
