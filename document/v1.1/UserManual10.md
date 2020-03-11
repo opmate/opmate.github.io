@@ -87,7 +87,7 @@ div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu {
 	position:absolute;
-	position:fixed;
+	/* position:fixed; */
 	right:10px;
 	bottom:30px;
 	float:right;
@@ -112,9 +112,6 @@ div, ul, li { margin:0; padding:0; }
 	list-style-type:none;
 	width:50px;
 	text-align:center;
-}
-
-#UserManualMenu, li {
 }
 
 #UserManualMenu a {
@@ -150,11 +147,11 @@ div, ul, li { margin:0; padding:0; }
 	width:170px;
 }
 
-#UserManualMenu ul:hover {
-	transform:translate(-170px, -250px);
-	-webkit-transform:translate(-170px, -250px);
-	-moz-transform:translate(-170px, -250px);
-	-khtml-transform:translate(-170px, -250px);
+#UserManualMenu:hover {
+	transform:translate(-150px, -250px);
+	-webkit-transform:translate(-150px, -250px);
+	-moz-transform:translate(-150px, -250px);
+	-khtml-transform:translate(-150px, -250px);
 }
 
 #UserManualMenu ul ul li {
