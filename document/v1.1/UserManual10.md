@@ -76,6 +76,21 @@ exit 0;
 [목차](UserManual.md)
 </div-->
 
+
+<div id="menu">
+<ul>
+<li><a href="#">Menu 1</a></li>
+<li><a href="#">Menu 2</a>
+	<ul>
+		<li><a href="#">Sub Menu 1</a></li>
+		<li><a href="#">Sub Menu 2</a></li>
+		<li><a href="#">Sub Menu 3</a></li>
+	</ul>
+</li>
+</ul>
+</div>
+
+
 <div class="float_banner"><!-- 고정배너 -->
 	<div id='scrollmenu' name="scrolltop">
 		<div align="center">
@@ -85,7 +100,7 @@ exit 0;
 		</div>
 		<div align="center">
 			<a href="javascript://" class="bottom" onclick="goBottom(); return false;">
-				<img src="../../img/prev.png">
+				<img src="../../img/prev.png" onmouseover=>
 				<!--img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기"-->
 			</a>
 		</div>
