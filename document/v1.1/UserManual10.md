@@ -71,99 +71,8 @@ exit 0;
 
 좀 더 자세한 내용은 앞서 설명한 "[5. 노드 그룹](UserManual5.md)" 항목을 참고하기 바란다.
 
-<!--
-position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 
-#usermanual-menu ul ul li {
-	float:none;
-}
--->
-
-<style type="text/css">
-
-.float_banner { position:absolute; position:fixed; right:10PX; bottom:35px; padding:0 }
-
-/* div, ul, li { margin:0; padding:0; } */
-
-.usermanual-menu {
-	position:absolute;
-	position:fixed;
-	right:10px;
-	bottom:30px;
-	float:right;
-	margin:0px 5px 3px 5px;
-	padding:0 0 3px 0;
-	-moz-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-}
-
-.usermanual-menu, ul ul {
-	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	background-color:#5c5c5c;
-}
-
-.usermanual-menu ul li {
-	float:left;
-	list-style-type:none;
-	width:50px;
-	text-align:center;
-}
-
-.usermanual-menu a {
-	height:16px;
-	color:#f1f1f1;
-	font-family:arial;
-	font-size:12px;
-	padding:0 10px 0 10px;
-	text-decoration:none;
-}
-
-.usermanual-menu a:hover {
-	color:#D4F4FA;
-	border-bottom:3px solid #FAED7D;
-}
-
-.usermanual-menu ul ul {
-	margin-top:3px;
-	display:none;
-	position:absolute;
-	-moz-border-radius-bottom-left: 3px;
-	-khtml-border-bottom-left-radius: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-	-moz-border-radius-bottom-right: 3px;
-	-khtml-border-bottom-right-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-	border-bottom-right-radius: 3px;
-}
-
-.usermanual-menu ul li:hover > ul {
-	display:block;
-	width:170px;
-}
-
-.usermanual-menu:hover {
-	width:170px;
-	transform:translate(0px, -220px);
-	-webkit-transform:translate(0px, -220px);
-	-moz-transform:translate(0px, -220px);
-	-khtml-transform:translate(0px, -220px);
-}
-
-.usermanual-menu ul ul li {
-	float:none;
-	width:170px;
-	text-align:left;
-}
-
-</style>
-
-
+<link rel="stylesheet" type="text/css" href="/assets/css/common.css" />
 <div class="usermanual-menu">
 	<ul>
 		<!--li><a href="#">이전</a></li-->
@@ -177,45 +86,12 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 				<li><a href="UserManual6.html">6. 태스크</a></li>
 				<li><a href="UserManual7.html">7. 태스크 인스턴스</a></li>
 				<li><a href="UserManual8.html">8. 파일 배포/수집</a></li>
-				<li><a href="UserManual9.html">별첨 #1. CLI 사용법</a></li>
-				<li><a href="UserManual10.html">별첨 #2. 스크립트내 예약어</a></li>
+				<li><a href="UserManual9.html">[별첨 #1] CLI 사용법</a></li>
+				<li><a href="UserManual10.html">[별첨 #2] 스크립트내 예약어</a></li>
 			</ul>
 		</li>
 		<!--li><a href="#">다음</a></li-->
 	</ul>
 </div>
-
-
-<!--div class="float_banner">
-	<div id='scrollmenu' name="scrolltop">
-		<div align="center">
-			<a href="javascript://" class="top" onclick="goTop(); return false;">
-				<pre>위로가기</pre>
-			</a>
-		</div>
-		<div align="center">
-			<a href="javascript://" class="bottom" onclick="goBottom(); return false;">
-				<img src="../../img/prev.png">
-				<img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기">
-			</a>
-		</div>
-	</div>
-</div-->
-
-<!-- 스크롤바 제어메뉴 시작 -->
-<!--script language="JavaScript">
-function goTop(){
-	window.scrollTo(0,0); //맨위로
-}
-
-function goMiddle(){
-	window.scrollTo(0,500); //중간쯤 위치를 입맛에 맞게 조절하세요.
-}
-
-function goBottom(){
-	var scr = document.body.scrollHeight; //페이지의 길이를 체크
-	window.scrollTo(0,scr); //맨아래로
-}
-</script-->
 
 [목차](UserManual.md) / [이전페이지](UserManual9.md)
