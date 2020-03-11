@@ -79,7 +79,7 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 }
 -->
 
-<style>
+<style type="text/css">
 div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu {
@@ -146,7 +146,7 @@ div, ul, li { margin:0; padding:0; }
 
 <div id="UserManualMenu">
 <ul>
-	<li><a href="#">이전</a>
+	<li><a href="#">이전</a></li>
 	<li><a href="#">목차</a>
 		<ul>
 			<li><a href="#">1. 개요</a></li>
