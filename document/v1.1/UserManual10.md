@@ -76,6 +76,8 @@ exit 0;
 div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu {
+	position:absolute;
+	position:fixed;
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
@@ -91,7 +93,7 @@ div, ul, li { margin:0; padding:0; }
 }
 
 #UserManualMenu ul li {
-	float:left;
+	float:none;
 	list-style-type:none;
 }
 
@@ -111,6 +113,8 @@ div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu ul ul {
 	display:none;
+	position:absolute;
+	background-color:#5c5c5c;
 }
 
 #UserManualMenu ul li:hover ul {
@@ -122,12 +126,18 @@ div, ul, li { margin:0; padding:0; }
 
 <div id="UserManualMenu">
 <ul>
-<li><a href="#">Menu 1</a></li>
-<li><a href="#">Menu 2</a>
+<li><a href="#">목차</a>
 	<ul>
-		<li><a href="#">Sub Menu 1</a></li>
-		<li><a href="#">Sub Menu 2</a></li>
-		<li><a href="#">Sub Menu 3</a></li>
+		<li><a href="#">1. 개요</a></li>
+		<li><a href="#">2. 사용자</a></li>
+		<li><a href="#">3. 사용자 그룹</a></li>
+		<li><a href="#">4. 노드</a></li>
+		<li><a href="#">5. 노드 그룹</a></li>
+		<li><a href="#">6. 태스크</a></li>
+		<li><a href="#">7. 태스크 인스턴스</a></li>
+		<li><a href="#">8. 파일 배포/수집</a></li>
+		<li><a href="#">별첨 #1. CLI 사용법</a></li>
+		<li><a href="#">별첨 #2. 스크립트내 예약어</a></li>
 	</ul>
 </li>
 </ul>
