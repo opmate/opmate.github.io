@@ -65,11 +65,11 @@ div, ul, li { margin:0; padding:0; }
 
 .usermanual-menu ul li:hover > ul {
 	display:block;
-	width:180px;
+	width:175px;
 }
 
 .usermanual-menu:hover {
-	width:180px;
+	width:175px;
 	transform:translate(0px, -220px);
 	-webkit-transform:translate(0px, -220px);
 	-moz-transform:translate(0px, -220px);
@@ -78,6 +78,6 @@ div, ul, li { margin:0; padding:0; }
 
 .usermanual-menu ul ul li {
 	float:none;
-	width:180px;
+	width:175px;
 	text-align:left;
 }
