@@ -80,6 +80,9 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 -->
 
 <style type="text/css">
+
+.float_banner { position:absolute; position:fixed; right:10PX; bottom:35px; padding:0 }
+
 div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu {
@@ -107,7 +110,7 @@ div, ul, li { margin:0; padding:0; }
 #UserManualMenu ul li {
 	float:left;
 	list-style-type:none;
-	width:80px;
+	width:85px;
 	text-align:center;
 }
 
@@ -148,7 +151,7 @@ div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu ul ul li {
 	float:none;
-	width:160px;
+	width:170px;
 	text-align:left;
 }
 
@@ -157,7 +160,7 @@ div, ul, li { margin:0; padding:0; }
 
 <div id="UserManualMenu">
 <ul id='bar_menu'>
-	<li><a href="#">이전</a></li>
+	<!--li><a href="#">이전</a></li-->
 	<li><a href="#">목차</a>
 		<ul>
 			<li><a href="#">1. 개요</a></li>
@@ -172,12 +175,12 @@ div, ul, li { margin:0; padding:0; }
 			<li><a href="#">별첨 #2. 스크립트내 예약어</a></li>
 		</ul>
 	</li>
-	<li><a href="#">다음</a></li>
+	<!--li><a href="#">다음</a></li-->
 </ul>
 </div>
 
 
-<div class="float_banner"><!-- 고정배너 -->
+<!--div class="float_banner"><!-- 고정배너 -->
 	<div id='scrollmenu' name="scrolltop">
 		<div align="center">
 			<a href="javascript://" class="top" onclick="goTop(); return false;">
@@ -191,10 +194,10 @@ div, ul, li { margin:0; padding:0; }
 			</a>
 		</div>
 	</div>
-</div>
+</div-->
 
 <!-- 스크롤바 제어메뉴 시작 -->
-<script language="JavaScript">
+<!--script language="JavaScript">
 function goTop(){
 	window.scrollTo(0,0); //맨위로
 }
@@ -207,6 +210,6 @@ function goBottom(){
 	var scr = document.body.scrollHeight; //페이지의 길이를 체크
 	window.scrollTo(0,scr); //맨아래로
 }
-</script>
+</script-->
 
 [목차](UserManual.md) / [이전페이지](UserManual9.md)
