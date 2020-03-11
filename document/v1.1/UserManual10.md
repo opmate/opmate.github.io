@@ -149,10 +149,10 @@ div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu:hover {
 	width:170px;
-	transform:translate(0px, -230px);
-	-webkit-transform:translate(0px, -230px);
-	-moz-transform:translate(0px, -230px);
-	-khtml-transform:translate(0px, -230px);
+	transform:translate(0px, -220px);
+	-webkit-transform:translate(0px, -220px);
+	-moz-transform:translate(0px, -220px);
+	-khtml-transform:translate(0px, -220px);
 }
 
 #UserManualMenu ul ul li {
