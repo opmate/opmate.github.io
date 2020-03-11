@@ -87,19 +87,22 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
-	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-moz-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+}
+
+#UserManualMenu, ul ul {
+	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	background-color:#5c5c5c;
 }
 
 #UserManualMenu ul li {
-	float:none;
+	float:left;
 	list-style-type:none;
 }
 
@@ -118,13 +121,25 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 }
 
 #UserManualMenu ul ul {
+	margin-top:3px;
 	display:none;
 	position:absolute;
-	background-color:#5c5c5c;
+	-moz-border-radius-bottom-left: 3px;
+	-khtml-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	-moz-border-radius-bottom-right: 3px;
+	-khtml-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-bottom-right-radius: 3px;
 }
 
 #UserManualMenu ul li:hover ul {
-	display: block;
+	display:block;
+}
+
+#UserManualMenu ul ul li {
+	float:none;
 }
 
 </style>
