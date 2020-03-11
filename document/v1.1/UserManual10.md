@@ -72,12 +72,15 @@ exit 0;
 좀 더 자세한 내용은 앞서 설명한 "[5. 노드 그룹](UserManual5.md)" 항목을 참고하기 바란다.
 
 <!--
-div, ul, li { margin:0; padding:0; }
-
 position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
+
+#UserManualMenu ul ul li {
+	float:none;
+}
 -->
 
 <style>
+div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu {
 	position:absolute;
@@ -138,10 +141,6 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 	display:block;
 }
 
-#UserManualMenu ul ul li {
-	float:none;
-}
-
 </style>
 
 
@@ -162,7 +161,7 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 			<li><a href="#">별첨 #2. 스크립트내 예약어</a></li>
 		</ul>
 	</li>
-	<li><a href="#">다음</a>
+	<li><a href="#">다음</a></li>
 </ul>
 </div>
 
