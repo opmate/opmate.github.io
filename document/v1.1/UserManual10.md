@@ -89,7 +89,7 @@ div, ul, li { margin:0; padding:0; }
 	position:absolute;
 	position:fixed;
 	right:10px;
-	bottom:200px;
+	bottom:240px;
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
