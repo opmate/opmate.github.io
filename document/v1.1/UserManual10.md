@@ -89,7 +89,7 @@ div, ul, li { margin:0; padding:0; }
 	position:absolute;
 	position:fixed;
 	right:10px;
-	bottom:35px;
+	bottom:150px;
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
@@ -110,7 +110,7 @@ div, ul, li { margin:0; padding:0; }
 #UserManualMenu ul li {
 	float:left;
 	list-style-type:none;
-	width:50px;
+	width:40px;
 	text-align:center;
 }
 
@@ -148,15 +148,11 @@ div, ul, li { margin:0; padding:0; }
 #UserManualMenu ul li:hover > ul {
 	display:block;
 	width:170px;
-	right:180px;
-	bottom:200px;
 }
 
 #UserManualMenu ul li:hover {
 	display:block;
-	width:270px;
-	right:280px;
-	bottom:220px;
+	width:170px;
 }
 
 
@@ -197,7 +193,7 @@ div, ul, li { margin:0; padding:0; }
 </div>
 
 
-<!--div class="float_banner"><!-- 고정배너 -->
+<!--div class="float_banner">
 	<div id='scrollmenu' name="scrolltop">
 		<div align="center">
 			<a href="javascript://" class="top" onclick="goTop(); return false;">
@@ -207,7 +203,7 @@ div, ul, li { margin:0; padding:0; }
 		<div align="center">
 			<a href="javascript://" class="bottom" onclick="goBottom(); return false;">
 				<img src="../../img/prev.png">
-				<!--img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기"-->
+				<img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기">
 			</a>
 		</div>
 	</div>
