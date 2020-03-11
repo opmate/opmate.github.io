@@ -72,12 +72,55 @@ exit 0;
 좀 더 자세한 내용은 앞서 설명한 "[5. 노드 그룹](UserManual5.md)" 항목을 참고하기 바란다.
 
 
-<!--div class="float_banner">
-[목차](UserManual.md)
-</div-->
+<style>
+div, ul, li { margin:0; padding:0; }
+
+#UserManualMenu {
+	float:right;
+	margin:0px 5px 3px 5px;
+	padding:0 0 3px 0;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color:#5c5c5c;
+}
+
+#UserManualMenu ul li {
+	float:left;
+	list-style-type:none;
+}
+
+#UserManualMenu a {
+	height:16px;
+	color:#f1f1f1;
+	font-family:arial;
+	font-size:12px;
+	padding:0 10px 0 10px;
+	text-decoration:none;
+}
+
+#UserManualMenu a:hover {
+	color:#D4F4FA;
+	border-bottom:3px solid #FAED7D;
+}
+
+#UserManualMenu ul ul {
+	display:none;
+}
+
+#UserManualMenu ul li:hover ul {
+ display: block;
+}
+
+</style>
 
 
-<div id="menu">
+<div id="UserManualMenu">
 <ul>
 <li><a href="#">Menu 1</a></li>
 <li><a href="#">Menu 2</a>
