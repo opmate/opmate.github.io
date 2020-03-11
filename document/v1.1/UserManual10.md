@@ -71,11 +71,19 @@ exit 0;
 
 좀 더 자세한 내용은 앞서 설명한 "[5. 노드 그룹](UserManual5.md)" 항목을 참고하기 바란다.
 
-
-<style>
+<!--
 div, ul, li { margin:0; padding:0; }
 
+position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
+-->
+
+<style>
+
 #UserManualMenu {
+	position:absolute;
+	position:fixed;
+	left:10px;
+	top:35px;
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
