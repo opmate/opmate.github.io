@@ -134,7 +134,7 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 	border-bottom-right-radius: 3px;
 }
 
-#UserManualMenu ul li:hover ul {
+#UserManualMenu ul li:hover > ul {
 	display:block;
 }
 
@@ -147,6 +147,7 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 
 <div id="UserManualMenu">
 <ul>
+	<li><a href="#">이전</a>
 	<li><a href="#">목차</a>
 		<ul>
 			<li><a href="#">1. 개요</a></li>
@@ -161,6 +162,7 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 			<li><a href="#">별첨 #2. 스크립트내 예약어</a></li>
 		</ul>
 	</li>
+	<li><a href="#">다음</a>
 </ul>
 </div>
 
