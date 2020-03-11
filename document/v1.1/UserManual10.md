@@ -107,10 +107,11 @@ div, ul, li { margin:0; padding:0; }
 #UserManualMenu ul li {
 	float:left;
 	list-style-type:none;
+	width:70px;
+	text-align:center;
 }
 
-#UserManualMenu li {
-	width:120px;
+#UserManualMenu, li {
 }
 
 #UserManualMenu a {
@@ -147,6 +148,7 @@ div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu ul ul li {
 	float:none;
+	width:140px;
 }
 
 </style>
