@@ -3,7 +3,7 @@ title: Tutorial
 description: 태스크 실행
 ---
 
-[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial5.md)
+[목차](QuickTutorial.md) / [이전페이지](QuickTutorial5.md)
 
 드디어, 태스크 실행입니다.
 
@@ -89,4 +89,4 @@ tmpfs                    100M     0  100M   0% /run/user/0
 지금까지 간단한 예제를 통해 기초적인 이해와 사용 방법을 익히셨습니다.
 실전에서 사용하기 위한 세부적인 내용은 [사용자 매뉴얼](UserManual.md)를 참고하시기 바랍니다.
 
-[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial5.md)
+[목차](QuickTutorial.md) / [이전페이지](QuickTutorial5.md)

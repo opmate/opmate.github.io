@@ -3,7 +3,7 @@ title: Tutorial
 description: 노드 활성화
 ---
 
-[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial2.md) / [다음페이지](QuickTutorial4.md)
+[목차](QuickTutorial.md) / [이전페이지](QuickTutorial2.md) / [다음페이지](QuickTutorial4.md)
 
 노드(Node)는 관리하고자 하는 서버와 대응하는 개념입니다.
 서버에 에이전트를 설치 후 구동하면, 자동으로 노드가 마스터로 등록됩니다.
@@ -56,4 +56,4 @@ ROWS COUNT : 2/2
 노드가 활성화 되었고 ID도 사용하기 편하도록 짧게 바뀌었습니다.
 소유자(OWNER)는 bumbee가 되었네요.
 
-[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial2.md) / [다음페이지](QuickTutorial4.md)
+[목차](QuickTutorial.md) / [이전페이지](QuickTutorial2.md) / [다음페이지](QuickTutorial4.md)

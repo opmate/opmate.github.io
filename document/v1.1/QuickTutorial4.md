@@ -3,7 +3,7 @@ title: Tutorial
 description: 태스크 정의
 ---
 
-[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial3.md) / [다음페이지](QuickTutorial5.md)
+[목차](QuickTutorial.md) / [이전페이지](QuickTutorial3.md) / [다음페이지](QuickTutorial5.md)
 
 에이전트가 설치된 노드에 명령을 실행하기 위해서, 태스크(Task)를 정의해야 합니다.
 
@@ -97,4 +97,4 @@ Requesting https://127.0.0.1:8443/opmate;user=bumbee
 리비젼(REVISION) 번호가 0인 것과 승인상태(APPRV STATUS)가 N/A인 것에 주목하세요.
 태스크는 승인을 받아야 실제로 실행할 수 있습니다.
 
-[첫페이지](QuickTutorial.md) / [이전페이지](QuickTutorial3.md) / [다음페이지](QuickTutorial5.md)
+[목차](QuickTutorial.md) / [이전페이지](QuickTutorial3.md) / [다음페이지](QuickTutorial5.md)
