@@ -81,7 +81,8 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 
 #UserManualMenu {
 	position:absolute;
-	left:10px;
+	position:fixed;
+	right:10px;
 	top:35px;
 	float:right;
 	margin:0px 5px 3px 5px;
@@ -123,7 +124,7 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 }
 
 #UserManualMenu ul li:hover ul {
- display: block;
+	display: block;
 }
 
 </style>
