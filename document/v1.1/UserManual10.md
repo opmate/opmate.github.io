@@ -74,7 +74,7 @@ exit 0;
 <!--
 position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 
-#UserManualMenu ul ul li {
+#usermanual-menu ul ul li {
 	float:none;
 }
 -->
@@ -83,9 +83,9 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 
 .float_banner { position:absolute; position:fixed; right:10PX; bottom:35px; padding:0 }
 
-div, ul, li { margin:0; padding:0; }
+/* div, ul, li { margin:0; padding:0; } */
 
-#UserManualMenu {
+.usermanual-menu {
 	position:absolute;
 	position:fixed;
 	right:10px;
@@ -99,7 +99,7 @@ div, ul, li { margin:0; padding:0; }
 	border-radius: 3px;
 }
 
-#UserManualMenu, ul ul {
+.usermanual-menu, ul ul {
 	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
@@ -107,14 +107,14 @@ div, ul, li { margin:0; padding:0; }
 	background-color:#5c5c5c;
 }
 
-#UserManualMenu ul li {
+.usermanual-menu ul li {
 	float:left;
 	list-style-type:none;
 	width:50px;
 	text-align:center;
 }
 
-#UserManualMenu a {
+.usermanual-menu a {
 	height:16px;
 	color:#f1f1f1;
 	font-family:arial;
@@ -123,12 +123,12 @@ div, ul, li { margin:0; padding:0; }
 	text-decoration:none;
 }
 
-#UserManualMenu a:hover {
+.usermanual-menu a:hover {
 	color:#D4F4FA;
 	border-bottom:3px solid #FAED7D;
 }
 
-#UserManualMenu ul ul {
+.usermanual-menu ul ul {
 	margin-top:3px;
 	display:none;
 	position:absolute;
@@ -142,12 +142,12 @@ div, ul, li { margin:0; padding:0; }
 	border-bottom-right-radius: 3px;
 }
 
-#UserManualMenu ul li:hover > ul {
+.usermanual-menu ul li:hover > ul {
 	display:block;
 	width:170px;
 }
 
-#UserManualMenu:hover {
+.usermanual-menu:hover {
 	width:170px;
 	transform:translate(0px, -220px);
 	-webkit-transform:translate(0px, -220px);
@@ -155,7 +155,7 @@ div, ul, li { margin:0; padding:0; }
 	-khtml-transform:translate(0px, -220px);
 }
 
-#UserManualMenu ul ul li {
+.usermanual-menu ul ul li {
 	float:none;
 	width:170px;
 	text-align:left;
@@ -164,8 +164,8 @@ div, ul, li { margin:0; padding:0; }
 </style>
 
 
-<div id="UserManualMenu">
-	<ul id='bar_menu'>
+<div class="usermanual-menu">
+	<ul>
 		<!--li><a href="#">이전</a></li-->
 		<li><a href="#">목차</a>
 			<ul>
