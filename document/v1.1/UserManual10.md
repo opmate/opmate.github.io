@@ -151,7 +151,6 @@ div, ul, li { margin:0; padding:0; }
 }
 
 #UserManualMenu ul li:hover {
-	display:block;
 	transform:translate(0, -250px);
 	width:170px;
 }
@@ -160,6 +159,12 @@ div, ul, li { margin:0; padding:0; }
 	float:none;
 	width:170px;
 	text-align:left;
+}
+
+#UserManualMenu ul li a:hover {
+	color:#D4F4FA;
+	border-bottom:3px solid #FAED7D;
+	transform:translate(0, -250px);
 }
 
 </style>
