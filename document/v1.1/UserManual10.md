@@ -141,6 +141,10 @@ div, ul, li { margin:0; padding:0; }
 	display:block;
 }
 
+#UserManualMenu ul ul li {
+	width:90px;
+}
+
 </style>
 
 
