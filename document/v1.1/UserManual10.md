@@ -87,7 +87,7 @@ div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu {
 	position:absolute;
-	/* position:fixed; */
+	position:fixed;
 	right:10px;
 	bottom:30px;
 	float:right;
@@ -147,11 +147,15 @@ div, ul, li { margin:0; padding:0; }
 	width:170px;
 }
 
+#UserManualMenu ul:hover > ul {
+	width:170px;
+}
+
 #UserManualMenu:hover {
-	transform:translate(-150px, -250px);
-	-webkit-transform:translate(-150px, -250px);
-	-moz-transform:translate(-150px, -250px);
-	-khtml-transform:translate(-150px, -250px);
+	transform:translate(0px, -230px);
+	-webkit-transform:translate(0px, -230px);
+	-moz-transform:translate(0px, -230px);
+	-khtml-transform:translate(0px, -230px);
 }
 
 #UserManualMenu ul ul li {
