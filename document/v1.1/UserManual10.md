@@ -89,7 +89,7 @@ div, ul, li { margin:0; padding:0; }
 	position:absolute;
 	position:fixed;
 	right:10px;
-	top:35px;
+	bottom:35px;
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
@@ -110,7 +110,7 @@ div, ul, li { margin:0; padding:0; }
 #UserManualMenu ul li {
 	float:left;
 	list-style-type:none;
-	width:85px;
+	width:50px;
 	text-align:center;
 }
 
@@ -147,6 +147,10 @@ div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu ul li:hover > ul {
 	display:block;
+}
+
+#UserManualMenu ul li:hover li {
+	width:170px;
 }
 
 #UserManualMenu ul ul li {
