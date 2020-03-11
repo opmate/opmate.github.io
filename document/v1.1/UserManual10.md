@@ -81,7 +81,6 @@ position:absolute; position:fixed; right:10PX; bottom:35px; padding:0
 
 #UserManualMenu {
 	position:absolute;
-	position:fixed;
 	left:10px;
 	top:35px;
 	float:right;
