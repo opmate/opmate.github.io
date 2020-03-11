@@ -77,7 +77,7 @@ exit 0;
 </div-->
 
 <div class="float_banner"><!-- 고정배너 -->
-	<!--div id='scrollmenu' name="scrolltop"-->
+	<div id='scrollmenu' name="scrolltop">
 		<div align="center">
 			<a href="javascript://" class="top" onclick="goTop(); return false;">
 				<pre>위로가기</pre>
@@ -85,10 +85,11 @@ exit 0;
 		</div>
 		<div align="center">
 			<a href="javascript://" class="bottom" onclick="goBottom(); return false;">
-				<pre>아래가기</pre>
+				<img src="../../img/prev.png">
+				<!--img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기"-->
 			</a>
 		</div>
-	<!--/div-->
+	</div>
 </div>
 
 <!-- 스크롤바 제어메뉴 시작 -->
