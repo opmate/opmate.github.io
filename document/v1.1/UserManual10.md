@@ -89,7 +89,7 @@ div, ul, li { margin:0; padding:0; }
 	position:absolute;
 	position:fixed;
 	right:10px;
-	bottom:230px;
+	bottom:30px;
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
@@ -151,16 +151,10 @@ div, ul, li { margin:0; padding:0; }
 }
 
 #UserManualMenu ul li:hover {
+	display:block;
 	transform:translate(0, -200px);
 	width:170px;
 }
-
-
-/*
-#UserManualMenu ul li:hover li {
-	width:170px;
-}
-*/
 
 #UserManualMenu ul ul li {
 	float:none;
