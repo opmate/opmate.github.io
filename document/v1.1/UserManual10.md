@@ -89,7 +89,7 @@ div, ul, li { margin:0; padding:0; }
 	position:absolute;
 	position:fixed;
 	right:10px;
-	bottom:150px;
+	bottom:170px;
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
@@ -110,7 +110,7 @@ div, ul, li { margin:0; padding:0; }
 #UserManualMenu ul li {
 	float:left;
 	list-style-type:none;
-	width:40px;
+	width:45px;
 	text-align:center;
 }
 
