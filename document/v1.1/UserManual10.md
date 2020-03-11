@@ -147,6 +147,9 @@ div, ul, li { margin:0; padding:0; }
 
 #UserManualMenu ul li:hover > ul {
 	display:block;
+	width:170px;
+	right:180px;
+	bottom:200px;
 }
 
 #UserManualMenu ul li:hover li {
