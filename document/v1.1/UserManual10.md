@@ -109,6 +109,10 @@ div, ul, li { margin:0; padding:0; }
 	list-style-type:none;
 }
 
+#UserManualMenu li {
+	width:120px;
+}
+
 #UserManualMenu a {
 	height:16px;
 	color:#f1f1f1;
@@ -142,7 +146,7 @@ div, ul, li { margin:0; padding:0; }
 }
 
 #UserManualMenu ul ul li {
-	width:90px;
+	float:none;
 }
 
 </style>
