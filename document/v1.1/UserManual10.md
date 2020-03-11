@@ -152,14 +152,22 @@ div, ul, li { margin:0; padding:0; }
 	text-align:left;
 }
 
+#fold_menu {
+	width:20px;
+}
+
+#extend_menu {
+	width:20px;
+}
+
 </style>
 
 
 <div id="UserManualMenu">
-<ul>
+<ul id='fold_menu'>
 	<li><a href="#">&gt;</a></li>
 </ul>
-<ul>
+<ul id='bar_menu'>
 	<li><a href="#">이전</a></li>
 	<li><a href="#">목차</a>
 		<ul>
@@ -176,6 +184,9 @@ div, ul, li { margin:0; padding:0; }
 		</ul>
 	</li>
 	<li><a href="#">다음</a></li>
+</ul>
+<ul id='extend_menu'>
+	<li><a href="#">&lt;</a></li>
 </ul>
 </div>
 
