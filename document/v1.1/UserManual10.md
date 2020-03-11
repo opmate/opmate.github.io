@@ -151,10 +151,10 @@ div, ul, li { margin:0; padding:0; }
 }
 
 #UserManualMenu ul:hover {
-	transform:translate(-170, -250px);
-	-webkit-transform:translate(-170, -250px);
-	-moz-transform:translate(-170, -250px);
-	-khtml-transform:translate(-170, -250px);
+	transform:translate(-170px, -250px);
+	-webkit-transform:translate(-170px, -250px);
+	-moz-transform:translate(-170px, -250px);
+	-khtml-transform:translate(-170px, -250px);
 }
 
 #UserManualMenu ul ul li {
