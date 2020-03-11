@@ -143,7 +143,7 @@ div, ul, li { margin:0; padding:0; }
 		</div>
 		<div align="center">
 			<a href="javascript://" class="bottom" onclick="goBottom(); return false;">
-				<img src="../../img/prev.png" onmouseover=>
+				<img src="../../img/prev.png">
 				<!--img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기"-->
 			</a>
 		</div>
