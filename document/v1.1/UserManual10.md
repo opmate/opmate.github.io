@@ -152,9 +152,19 @@ div, ul, li { margin:0; padding:0; }
 	bottom:200px;
 }
 
+#UserManualMenu ul li:hover {
+	display:block;
+	width:270px;
+	right:280px;
+	bottom:220px;
+}
+
+
+<!--
 #UserManualMenu ul li:hover li {
 	width:170px;
 }
+-->
 
 #UserManualMenu ul ul li {
 	float:none;
