@@ -36,7 +36,7 @@ Usage : opmfput [--overwrite] &lt;token&gt; &lt;master:/master-file-path&gt; &lt
 >**opmfget** : File Repository 에서 파일 다운로드<br>
 Usage : opmfget [--overwrite] &lt;token&gt; &lt;master:/master-file-path&gt; [local-file-path]
 
-파일 조회는 사용자가 지정한 원격 경로(File Repository)에 존재하는 파일의 목록을 보여주며, 이 때 하위 디렉토리 및 그에 속한 파일은 조회할 수 없다. *(서버 보안 유지)*<br>
+파일 조회는 지정한 원격 경로(File Repository)에 존재하는 파일의 목록을 보여주며, 이 때 하위 디렉토리 및 그에 속한 파일은 조회할 수 없다. *(서버 보안 유지)*<br>
 조회대상 파일명에는 glob 패턴을 사용할 수 있다.(glob : 와일드카드 문자로 여러 파일 이름의 집합을 지정. Unix 계열 환경에서 사용되는 것과 동일함.)
 
 파일의 업로드와 다운로드는 개별 파일에 대해서 원격 경로(File Repository)와 로컬 경로를 지정하여 사용할 수 있다.(다건 전송 불가)
