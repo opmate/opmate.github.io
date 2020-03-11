@@ -147,11 +147,8 @@ div, ul, li { margin:0; padding:0; }
 	width:170px;
 }
 
-#UserManualMenu ul:hover > ul {
-	width:170px;
-}
-
 #UserManualMenu:hover {
+	width:170px;
 	transform:translate(0px, -230px);
 	-webkit-transform:translate(0px, -230px);
 	-moz-transform:translate(0px, -230px);
