@@ -7,8 +7,10 @@ div, ul, li { margin:0; padding:0; }
 .usermanual-menu {
 	position:absolute;
 	position:fixed;
+	width:50px;
 	right:10px;
 	bottom:30px;
+	text-align:center;
 	float:right;
 	margin:0px 5px 3px 5px;
 	padding:0 0 3px 0;
