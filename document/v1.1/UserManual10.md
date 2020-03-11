@@ -72,25 +72,23 @@ exit 0;
 좀 더 자세한 내용은 앞서 설명한 "[5. 노드 그룹](UserManual5.md)" 항목을 참고하기 바란다.
 
 
-<div class="float_banner"><!-- 고정배너 -->
-<pre>[목차](UserManual.md)</pre>
-</div>
+<!--div class="float_banner">
+[목차](UserManual.md)
+</div-->
 
 <div class="float_banner"><!-- 고정배너 -->
-	<div id='scrollmenu' name="scrolltop">
+	<!--div id='scrollmenu' name="scrolltop"-->
 		<div align="center">
 			<a href="javascript://" class="top" onclick="goTop(); return false;">
 				<pre>위로가기</pre>
-				<!--img src="../../img/next.png" onmouseover='this.src="../../img/up2.png"' onmouseout='this.src="../../img/next.png"' border=0 alt="위로가기"-->
 			</a>
 		</div>
 		<div align="center">
 			<a href="javascript://" class="bottom" onclick="goBottom(); return false;">
 				<pre>아래가기</pre>
-				<!--img src="../../img/prev.png" onmouseover='this.src="../../img/down2.png"' onmouseout='this.src="../../img/prev.png"'border=0 alt="아래가기"-->
 			</a>
 		</div>
-	</div>
+	<!--/div-->
 </div>
 
 <!-- 스크롤바 제어메뉴 시작 -->
