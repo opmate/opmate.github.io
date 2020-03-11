@@ -72,7 +72,11 @@ exit 0;
 좀 더 자세한 내용은 앞서 설명한 "[5. 노드 그룹](UserManual5.md)" 항목을 참고하기 바란다.
 
 
+<style type='text/css'>
+div, ul, li { margin:0; padding:0; }
 <link rel="stylesheet" type="text/css" href="/assets/css/common.css" />
+</style>
+
 <div class="usermanual-menu">
 	<ul>
 		<!--li><a href="#">이전</a></li-->
