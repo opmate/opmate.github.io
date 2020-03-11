@@ -150,12 +150,11 @@ div, ul, li { margin:0; padding:0; }
 	width:170px;
 }
 
-#UserManualMenu ul li:hover {
-	transform:translate(0, -250px);
-	-webkit-transform:translate(0, -250px);
-	-moz-transform:translate(0, -250px);
-	-ms-transform:translate(0, -250px);
-	-o-transform:translate(0, -250px);
+#UserManualMenu ul:hover {
+	transform:translate(-170, -250px);
+	-webkit-transform:translate(-170, -250px);
+	-moz-transform:translate(-170, -250px);
+	-khtml-transform:translate(-170, -250px);
 }
 
 #UserManualMenu ul ul li {
