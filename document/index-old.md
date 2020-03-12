@@ -2,7 +2,7 @@
 title: Guidance Document for Old Versions
 ---
 
-## OPMATE V1.0
+## Document for V1.0
 
 - 활용 가이드
   - [튜토리얼](/document/v1.0/QuickTutorial.html)
