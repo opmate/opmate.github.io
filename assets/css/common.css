@@ -2,8 +2,7 @@
 
 .float_banner { position:absolute; position:fixed; right:10PX; bottom:35px; padding:0 }
 
-
-.usermanual-menu div {
+.usermanual-menu {
 	position:absolute;
 	position:fixed;
 	width:50px;
@@ -17,11 +16,6 @@
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-}
-
-.usermanual-menu ul { margin:0; padding:0; }
-
-.usermanual-menu, ul ul {
 	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
@@ -29,11 +23,12 @@
 	background-color:#5c5c5c;
 }
 
-.usermanual-menu ul li {
-	float:left;
-	list-style-type:none;
-	width:50px;
-	text-align:center;
+.usermanual-menu:hover {
+	width:175px;
+	transform:translate(0px, -220px);
+	-webkit-transform:translate(0px, -220px);
+	-moz-transform:translate(0px, -220px);
+	-khtml-transform:translate(0px, -220px);
 }
 
 .usermanual-menu a {
@@ -50,6 +45,23 @@
 	border-bottom:3px solid #FAED7D;
 }
 
+.usermanual-menu ul {
+	margin:0;
+	padding:0;
+}
+
+.usermanual-menu ul li {
+	float:left;
+	list-style-type:none;
+	width:50px;
+	text-align:center;
+}
+
+.usermanual-menu ul li:hover > ul {
+	display:block;
+	width:175px;
+}
+
 .usermanual-menu ul ul {
 	margin-top:3px;
 	display:none;
@@ -62,19 +74,11 @@
 	-khtml-border-bottom-right-radius: 3px;
 	-webkit-border-bottom-right-radius: 3px;
 	border-bottom-right-radius: 3px;
-}
-
-.usermanual-menu ul li:hover > ul {
-	display:block;
-	width:175px;
-}
-
-.usermanual-menu:hover {
-	width:175px;
-	transform:translate(0px, -220px);
-	-webkit-transform:translate(0px, -220px);
-	-moz-transform:translate(0px, -220px);
-	-khtml-transform:translate(0px, -220px);
+	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	background-color:#5c5c5c;
 }
 
 .usermanual-menu ul ul li {
