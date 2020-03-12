@@ -86,4 +86,27 @@ CLI에서는 위의 명령어들을 통해서 태스크를 통해 노드로 배�
 
 태스크의 파일 유틸리티 사용과는 달리 token 은 존재하지 않으니, 앞서 설명한 바와 같이 File Repository는 임시 공간이라는 점만 유의하여 사용하면 된다.
 
+<!-- Floating Menu -->
+<link rel="stylesheet" type="text/css" href="/assets/css/common.css" />
+<div class="usermanual-menu">
+	<ul>
+		<!--li><a href="#">이전</a></li-->
+		<li><a href="#">목차</a>
+			<ul>
+				<li><a href="UserManual1.html">1. 개요</a></li>
+				<li><a href="UserManual2.html">2. 사용자</a></li>
+				<li><a href="UserManual3.html">3. 사용자 그룹</a></li>
+				<li><a href="UserManual4.html">4. 노드</a></li>
+				<li><a href="UserManual5.html">5. 노드 그룹</a></li>
+				<li><a href="UserManual6.html">6. 태스크</a></li>
+				<li><a href="UserManual7.html">7. 태스크 인스턴스</a></li>
+				<li><a href="UserManual8.html">8. 파일 배포/수집</a></li>
+				<li><a href="UserManual9.html">[별첨 #1] CLI 사용법</a></li>
+				<li><a href="UserManual10.html">[별첨 #2] 스크립트내 예약어</a></li>
+			</ul>
+		</li>
+		<!--li><a href="#">다음</a></li-->
+	</ul>
+</div>
+
 [목차](UserManual.md) / [이전페이지](UserManual7.md) / [다음페이지](UserManual9.md)
