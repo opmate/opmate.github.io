@@ -184,9 +184,7 @@ ROWS COUNT : 3/3
 
 <script src="jquery.js"></script>
 <script>
-$(function(){
-	$("#includedContent").load("floatMenu.html");
-});
+$("#includedContent").load("floatMenu.html");
 </script>
 
 <div id="user-menual"></div>
