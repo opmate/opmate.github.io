@@ -29,6 +29,8 @@
 }
 
 .usermanual-menu ul li {
+	margin:0;
+	padding:0;
 	float:left;
 	list-style-type:none;
 	width:50px;
@@ -50,6 +52,8 @@
 }
 
 .usermanual-menu ul ul {
+	margin:0;
+	padding:0;
 	margin-top:3px;
 	display:none;
 	position:absolute;
@@ -77,6 +81,8 @@
 }
 
 .usermanual-menu ul ul li {
+	margin:0;
+	padding:0;
 	float:none;
 	width:175px;
 	text-align:left;
