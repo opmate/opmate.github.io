@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-.float_banner { position:absolute; position:fixed; right:10PX; bottom:35px; padding:0 }
-
 .usermanual-menu {
 	position:absolute;
 	position:fixed;
@@ -48,6 +46,19 @@
 .usermanual-menu ul {
 	margin:0;
 	padding:0;
+	-moz-border-radius-bottom-left: 3px;
+	-khtml-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	-moz-border-radius-bottom-right: 3px;
+	-khtml-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+	background-color:#5c5c5c;
 }
 
 .usermanual-menu ul li {
@@ -66,19 +77,6 @@
 	margin-top:3px;
 	display:none;
 	position:absolute;
-	-moz-border-radius-bottom-left: 3px;
-	-khtml-border-bottom-left-radius: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-	-moz-border-radius-bottom-right: 3px;
-	-khtml-border-bottom-right-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-	border-bottom-right-radius: 3px;
-	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	background-color:#5c5c5c;
 }
 
 .usermanual-menu ul ul li {
