@@ -182,10 +182,12 @@ $ opmate user list -st E
 ROWS COUNT : 3/3
 ```
 
+<head>
 <script src="jquery.js"></script>
 <script>
 $("#includedContent").load("floatMenu.html");
 </script>
+</head>
 
 <div id="user-menual"></div>
 
