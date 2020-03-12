@@ -2,7 +2,7 @@
 
 .float_banner { position:absolute; position:fixed; right:10PX; bottom:35px; padding:0 }
 
-div, ul, li { margin:0; padding:0; }
+/* div, ul, li { margin:0; padding:0; } */
 
 .usermanual-menu {
 	position:absolute;
