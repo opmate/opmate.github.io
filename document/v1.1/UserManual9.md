@@ -181,7 +181,17 @@ $ opmate user list -st E
 
 ROWS COUNT : 3/3
 ```
-<div data-include="floatMenu.html"></div>
+
+<head>
+<script src="jquery-3.3.1.js"></script>
+<script>
+$("#includedContent").load("floatMenu.html");
+</script>
+</head>
+
+<div id="user-menual"></div>
+
+<!--div data-include="floatMenu.html"></div-->
 <!--?include("flotMenu.html")?-->
 
 [목차](UserManual.md) / [이전페이지](UserManual8.md) / [다음페이지](UserManual10.md)
