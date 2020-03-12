@@ -4,17 +4,18 @@ title: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 ## News
 
+2019/03/12 - **OPMATE v1.1** 이 릴리스 되었습니다.
 2019/04/25 - **OPMATE v1.0** 이 릴리스 되었습니다.
 
 ## Hot link
 
-[튜토리얼](/document/v1.0/QuickTutorial.md)
+[튜토리얼](/document/v1.1/QuickTutorial.md)
 
-[사용자 매뉴얼](/document/v1.0/Overview.md)
+[사용자 매뉴얼](/document/v1.1/UserManual.md)
 
-[리눅스/유닉스용 에이전트 설치](/document/v1.0/InstallAgentLinux.md)
+[리눅스/유닉스용 에이전트 설치](/document/v1.1/InstallAgentLinux.md)
 
-[윈도우즈용 에이전트 설치](/document/v1.0/InstallAgentWindows.md)
+[윈도우즈용 에이전트 설치](/document/v1.1/InstallAgentWindows.md)
 
 ## OPMATE?
 
