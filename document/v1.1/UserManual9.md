@@ -183,7 +183,7 @@ ROWS COUNT : 3/3
 ```
 
 <head>
-<script src="jquery.js"></script>
+<script src="jquery-3.3.1.js"></script>
 <script>
 $("#includedContent").load("floatMenu.html");
 </script>
