@@ -72,4 +72,27 @@ OS의 종류/버전 또는 태스크 수행의 목적이나 호스트(Host)의 �
 
 *(사용자는 기존 태스크의 영향도를 줄이는 등의 특정한 목적을 가지고 의도적으로 동일한 노드들의 집합을 만들 수 있다. 이때에도 노드 그룹 복사기능은 유용하다.)* 
 
+<!-- Floating Menu -->
+<link rel="stylesheet" type="text/css" href="/assets/css/common.css" />
+<div class="usermanual-menu">
+	<ul>
+		<!--li><a href="#">이전</a></li-->
+		<li><a href="#">목차</a>
+			<ul>
+				<li><a href="UserManual1.html">1. 개요</a></li>
+				<li><a href="UserManual2.html">2. 사용자</a></li>
+				<li><a href="UserManual3.html">3. 사용자 그룹</a></li>
+				<li><a href="UserManual4.html">4. 노드</a></li>
+				<li><a href="UserManual5.html">5. 노드 그룹</a></li>
+				<li><a href="UserManual6.html">6. 태스크</a></li>
+				<li><a href="UserManual7.html">7. 태스크 인스턴스</a></li>
+				<li><a href="UserManual8.html">8. 파일 배포/수집</a></li>
+				<li><a href="UserManual9.html">[별첨 #1] CLI 사용법</a></li>
+				<li><a href="UserManual10.html">[별첨 #2] 스크립트내 예약어</a></li>
+			</ul>
+		</li>
+		<!--li><a href="#">다음</a></li-->
+	</ul>
+</div>
+
 [목차](UserManual.md) / [이전페이지](UserManual4.md) / [다음페이지](UserManual6.md)
