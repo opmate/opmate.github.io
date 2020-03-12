@@ -19,6 +19,7 @@ title: Guidance Document for V1.1
 - [리눅스/유닉스용 에이전트 제거](UninstallAgentLinux.md)
 - [윈도우즈용 에이전트 제거](UninstallAgentWindows.md)
 
+
 [**이전 버전 문서**](/document/index-old.html)
 
 ![Alt text](/img/checkmate-small.png)
