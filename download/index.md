@@ -6,8 +6,8 @@ title: Software Download
 
 ## V1.1
 
-- **OPMATE Agent _v1.1.002_** : OPMATE Master v1.1.20200309 이상 필요
-  - [opma-inst-1.1.002-20200309.tar.gz](opma-inst-1.1.002-20200309.tar.gz)
+- **OPMATE Agent _v1.1.002_** (*OPMATE Master v1.1.20200309 이상 필요*)
+  - [download opma-inst-1.1.002-20200309.tar.gz](opma-inst-1.1.002-20200309.tar.gz)
     - CentOS 7/6/5 - x86_64bit
     - AIX 7.2/7.1/6.1/5.3 - ppc_64bit
     - Solaris 10/9 - sparc_64bit
