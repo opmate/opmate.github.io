@@ -43,11 +43,11 @@ NODE_ID=@OPM_ATTR.NODE_ID@
 TASK_ID=@OPM_ATTR.TASK_ID@
 TASK_INSTANCE_NO=@OPM_ATTR.TASK_INSTANCE_NO@
 
-echo "Result File" > /tmp/${NODE_ID}.${TASK_ID}.${TASK_INSTANCE_NO};
+echo "Result File" > /tmp/${NODE_ID}.${TASK_ID}.${TASK_INSTANCE_NO}
 
 중략...
 
-exit 0;
+exit 0
 ```
 
 ### 2. 파일 전송 토큰
