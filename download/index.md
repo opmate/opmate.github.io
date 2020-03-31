@@ -6,12 +6,12 @@ title: Software Download
 
 ## V1.1
 
-- **OPMATE Agent _v1.1.002_** (*OPMATE Master v1.1.20200309 이상 필요*)
-  - [opma-inst-1.1.002-20200309.tar.gz](opma-inst-1.1.002-20200309.tar.gz)
+- **OPMATE Agent _v1.1.003_** (*OPMATE Master v1.1.20200309 이상 필요*)
+  - [opma-inst-1.1.003-20200331.tar.gz](opma-inst-1.1.003-20200331.tar.gz)
     - CentOS 7/6/5 - x86_64bit
     - AIX 7.2/7.1/6.1/5.3 - ppc_64bit
     - Solaris 10/9 - sparc_64bit
-  - [opma-inst-1.1.002-20200309.exe](opma-inst-1.1.002-20200309.exe_)
+  - [opma-inst-1.1.003-20200331.exe](opma-inst-1.1.003-20200331.exe_)
     - Windows Server 2016/2012/2008/2003 - x86_64bit / x86_32bit
 
 ## V1.0
