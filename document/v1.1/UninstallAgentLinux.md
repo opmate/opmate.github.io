@@ -22,11 +22,7 @@ $ systemctl stop opmagent
 ```
 $ service opmagent stop
 ```
-- AIX 기준
-```
-$ /infsw/opma/bin/stop.sh
-```
-- SunOS 기준
+- AIX/SunOS/HP-UX 기준
 ```
 $ /infsw/opma/bin/stop.sh
 ```
@@ -60,6 +56,12 @@ $ rm /etc/rc.d/init.d/opmagent
 $ rm /etc/rc3.d/S99opmagent
 $ rm /etc/rc3.d/K01opmagent
 $ rm /etc/init.d/opmagent
+```
+- HP-UX 기준
+```
+$ rm /sbin/rc2.d/S999opmagent
+$ rm /sbin/rc2.d/K001opmagent
+$ rm /sbin/init.d/opmagent
 ```
 
 ## 파일 삭제
