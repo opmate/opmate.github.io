@@ -30,6 +30,10 @@ $ /infsw/opma/bin/stop.sh
 ```
 $ /infsw/opma/bin/stop.sh
 ```
+- HP-UX 기준
+```
+$ /infsw/opma/bin/stop.sh
+```
 
 ## 중지 상태 확인
 
@@ -60,6 +64,12 @@ $ rm /etc/rc.d/init.d/opmagent
 $ rm /etc/rc3.d/S99opmagent
 $ rm /etc/rc3.d/K01opmagent
 $ rm /etc/init.d/opmagent
+```
+- HP-UX 기준
+```
+$ rm /sbin/rc2.d/S999opmagent
+$ rm /sbin/rc2.d/K001opmagent
+$ rm /sbin/init.d/opmagent
 ```
 
 ## 파일 삭제

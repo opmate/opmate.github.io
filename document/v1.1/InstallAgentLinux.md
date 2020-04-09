@@ -73,6 +73,12 @@ master_port = 34813
   $ ln -s /etc/init.d/opmagent /etc/rc3.d/S99opmagent
   $ ln -s /etc/init.d/opmagent /etc/rc3.d/K01opmagent
   ```
+
+- HP-UX 기준
+  ```
+  $ ln -s /sbin/init.d/opmagent /sbin/rc2.d/S999opmagent
+  $ ln -s /sbin/init.d/opmagent /sbin/rc2.d/K001opmagent
+  ```
   
 ## 구동
 
