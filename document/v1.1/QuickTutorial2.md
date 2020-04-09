@@ -24,13 +24,13 @@ bumbee has been created successfully.
 ```
 $ opmate user list
 Requesting https://127.0.0.1:8443/opmate;user=admin
-+--------+---------------+------+---------+
-| ID     | NAME          | ROLE | STATUS  |
-+--------+---------------+------+---------+
-| admin  | nimda         | 0    | enable  |
-| oprim  | Optimus Prime | 1    | enable  |
-| bumbee | Bumblebee     | 3    | disable |
-+--------+---------------+------+---------+
++--------+---------------+------+---------+------------------+
+| ID     | NAME          | ROLE | STATUS  | LAST LOGIN       |
++--------+---------------+------+---------+------------------+
+| admin  | nimda         | 0    | enable  | 2020/03/13 14:07 |
+| oprim  | Optimus Prime | 1    | enable  | 2020/03/13 09:35 |
+| bumbee | Bumblebee     | 3    | disable | 2020/03/11 15:12 |
++--------+---------------+------+---------+------------------+
 
 ROWS COUNT : 3/3
 ```

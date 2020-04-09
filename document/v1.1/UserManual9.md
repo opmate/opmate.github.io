@@ -144,6 +144,7 @@ $ opmate user view -id bumbee
 | ROLE        | 2                |
 | STATUS      | enable           |
 | DESCRIPTION |                  |
+| LAST LOGIN  | 2020/03/11 15:12 |
 | CREATED AT  | 2020/03/06 13:48 |
 | CREATED BY  |                  |
 | UPDATED AT  | 2020/03/06 13:48 |
@@ -171,13 +172,13 @@ limit와 offset 옵션을 통해서 ***"특정 항목부터(offset) 몇 개(limi
 ```
 $ opmate user list -st E
 
-+--------+---------------+------+--------+
-| ID     | NAME          | ROLE | STATUS |
-+--------+---------------+------+--------+
-| admin  | admin         | 0    | enable |
-| oprim  | Optimus Prime | 1    | enable |
-| bumbee | Bumblebee     | 2    | enable |
-+--------+---------------+------+--------+
++--------+---------------+------+--------+------------------+
+| ID     | NAME          | ROLE | STATUS | LAST LOGIN       |
++--------+---------------+------+--------+------------------+
+| admin  | admin         | 0    | enable | 2020/03/13 14:07 |
+| oprim  | Optimus Prime | 1    | enable | 2020/03/13 09:35 |
+| bumbee | Bumblebee     | 2    | enable | 2020/03/11 15:12 |
++--------+---------------+------+--------+------------------+
 
 ROWS COUNT : 3/3
 ```
