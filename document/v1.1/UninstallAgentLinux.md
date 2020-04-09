@@ -26,6 +26,10 @@ $ service opmagent stop
 ```
 $ /infsw/opma/bin/stop.sh
 ```
+- HP-UX 기준
+```
+$ /infsw/opma/bin/stop.sh
+```
 
 ## 중지 상태 확인
 
