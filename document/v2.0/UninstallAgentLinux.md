@@ -18,7 +18,7 @@ $ su -
 ```
 $ systemctl stop opmagent
 ```
-- CentOS(RHEL) Linux 6 / CentOS(RHEL) Linux 5
+- RHEL(CentOS Linux) 6 / RHEL(CentOS Linux) 5
 ```
 $ service opmagent stop
 ```
@@ -36,7 +36,7 @@ $ ps -ef | grep opmagent
 $ systemctl disable opmagent
 $ rm /etc/systemd/system/opmagent.service
 ```
-- CentOS(RHEL) Linux 6 / CentOS(RHEL) Linux 5
+- RHEL(CentOS Linux) 6 / RHEL(CentOS Linux) 5
 ```
 $ chkconfig --del opmagent
 $ rm /etc/init.d/opmagent
