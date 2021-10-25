@@ -14,11 +14,11 @@ $ su -
 
 실행중인 에이전트를 중지시킵니다.
 
-- CentOS 7.x 기준
+- CentOS(RHEL) Linux 8 / CentOS(RHEL) Linux 7 / Debian 10 / Oracle Linux 8 / openSUSE 15.2 / Ubuntu 18.04 / Ubuntu 20.04
 ```
 $ systemctl stop opmagent
 ```
-- CentOS 6.x/5.x 기준
+- CentOS(RHEL) Linux 6 / CentOS(RHEL) Linux 5
 ```
 $ service opmagent stop
 ```
@@ -31,12 +31,12 @@ $ ps -ef | grep opmagent
 
 ## 서비스에서 제거
 
-- CentOS 7.x 기준
+- CentOS(RHEL) Linux 8 / CentOS(RHEL) Linux 7 / Debian 10 / Oracle Linux 8 / openSUSE 15.2 / Ubuntu 18.04 / Ubuntu 20.04
 ```
 $ systemctl disable opmagent
 $ rm /etc/systemd/system/opmagent.service
 ```
-- CentOS 6.x/5.x 기준
+- CentOS(RHEL) Linux 6 / CentOS(RHEL) Linux 5
 ```
 $ chkconfig --del opmagent
 $ rm /etc/init.d/opmagent

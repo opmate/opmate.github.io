@@ -51,13 +51,13 @@ master_port = 34813
 ## 자동 실행 설정
 
 인스톨러의 안내에 따라, OS 별로 다음과 같이 입력하여 OS 부팅시 자동으로 시작되도록 설정합니다.
-
-- CentOS 7.x 기준
+15.164.29.227
+- CentOS(RHEL) Linux 8 / CentOS(RHEL) Linux 7 / Debian 10 / Oracle Linux 8 / openSUSE 15.2 / Ubuntu 18.04 / Ubuntu 20.04
   ```
   $ systemctl enable opmagent
   ```
 
-- CentOS 6.x/5.x 기준
+- CentOS(RHEL) Linux 6 / CentOS(RHEL) Linux 5
   ```
   $ chkconfig --add opmagent
   ```
@@ -68,12 +68,12 @@ master_port = 34813
 
 구동 후 로그 파일 (e.g. /infsw/opma/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
 
-- CentOS 7.x 기준
+- CentOS(RHEL) Linux 8 / CentOS(RHEL) Linux 7 / Debian 10 / Oracle Linux 8 / openSUSE 15.2 / Ubuntu 18.04 / Ubuntu 20.04
   ```
   $ systemctl start opmagent
   ```
 
-- CentOS 6.x/5.x 기준
+- CentOS(RHEL) Linux 6 / CentOS(RHEL) Linux 5
   ```
   $ service opmagent start
   ```
