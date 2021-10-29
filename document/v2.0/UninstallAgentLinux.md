@@ -18,10 +18,6 @@ $ su -
 ```
 $ systemctl stop opmagent
 ```
-- RHEL(CentOS Linux) 6 / RHEL(CentOS Linux) 5
-```
-$ service opmagent stop
-```
 
 ## 중지 상태 확인
 
@@ -35,11 +31,6 @@ $ ps -ef | grep opmagent
 ```
 $ systemctl disable opmagent
 $ rm /etc/systemd/system/opmagent.service
-```
-- RHEL(CentOS Linux) 6 / RHEL(CentOS Linux) 5
-```
-$ chkconfig --del opmagent
-$ rm /etc/init.d/opmagent
 ```
 
 ## 파일 삭제
