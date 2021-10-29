@@ -7,11 +7,6 @@ title: Guidance Document for V2.0 (임시페이지)
 - [opma-installer-2.0.000-linux-20210607.tar.gz](/download/opma-installer-2.0.000-linux-20210607.tar.gz)
 - [opma-installer-2.0.000-windows-20210607.exe](/download/opma-installer-2.0.000-windows-20210607.exe_)
 
-## 활용 가이드
-
-- [튜토리얼]
-- [사용자 매뉴얼]
-
 ## 운영 가이드
 
 ### 프로그램 설치
