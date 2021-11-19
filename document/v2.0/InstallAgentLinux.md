@@ -61,10 +61,17 @@ master_port = 34813
 
 인스톨러의 안내에 따라, 다음과 같이 입력하여 구동합니다.
 
-구동 후 로그 파일 (e.g. /infsw/opma/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
-
 - RHEL(CentOS Linux) 8 / RHEL(CentOS Linux) 7 / Debian 10 / Oracle Linux 8 / openSUSE 15.2 / Ubuntu 18.04 / Ubuntu 20.04
   ```
   $ systemctl start opmagent
   ```
 
+구동 후 로그 파일 (e.g. /infsw/opma/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
+
+  ```
+  $ tail /infsw/opma/log/opm-agent.log
+  2021-11-19 16:12:42 INFO - Agent Starting...
+  2021-11-19 16:12:42 INFO - Successfully registered to the master
+  2021-11-19 16:12:42 INFO - Agent Started
+  ```
+  
