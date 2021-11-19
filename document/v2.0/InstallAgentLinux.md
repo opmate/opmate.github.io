@@ -69,7 +69,7 @@ master_port = 34813
 구동 후 로그 파일 (e.g. /infsw/opma/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
 
   ```
-  $ tail /infsw/opma/log/opm-agent.log
+  $ cat /infsw/opma/log/opm-agent.log
   2021-11-19 16:12:42 INFO - Agent Starting...
   2021-11-19 16:12:42 INFO - Successfully registered to the master
   2021-11-19 16:12:42 INFO - Agent Started
