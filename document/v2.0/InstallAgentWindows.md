@@ -51,15 +51,22 @@ master_port = 34813
 > (주의) "start=" 와 "auto" 사이에 공백이 하나 있습니다.
 
 ```
-C:\ sc config "OpMate Agent Service" start= auto
+C:\> sc config "OpMate Agent Service" start= auto
 ```
 
 ## 구동
 
 인스톨러의 안내에 따라, 다음과 같이 입력하여 구동합니다.
 
+```
+C:\> sc start "OpMate Agent Service"
+```
+
 구동 후 로그 파일 (e.g. C:\infsw\opma\log\opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
 
 ```
-C:\ sc start "OpMate Agent Service"
+C:\> type C:\infsw\opma\log\opm-agent.log
+2021-11-19 15:45:37 INFO - Agent Starting...
+2021-11-19 15:45:37 INFO - Successfully registered to the master
+2021-11-19 15:45:37 INFO - Agent Started
 ```
