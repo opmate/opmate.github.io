@@ -42,5 +42,6 @@ $ rm -rf /infsw/opma
 $ rm -f /usr/bin/opmfget
 $ rm -f /usr/bin/opmfput
 $ rm -f /usr/bin/opmfls
+$ rm -f /run/opmagent.pid
 ```
 
