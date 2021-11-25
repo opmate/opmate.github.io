@@ -4,8 +4,8 @@ title: Guidance Document for V2.0 (임시페이지)
 
 ## 다운로드
 
-- [opma-installer-2.0.001-linux-20211119.tar.gz](/download/opma-installer-2.0.001-linux-20211119.tar.gz)
-- [opma-installer-2.0.001-windows-20211111.exe](/download/opma-installer-2.0.001-windows-20211111.exe_)
+- [opma-installer-2.0.002-linux-20211125.tar.gz](/download/opma-installer-2.0.002-linux-20211125.tar.gz)
+- [opma-installer-2.0.002-windows-20211125.exe](/download/opma-installer-2.0.002-windows-20211125.exe_)
 
 ## 운영 가이드
 
