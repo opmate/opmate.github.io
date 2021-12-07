@@ -9,9 +9,9 @@ title: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 ## Versions
 
-[OPMATE V1.1](/document/v1.1/QuickTutorial.md)
+[OPMATE V1.1](/document/v1.1)
 
-[OPMATE V1.1](/document/v1.0/QuickTutorial.md)
+[OPMATE V1.1](/document/v1.0)
 
 ## OPMATE?
 
