@@ -1,5 +1,5 @@
 ---
-title: Guidance Document for Old Versions
+title: Guidance Document for V1.0
 ---
 
 ## Document for V1.0
@@ -16,3 +16,5 @@ title: Guidance Document for Old Versions
     - [윈도우즈용 에이전트 *설치*](InstallAgentWindows.html)
     - [윈도우즈용 에이전트 *삭제*](UninstallAgentWindows.html)
 - [다운로드](download/)
+
+![Alt text](/img/checkmate-small.png)
