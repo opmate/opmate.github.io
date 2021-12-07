@@ -11,7 +11,7 @@ title: 인프라 운영 자동화 플랫폼 (Operator's Mate)
 
 [OPMATE V1.1](/document/v1.1)
 
-[OPMATE V1.1](/document/v1.0)
+[OPMATE V1.0](/document/v1.0)
 
 ## OPMATE?
 
