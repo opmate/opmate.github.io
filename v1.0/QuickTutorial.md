@@ -13,5 +13,3 @@ title: Tutorial
 - 제5강 [태스크 승인](QuickTutorial5.md)
 
 - 제6강 [태스크 실행](QuickTutorial6.md)
-
-![Alt text](/img/opmate-small.png)
