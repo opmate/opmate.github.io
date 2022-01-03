@@ -1,6 +1,10 @@
 ---
-title: Guidance Document for V2.0 (임시페이지)
+title: Guidance Document for V2.0
 ---
+
+## 활용 가이드
+
+- 준비중
 
 ## 운영 가이드
 
