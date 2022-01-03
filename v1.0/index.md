@@ -28,4 +28,4 @@ title: OPMATE V1.0
   - [opma-inst-1.0.009-20191216.exe](download/opma-inst-1.0.009-20191216.exe_)
     - Windows Server 2016/2012/2008/2003 - x86_64bit / x86_32bit
 
-![Alt text](/img/checkmate-small.png)
+![Alt text](/img/poweron.png)
