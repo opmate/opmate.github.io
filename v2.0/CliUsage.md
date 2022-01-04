@@ -93,7 +93,7 @@ $ opmate config view | grep time_zone
 | time_zone     | America/New_York(EST), UTC-05:00 |
 ```
 
-기본적으로 출력은 현재 CLI 실행 환경의 타임존에 따라 출력된다.
+기본적으로 입력과 달리 날짜의 출력은 현재 CLI 실행 환경의 타임존에 따라 변환되어 출력된다.
 
 ```
 $ opmate accesskey view -id 79SCU8ZJZMZLEOB3L1LT
@@ -101,7 +101,7 @@ $ opmate accesskey view -id 79SCU8ZJZMZLEOB3L1LT
 | FIELD              | VALUE                             |
 +--------------------+-----------------------------------+
 ...
-| EXPIRY-DATE        | 2025-01-01 13:00:00 KST           |
+| EXPIRY-DATE        | 2024-12-31 23:00:00 EST           |
 ...
 +--------------------+-----------------------------------+
 ```
