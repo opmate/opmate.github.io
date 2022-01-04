@@ -118,7 +118,7 @@ $ opmate config view
 +---------------+-------------------------------+
 | master_url    | https://127.0.0.1:8443/opmate |
 | limit_default | 30                            |
-| time_zone     | Local : KST (UTC+09:00)       |
+| time_zone     | Local(KST), UTC+09:00         |
 +---------------+-------------------------------+
 ```
 
@@ -137,6 +137,6 @@ $ opmate config view
 +---------------+-------------------------------+
 | master_url    | https://127.0.0.1:8443/opmate |
 | limit_default | 10                            |
-| time_zone     | Local : KST (UTC+09:00)       |
+| time_zone     | Local(KST), UTC+09:00         |
 +---------------+-------------------------------+
 ```
