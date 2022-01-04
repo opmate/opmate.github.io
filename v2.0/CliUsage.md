@@ -5,7 +5,7 @@ description: CLI 사용 가이드
 
 ## CLI(Command Line Interface) 사용 가이드
 
-OPMATE CLI(Command Line Interface)는 셸의 명령을 사용하여 OPMATE MASTER에 작업을 전달하고 조회할 수 있는 도구이다.
+OPMATE CLI(Command Line Interface)는 셸의 명령을 사용하여 OPMATE MASTER에 작업을 전달하고 결과를 조회할 수 있는 도구이다.
 방식이나 절차는 다를 수 있으나, 웹브라우저 기반 Console에서 제공하는 기능을 동일하게 수행할 수 있다.
 또한, 다른 종류의 CLI 와 마찬가지로 명령어와 쉘스크립트를 조합하여, 자주 수행하는 작업의 자동화를 직접 응용하여 적용할 수 있다.
 
