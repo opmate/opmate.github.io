@@ -90,7 +90,7 @@ $ opmate accesskey edit -id 79SCU8ZJZMZLEOB3L1LT -ed 2025-01-01T13:00:00+09:00
 
 ```
 $ opmate config view | grep time_zone
-| time_zone     | Local : KST (UTC+09:00)
+| time_zone     | America/New_York(EST), UTC-05:00 |
 ```
 
 기본적으로 출력은 현재 CLI 실행 환경의 타임존에 따라 출력된다.
