@@ -5,6 +5,10 @@ description: CLI 사용 가이드
 
 ## CLI(Command Line Interface) 사용 가이드
 
+OPMATE CLI(Command Line Interface)는 셸의 명령을 사용하여 OPMATE MASTER에 작업을 전달하고 조회할 수 있는 도구이다.
+방식이나 절차는 다를 수 있으나, 웹브라우저 기반 Console에서 제공하는 기능을 동일하게 수행할 수 있다.
+또한, 다른 종류의 CLI 와 마찬가지로 명령어와 쉘스크립트를 조합하여, 자주 수행하는 작업의 자동화를 직접 응용하여 적용할 수 있다.
+
 ### 명령어 구조
 
 CLI 명령어는 subject, action, parameters 의 3가지 레벨로 구성되어 있다.
@@ -31,7 +35,18 @@ $ opmate user -h
 $ opmate user list -lm 10 -h
 ```
 
-### 목록조회
+### 요청 정보
+
+명령어 수행시 OPMATE MASTER의 URL과 현재의 사용자 정보가 출력된다.
+
+예를 들어, 다음은 `https://127.0.0.1:8443/opmate`인 MASTER에게 `bumbee` 사용자로서 요청을 보낸다는 의미이다.
+
+```
+$ opmate user list
+Requesting https://127.0.0.1:8443/opmate;user=bumbee
+```
+
+### 목록 조회
 
 액션(action)은 주제(subject)에 따라 차이가 있지만 목록조회를 위한 명령은 공통적인 특징이 있다.
 주로 list 또는 list로 시작하는 명칭이며, 전체 목록 중 부분 출력(페이징)을 위한 `-lm`과 `-of` 파리미터를 제공한다.
@@ -56,7 +71,7 @@ $ opmate task list -ow bumbee -lm 10
 ROWS COUNT : 10/33
 ```
 
-### 날짜
+### 날짜 형식
 
 날짜 입력은 ISO 8601 표준에 따라 다음과 같은 형식을 지원한다.
 
@@ -91,7 +106,7 @@ $ opmate accesskey view -id 79SCU8ZJZMZLEOB3L1LT
 +--------------------+-----------------------------------+
 ```
 
-### 설정
+### 환경 설정
 
 CLI 는 공통적인 기본 설정값을 가지고 있으며, 개인별로 그 값을 바꾸어 설정할 수 있다.
 다음은 최종 적용되는 설정값을 출력한 예제이다.
