@@ -71,7 +71,7 @@ $ opmate task list -ow bumbee -lm 10
 ROWS COUNT : 10/33
 ```
 
-### 날짜 형식
+### 날짜 입력 형식
 
 날짜 입력은 ISO 8601 표준에 따라 다음과 같은 형식을 지원한다.
 
@@ -93,20 +93,9 @@ $ opmate config view | grep time_zone
 | time_zone     | America/New_York(EST), UTC-05:00 |
 ```
 
-기본적으로 입력과 달리 날짜의 출력은 현재 CLI 실행 환경의 타임존에 따라 변환되어 출력된다.
-
-```
-$ opmate accesskey view -id 79SCU8ZJZMZLEOB3L1LT
-+--------------------+-----------------------------------+
-| FIELD              | VALUE                             |
-+--------------------+-----------------------------------+
-...
-| EXPIRY-DATE        | 2024-12-31 23:00:00 EST           |
-...
-+--------------------+-----------------------------------+
-```
-
 ### 환경 설정
+
+#### 설정값 확인
 
 CLI 는 공통적인 기본 설정값을 가지고 있으며, 개인별로 그 값을 바꾸어 설정할 수 있다.
 다음은 최종 적용되는 설정값을 출력한 예제이다.
@@ -119,8 +108,11 @@ $ opmate config view
 | master_url    | https://127.0.0.1:8443/opmate |
 | limit_default | 30                            |
 | time_zone     | Local(KST), UTC+09:00         |
+...
 +---------------+-------------------------------+
 ```
+
+#### 설정 파일
 
 공통의 기본 설정값은 `/etc/opmate/cli.conf` 파일에 정의하며, 만약 파일이 없거나 일부만 정의되어 있는 경우 CLI 프로그램 내부의 기본값이 적용된다.
 
@@ -131,12 +123,64 @@ $ opmate config view
 ```
 $ cat ~/.opm/cli.conf
 limit_default = 10
-$ opmate config view
-+---------------+-------------------------------+
-| FIELD         | VALUE                         |
-+---------------+-------------------------------+
-| master_url    | https://127.0.0.1:8443/opmate |
+
+$ opmate config view | grep limit_default
 | limit_default | 10                            |
+```
+
+#### 타임존(time zone) 설정
+
+현재 CLI의 타임존은 다음과 같이 확인할 수 있다.
+
+```
+$ opmate config view | grep time_zone
 | time_zone     | Local(KST), UTC+09:00         |
-+---------------+-------------------------------+
+```
+
+위 내용중 `Local`은 CLI가 실행되고 있는 운영체제, 그리고 쉘의 환경값(주로 TZ값)을 따라 간다는 의미이다.
+
+기본적으로 CLI에서 날짜의 출력은 현재 설정의 타임존 항목을 기준으로 출력된다. 다음의 출력 예이다.
+
+```
+$ opmate accesskey view -id 79SCU8ZJZMZLEOB3L1LT
++--------------------+-----------------------------------+
+| FIELD              | VALUE                             |
++--------------------+-----------------------------------+
+...
+| EXPIRY-DATE        | 2030-01-01 00:00:00 KST           |
+...
++--------------------+-----------------------------------+
+```
+
+만약, 뉴욕의 시간대를 기준으로 보고 싶을 경우에 설정 파일의 `time_zone`을 `America/New_York`으로 을 수정하면 된다.
+
+```
+$ cat ~/.opm/cli.conf | grep time_zone
+time_zone = America/New_York
+
+$ opmate config view | grep time_zone
+| time_zone     | America/New_York(EST), UTC-05:00 |
+
+$ opmate accesskey view -id 79SCU8ZJZMZLEOB3L1LT
++--------------------+-----------------------------------+
+| FIELD              | VALUE                             |
++--------------------+-----------------------------------+
+...
+| EXPIRY-DATE        | 2029-12-31 10:00:00 EST           |
+...
++--------------------+-----------------------------------+
+```
+
+`America/New_York`와 같이 타임존으로 설정 가능한 값은 다음과 같이 찾아볼 수 있다.
+
+```
+$ timedatectl list-timezones | grep America
+...
+America/Nassau
+America/New_York
+America/Nipigon
+America/Nome
+America/Noronha
+America/North_Dakota/Beulah
+...
 ```
