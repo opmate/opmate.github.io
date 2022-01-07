@@ -152,7 +152,7 @@ $ opmate accesskey view -id 79SCU8ZJZMZLEOB3L1LT
 +--------------------+-----------------------------------+
 ```
 
-만약, 뉴욕의 시간대를 기준으로 보고 싶을 경우에 설정 파일의 `time_zone`을 `America/New_York`으로 을 수정하면 된다.
+만약, 뉴욕의 시간대를 기준으로 보고 싶을 경우에 설정 항목 중 `time_zone`을 `America/New_York`으로 수정하면 된다.
 
 ```
 $ cat ~/.opm/cli.conf | grep time_zone
@@ -171,7 +171,7 @@ $ opmate accesskey view -id 79SCU8ZJZMZLEOB3L1LT
 +--------------------+-----------------------------------+
 ```
 
-`America/New_York`와 같이 타임존으로 설정 가능한 값은 다음과 같이 찾아볼 수 있다.
+`America/New_York`와 같은 타임존으로 설정 가능한 값은 `timedatectl list-timezones` 명령으로 찾아볼 수 있다.
 
 ```
 $ timedatectl list-timezones | grep America
