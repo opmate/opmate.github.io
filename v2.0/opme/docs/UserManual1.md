@@ -3,7 +3,7 @@ title: 사용자 매뉴얼
 description: 1. 개요
 ---
 
-[홍차](index.md)
+[녹차](index.md)
 
 
 ## OPMATE 란?
