@@ -6,10 +6,6 @@ description: 사용자 목록/사용자 정보
 ## 사용자 목록
 OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
 
-|![사용자 목록](img/user_lst.png "사용자 목록")|
-|--|
-|Image_1-1.png|
-
 >![사용자 목록](img/user_lst.png "사용자 목록")
  
 ---
@@ -38,18 +34,6 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
 
 ## 사용자 정보
 
-1. a
-   - 123
-   - 456
-2. b
-   - 789
-3. c
-   - 101112
-
-[조회]{: .btn .btn-blue }
-
-[조회](#){: .btn .btn-blue }
- 
-[Default Button](#){ .md-button }
-
-[Subscribe to our newsletter](#){ .md-button }
+- 기본정보
+    - [x] 사용자ID
+    - [ ] 설명
