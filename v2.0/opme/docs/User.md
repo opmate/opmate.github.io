@@ -9,6 +9,7 @@ description: 사용자 목록/사용자 정보
 
 <!-- Defined -->
 [user-lst]: img/user-lst.png
+[user-dtl]: img/user-dtl.png
 [btn-del-ico]: img/icon/ico-del-hover.png
 [btn-add-ico]: img/icon/ico-add-hover.png  
 
@@ -47,7 +48,31 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
 
 
 ## 사용자 정보
+사용자 정보 확인/등록/수정이 가능합니다.  
+로그인한 사용자 본인의 정보는 수정이 가능하나, Normal-User의 경우 다른 사람의 정보는 확인만 가능합니다.  
+Super-User만 다른 사용자의 등록/수정이 가능합니다.  
 
-- 기본정보
-    - [x] 사용자ID
-    - [ ] 설명
+>![사용자 정보][user-dtl]
+ 
+### 기본정보
+>**사용자ID** : <kbd class="btn-gray">&nbsp;확인&nbsp;</kbd> 버튼으로 중복 여부 확인 가능합니다.  
+**이름**  
+**권한** : Super-User 만 변경 가능합니다.  
+**Noti(이메일)** : OPMATE Noti. 에 사용되는 정보이며, 대부분의 경우 이메일을 사용합니다.  
+**연락처** : 사용자 간 개별 연락을 위한 연락처 정보이며, 대부분의 경우 전화번호를 사용합니다.  
+**상세사항** : 상세사항을 입력합니다.  
+
+### 계정상태
+>**활성여부** : Enable/Disable. 활성 여부를 변경할 수 있으며, Super-User 에만 활성화 됩니다.  
+
+### 비밀번호
+>
+
+### 이력정보
+>
+
+### 하단 버튼영역
+> **목록** :  
+> **2차인증 등록** :  
+> **2차인증 초기화** :  
+> **저장** :  
