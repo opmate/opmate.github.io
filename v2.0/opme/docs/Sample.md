@@ -2,6 +2,11 @@
 title: 사용자
 description: 사용자 목록/사용자 정보
 ---
+### 참고
+- https://seochanh.github.io/jekyll/2020/08/21/html-in-markdown/
+- https://lynmp.com/en/article/title/how-to-use-markdown-oz811c9dc5pz
+- https://www.xaprb.com/blog/how-to-style-images-with-markdown/
+- https://squidfunk.github.io/mkdocs-material/reference/images/#image-alignment
 
 ## 사용자 목록
 OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
