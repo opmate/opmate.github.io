@@ -6,9 +6,9 @@ description: 사용자 목록/사용자 정보
 ## 사용자 목록
 OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
 
->![사용자 목록](img/user_lst.png "사용자 목록")
+>![사용자 목록](img/user-lst.png "사용자 목록")
 
-![사용자 목록](img/user_lst.png "사용자 목록"){: width="100px" height="100px" }
+![사용자 목록](img/user-lst.png "사용자 목록"){: width="100px" height="100px" }
 
 .baba {
     vertical-align: bottom;
