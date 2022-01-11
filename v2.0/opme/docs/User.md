@@ -10,8 +10,8 @@ description: 사용자 목록/사용자 정보
 <!-- Defined -->
 [user-lst]: img/user-lst.png
 [user-dtl]: img/user-dtl.png
-[btn-del-ico]: img/icon/ico-del-hover.png
-[btn-add-ico]: img/icon/ico-add-hover.png  
+[ico-del]: img/icon/ico-del.png
+[ico-add]: img/icon/ico-add.png  
 
 ## 사용자 목록
 OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.  
@@ -38,8 +38,8 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
 **Double Click** : Row 를 Double Click 하면 해당 사용자의 상세 정보 화면으로 이동한다.(권한에 따른 편집가능)  
  
 #### Grid 상단영역  
-> ![삭제][btn-del-ico]{: .ico-img } : Check 된 Row 를 삭제한다.   
-![추가/등록][btn-add-ico]{: .ico-img } : 신규 생성한다.
+> ![삭제][ico-del] : Check 된 Row 를 삭제한다.   
+![추가/등록][ico-add] : 신규 생성한다.
  
 #### Grid 하단영역
 >**Left** : 조회 건수  
