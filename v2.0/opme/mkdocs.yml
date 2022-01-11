@@ -8,6 +8,7 @@ nav:
   - INDEX: 'index.md'
   - '사용자': 'User.md'
   - 'Sample': 'Sample.md'
+  - '사용자2': 'User2.md'
 
 markdown_extensions:
   - attr_list
