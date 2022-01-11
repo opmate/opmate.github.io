@@ -32,8 +32,9 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
  
 ### 조회 결과
 
-#### Grid : 조회 조건에 해당하는 결과를 출력한다.  
->**Double Click** : Row 를 Double Click 하면 해당 사용자의 상세 정보 화면으로 이동한다.(권한에 따른 편집가능)  
+#### Grid 본문영역
+>**Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.  
+**Double Click** : Row 를 Double Click 하면 해당 사용자의 상세 정보 화면으로 이동한다.(권한에 따른 편집가능)  
  
 #### Grid 상단영역  
 > ![삭제][btn-del-ico]{: .ico-img } : Check 된 Row 를 삭제한다.   
