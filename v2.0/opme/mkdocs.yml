@@ -7,8 +7,8 @@ theme:
 nav:
   - INDEX: 'index.md'
   - '사용자': 'User.md'
+  - '사용자그룹': 'UserGroup.md'
   - 'Sample': 'Sample.md'
-  - '사용자2': 'User2.md'
 
 markdown_extensions:
   - attr_list
