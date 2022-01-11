@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="/css/opme.css">
 ---
 title: 사용자
 description: 사용자 목록/사용자 정보
@@ -7,8 +8,6 @@ description: 사용자 목록/사용자 정보
 OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
 
 >![사용자 목록](img/user_lst.png "사용자 목록")
-
-![사용자 목록](img/user_lst.png "사용자 목록"){: width="100px" height="100px" }
 
 ### 권한
 모든 사용자가 조회 기능을 사용할 수 있지만, 삭제 기능은 Super-User 권한의 사용자만 사용 가능 하다.
@@ -26,8 +25,24 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
 ![조회](img/icon/ico-select-btn2.png#class=baba "조회"){: style="vertical-align: bottom;" } : 조회 수행  
 ![조회](img/icon/ico-select-btn2.png#style=vertical-align:bottom; "조회"){: width="65px" } : 조회 수행  
 ![조회](img/icon/ico-select-btn2.png "조회"){: width="65px" style="vertical-align: bottom;" } : 조회 수행  
+![조회][select-btn]{: width="65px" style="vertical-align: bottom;" } : 조회 수행  
+[select-btn]: img/icon/ico-select-btn2.png  
+ 
+<style type='text/css'>
+kbd {
+   color: #000000;
+   background-color: #ffffff;
+   box-shadow: 0px 2px 1px 1px #bcbcbc;
+}
+</style>
 <kbd style="color: #000000; background-color: #ffffff; box-shadow: 0px 2px 1px 1px #bcbcbc">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  
 <kbd style="color: #ffffff; background-color: #ea0530; box-shadow: 0px 2px 1px 1px #ea9999">&nbsp;조회&nbsp;</kbd> : 조회 수행  
+<kbd style="color: #000000; background-color: #ffffff; box-shadow: 0px 2px 1px 1px #bcbcbc">초기화</kbd> : 조회 조건 초기화  
+<kbd style="color: #ffffff; background-color: #ea0530; box-shadow: 0px 2px 1px 1px #ea9999">조회</kbd> : 조회 수행  
+<kbd class="btn-gray">초기화</kbd> : 조회 조건 초기화  
+<kbd class="btn-red">조회</kbd> : 조회 수행
+<kbd class="btn-red">조회</kbd> : 조회 수행
+<kbd class="btn-red">조회</kbd>: 조회 수행
  
 ### 조회 결과
 #### Grid : 조회 조건에 해당하는 결과를 출력한다.  
