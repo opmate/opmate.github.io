@@ -25,26 +25,43 @@ $ opmate user list -lm 10
 ### 도움말
 
 CLI 에서는 잘못된 명령어를 입력할 경우, 적절한 사용법에 대한 도움말을 보여준다.
-도움말은 명령을 구성하는 `<subject> <action> <arguments>` 의 각 레벨에 따른 내용으로 제공된다.
+도움말은 명령을 구성하는 `<subject> <action> <parameters>` 의 각 레벨에 따른 내용으로 제공된다.
 또한, 명시적으로 명령어 마지막에 `-h(--help)`를 붙여주면, 명령어에 아무 문제가 없더라도 강제적으로 도움말 출력 모드로 작동한다.
 다음은 명령 레벨별 도움말을 출력하는 예제이다.
 
 ```
 $ opmate -h
 $ opmate user -h
+$ opmate user list -h
 $ opmate user list -lm 10 -h
 ```
 
-### 요청 정보
+### 파라미터
 
-명령어 수행시 OPMATE MASTER의 URL과 현재의 사용자 정보가 출력된다.
-
-예를 들어, 다음은 `https://127.0.0.1:8443/opmate`인 MASTER에게 `bumbee` 사용자로서 요청을 보낸다는 의미이다.
+파라미터(parameter)는 `opmate <subject> <action>` 다음에 나오는 부분이다.
 
 ```
-$ opmate user list
-Requesting https://127.0.0.1:8443/opmate;user=bumbee
+$ opmate user create -h
+usage: opmate user create -id <user-id> -nm <name> -pr <number> -st <e|d>
+  [-na <notification-address>] [-ct <free-text>] [-de <free-text>]
+
+parameters:
+  -id,--id <user-id>                     User ID
+  -nm,--name <name>                      User name
+  -pr,--privilege <number>               Privilege
+                                         * 5 : normal-user
+                                         * 9 : super-user
+  -st,--status <e|d>                     Status : enable/disable
+  -na,--noti-addr <notification-address> Address for notification
+  -ct,--contact <free-text>              Contact address
+  -de,--description <free-text>          Description
 ```
+
+하나의 파라미터는 일반적으로 명칭(name)와 값(value)의 쌍으로 구성되지만, 명칭(name) 단독으로 쓰는 경우도 존재한다.
+명칭은 short-name(짧은 이름)과 long-name(긴 이름) 중 선호하는 것을 선택하여 사용할 수 있다.
+위 예제의 경우 `-st`와 `--status`가 각각 short-name, long-name에 해당한다.
+
+파라미터는 필수항목과 선택항목이 있으며, 선택항목은 위 예제의 `[-de <free-text>]`와 같이 `[]` 기호로 묶어서 표기된다.
 
 ### 목록 조회
 
@@ -91,6 +108,17 @@ $ opmate accesskey edit -id 79SCU8ZJZMZLEOB3L1LT -ed 2025-01-01T13:00:00+09:00
 ```
 $ opmate config view | grep time_zone
 | time_zone     | America/New_York(EST), UTC-05:00 |
+```
+
+### 요청 정보
+
+명령어 수행시 OPMATE MASTER에 요청을 보내게 되는 경우, MASTER의 URL과 현재의 사용자 정보가 출력된다.
+
+예를 들어, 다음은 `https://127.0.0.1:8443/opmate`인 MASTER에게 `bumbee` 사용자로서 요청을 보낸다는 의미이다.
+
+```
+$ opmate user list
+Requesting https://127.0.0.1:8443/opmate;user=bumbee
 ```
 
 ### 환경 설정
