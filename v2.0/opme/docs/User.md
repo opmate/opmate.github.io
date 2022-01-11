@@ -27,6 +27,9 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있다.
     - ![조회](img/icon/ico-select-btn.png#class=baba "조회"){: style="vertical-align: bottom;" } : 조회 수행  
     - ![조회](img/icon/ico-select-btn.png#style=vertical-align:bottom; "조회"){: width="65px" } : 조회 수행  
     - ![조회](img/icon/ico-select-btn.png "조회"){: width="65px" style="vertical-align: bottom;" } : 조회 수행
+    - ![조회](img/icon/ico-select-btn2.png#class=baba "조회"){: style="vertical-align: bottom;" } : 조회 수행
+    - ![조회](img/icon/ico-select-btn2.png#style=vertical-align:bottom; "조회"){: width="65px" } : 조회 수행
+    - ![조회](img/icon/ico-select-btn2.png "조회"){: width="65px" style="vertical-align: bottom;" } : 조회 수행
     - <kbd>초기화</kbd> : 조회 조건 초기화
     - <kbd style="color: #ffffff; background-color: #ea0530; box-shadow: 0px 2px 1px 1px #ea9999">조회</kbd> : 조회 수행  
 3. 조회 결과

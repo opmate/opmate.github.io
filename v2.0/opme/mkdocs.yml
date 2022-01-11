@@ -8,6 +8,7 @@ nav:
   - INDEX: 'index.md'
   - 'User Guide': 'UserManual1.md'
   - '사용자': 'User.md'
+  - '사용자1': 'User1.md'
 
 markdown_extensions:
   - attr_list
