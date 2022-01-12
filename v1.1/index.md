@@ -20,7 +20,7 @@ title: OPMATE V1.1
 
 **주의** : **마스터의 버전이 V1.1**인 경우에만 아래 에이전트를 설치하시기 바랍니다.
 
-- **OPMATE Agent _v1.1.005_** (*OPMATE Master v1.1.20200309 이상 필요*)
+- **OPMATE Agent _v1.1.005_**
   - [opma-inst-1.1.005-20200528.tar.gz](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v1.1.005/opma-inst-1.1.005-20200528.tar.gz)
     - CentOS 7/6/5 - x86_64bit
     - AIX 7.2/7.1/6.1/5.3 - ppc_64bit
