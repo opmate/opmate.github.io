@@ -5,7 +5,7 @@ description: CLI 사용 가이드
 
 ## CLI(Command Line Interface) 사용 가이드
 
-OPMATE CLI(Command Line Interface)는 셸의 명령을 사용하여 OPMATE MASTER에 작업을 전달하고 결과를 조회할 수 있는 도구이다.
+OPMATE CLI(Command Line Interface)는 쉘의 명령을 사용하여 OPMATE MASTER에 작업을 전달하고 결과를 조회할 수 있는 도구이다.
 방식이나 절차는 다를 수 있으나, 웹브라우저 기반 Console에서 제공하는 기능을 동일하게 수행할 수 있다.
 또한, 다른 종류의 CLI 와 마찬가지로 명령어와 쉘스크립트를 조합하여, 자주 수행하는 작업의 자동화를 직접 응용하여 적용할 수 있다.
 
@@ -26,14 +26,14 @@ $ opmate user list -lm 10
 
 CLI 에서는 잘못된 명령어를 입력할 경우, 적절한 사용법에 대한 도움말을 보여준다.
 도움말은 명령을 구성하는 `<subject> <action> <parameters>` 의 각 레벨에 따른 내용으로 제공된다.
-또한, 명시적으로 명령어 마지막에 `-h(--help)`를 붙여주면, 명령어에 아무 문제가 없더라도 강제적으로 도움말 출력 모드로 작동한다.
+또한, 명시적으로 명령어 마지막에 `-h(--help)`를 붙여주면, 명령어에 문제점 존재 여부와 상관없이 강제적으로 도움말 출력 모드로 작동한다.
 다음은 명령 레벨별 도움말을 출력하는 예제이다.
 
 ```
-$ opmate -h
-$ opmate user -h
-$ opmate user list -h
-$ opmate user list -lm 10 -h
+$ opmate -h                   # 사용 가능한 <subject>에 대한 도움말
+$ opmate user -h              # user에 사용 가능한 <action>에 대한 도움말
+$ opmate user list -h         # list에 사용 가능한 <parameters>에 대한 도움말
+$ opmate user list -lm 10 -h  # 위 명령과 동일 : 파라미터 "-lm 10" 무시
 ```
 
 ### 파라미터
@@ -57,7 +57,7 @@ parameters:
   -de,--description <free-text>          Description
 ```
 
-하나의 파라미터는 일반적으로 명칭(name)와 값(value)의 쌍으로 구성되지만, 명칭(name) 단독으로 쓰는 경우도 존재한다.
+하나의 파라미터는 일반적으로 명칭(name)와 값(value)의 쌍으로 구성되며, 일부의 경우 명칭(name) 단독으로 쓰이기도 한다.
 명칭은 short-name(짧은 이름)과 long-name(긴 이름) 중 선호하는 것을 선택하여 사용할 수 있다.
 위 예제의 경우 `-st`와 `--status`가 각각 short-name, long-name에 해당한다.
 
