@@ -8,9 +8,11 @@ description: 사용자 목록/사용자 정보
 <!-- Defined -->
 [usergrp-lst]: img/usergrp-lst.png
 [usergrp-dtl]: img/usergrp-dtl.png
+[popup-user-lst]: img/popup-user-lst.png
 [ico-search]: img/icon/ico-search.png
 [ico-del]: img/icon/ico-del.png
 [ico-add]: img/icon/ico-add.png  
+[user]: User.md
 
 ## 사용자그룹 목록
 OPMATE 사용자그룹 정보를 조회하고, 추가/삭제 할 수 있다.  
@@ -23,9 +25,14 @@ Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가
 
 #### 검색조건
 >**ID** : 부분문자열 조회 가능(Like)  
-**소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![소유자 조회][ico-search]{: .ico-gray } 팝업을 통해 선택.  
-**권한** : ALL/Super-User/Normal-User 선택  
-**상태** : ALL/Enable/Disable 선택  
+>**소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![소유자 조회][ico-search]{: .ico-gray } 팝업을 통해 선택.  
+>> - 소유자 조회 결과 Grid 에서 Row **Click** 하여 선택한다.  
+>> - 이후, 하단 <kbd class="btn-red">&nbsp;추가&nbsp;</kbd> 버튼으로 부모창 검색 조건에 추가한다.  
+>> - *[참고]* [사용자 조회][user]  
+>> ![소유자 조회][popup-user-lst]
+> 
+>**권한** : ALL/Super-User/Normal-User 선택  
+>**상태** : ALL/Enable/Disable 선택  
 
 #### 버튼
 ><kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  

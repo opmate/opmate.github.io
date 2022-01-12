@@ -18,7 +18,7 @@ title: OPMATE V1.0
 
 ## 다운로드
 
-버전에 따라 지원하는 운영체제와 호환 가능한 마스터 버전이 다를 수 있습니다. 확인 후 설치하시기 바랍니다.
+**주의** : **마스터의 버전이 V1.0**인 경우에만 아래 에이전트를 설치하시기 바랍니다.
 
 - **OPMATE Agent _v1.0.009_**
   - [opma-inst-1.0.009-20191216.tar.gz](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v1.0.009/opma-inst-1.0.009-20191216.tar.gz)
