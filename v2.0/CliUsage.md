@@ -57,7 +57,7 @@ parameters:
   -de,--description <free-text>          Description
 ```
 
-하나의 파라미터는 일반적으로 명칭(name)와 값(value)의 쌍으로 구성되며, 일부 명칭(name) 단독으로 쓰는 경우도 존재한다.
+하나의 파라미터는 일반적으로 명칭(name)와 값(value)의 쌍으로 구성되며, 일부의 경우 명칭(name) 단독으로 쓰이기도 한다.
 명칭은 short-name(짧은 이름)과 long-name(긴 이름) 중 선호하는 것을 선택하여 사용할 수 있다.
 위 예제의 경우 `-st`와 `--status`가 각각 short-name, long-name에 해당한다.
 
