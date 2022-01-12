@@ -5,7 +5,7 @@ theme:
   name: 'material'
 
 nav:
-  - INDEX: 'index.md'
+  - '목차': 'index.md'
   - '사용자': 'User.md'
   - '사용자그룹': 'UserGroup.md'
   - 'Sample': 'Sample.md'
