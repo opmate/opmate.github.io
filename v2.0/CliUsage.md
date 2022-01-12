@@ -26,14 +26,14 @@ $ opmate user list -lm 10
 
 CLI 에서는 잘못된 명령어를 입력할 경우, 적절한 사용법에 대한 도움말을 보여준다.
 도움말은 명령을 구성하는 `<subject> <action> <parameters>` 의 각 레벨에 따른 내용으로 제공된다.
-또한, 명시적으로 명령어 마지막에 `-h(--help)`를 붙여주면, 명령어에 아무 문제가 없더라도 강제적으로 도움말 출력 모드로 작동한다.
+또한, 명시적으로 명령어 마지막에 `-h(--help)`를 붙여주면, 명령어에 문제점 존재 여부와 상관없이 강제적으로 도움말 출력 모드로 작동한다.
 다음은 명령 레벨별 도움말을 출력하는 예제이다.
 
 ```
 $ opmate -h                   # 사용 가능한 <subject>에 대한 도움말
 $ opmate user -h              # user에 사용 가능한 <action>에 대한 도움말
 $ opmate user list -h         # list에 사용 가능한 <parameters>에 대한 도움말
-$ opmate user list -lm 10 -h  # 파라미터 "-lm 10" 무시
+$ opmate user list -lm 10 -h  # 위 명령과 동일 : 파라미터 "-lm 10" 무시
 ```
 
 ### 파라미터
