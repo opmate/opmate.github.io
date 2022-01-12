@@ -4,8 +4,6 @@ description: 사용자 목록/사용자 정보
 ---
 
 <link rel="stylesheet" type="text/css" href="../css/opme.css">
-<!--link rel="stylesheet" type="text/css" href="/css/opme.css"--><!-- mkdocs -->
-<!--link rel="stylesheet" type="text/css" href="css/opme.css"--><!-- Github -->
 
 <!-- Defined -->
 [user-lst]: img/user-lst.png
