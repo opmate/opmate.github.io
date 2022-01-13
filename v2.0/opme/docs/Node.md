@@ -8,9 +8,20 @@ description: 노드 목록/노드 정보
 <!-- Defined -->
 [node-lst]: img/node-lst.png
 [node-dtl]: img/node-dtl.png
-[node-condition]: img/node-condition.png
 [ico-del]: img/icon/ico-del.png
-[ico-add]: img/icon/ico-add.png  
+[ico-add]: img/icon/ico-add.png
+
+<!-- Floating Menu -->
+[prev]: Role.html "역할"
+[menu]: index.html "목차"
+[next]: Task.html "태스크"
+[ico-prev]: img/icon/ico-prev.png
+[ico-menu]: img/icon/ico-menu.png
+[ico-next]: img/icon/ico-next.png
+[![이전][ico-prev]{: class="ico-prev-float" }][prev]
+[![목차][ico-menu]{: class='ico-menu-float' }][menu]
+[![다음][ico-next]{: class="ico-next-float" }][next]
+
 
 ## 노드 목록
 OPMATE 에 연결된 노드를 조회합니다.   
@@ -20,12 +31,19 @@ OPMATE 에 연결된 노드를 조회합니다.
 ### 조회 조건
 
 #### 검색조건
-> 다음 키워드를 통해서 노드를 조회합니다. 부분문자열 조회 가능합니다.(Like)   
->> <b>Hostname, OS 종류, IP 주소, Agent 버전  </b>
 
+> **Basic Search**  
+>> **Hostname** : 부분문자열 조회 가능(Like)   
+>> **OS 종류** : 부분문자열 조회 가능(Like)  
+>> **IP 주소** : 부분문자열 조회 가능(Like)   
+>> **Agent 버전** : 부분문자열 조회 가능(Like)  
+> 
+> **Advanced Search(노드집합표현식)**  
+>> **Hostname** : 정규표현식 조회 가능(Like)  
+>> **OS 종류** : 정규표현식 조회 가능(Like)  
+>> **OS 이름** : 정규표현식 조회 가능(Like)  
+>> **OS 버전** : 정규표현식 조회 가능(Like)  
 
-> Advance Search 를 지원하며, 노드집합표현식으로 조회할 수 있습니다.
->![노드 AS][node-condition]
 
 #### 버튼
 ><kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  
@@ -44,17 +62,15 @@ OPMATE 에 연결된 노드를 조회합니다.
 
 
 ## 노드 정보
-노드 정보 확인이 가능합니다.  
+노드 정보 확인이 가능합니다. (조회 Only)
 
 >![노드 정보][node-dtl]
  
 ### 기본정보
-> 선택한 노드의 기본 정보  
->>    노드세션 ID, Hostname, OS 종류/이름/버전, IP정보,  
-      Agent 버전, Heart Beat, 생성일시 등
->>> IP 의 경우, Core 가 인식하는 기준의 IP 주소임을 참고해 주시기 바랍니다.  
+> OPMATE Agent 와 설치된 서버의 정보를 확인 가능
+> - **IP주소** : OPMATE Master가 인지한 주소(NAT IP 등)
 
 ### 하단 버튼영역
-> **목록** : 사용자 목록으로 이동  
+> **목록** : 목록 화면으로 이동  
  
  

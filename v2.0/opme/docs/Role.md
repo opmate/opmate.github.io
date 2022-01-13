@@ -10,6 +10,8 @@ description: 역할 목록/역할 정보
 [role-dtl]: img/role-dtl.png
 [ico-del]: img/icon/ico-del.png
 [ico-add]: img/icon/ico-add.png
+[popup-user]: PopupUser.md
+[popup-node]: PopupNode.md
 
 <!-- Floating Menu -->
 [prev]: UserGroup.html "사용자그룹"
@@ -66,10 +68,24 @@ Super-User만 역할 정보의 등록/수정이 가능합니다.
 > **이름**  
 
 ### 노드집합정보  
-> 역할에 부여할 노드셋 정보. Hostname, OS종류, OS이름, OS버전, OS계정 등
+> 역할에 부여할 노드셋 정보
 
-### 비밀번호
-> 비밀번호 정보를 입력. Normal-User 인 경우, 기존 비밀번호 입력 필수  
+#### Grid 상단영역
+> ![삭제][ico-del] : Check 된 Row 를 삭제     
+> ![추가/등록][ico-add] : 노드집합정보 추가 ([참고][popup-node])
+
+#### Grid 하단영역
+> **Left** : 조회 건수
+
+### 사용자정보
+> 역할에 부여된 사용자 정보  
+
+#### Grid 상단영역
+> ![삭제][ico-del] : Check 된 Row 를 삭제     
+> ![추가/등록][ico-add] : 사용자정보 추가 ([참고][popup-user])
+
+#### Grid 하단영역
+> **Left** : 조회 건수
 
 ### 이력정보
 > 등록/변경과 관련된 이력정보
