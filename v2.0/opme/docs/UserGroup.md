@@ -1,6 +1,6 @@
 ---
-title: 사용자
-description: 사용자 목록/사용자 정보
+title: 사용자그룹
+description: 사용자그룹 목록/사용자그룹 정보
 ---
 
 <link rel="stylesheet" type="text/css" href="../css/opme.css">
