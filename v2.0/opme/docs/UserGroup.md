@@ -21,7 +21,7 @@ description: 사용자 목록/사용자 정보
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png
-[![이전][ico-prev]{: class="ico-prev-float" }][user]
+[![이전][ico-prev]{: class="ico-prev-float" }](User.md "사용자")
 [![목차][ico-menu]{: class="ico-menu-float" }][index]
 [![다음][ico-next]{: class="ico-next-float" }][role]
 
