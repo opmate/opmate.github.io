@@ -22,7 +22,7 @@ description: 사용자 목록/사용자 정보
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png
 [![이전][ico-prev]{: class="ico-prev-float" }](User.md "사용자")
-[![목차][ico-menu]{: class="ico-menu-float" }][index]
+[![목차](img/icon/ico-menu.png){: class="ico-menu-float" }](index.md "녹차")
 [![다음][ico-next]{: class="ico-next-float" }][role]
 
 ## 사용자그룹 목록
