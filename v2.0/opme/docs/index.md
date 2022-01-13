@@ -9,6 +9,7 @@ description: Web Console
 3. [사용자](User.md)
 4. [사용자그룹](UserGroup.md)
 5. [역할](Role.md)
+6. [노드](Node.md)
 
 ---
 ### 팝업화면  

@@ -10,6 +10,7 @@ nav:
   - '사용자': 'User.md'
   - '사용자그룹': 'UserGroup.md'
   - '역할': 'Role.md'
+  - '노드': 'Node.md'
   - 'Sample': 'Sample.md'
   - 'Popup':
       - '사용자': 'PopupUser.md'
