@@ -9,7 +9,19 @@ description: 역할 목록/역할 정보
 [role-lst]: img/role-lst.png
 [role-dtl]: img/role-dtl.png
 [ico-del]: img/icon/ico-del.png
-[ico-add]: img/icon/ico-add.png  
+[ico-add]: img/icon/ico-add.png
+
+<!-- Floating Menu -->
+[prev]: UserGroup.html "사용자그룹"
+[menu]: index.html "목차"
+[next]: Node.html "노드"
+[ico-prev]: img/icon/ico-prev.png
+[ico-menu]: img/icon/ico-menu.png
+[ico-next]: img/icon/ico-next.png
+[![이전][ico-prev]{: class="ico-prev-float" }][prev]
+[![목차][ico-menu]{: class='ico-menu-float' }][menu]
+[![다음][ico-next]{: class="ico-next-float" }][next]
+
 
 ## 역할 목록
 OPMATE 역할 정보를 조회합니다.  
