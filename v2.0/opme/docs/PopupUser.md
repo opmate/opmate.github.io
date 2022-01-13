@@ -10,9 +10,9 @@ description: 사용자 조회
 [popup-user-lst]: img/popup-user-lst.png
 
 <!-- Floating Menu -->
-[index]: index.html "목차"
+[menu]: index.html "목차"
 [ico-menu]: img/icon/ico-menu.png
-[![목차][ico-menu]{: class="ico-menu-float" }][index]
+[![목차][ico-menu]{: class="ico-menu-float" }][menu]
 
 OPMATE 사용자 정보를 조회하고, 선택하여 부모 창에 결과를 반영할 수 있습니다.
 부모 창에 따라서 소유자 조회/발행자 조회/멤버 추가 등의 기능을 수행합니다.
