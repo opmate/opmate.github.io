@@ -7,6 +7,8 @@ theme:
 
 nav:
   - '목차': 'index.md'
+  - '로그인': 'Login.md'
+  - '화면구성': 'Layout.md'
   - '사용자': 'User.md'
   - '사용자그룹': 'UserGroup.md'
   - '역할': 'Role.md'
