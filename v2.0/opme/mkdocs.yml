@@ -9,6 +9,8 @@ nav:
   - '사용자': 'User.md'
   - '사용자그룹': 'UserGroup.md'
   - 'Sample': 'Sample.md'
+  - 'Popup':
+      - '사용자': 'PopupUser.md'
 
 markdown_extensions:
   - attr_list

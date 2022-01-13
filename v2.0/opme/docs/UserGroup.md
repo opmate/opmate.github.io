@@ -12,7 +12,18 @@ description: 사용자 목록/사용자 정보
 [ico-search]: img/icon/ico-search.png
 [ico-del]: img/icon/ico-del.png
 [ico-add]: img/icon/ico-add.png  
-[user]: User.md
+[popup-user]: PopupUser.md
+
+<!-- Floating Menu -->
+[user]: User.md "사용자"
+[index]: index.md "목차"
+[role]: Role.md "역할"
+[ico-prev]: img/icon/ico-prev.png
+[ico-menu]: img/icon/ico-menu.png
+[ico-next]: img/icon/ico-next.png
+[![이전][ico-prev]{: class="ico-prev-float" }][user]
+[![목차][ico-menu]{: class="ico-menu-float" }][index]
+[![다음][ico-next]{: class="ico-next-float" }][role]
 
 ## 사용자그룹 목록
 OPMATE 사용자그룹 정보를 조회하고, 추가/삭제 할 수 있다.  
@@ -29,7 +40,7 @@ Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가
 >> ![소유자 조회][popup-user-lst]  
 >> - 소유자 조회 결과 Grid 에서 Row **Click** 하여 선택한다.  
 >> - 이후, 하단 <kbd class="btn-red">&nbsp;추가&nbsp;</kbd> 버튼으로 부모창 검색 조건에 추가한다.  
->> - *[참고]* [사용자 조회][user]  
+>> - *[참고]* [사용자 조회][popup-user]  
 > 
 >**권한** : ALL/Super-User/Normal-User 선택  
 >**상태** : ALL/Enable/Disable 선택  

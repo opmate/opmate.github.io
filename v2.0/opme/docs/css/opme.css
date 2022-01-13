@@ -1,3 +1,6 @@
+/******************************/
+/***         Button         ***/
+/******************************/
 .btn-gray {
     color: #000000 !important;
     background-color: #ffffff !important;
@@ -10,4 +13,37 @@
     box-shadow: 0px 2px 1px 1px #ea9999 !important;
 }
 
+/******************************/
+/***       Icon Image       ***/
+/******************************/
 .ico-gray { background-color: #bcbcbc; }
+
+/******************************/
+/***       Float Menu       ***/
+/******************************/
+.ico-menu-float {
+    position: fixed;
+    top: 90vh;
+    left: calc(50vw - 20px);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.ico-prev-float {
+    position: fixed;
+    top: 90vh;
+    left: calc(50vw - 20px - 10px - 40px);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.ico-next-float {
+    position: fixed;
+    top: 90vh;
+    left: calc(50vw - 20px + 40px + 10px);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+}
