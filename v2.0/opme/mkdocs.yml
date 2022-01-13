@@ -1,5 +1,6 @@
 site_name: OPMATE Web Console
 # docs_dir: v2.0/opme
+use_directory_urls: false
 
 theme:
   name: 'material'

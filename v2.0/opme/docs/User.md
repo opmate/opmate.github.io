@@ -12,10 +12,13 @@ description: 사용자 목록/사용자 정보
 [ico-add]: img/icon/ico-add.png
 
 <!-- Floating Menu -->
-[index]: index.md "목차"
-[usergroup]: UserGroup.md "사용자그룹"
+[none]: # "none"
+[index]: index.html "목차"
+[usergroup]: UserGroup.html "사용자그룹"
+[ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png
+[![이전][ico-prev]{: class="ico-prev-float" }][none]
 [![목차][ico-menu]{: class="ico-menu-float" }][index]
 [![다음][ico-next]{: class="ico-next-float" }][usergroup]
 

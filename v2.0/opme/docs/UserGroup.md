@@ -15,16 +15,15 @@ description: 사용자 목록/사용자 정보
 [popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
-[user]: User.md "사용자"
-[index]: index.md "목차"
-[role]: Role.md "역할"
+[user]: User.html "사용자"
+[index]: index.html "목차"
+[role]: Role.html "역할"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png
-[![이전][ico-prev]{: class="ico-prev-float" }](User.md "사용자")
-<!--[![목차](img/icon/ico-menu.png){: class="ico-menu-float" }](index.md "녹차")-->
+[![이전][ico-prev]{: class="ico-prev-float" }][user]
+[![목차][ico-menu]{: class='ico-menu-float' }][index]
 [![다음][ico-next]{: class="ico-next-float" }][role]
-[![목차](img/icon/ico-menu.png){: class='ico-menu-float' }](/index.md)
 
 ## 사용자그룹 목록
 OPMATE 사용자그룹 정보를 조회하고, 추가/삭제 할 수 있다.  
