@@ -4,8 +4,8 @@ description: Web Console
 ---
 ### 주요화면  
 
-1. [로그인](#)
-2. [화면구성](#)
+1. [로그인](Login.md)
+2. [화면구성](Layout.md)
 3. [사용자](User.md)
 4. [사용자그룹](UserGroup.md)
 5. [역할](Role.md)
