@@ -16,6 +16,7 @@ nav:
   - 'Sample': 'Sample.md'
   - 'Popup':
       - '사용자': 'PopupUser.md'
+      - '노드': 'PopupNode.md'
 
 markdown_extensions:
   - attr_list

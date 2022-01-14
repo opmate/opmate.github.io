@@ -1,6 +1,5 @@
 ---
-title: 사용자
-description: 사용자 목록/사용자 정보
+title: 화면구성
 ---
 
 <link rel="stylesheet" type="text/css" href="../css/opme.css">
@@ -12,9 +11,9 @@ description: 사용자 목록/사용자 정보
 [ico-add]: img/icon/ico-add.png
 
 <!-- Floating Menu -->
-[prev]: Layout.html "화면구성"
+[prev]: Login.html "로그인"
 [menu]: index.html "목차"
-[next]: UserGroup.html "사용자그룹"
+[next]: User.html "사용자"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

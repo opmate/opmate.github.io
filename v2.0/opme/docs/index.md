@@ -23,3 +23,4 @@ description: Web Console
 ### 팝업화면  
 
 - [사용자 조회](PopupUser.md)
+- [노드 조회](PopupNode.md)

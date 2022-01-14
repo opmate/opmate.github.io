@@ -33,7 +33,7 @@ Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가
 
 ### 조회 조건
 
-#### 검색조건
+#### 입력 항목
 > **ID** : 부분문자열 조회 가능(Like)  
 > **소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![소유자 조회][ico-search]{: .ico-gray } 팝업을 통해 선택.([참고][popup-user])  
 > **권한** : ALL/Super-User/Normal-User 선택  
