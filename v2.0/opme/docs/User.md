@@ -32,7 +32,7 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있습니다.
 ### 조회 조건
 
 #### 입력 항목
-> **사용자 ID** : 부분문자열 조회 가능(Like)   
+>**사용자 ID** : 부분문자열 조회 가능(Like)   
 > **사용자 이름** : 부분문자열 조회 가능(Like)  
 > **권한** : ALL/Super-User/Normal-User 선택  
 > **상태** : ALL/Enable/Disable 선택  
@@ -40,7 +40,11 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있습니다.
 #### 버튼
 > <kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  
 > <kbd class="btn-red">&nbsp;조회&nbsp;</kbd> : 조회 수행  
- 
+
+!!! 버튼
+    <kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  
+    <kbd class="btn-red">&nbsp;조회&nbsp;</kbd> : 조회 수행
+
 ### 조회 결과
 
 #### Grid 본문영역
