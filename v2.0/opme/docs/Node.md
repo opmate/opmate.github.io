@@ -8,8 +8,6 @@ description: 노드 목록/노드 정보
 <!-- Defined -->
 [node-lst]: img/node-lst.png
 [node-dtl]: img/node-dtl.png
-[ico-del]: img/icon/ico-del.png
-[ico-add]: img/icon/ico-add.png
 
 <!-- Floating Menu -->
 [prev]: Role.html "역할"

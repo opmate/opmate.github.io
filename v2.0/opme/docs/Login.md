@@ -8,8 +8,6 @@ description: 계정발급/로그인/로그아웃
 <!-- Defined -->
 [login-1]: img/login-1.png
 [login-2]: img/login-2.png
-[ico-del]: img/icon/ico-del.png
-[ico-add]: img/icon/ico-add.png
 
 <!-- Floating Menu -->
 [prev]: # "none"

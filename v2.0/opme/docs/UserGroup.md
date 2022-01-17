@@ -50,8 +50,8 @@ Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가
 > **Double Click** : Row 를 Double Click 하면 해당 사용자의 상세 정보 화면으로 이동한다.(권한에 따른 편집가능)  
  
 #### Grid 상단영역  
-> ![삭제][ico-del] : Check 된 Row 를 삭제한다.   
-> ![추가/등록][ico-add] : 신규 생성한다.
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제한다.   
+> ![추가/등록][ico-add]{: class="ico-white" } : 신규 생성한다.
  
 #### Grid 하단영역
 > **Left** : 조회 건수  

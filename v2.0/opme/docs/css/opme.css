@@ -16,7 +16,15 @@
 /******************************/
 /***       Icon Image       ***/
 /******************************/
-.ico-gray { background-color: #bcbcbc; }
+.ico-gray {
+    background-color: #bcbcbc;
+    padding: 5px;
+}
+
+.ico-white {
+    background-color: #ffffff;
+    padding: 5px;
+}
 
 /******************************/
 /***       Float Menu       ***/
