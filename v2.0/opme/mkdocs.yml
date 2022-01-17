@@ -3,7 +3,24 @@ site_name: OPMATE Web Console
 use_directory_urls: false
 
 theme:
-  name: 'material'
+    name: material
+    palette:
+      scheme: slate
+      primary: purple
+      accent: deep purple
+    font:
+      text: Gowun Batang
+      code: Nanum Gothic Coding
+      # text: Noto Sans Korean
+      # text: Stylish
+    language: kr
+#   name: cerulean
+#   name: readthedocs
+#   name: rtd-dropdown
+#   name: 'material'
+#   name: gitbook
+#   name: bootstrap4
+#   suppress_nextprev: false
 
 nav:
   - '목차': 'index.md'
@@ -20,6 +37,6 @@ nav:
 
 markdown_extensions:
   - attr_list
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
+#   - def_list
+#   - pymdownx.tasklist:
+#       custom_checkbox: true

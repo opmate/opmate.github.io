@@ -41,10 +41,6 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있습니다.
 > <kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  
 > <kbd class="btn-red">&nbsp;조회&nbsp;</kbd> : 조회 수행  
 
-!!! 버튼
-    <kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  
-    <kbd class="btn-red">&nbsp;조회&nbsp;</kbd> : 조회 수행
-
 ### 조회 결과
 
 #### Grid 본문영역
