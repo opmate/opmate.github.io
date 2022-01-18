@@ -6,7 +6,6 @@ title: OPMATE V1.0
 
 - [튜토리얼](QuickTutorial.html)
 - [사용자 매뉴얼](Overview.html)
-- [Command Line Usage](CliUsage.html)
 
 ## 운영 가이드
 - Linux/Unix
