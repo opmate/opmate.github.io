@@ -28,7 +28,7 @@ description: 역할 목록/역할 정보
 ## 역할 목록
 OPMATE 역할 정보를 조회합니다.  
 역할(Role)은 태스크 수행에 관련된 권한을 정의한 것입니다.  
-수행할 노드집합정보, OS계정, 사용자정보를 하나의 ID로 묶어 작성할 수 있습니다.  
+태스크 수행할 노드집합정보, OS계정, 사용자정보를 하나의 ID로 묶어 작성할 수 있습니다.  
 
 편집 기능은 Super-user만 가능합니다.  
 
@@ -48,11 +48,11 @@ OPMATE 역할 정보를 조회합니다.
 
 #### Grid 본문영역
 > **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
-> **Double Click** : Row 를 Double Click 하면 해당 역할의 상세 정보 화면으로 이동.(권한에 따른 편집가능)  
+> **Double Click** : Row 를 Double Click하면 역할 상세 정보 화면으로 이동.(Super-user 편집 가능)  
  
 #### Grid 상단영역  
-> ![삭제][ico-del] : Check 된 Row 를 삭제     
-> ![추가/등록][ico-add] : 역할을 신규 생성  
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
+> ![추가/등록][ico-add]{: class="ico-white" } : 역할을 신규 생성  
  
 #### Grid 하단영역
 > **Left** : 조회 건수  
@@ -68,14 +68,17 @@ Super-User만 역할 정보의 등록/수정이 가능합니다.
  
 ### 기본정보
 > **Role ID** : <kbd class="btn-gray">&nbsp;확인&nbsp;</kbd> 버튼으로 중복 여부 확인 가능    
+>>- Role ID 는 역할 구분을 위한 것이며, 고유한 값을 가집니다.  
+
 > **이름**  
 
 ### 노드집합정보  
-> 역할에 부여할 노드셋 정보
+> 역할에 부여하는 노드집합정보 입력. 태스크 수행 대상입니다.  
+>> 정규표현식을 지원합니다. ([참고](https://regexr.com))
 
 #### Grid 상단영역
-> ![삭제][ico-del] : Check 된 Row 를 삭제     
-> ![추가/등록][ico-add] : 노드집합정보 추가 ([참고][popup-node])
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
+> ![추가/등록][ico-add]{: class="ico-white" } : 노드집합정보 추가 ([참고][popup-node])
 
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -84,8 +87,8 @@ Super-User만 역할 정보의 등록/수정이 가능합니다.
 > 역할에 부여된 사용자 정보  
 
 #### Grid 상단영역
-> ![삭제][ico-del] : Check 된 Row 를 삭제     
-> ![추가/등록][ico-add] : 사용자정보 추가 ([참고][popup-user])
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
+> ![추가/등록][ico-add]{: class="ico-white" } : 사용자정보 추가 ([참고][popup-user])
 
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -94,6 +97,6 @@ Super-User만 역할 정보의 등록/수정이 가능합니다.
 > 등록/변경과 관련된 이력정보
 
 ### 하단 버튼영역
-> **목록** : 목록 화면으로 이동  
-> **저장** : 등록/변경된 내용을 저장  
- 
+> <kbd class="btn-gray">목록</kbd> : 목록 화면으로 이동  
+> <kbd class="btn-gray">저장</kbd> : 등록/변경된 내용을 저장  
+
