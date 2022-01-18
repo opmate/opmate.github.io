@@ -23,4 +23,15 @@ description: Web Console
 ### 팝업화면  
 
 - [사용자 조회](PopupUser.md)
+- [사용자그룹 조회](PopupUserGroup.md)
 - [노드 조회](PopupNode.md)
+- [파일 업로드](PopupFileUpload.md)(예정)
+- [파일허브 조회](PopupFileHub.md)(예정)
+- [태스크 조회](PopupTask.md)(예정)
+- [태스크 선택](PopupTaskSelect.md)(예정)
+- [태스크 비교대상 선택](PopupTaskHst.md)(예정)
+- [스케줄 추가](PopupSchedule.md)(예정)
+- [실행가능시간 추가](PopupRunnableTime.md)(예정)
+- [태스크 조건실행](PopupExecutionCondition.md)(예정)
+- [태스크 모의실행](PopupExecutionDryRun.md)(예정)
+- [태스크 실행상세](PopupExecutionDetail.md)(예정)

@@ -1,12 +1,14 @@
 ---
-title: 사용자 Popup
-description: 사용자 조회
+title: 사용자그룹 Popup
+description: 사용자그룹 조회
 ---
 
 <link rel="stylesheet" type="text/css" href="../css/opme.css">
 
 <!-- Defined -->
-[popup-user-lst]: img/popup-user-lst.png
+[popup-usergrp-lst]: img/popup-usergrp-lst.png
+[ico-search]: img/icon/ico-search.png
+[popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
 [menu]: index.html "목차"
@@ -14,18 +16,16 @@ description: 사용자 조회
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 
 
-OPMATE 사용자 정보를 조회하고, 선택하여 부모 창에 결과를 반영할 수 있습니다.
-부모 창에 따라서 소유자 조회/발행자 조회/멤버 추가 등의 기능을 수행합니다.
+OPMATE 사용자그룹 정보를 조회하고, 선택하여 부모 창에 결과를 반영할 수 있습니다.
+부모 창에 따라서 사용자그룹 자체를 추가하기도 하고, 사용자그룹에 속한 개별 사용자를 추가하기도 합니다.
 
->![사용자조회][popup-user-lst]
+>![사용자그룹조회][popup-usergrp-lst]
 
 ### 조회 조건
 
 #### 입력 항목
-> **사용자 ID** : 부분문자열 조회 가능(Like)   
-> **사용자 이름** : 부분문자열 조회 가능(Like)  
-> **권한** : ALL/Super-User/Normal-User 선택  
-> **상태** : ALL/Enable/Disable 선택  
+> **ID** : 부분문자열 조회 가능(Like)  
+> **소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![소유자 조회][ico-search]{: .ico-gray } 팝업을 통해 선택.([참고][popup-user])  
 
 #### 버튼
 > <kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  

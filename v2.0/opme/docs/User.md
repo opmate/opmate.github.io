@@ -84,8 +84,8 @@ Super-User만 다른 사용자의 등록/수정이 가능합니다.
 > 등록/변경과 관련된 이력정보
 
 ### 하단 버튼영역
-> **목록** : 목록 화면으로 이동  
-> **2차인증 등록** : 2차인증 Key 생성. 사용자는 생성된 QR 코드를 Google OTP App.에 등록해야 함  
-> **2차인증 초기화** : Super-User만 수행 가능하며, 사용자계정에 적용된 2차인증을 초기화  
-> **저장** : 등록/변경된 내용을 저장  
+> <kbd class="btn-gray">목록</kbd> : 목록 화면으로 이동  
+> <kbd class="btn-gray">2차인증 등록</kbd> : 2차인증 Key 생성. 사용자는 생성된 QR 코드를 Google OTP App.에 등록해야 함  
+> <kbd class="btn-gray">2차인증 초기화</kbd> : Super-User만 수행 가능하며, 사용자계정에 적용된 2차인증을 초기화  
+> <kbd class="btn-red">저장</kbd> : 등록/변경된 내용을 저장  
  

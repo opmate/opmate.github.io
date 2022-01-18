@@ -69,6 +69,6 @@ OPMATE 에 연결된 노드를 조회합니다.
 >   - **IP주소** : OPMATE Master가 인지한 주소(NAT IP 등)
 
 ### 하단 버튼영역
-> **목록** : 목록 화면으로 이동  
+> <kbd class="btn-gray">목록</kbd> : 목록 화면으로 이동  
  
  

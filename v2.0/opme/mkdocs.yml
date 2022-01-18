@@ -33,7 +33,18 @@ nav:
   - 'Sample': 'Sample.md'
   - 'Popup':
       - '사용자': 'PopupUser.md'
+      - '사용자그룹': 'PopupUserGroup.md'
       - '노드': 'PopupNode.md'
+      - '파일 업로드': 'PopupFileUpload.md'
+      - '파일허브 조회': 'PopupFileHub.md'
+      - '태스크 조회': 'PopupTask.md'
+      - '태스크 선택': 'PopupTaskSelect.md'
+      - '태스크 비교대상 선택': 'PopupTaskHst.md'
+      - '스케줄 추가': 'PopupSchedule.md'
+      - '실행가능시간 추가': 'PopupRunnableTime.md'
+      - '태스크 조건실행': 'PopupExecutionCondition.md'
+      - '태스크 모의실행': 'PopupExecutionDryRun.md'
+      - '태스크 실행상세': 'PopupExecutionDetail.md'
 
 markdown_extensions:
   - attr_list
