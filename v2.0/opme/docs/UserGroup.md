@@ -77,8 +77,8 @@ Super-User는 모든 사용자그룹의 수정이 가능합니다.
 > **Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.  
 
 #### Grid 상단영역
-> ![삭제][ico-del] : Check 된 Row 를 삭제한다.   
-> ![추가/등록][ico-add] : 멤버 추가 팝업을 통해 선택.([참고][popup-user])
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제한다.   
+> ![추가/등록][ico-add]{: class="ico-white" } : 멤버 추가 팝업을 통해 선택.([참고][popup-user])
 
 #### Grid 하단영역
 > **Left** : 조회 건수  
