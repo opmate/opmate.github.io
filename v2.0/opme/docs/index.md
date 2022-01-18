@@ -28,7 +28,7 @@ description: Web Console
 - [파일 업로드](PopupFileUpload.md)
 - [파일허브 조회](PopupFileHub.md)
 - [태스크 조회](PopupTask.md)
-- [태스크 선택](PopupTaskSelect.md)(예정)
+- [태스크 선택](PopupTaskSelect.md)
 - [태스크 비교대상 선택](PopupTaskHst.md)(예정)
 - [스케줄 추가](PopupSchedule.md)(예정)
 - [실행가능시간 추가](PopupRunnableTime.md)(예정)
