@@ -1,5 +1,5 @@
 ---
-title: 업로드 Popup
+title: 파일 Popup
 description: 파일 업로드
 ---
 

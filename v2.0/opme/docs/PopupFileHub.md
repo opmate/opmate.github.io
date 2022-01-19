@@ -1,5 +1,5 @@
 ---
-title: 파일허브 Popup
+title: 파일 Popup
 description: 파일허브 조회
 ---
 
