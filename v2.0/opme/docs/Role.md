@@ -10,7 +10,9 @@ description: 역할 목록/역할 정보
 [role-dtl]: img/role-dtl.png
 [ico-del]: img/icon/ico-del.png
 [ico-add]: img/icon/ico-add.png
+[ico-addusergrp]: img/icon/ico-addusergrp.png
 [popup-user]: PopupUser.md
+[popup-usergrp]: PopupUserGroup.md
 [popup-node]: PopupNode.md
 
 <!-- Floating Menu -->
@@ -70,11 +72,11 @@ Super-User만 역할 정보의 등록/수정이 가능합니다.
 > **Role ID** : <kbd class="btn-gray">&nbsp;확인&nbsp;</kbd> 버튼으로 중복 여부 확인 가능    
 >>- Role ID 는 역할 구분을 위한 것이며, 고유한 값을 가집니다.  
 
-> **이름**  
+> **이름** : Role ID 에 대한 이름입니다.   
 
 ### 노드집합정보  
 > 역할에 부여하는 노드집합정보 입력. 태스크 수행 대상입니다.  
->> 정규표현식을 지원합니다. ([참고](https://regexr.com))
+>>- 정규표현식을 지원합니다. ([참고](https://regexr.com))
 
 #### Grid 상단영역
 > ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
@@ -84,11 +86,13 @@ Super-User만 역할 정보의 등록/수정이 가능합니다.
 > **Left** : 조회 건수
 
 ### 사용자정보
-> 역할에 부여된 사용자 정보  
+> 역할에 부여된 사용자 정보
+>>- 입력된 역할 정보에 매핑시킬 사용자 정보를 입력
 
 #### Grid 상단영역
 > ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
-> ![추가/등록][ico-add]{: class="ico-white" } : 사용자정보 추가 ([참고][popup-user])
+> ![추가/등록][ico-add]{: class="ico-white" } : 사용자정보를 개별 추가 ([참고][popup-user])  
+> ![추가/등록][ico-addusergrp]{: class="ico-white" } : 사용자그룹에 속한 사용자정보를 일괄 추가 ([참고][popup-usergrp])
 
 #### Grid 하단영역
 > **Left** : 조회 건수
