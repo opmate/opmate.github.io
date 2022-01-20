@@ -14,6 +14,17 @@ description: 엑세스 키 목록/엑세스 키 정보
 [ico-add]: img/icon/ico-add.png
 [popup-user]: PopupUser.md
 
+<!-- Floating Menu -->
+[prev]: FileHub.html "파일상세"
+[menu]: index.html "목차"
+[next]: System.html "시스템속성"
+[ico-prev]: img/icon/ico-prev.png
+[ico-menu]: img/icon/ico-menu.png
+[ico-next]: img/icon/ico-next.png
+[![이전][ico-prev]{: class="ico-prev-float" }][prev]
+[![목차][ico-menu]{: class='ico-menu-float' }][menu]
+[![다음][ico-next]{: class="ico-next-float" }][next]
+
 ## 액세스 키 목록
 OPMATE 엑세스 키 정보를 조회합니다.  
 타 시스템이나 어플리케이션에서 사용하기 위해 엑세스 키 발급 방식의 REST API 호출을 지원합니다.  
