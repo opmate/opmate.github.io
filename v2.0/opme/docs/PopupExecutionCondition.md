@@ -9,7 +9,6 @@ description: 태스크 조건 실행
 [popup-execution-condition]: img/popup-execution-condition.png
 [arrow-right]: img/icon/ico-arrow-right.png
 [arrow-left]: img/icon/ico-arrow-left.png
-[popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
 [menu]: index.html "목차"
@@ -29,8 +28,9 @@ description: 태스크 조건 실행
 
 ### 특정노드실행
 태스크에 정의한 노드집합조건에 해당하는 노드 중에서 일부 노드를 특정합니다.  
-두 개의 Grid 중, 좌측 Grid 에는 태스크에 기 정의한 노드집합조건에 해당하는 현 시점의 모든 노드가 표시 됩니다.  
-조회 기능을 이용하여 좌측 Grid 내용을 변경하고 중간에 위치한 화살표 버튼으로 우측 Grid 에 지정합니다.
+좌측 Grid 에는 태스크에 정의한 노드집합조건에 해당하는 현 시점의 모든 노드가 디폴트로 표시 됩니다.  
+실행대상 지정을 위해서는 좌측 Grid 에 표시된 결과를 중간에 위치한 화살표 버튼으로 우측 Grid 에 지정합니다.  
+실행대상을 지정하지 않으면 좌측 Grid 전체를 대상으로 실행 됩니다.
 
 #### 입력 항목(조회 조건)
 > **Hostname** : 부분문자열 조회 가능(Like)  

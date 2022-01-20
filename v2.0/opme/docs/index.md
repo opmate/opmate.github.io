@@ -32,6 +32,6 @@ description: Web Console
 - [태스크 비교대상 선택](PopupTaskHistory.md)
 - [스케줄 추가](PopupSchedule.md)
 - [실행가능시간 추가](PopupRunnableTime.md)
-- [태스크 조건실행](PopupExecutionCondition.md)(예정)
-- [태스크 모의실행](PopupExecutionDryRun.md)(예정)
+- [태스크 조건실행](PopupExecutionCondition.md)
+- [태스크 모의실행](PopupExecutionDryRun.md)
 - [태스크 실행상세](PopupExecutionDetail.md)(예정)
