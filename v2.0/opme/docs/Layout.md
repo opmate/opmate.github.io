@@ -7,7 +7,7 @@ description: Layout
 
 <!-- Defined -->
 [layout]: img/layout.png
-[arrow-down]: img/icon/icon-arrow-down.png
+[arrow-down]: img/icon/ico-arrow-down.png
 
 <!-- Floating Menu -->
 [prev]: Login.html "로그인"
