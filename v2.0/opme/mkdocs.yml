@@ -1,5 +1,6 @@
 site_name: OPMATE Web Console
 # docs_dir: v2.0/opme
+site_dir: ../../../opme/opmedocs
 use_directory_urls: false
 
 theme:
