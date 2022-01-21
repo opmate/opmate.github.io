@@ -34,4 +34,4 @@ description: Web Console
 - [실행가능시간 추가](PopupRunnableTime.md)
 - [태스크 조건실행](PopupExecutionCondition.md)
 - [태스크 모의실행](PopupExecutionDryRun.md)
-- [태스크 실행상세](PopupExecutionDetail.md)(예정)
+- [태스크 실행상세](PopupExecutionDetail.md)
