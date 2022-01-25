@@ -13,9 +13,9 @@ description: Web Console
 7. [태스크](Task.md)(예정)
 8. [태스크발행이력](TaskHistory.md)(예정)
 9. [태스크실행결과](TaskResult.md)(예정)
-10. [단어사전](Dictionary.md)(예정)
-11. [파일허브](FileHub.md)(예정)
-12. [파일상세](File.md)(예정)
+10. [단어사전](Dictionary.md)
+11. [파일허브](FileHub.md)
+12. [파일상세](File.md)
 13. [엑세스키](AccessKey.md)
 14. [시스템속성](System.md)
 

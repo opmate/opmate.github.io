@@ -53,8 +53,8 @@ OPMATE 역할 정보를 조회합니다.
 > **Double Click** : Row 를 Double Click하면 역할 상세 정보 화면으로 이동.(Super-user 편집 가능)  
  
 #### Grid 상단영역  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
 > ![추가/등록][ico-add]{: class="ico-white" } : 역할을 신규 생성  
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
  
 #### Grid 하단영역
 > **Left** : 조회 건수  
@@ -79,8 +79,8 @@ Super-User만 역할 정보의 등록/수정이 가능합니다.
 >>- 정규표현식을 지원합니다. ([참고](https://regexr.com))
 
 #### Grid 상단영역
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
 > ![추가/등록][ico-add]{: class="ico-white" } : 노드집합정보 추가 ([참고][popup-node])
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -90,9 +90,9 @@ Super-User만 역할 정보의 등록/수정이 가능합니다.
 >>- 입력된 역할 정보에 매핑시킬 사용자 정보를 입력
 
 #### Grid 상단영역
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
 > ![추가/등록][ico-add]{: class="ico-white" } : 사용자정보를 개별 추가 ([참고][popup-user])  
 > ![추가/등록][ico-addusergrp]{: class="ico-white" } : 사용자그룹에 속한 사용자정보를 일괄 추가 ([참고][popup-usergrp])
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 하단영역
 > **Left** : 조회 건수

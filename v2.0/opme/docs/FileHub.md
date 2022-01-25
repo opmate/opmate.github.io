@@ -56,8 +56,8 @@ OPMATE 파일허브 정보를 조회합니다.
 > <kbd class="btn-gray">&nbsp;파일상세보기&nbsp;</kbd> : 파일상세 조회로 이동 ([참고][file])  
  
 #### Grid 상단영역  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
 > ![추가/등록][ico-add]{: class="ico-white" } : 파일허브 정보를 개별 추가   
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
  
 #### Grid 하단영역
 > **Left** : 조회 건수  
@@ -76,19 +76,28 @@ OPMATE 파일허브 정보를 조회합니다.
 
 
 ### 권한정보  
-> 파일허브에 부여하는 권한정보 입력  
+파일허브에 부여하는 권한정보를 입력합니다.  
 권한 적용은 다음 속성으로 구성됩니다.  
->>- 사용자 | 사용자그룹 | 태스크  
+  - 목록 조회 권한
   - 다운로드 권한  
-  - 업로드 권한  
-  - 목록 조회 권한  
+  - 업로드 권한
+
+각 권한에 사용자, 사용자그룹, 태스크를 매핑할 수 있습니다.  
+
+| **권한**  | **목록 조회** | **다운로드** | **업로드** |
+|:---:|:---------:|:--------:|:-------:|
+| _사용자1_  |     -     |    O     |    -    |
+| _사용자2_  |     -     |    -     |    O    |
+| _사용자그룹_ |     O     |    O     |    -    |
+| _태스크1_  |     -     |    -     |    O    |
+| _태스크2_  |     O     |    O     |    -    |
 
 
 #### Grid 상단영역
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
 > ![추가/등록][ico-adduser]{: class="ico-white" } : 사용자정보를 개별 추가 ([참고][popup-user])  
-> ![추가/등록][ico-addusergrp]{: class="ico-white" } : 사용자그룹에 속한 사용자정보를 일괄 추가 ([참고][popup-usergrp])   
+> ![추가/등록][ico-addusergrp]{: class="ico-white" } : 사용자그룹정보를 추가 ([참고][popup-usergrp])   
 > ![추가/등록][ico-add]{: class="ico-white" } : 태스크정보를 개별 추가 ([참고][popup-task])  
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -98,5 +107,5 @@ OPMATE 파일허브 정보를 조회합니다.
 
 ### 하단 버튼영역
 > <kbd class="btn-gray">목록</kbd> : 목록 화면으로 이동  
-> <kbd class="btn-gray">저장</kbd> : 등록/변경된 내용을 저장  
+> <kbd class="btn-red">저장</kbd> : 등록/변경된 내용을 저장  
 
