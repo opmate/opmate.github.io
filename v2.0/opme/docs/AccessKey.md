@@ -50,8 +50,8 @@ OPMATE 엑세스 키 정보를 조회합니다.
 **Double Click** : Row 를 Double Click 하면 해당 엑세스 키 상세 정보 화면으로 이동.(권한에 따른 편집가능)  
  
 #### Grid 상단영역  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제     
-![추가/등록][ico-add]{: class="ico-white" } : 엑세스 키 신규 생성  
+>![추가/등록][ico-add]{: class="ico-white" } : 엑세스 키 신규 생성  
+ ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
  
 #### Grid 하단영역
 >**Left** : 조회 건수  
