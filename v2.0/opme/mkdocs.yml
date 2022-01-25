@@ -39,7 +39,7 @@ nav:
   - '파일상세': 'File.md'
   - '엑세스키': 'AccessKey.md'
   - '시스템속성': 'System.md'
-  - 'Sample': 'Sample.md'
+# - 'Sample': 'Sample.md'
   - 'Popup':
       - '사용자': 'PopupUser.md'
       - '사용자그룹': 'PopupUserGroup.md'
