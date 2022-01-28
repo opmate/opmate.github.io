@@ -50,14 +50,14 @@ OPMATE 파일허브 정보를 조회합니다.
  
 ### 조회 결과
 
+#### Grid 상단영역
+> ![추가/등록][ico-add]{: class="ico-white" } : 파일허브 정보를 개별 추가   
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
+
 #### Grid 본문영역
 > **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
 > **Double Click** : Row 를 Double Click하면 역할 상세 정보 화면으로 이동.(Super-user 편집 가능)  
 > <kbd class="btn-gray">&nbsp;파일상세보기&nbsp;</kbd> : 파일상세 조회로 이동 ([참고][file])  
- 
-#### Grid 상단영역  
-> ![추가/등록][ico-add]{: class="ico-white" } : 파일허브 정보를 개별 추가   
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
  
 #### Grid 하단영역
 > **Left** : 조회 건수  
