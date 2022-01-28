@@ -42,7 +42,7 @@ OPMATE 파일허브 정보를 조회합니다.
 
 #### 입력 항목
 > **ID** : 부분문자열 조회 가능(Like)   
-**소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![소유자 조회][ico-search]{: .ico-gray } 팝업을 통해 선택.([참고][popup-user])  
+> **소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![소유자 조회][ico-search]{: .ico-gray } 팝업을 통해 선택.([참고][popup-user])  
 
 #### 버튼
 > <kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  

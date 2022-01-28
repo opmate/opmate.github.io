@@ -17,7 +17,7 @@ description: 파일 업로드
 파일허브에 파일을 업로드 할 수 있습니다.  
 로컬 위치의 파일을 선택하여 OPMATE 마스터 서버의 파일허브에 업로드 합니다.
 
->![파일업로드][popup-file-upload]
+> ![파일업로드][popup-file-upload]
 
 ### 업로드 위치
 

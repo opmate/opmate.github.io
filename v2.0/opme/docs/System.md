@@ -1,5 +1,5 @@
 ---
-title: 시스템속성
+title: 시스템
 description: 시스템속성 정보
 ---
 
@@ -11,16 +11,16 @@ description: 시스템속성 정보
 ## 시스템속성 정보  
 OPMATE 의 시스템속성 정보를 조회합니다.  
 
->![시스템속성 정보][system-dtl]
+> ![시스템속성 정보][system-dtl]
 
 ### 버전정보  
-> OPMATE 마스터의 버전 정보 확인  
+OPMATE Master 버전 정보 확인  
 
 
 ### 연결정보  
-> OPMATE 에서 사용중인 속성 정보를 확인.
+OPMATE Master 에서 사용 중인 속성 정보를 확인.
  
 
 #### 하단영역
->**Left** : 조회 건수  
+> **Left** : 조회 건수  
 

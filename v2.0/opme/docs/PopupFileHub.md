@@ -18,7 +18,7 @@ description: 파일허브 조회
 
 OPMATE 파일허브 정보를 조회하고, 선택하여 부모 창에 결과를 반영할 수 있습니다.
 
->![파일허브조회][popup-filehub-lst]
+> ![파일허브조회][popup-filehub-lst]
 
 ### 조회 조건
 

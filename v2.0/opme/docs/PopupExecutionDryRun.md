@@ -23,7 +23,7 @@ description: 태스크 모의 실행
 태스크 실행과 관련된 부가 정보를 입력하고, 모의 실행 할 수 있습니다.  
 실제 수행 전에 모의 실행 기능을 통해서, 실행과 관련된 권한 등을 점검할 수 있습니다.
 
->![태스크모의실행][popup-execution-dryrun]
+> ![태스크모의실행][popup-execution-dryrun]
 
 ### 기본정보
 > **태스크ID** : 부모창에서 선택된 값(Read Only)  
@@ -82,7 +82,7 @@ description: 태스크 모의 실행
 ## 모의실행결과
 모의실행의 결과를 확인할 수 있습니다.
 
->![태스크모의실행결과][popup-execution-dryrun-result]
+> ![태스크모의실행결과][popup-execution-dryrun-result]
 
 > **실행권한점검** : 성공/실패  
 > **실행시간점검** : 성공/실패
