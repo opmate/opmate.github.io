@@ -17,14 +17,16 @@ description: 태스크 목록/태스크 정보
 [task-hst]: TaskHistory.md
 [execution]: Execution.md
 [popup-user]: PopupUser.md
+[popup-usergrp]: PopupUserGroup.md
 [popup-exe-condition]: PopupExecutionCondition.md
 [popup-exe-detail]: PopupExecutionDetail.md
 [popup-exe-dryrun]: PopupExecutionDryRun.md
 [popup-task-select]: PopupTaskSelect.md
 [popup-task]: PopupTask.md
-[popup-schedule]: img/popup-schedule.png
-[popup-node]: img/popup-node-lst.png
-[popup-runnabletime]: img/popup-runnabletime.png
+[popup-schedule]: PopupSchedule.md
+[popup-node]: PopupNode.md
+[popup-runnabletime]: PopupRunnableTime.md
+[popup-task-hst]: PopupTaskHistory.md
 
 <!-- Floating Menu -->
 [prev]: Node.html "노드"
@@ -84,6 +86,9 @@ OPMATE 태스크 목록을 조회합니다. 가장 최근 발행 버전의 결�
 태스크 정보 확인이 가능합니다.  
 
 >![태스크 정보][task-dtl]
+
+### 우측 상단 버튼
+> **태스크 비교** : <kbd class="btn-gray">&nbsp;태스크 비교&nbsp;</kbd> 버튼으로 태스크 비교화면으로 이동 ([참고][popup-task-hst])
  
 ### 기본정보
 > **태스크ID** : <kbd class="btn-gray">&nbsp;확인&nbsp;</kbd> 버튼으로 중복 여부 확인 가능  
@@ -148,7 +153,7 @@ OS 계정을 하나 이상 입력할 때는 ,로 구분합니다. (예시 : user
 
 ### 트리거정보
 실행 종료 후, 자동 실행할 태스크를 추가합니다.  
-우측 추가/등록 버튼 클릭하여 트리거 태스크를 지정한 후, Grid 에 트리거 조건 및 시간 정보를 입력합니다.
+우측 추가/등록 버튼 클릭하여 트리거 태스크를 지정 후, Grid에 트리거 조건 및 시간 정보를 입력합니다.  
 (시간 생략 : 즉시 실행)
 
 #### Grid 본문영역
@@ -171,7 +176,7 @@ OS 계정을 하나 이상 입력할 때는 ,로 구분합니다. (예시 : user
 #### Grid 상단영역
 > ![추가/등록][ico-adduser]{: class="ico-white" } : 사용자 정보를 추가 ([참고][popup-user])   
 > ![추가/등록][ico-addusergrp]{: class="ico-white" } : 사용자그룹 정보를 추가 ([참고][popup-usergrp])  
-> ![추가/등록][ico-add]{: class="ico-white" } : 태스크 정보를 추가 ([참고][popup-usergrp])  
+> ![추가/등록][ico-add]{: class="ico-white" } : 태스크 정보를 추가 ([참고][popup-task])  
 > ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제  
 
 #### Grid 하단영역
