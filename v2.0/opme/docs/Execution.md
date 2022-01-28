@@ -47,8 +47,6 @@ description: 태스크실행결과 목록/태스크실행결과 정보
 #### Grid 본문영역
 > **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
 > **Double Click** : Row 를 Double Click하면 우측 실행 정보/조회 결과 출력.    
- 
-#### 버튼
 > <kbd class="btn-gray">&nbsp;강제종료&nbsp;</kbd> : 수행 중인 태스크일 때 활성화되며, 클릭 시 강제종료 실행
  
 #### Grid 하단영역
@@ -76,8 +74,6 @@ description: 태스크실행결과 목록/태스크실행결과 정보
 #### Grid 본문영역
 > **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
 > **Double Click** : Row 를 Double Click 통해 노드별 태스크 실행 상세정보 출력.([참고][popup-execution-detail])   
-
-#### 버튼
 > <kbd class="btn-gray">&nbsp;강제종료&nbsp;</kbd> : 수행 중인 태스크일 때 활성화되며, 클릭 시 강제종료 실행
 
 #### Grid 하단영역
