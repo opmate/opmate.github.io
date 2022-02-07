@@ -28,21 +28,19 @@ OPMATE 에 연결된 노드를 조회합니다.
 > ![노드 목록][node-lst]
 
 ### 조회 조건
+조회 조건 하단의 ▼/▲ 를 Click 하면 _Advanced Search_ 기능을 사용할 수 있습니다.
 
-#### 입력 항목
+#### 입력 항목(Basic Search)
+> **Hostname** : 부분문자열 조회 가능(Like)   
+> **OS 종류** : 부분문자열 조회 가능(Like)  
+> **IP 주소** : 부분문자열 조회 가능(Like)   
+> **Agent 버전** : 부분문자열 조회 가능(Like)  
 
-> **Basic Search**  
->> **Hostname** : 부분문자열 조회 가능(Like)   
->> **OS 종류** : 부분문자열 조회 가능(Like)  
->> **IP 주소** : 부분문자열 조회 가능(Like)   
->> **Agent 버전** : 부분문자열 조회 가능(Like)  
-> 
-> **Advanced Search(노드집합표현식)**  
->> **Hostname** : 정규표현식 조회 가능(Like)  
->> **OS 종류** : 정규표현식 조회 가능(Like)  
->> **OS 이름** : 정규표현식 조회 가능(Like)  
->> **OS 버전** : 정규표현식 조회 가능(Like)  
-
+#### 입력 항목(Advanced Search - 노드집합표현식)
+> **Hostname** : 정규표현식 조회 가능(Like)  
+> **OS 종류** : 정규표현식 조회 가능(Like)  
+> **OS 이름** : 정규표현식 조회 가능(Like)  
+> **OS 버전** : 정규표현식 조회 가능(Like)  
 
 #### 버튼
 > <kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  
