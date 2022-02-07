@@ -50,7 +50,7 @@ OPMATE 에 연결된 노드를 조회합니다.
 
 #### Grid 본문영역
 > **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
-> **Double Click** : Row 를 Double Click 하면 해당 역할의 상세 정보 화면으로 이동.   
+> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동
  
 #### Grid 하단영역
 > **Left** : 조회 건수  
@@ -64,8 +64,8 @@ OPMATE 에 연결된 노드를 조회합니다.
 > ![노드 정보][node-dtl]
  
 ### 기본정보
-OPMATE Agent 와 설치된 서버의 정보를 확인 가능  
-> **IP주소** : OPMATE Master가 인지한 주소(NAT IP 등)
+OPMATE Agent 및 설치된 서버의 정보를 확인 가능합니다.  
+> **IP주소** : OPMATE Master가 인지한 Agent의 IP주소(NAT IP 등)
 
 ### 하단 버튼영역
 > <kbd class="btn-gray">목록</kbd> : 목록 화면으로 이동  
