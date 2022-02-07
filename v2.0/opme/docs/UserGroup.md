@@ -26,9 +26,9 @@ description: 사용자그룹 목록/사용자그룹 정보
 
 
 ## 사용자그룹 목록
-사용자를 사용자그룹으로 묶어서 활용할 수 있다.  
-모든 사용자가 조회/추가 기능을 사용할 수 있지만, 삭제는 본인 소유의 사용자그룹만 삭제 가능하다.  
-Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가능하다.
+사용자를 사용자그룹으로 묶어서 활용할 수 있습니다.  
+모든 사용자가 조회/추가 기능을 사용할 수 있지만, 삭제는 본인 소유의 사용자그룹만 삭제 가능 합니다.  
+Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가능합니다.
 
 > ![사용자그룹 목록][usergrp-lst]
 
@@ -47,12 +47,12 @@ Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가
 ### 조회 결과
 
 #### Grid 상단영역  
-> ![추가/등록][ico-add]{: class="ico-white" } : 사용자그룹을 신규 생성한다.
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제한다.
+> ![추가/등록][ico-add]{: class="ico-white" } : 신규 생성  
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.  
-> **Double Click** : Row 를 Double Click 하면 해당 사용자의 상세 정보 화면으로 이동한다.(권한에 따른 편집가능)
+> **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
+> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동 (권한에 따른 편집가능)
 
 #### Grid 하단영역
 > **Left** : 조회 건수  
@@ -62,24 +62,24 @@ Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가
 
 ## 사용자그룹 정보
 사용자그룹 정보 확인/등록/수정이 가능합니다.  
-Normal-User의 경우 다른 사람의 사용자그룹 정보는 확인만 가능합니다.  
+Normal-User의 경우 다른 사용자의 사용자그룹 정보는 확인만 가능합니다.  
 Super-User는 모든 사용자그룹의 수정이 가능합니다.  
 
 > ![사용자 정보][usergrp-dtl]
  
 ### 기본정보
-> **사용자그룹 ID** : <kbd class="btn-gray">&nbsp;확인&nbsp;</kbd> 버튼으로 중복 여부 확인 가능합니다.  
-> **소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![소유자 조회][ico-search]{: .ico-gray } 팝업을 통해 선택.([참고][popup-user])  
-> **설명** : 상세사항을 입력합니다.  
+> **사용자그룹 ID** : <kbd class="btn-gray">&nbsp;확인&nbsp;</kbd> 버튼으로 중복 여부 확인 가능    
+> **소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![소유자 조회][ico-search]{: .ico-gray } 팝업을 통해 선택([참고][popup-user])  
+> **설명** : 상세사항
 
 ### 그룹멤버정보
 
 #### Grid 상단영역
-> ![추가/등록][ico-add]{: class="ico-white" } : 멤버 추가 팝업을 통해 선택.([참고][popup-user])  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제한다.  
+> ![추가/등록][ico-add]{: class="ico-white" } : 멤버 추가 팝업을 통해 선택([참고][popup-user])  
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.
+> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
 
 #### Grid 하단영역
 > **Left** : 조회 건수  

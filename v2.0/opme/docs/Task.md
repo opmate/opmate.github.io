@@ -93,7 +93,7 @@ OPMATE 태스크 목록을 조회합니다. 가장 최근 발행 버전의 결�
 > **설명**
 
 ### 스크립트정보
-지정한 파일 유형/인코딩 형식으로 저장.(ascii는 UTF-8)
+지정한 파일 유형/인코딩 형식으로 저장합니다.(ascii는 UTF-8)
 
 #### 상단 버튼영역
 > <kbd class="btn-gray">파일유형(개행)</kbd> : 파일 유형 지정(Linux/Windows)  
@@ -115,7 +115,7 @@ OS 계정을 하나 이상 입력할 때는 ,로 구분합니다. (예시 : user
 > ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.
+> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
 
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -128,7 +128,7 @@ OS 계정을 하나 이상 입력할 때는 ,로 구분합니다. (예시 : user
 > ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.
+> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
 
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -141,7 +141,7 @@ OS 계정을 하나 이상 입력할 때는 ,로 구분합니다. (예시 : user
 > ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.
+> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
  
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -157,7 +157,7 @@ OS 계정을 하나 이상 입력할 때는 ,로 구분합니다. (예시 : user
 > ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.
+> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
 
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -173,7 +173,7 @@ OS 계정을 하나 이상 입력할 때는 ,로 구분합니다. (예시 : user
 > ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제  
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력한다.
+> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
 
 #### Grid 하단영역
 > **Left** : 조회 건수
