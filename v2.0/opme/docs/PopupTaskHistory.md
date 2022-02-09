@@ -35,8 +35,8 @@ OPMATE 태스크의 비교 기능을 위해서, 비교할 대상을 선택합니
 ### 조회 결과(태스크)
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
-> **Click** : Row 를 Click 하면 우측 발행이력 Grid 에 해당 태스크의 발행 이력을 출력  
+> **Grid Contents** : 조회 결과 출력  
+> **Click** : 해당 Row 의 발행이력 정보를 우측 발행이력 Grid 에 출력  
  
 #### Grid 하단영역
 > **Left** : 조회 건수  
@@ -46,8 +46,8 @@ OPMATE 태스크의 비교 기능을 위해서, 비교할 대상을 선택합니
 ### 조회 결과(발행이력)
 
 #### Grid 본문영역
-> **Grid Contents** : 좌측 태스크 Grid 에서 선택한 태스크에 해당하는 발행 이력을 출력  
-> **Click** : Row 를 Click 하면 해당 Row가 선택  
+> **Grid Contents** : 좌측 Grid 에서 선택한 태스크에 해당하는 발행 이력 출력  
+> **Click** : 해당 Row 선택  
 
 #### Grid 하단영역
 > **Left** : 조회 건수  

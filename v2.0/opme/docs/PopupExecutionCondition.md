@@ -44,7 +44,7 @@ description: 태스크 조건 실행
 ### 조회 결과
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력  
+> **Grid Contents** : 조회 결과 출력  
 > **Click** : Row 를 Click 하면 해당 Row가 선택 (Multi-Select 가능)
  
 #### Grid 하단영역
@@ -59,7 +59,7 @@ description: 태스크 조건 실행
 ### 실행 대상
 
 #### Grid 본문영역
-> **Grid Contents** : 실행 대상으로 선택된 결과를 출력  
+> **Grid Contents** : 실행 대상으로 선택된 결과 출력  
 > **Click** : Row 를 Click 하면 해당 Row가 선택 (Multi-Select 가능)
 
 #### Grid 하단영역

@@ -24,9 +24,9 @@ description: 사용자 목록/사용자 정보
 
 
 ## 사용자 목록
-OPMATE 사용자 정보를 조회하고, 삭제할 수 있습니다.  
+OPMATE 사용자 정보를 조회하고, 추가/삭제 할 수 있습니다.  
 모든 사용자가 조회 기능을 사용할 수 있지만,   
-생성/삭제 기능은 Super-User 권한의 사용자만 사용 가능합니다.
+추가/삭제 기능은 Super-User 권한의 사용자만 사용 가능합니다.
 
 > ![사용자 목록][user-lst]
 
@@ -46,11 +46,11 @@ OPMATE 사용자 정보를 조회하고, 삭제할 수 있습니다.
 
 #### Grid 상단영역  
 > ![추가/등록][ico-add]{: class="ico-white" } : 신규 생성 (Super-User Only)  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제 (Super-User Only)
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제 (Super-User Only)
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
-> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동 (권한에 따른 편집가능)
+> **Grid Contents** : 조회 결과 출력  
+> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동 (권한에 따른 편집 가능)
 
 #### Grid 하단영역
 > **Left** : 조회 건수  

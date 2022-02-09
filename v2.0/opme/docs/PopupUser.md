@@ -34,7 +34,7 @@ OPMATE 사용자 정보를 조회하고, 선택하여 부모 창에 결과를 �
 ### 조회 결과
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
+> **Grid Contents** : 조회 결과 출력  
 > **Click** : Row 를 Click 하면 해당 Row가 선택 (부모창에 따라서 Multi-Select 가능)
  
 #### Grid 하단영역

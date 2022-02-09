@@ -41,7 +41,7 @@ OPMATE 노드 정보를 조회하고, 조회에 사용한 노드집합정보 조
 > **Right** : Grid 에 한번에 표시할 건수  
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
+> **Grid Contents** : 조회 결과 출력
 
 ### 하단 버튼영역
 > <kbd class="btn-red">&nbsp;추가&nbsp;</kbd> : 조회 조건의 입력항목을 부모 창에 반영  

@@ -49,7 +49,7 @@ OPMATE 에 연결된 노드를 조회합니다.
 ### 조회 결과
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
+> **Grid Contents** : 조회 결과 출력  
 > **Double Click** : 해당 Row 의 상세 정보 화면으로 이동
  
 #### Grid 하단영역

@@ -48,11 +48,11 @@ Super-User 권한의 사용자는 모든 사용자그룹에 대한 삭제가 가
 
 #### Grid 상단영역  
 > ![추가/등록][ico-add]{: class="ico-white" } : 신규 생성  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
-> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동 (권한에 따른 편집가능)
+> **Grid Contents** : 조회 결과 출력  
+> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동 (권한에 따른 편집 가능)
 
 #### Grid 하단영역
 > **Left** : 조회 건수  
@@ -76,10 +76,10 @@ Super-User는 모든 사용자그룹의 수정이 가능합니다.
 
 #### Grid 상단영역
 > ![추가/등록][ico-add]{: class="ico-white" } : 멤버 추가 팝업을 통해 선택([참고][popup-user])  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
+> **Grid Contents** : 조회 결과 출력
 
 #### Grid 하단영역
 > **Left** : 조회 건수  

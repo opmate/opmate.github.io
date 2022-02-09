@@ -44,10 +44,10 @@ OPMATE 단어사전에 등록된 정보를 조회합니다.
 
 #### Grid 상단영역  
 > ![추가/등록][ico-add]{: class="ico-white" } : 단어사전에 등록  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
+> **Grid Contents** : 조회 결과 출력  
 
 #### Grid 하단영역
 > **Left** : 조회 건수  

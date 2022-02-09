@@ -51,11 +51,11 @@ Normal-User 는 확인만 가능합니다.
 
 #### Grid 상단영역  
 > ![추가/등록][ico-add]{: class="ico-white" } : 신규 생성 (Super-User Only)  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제 (Super-User Only)
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제 (Super-User Only)
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력    
-> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동 (권한에 따른 편집가능)
+> **Grid Contents** : 조회 결과 출력  
+> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동 (권한에 따른 편집 가능)
 
 #### Grid 하단영역
 > **Left** : 조회 건수  
@@ -83,7 +83,7 @@ Comma(,)로 구분하여 여러 OS계정을 지정할 수 있습니다.
 
 #### Grid 상단영역
 > ![추가/등록][ico-add]{: class="ico-white" } : 노드집합정보 추가 ([참고][popup-node])  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제
 
 #### Grid 하단영역
 > **Left** : 조회 건수
@@ -95,7 +95,7 @@ Comma(,)로 구분하여 여러 OS계정을 지정할 수 있습니다.
 #### Grid 상단영역
 > ![추가/등록][ico-adduser]{: class="ico-white" } : 사용자 개별 추가 ([참고][popup-user])  
 > ![추가/등록][ico-addusergrp]{: class="ico-white" } : 사용자그룹에 속한 사용자의 일괄 추가 ([참고][popup-usergrp])  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제
 
 #### Grid 하단영역
 > **Left** : 조회 건수

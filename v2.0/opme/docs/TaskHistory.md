@@ -38,7 +38,8 @@ description: 태스크 발행이력 목록
 >**태스크 ID** : 태스크 ID를 정확하게 입력하거나, ![태스크 조회][ico-search]{: .ico-gray } 팝업을 통해 선택.([참고][popup-task-lst])  
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
+> **Grid Contents** : 조회 결과 출력  
+> **Double Click** : 해당 Row 의 상세 정보 화면으로 이동 (권한에 따른 이동/편집 가능)
 
 #### Grid 하단영역
 > **Left** : 조회 건수  

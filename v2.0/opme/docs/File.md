@@ -51,12 +51,12 @@ OPMATE 파일허브의 파일 정보를 조회합니다.
 > -- 최상위 경로( / )에서 ![파일경로 조회][ico-search]{: .ico-gray }클릭 후 대상으로 이동합니다.
 
 #### Grid 상단영역  
-> ![업로드][ico-upload]{: class="ico-white" } : 팝업창을 통해 파일을 업로드 ([참고][popup-fileupload])  
-> ![다운로드][ico-download]{: class="ico-white" } : Check 된 파일을 다운로드   
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 를 삭제
+> ![업로드][ico-upload]{: class="ico-white" } : 팝업창을 통해 파일 업로드 ([참고][popup-fileupload])  
+> ![다운로드][ico-download]{: class="ico-white" } : Check 된 파일 다운로드   
+> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제
 
 #### Grid 본문영역
-> **Grid Contents** : 조회 조건에 해당하는 결과를 출력
+> **Grid Contents** : 조회 결과 출력  
 
 #### Grid 하단영역
 > **Left** : 조회 건수  
