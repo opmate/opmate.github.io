@@ -10,7 +10,7 @@ description: 계정발급/로그인/로그아웃
 [login-2]: img/login-2.png
 
 <!-- Floating Menu -->
-[prev]: # "none"
+[prev]: Overview.html "개요"
 [menu]: index.html "목차"
 [next]: Layout.html "화면구성"
 [ico-prev]: img/icon/ico-prev.png

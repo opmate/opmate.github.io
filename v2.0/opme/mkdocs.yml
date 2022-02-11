@@ -25,6 +25,7 @@ theme:
 
 nav:
   - '목차': 'index.md'
+  - '개요': 'Overview.md'
   - '로그인': 'Login.md'
   - '화면구성': 'Layout.md'
   - '사용자': 'User.md'
@@ -39,7 +40,6 @@ nav:
   - '파일상세': 'File.md'
   - '엑세스키': 'AccessKey.md'
   - '시스템속성': 'System.md'
-# - 'Sample': 'Sample.md'
   - 'Popup':
       - '사용자': 'PopupUser.md'
       - '사용자그룹': 'PopupUserGroup.md'
