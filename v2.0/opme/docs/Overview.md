@@ -3,7 +3,7 @@ title: OPMATE eyes
 description: Overview
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Floating Menu -->
 [prev]: # "none"
