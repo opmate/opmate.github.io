@@ -3,7 +3,7 @@ title: 파일상세
 description: 파일상세 목록/파일상세 정보
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [file-lst]: img/file-lst.png
@@ -15,9 +15,9 @@ description: 파일상세 목록/파일상세 정보
 [popup-fileupload]: PopupFileUpload.md
 
 <!-- Floating Menu -->
-[prev]: FileHub.html "파일허브"
-[menu]: index.html "목차"
-[next]: AccessKey.html "엑세스키"
+[prev]: FileHub.md "파일허브"
+[menu]: index.md "목차"
+[next]: AccessKey.md "엑세스키"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

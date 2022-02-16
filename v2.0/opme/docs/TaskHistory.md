@@ -3,7 +3,7 @@ title: 태스크 발행이력
 description: 태스크 발행이력 목록
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [task-hst-lst]: img/task-hst-lst.png
@@ -16,9 +16,9 @@ description: 태스크 발행이력 목록
 [popup-task-lst]: img/popup-task-lst.png
 
 <!-- Floating Menu -->
-[prev]: Task.html "태스크"
-[menu]: index.html "목차"
-[next]: Execution.html "태스크실행결과"
+[prev]: Task.md "태스크"
+[menu]: index.md "목차"
+[next]: Execution.md "태스크실행결과"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

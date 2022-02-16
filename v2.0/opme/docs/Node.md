@@ -3,16 +3,16 @@ title: 노드
 description: 노드 목록/노드 정보
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [node-lst]: img/node-lst.png
 [node-dtl]: img/node-dtl.png
 
 <!-- Floating Menu -->
-[prev]: Role.html "역할"
-[menu]: index.html "목차"
-[next]: Task.html "태스크"
+[prev]: Role.md "역할"
+[menu]: index.md "목차"
+[next]: Task.md "태스크"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

@@ -3,13 +3,13 @@ title: 파일 Popup
 description: 파일 업로드
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [popup-file-upload]: img/popup-file-upload.png
 
 <!-- Floating Menu -->
-[menu]: index.html "목차"
+[menu]: index.md "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

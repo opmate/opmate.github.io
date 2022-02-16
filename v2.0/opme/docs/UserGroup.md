@@ -3,7 +3,7 @@ title: 사용자그룹
 description: 사용자그룹 목록/사용자그룹 정보
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [usergrp-lst]: img/usergrp-lst.png
@@ -14,9 +14,9 @@ description: 사용자그룹 목록/사용자그룹 정보
 [popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
-[prev]: User.html "사용자"
-[menu]: index.html "목차"
-[next]: Role.html "역할"
+[prev]: User.md "사용자"
+[menu]: index.md "목차"
+[next]: Role.md "역할"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

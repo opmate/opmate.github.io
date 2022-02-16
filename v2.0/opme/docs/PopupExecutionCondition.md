@@ -3,7 +3,7 @@ title: 태스크 Popup
 description: 태스크 조건 실행
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [popup-execution-condition]: img/popup-execution-condition.png
@@ -11,7 +11,7 @@ description: 태스크 조건 실행
 [arrow-left]: img/icon/ico-arrow-left.png
 
 <!-- Floating Menu -->
-[menu]: index.html "목차"
+[menu]: index.md "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

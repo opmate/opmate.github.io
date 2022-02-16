@@ -3,7 +3,7 @@ title: 태스크 Popup
 description: 태스크 비교대상 선택
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [popup-task-hst]: img/popup-task-hst.png
@@ -11,7 +11,7 @@ description: 태스크 비교대상 선택
 [popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
-[menu]: index.html "목차"
+[menu]: index.md "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

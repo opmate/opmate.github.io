@@ -3,7 +3,7 @@ title: 엑세스 키
 description: 엑세스 키 목록/엑세스 키 정보  
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [accesskey-lst]: img/accesskey-lst.png
@@ -15,9 +15,9 @@ description: 엑세스 키 목록/엑세스 키 정보
 [popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
-[prev]: File.html "파일상세"
-[menu]: index.html "목차"
-[next]: System.html "시스템속성"
+[prev]: File.md "파일상세"
+[menu]: index.md "목차"
+[next]: System.md "시스템속성"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

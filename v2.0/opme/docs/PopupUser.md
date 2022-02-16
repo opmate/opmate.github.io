@@ -3,13 +3,13 @@ title: 사용자 Popup
 description: 사용자 조회
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [popup-user-lst]: img/popup-user-lst.png
 
 <!-- Floating Menu -->
-[menu]: index.html "목차"
+[menu]: index.md "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

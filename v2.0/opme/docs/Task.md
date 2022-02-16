@@ -3,7 +3,7 @@ title: 태스크
 description: 태스크 목록/태스크 정보
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [task-lst]: img/task-lst.png
@@ -29,9 +29,9 @@ description: 태스크 목록/태스크 정보
 [popup-task-hst]: PopupTaskHistory.md
 
 <!-- Floating Menu -->
-[prev]: Node.html "노드"
-[menu]: index.html "목차"
-[next]: TaskHistory.html "태스크발행이력"
+[prev]: Node.md "노드"
+[menu]: index.md "목차"
+[next]: TaskHistory.md "태스크발행이력"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

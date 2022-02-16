@@ -3,7 +3,7 @@ title: 태스크실행결과
 description: 태스크실행결과 목록/태스크실행결과 정보
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [execution-lst]: img/execution-lst.png
@@ -16,9 +16,9 @@ description: 태스크실행결과 목록/태스크실행결과 정보
 [popup-task]: PopupTask.md
 
 <!-- Floating Menu -->
-[prev]: TaskHistory.html "태스크발행이력"
-[menu]: index.html "목차"
-[next]: Dictionary.html "단어사전"
+[prev]: TaskHistory.md "태스크발행이력"
+[menu]: index.md "목차"
+[next]: Dictionary.md "단어사전"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

@@ -3,14 +3,14 @@ title: 시스템
 description: 시스템속성 정보
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [system-dtl]: img/system-dtl.png
 
 <!-- Floating Menu -->
-[prev]: AccessKey.html "액세스키"
-[menu]: index.html "목차"
+[prev]: AccessKey.md "액세스키"
+[menu]: index.md "목차"
 [next]: # "none"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png

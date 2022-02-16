@@ -3,16 +3,16 @@ title: 화면구성
 description: Layout
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [layout]: img/layout.png
 [arrow-down]: img/icon/ico-arrow-down.png
 
 <!-- Floating Menu -->
-[prev]: Login.html "로그인"
-[menu]: index.html "목차"
-[next]: User.html "사용자"
+[prev]: Login.md "로그인"
+[menu]: index.md "목차"
+[next]: User.md "사용자"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

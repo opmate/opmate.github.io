@@ -3,7 +3,7 @@ title: 사용자그룹 Popup
 description: 사용자그룹 조회
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [popup-usergrp-lst]: img/popup-usergrp-lst.png
@@ -11,7 +11,7 @@ description: 사용자그룹 조회
 [popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
-[menu]: index.html "목차"
+[menu]: index.md "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

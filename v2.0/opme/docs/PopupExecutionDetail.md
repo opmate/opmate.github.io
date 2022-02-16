@@ -3,14 +3,14 @@ title: 태스크실행 Popup
 description: 노드별 상세정보
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [popup-execution-detail]: img/popup-execution-detail.png
 [ico-refresh]: img/icon/ico-refresh.png
 
 <!-- Floating Menu -->
-[menu]: index.html "목차"
+[menu]: index.md "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

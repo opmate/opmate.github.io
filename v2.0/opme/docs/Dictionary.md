@@ -3,7 +3,7 @@ title: 단어사전
 description: 단어사전 목록/단어사전 정보
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [dictionary-lst]: img/dictionary-lst.png
@@ -12,9 +12,9 @@ description: 단어사전 목록/단어사전 정보
 [ico-add]: img/icon/ico-add.png
 
 <!-- Floating Menu -->
-[prev]: TaskResult.html "태스크실행결과"
-[menu]: index.html "목차"
-[next]: FileHub.html "파일허브"
+[prev]: Execution.md "태스크실행결과"
+[menu]: index.md "목차"
+[next]: FileHub.md "파일허브"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

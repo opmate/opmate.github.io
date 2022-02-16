@@ -3,7 +3,7 @@ title: 파일 Popup
 description: 파일허브 조회
 ---
 
-<link rel="stylesheet" type="text/css" href="../css/opme.css">
+<link rel="stylesheet" type="text/css" href="css/opme.css">
 
 <!-- Defined -->
 [popup-filehub-lst]: img/popup-filehub-lst.png
@@ -11,7 +11,7 @@ description: 파일허브 조회
 [popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
-[menu]: index.html "목차"
+[menu]: index.md "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 
