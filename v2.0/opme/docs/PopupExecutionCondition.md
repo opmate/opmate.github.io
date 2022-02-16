@@ -11,7 +11,7 @@ description: 태스크 조건 실행
 [arrow-left]: img/icon/ico-arrow-left.png
 
 <!-- Floating Menu -->
-[menu]: index.md "목차"
+[menu]: index.html "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

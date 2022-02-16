@@ -19,9 +19,9 @@ description: 파일허브 목록/파일허브 정보
 [popup-task]: PopupTask.md
 
 <!-- Floating Menu -->
-[prev]: Dictionary.md "단어사전"
-[menu]: index.md "목차"
-[next]: File.md "파일"
+[prev]: Dictionary.html "단어사전"
+[menu]: index.html "목차"
+[next]: File.html "파일"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

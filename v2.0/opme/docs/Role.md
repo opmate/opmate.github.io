@@ -17,9 +17,9 @@ description: 역할 목록/역할 정보
 [popup-node]: PopupNode.md
 
 <!-- Floating Menu -->
-[prev]: UserGroup.md "사용자그룹"
-[menu]: index.md "목차"
-[next]: Node.md "노드"
+[prev]: UserGroup.html "사용자그룹"
+[menu]: index.html "목차"
+[next]: Node.html "노드"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

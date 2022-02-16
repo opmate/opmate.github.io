@@ -12,9 +12,9 @@ description: 사용자 목록/사용자 정보
 [ico-add]: img/icon/ico-add.png
 
 <!-- Floating Menu -->
-[prev]: Layout.md "화면구성"
-[menu]: index.md "목차"
-[next]: UserGroup.md "사용자그룹"
+[prev]: Layout.html "화면구성"
+[menu]: index.html "목차"
+[next]: UserGroup.html "사용자그룹"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

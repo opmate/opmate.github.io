@@ -16,9 +16,9 @@ description: 태스크 발행이력 목록
 [popup-task-lst]: img/popup-task-lst.png
 
 <!-- Floating Menu -->
-[prev]: Task.md "태스크"
-[menu]: index.md "목차"
-[next]: Execution.md "태스크실행결과"
+[prev]: Task.html "태스크"
+[menu]: index.html "목차"
+[next]: Execution.html "태스크실행결과"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

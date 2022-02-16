@@ -16,9 +16,9 @@ description: 태스크실행결과 목록/태스크실행결과 정보
 [popup-task]: PopupTask.md
 
 <!-- Floating Menu -->
-[prev]: TaskHistory.md "태스크발행이력"
-[menu]: index.md "목차"
-[next]: Dictionary.md "단어사전"
+[prev]: TaskHistory.html "태스크발행이력"
+[menu]: index.html "목차"
+[next]: Dictionary.html "단어사전"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

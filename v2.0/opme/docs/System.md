@@ -9,8 +9,8 @@ description: 시스템속성 정보
 [system-dtl]: img/system-dtl.png
 
 <!-- Floating Menu -->
-[prev]: AccessKey.md "액세스키"
-[menu]: index.md "목차"
+[prev]: AccessKey.html "액세스키"
+[menu]: index.html "목차"
 [next]: # "none"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png

@@ -10,7 +10,7 @@ description: 노드별 상세정보
 [ico-refresh]: img/icon/ico-refresh.png
 
 <!-- Floating Menu -->
-[menu]: index.md "목차"
+[menu]: index.html "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

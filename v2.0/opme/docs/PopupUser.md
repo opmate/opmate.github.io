@@ -9,7 +9,7 @@ description: 사용자 조회
 [popup-user-lst]: img/popup-user-lst.png
 
 <!-- Floating Menu -->
-[menu]: index.md "목차"
+[menu]: index.html "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

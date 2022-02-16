@@ -9,7 +9,7 @@ description: 스케줄 추가
 [popup-schedule]: img/popup-schedule.png
 
 <!-- Floating Menu -->
-[menu]: index.md "목차"
+[menu]: index.html "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 

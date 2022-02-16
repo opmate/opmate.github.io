@@ -7,8 +7,8 @@ description: Overview
 
 <!-- Floating Menu -->
 [prev]: # "none"
-[menu]: index.md "목차"
-[next]: Login.md "로그인"
+[menu]: index.html "목차"
+[next]: Login.html "로그인"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

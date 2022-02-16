@@ -11,7 +11,7 @@ description: 태스크 비교대상 선택
 [popup-user]: PopupUser.md
 
 <!-- Floating Menu -->
-[menu]: index.md "목차"
+[menu]: index.html "목차"
 [ico-menu]: img/icon/ico-menu.png
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 
