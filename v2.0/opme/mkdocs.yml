@@ -10,9 +10,11 @@ theme:
       primary: purple
       accent: deep purple
     font:
-      text: Gowun Batang
+      text: Noto Sans Korean
       code: Nanum Gothic Coding
       # text: Noto Sans Korean
+      # text: Nanum Gothic
+      # text: Gowun Batang
       # text: Stylish
     language: kr
 #   name: cerulean
