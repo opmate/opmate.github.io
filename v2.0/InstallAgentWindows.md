@@ -27,7 +27,7 @@ C:\opma-installer-2.0.000-windows-20210607> install.bat
 ## 입력
 
 설치할 경로 등을 입력하고, 출력되는 내용을 확인 후 설치를 진행합니다.
-아래 예제의 입력값은 예제입니다. 자신의 마스터 정보를 확인하고 올바른 IP와 PORT를 입력하시기 바랍니다.
+아래 입력값은 예시입니다. 자신의 마스터 정보를 확인하고 올바른 IP와 PORT를 입력하시기 바랍니다.
 
 ```
 Input installation directory (enter for C:\infsw\opma) :
