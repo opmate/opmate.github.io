@@ -22,7 +22,7 @@ title: OPMATE V1.1
 
 - **OPMATE Agent _v1.1.005_**
   - [opma-inst-1.1.005-20200528.tar.gz](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v1.1.005/opma-inst-1.1.005-20200528.tar.gz)
-    - CentOS 7/6/5 - x86_64bit
+    - RHEL 8/7/6/5 - x86_64bit
     - AIX 7.2/7.1/6.1/5.3 - ppc_64bit
     - Solaris 10/9 - sparc_64bit
     - HP-UX B.11.23 - ia_64bit
