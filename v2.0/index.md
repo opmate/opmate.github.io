@@ -15,6 +15,7 @@ title: OPMATE V2.0
   - [리눅스용 에이전트 제거](UninstallAgentLinux.md)
   - [윈도우즈용 에이전트 제거](UninstallAgentWindows.md)
 
+<!--
 ## 다운로드
 
 **주의** : **마스터의 버전이 V2.0**인 경우에만 아래 에이전트를 설치하시기 바랍니다.
@@ -22,5 +23,6 @@ title: OPMATE V2.0
 - **OPMATE Agent _v2.0.004_**
   - [opma-installer-2.0.004-linux-20211230.tar.gz](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v2.0.004/opma-installer-2.0.004-linux-20211230.tar.gz)
   - [opma-installer-2.0.004-windows-20211230.exe](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v2.0.004/opma-installer-2.0.004-windows-20211230.exe)
+-->
 
 ![Alt text](/img/opmate-small.png)
