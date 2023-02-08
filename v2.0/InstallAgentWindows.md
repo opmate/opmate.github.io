@@ -4,7 +4,7 @@ title: 윈도우용 에이전트 설치
 
 ## 파일 준비
 
-최신 버전의 설치 파일(e.g. opma-installer-2.0.000-windows-20210607.exe)을 준비하여 C:\ 에 복사합니다.
+최신 버전의 설치 파일(e.g. opma-installer-2.0.009-windows-20230202.exe)을 준비하여 C:\ 에 복사합니다.
 
 ## 명령 프롬프트 실행
 
@@ -13,15 +13,15 @@ title: 윈도우용 에이전트 설치
 ```
 C:\Users\Administrator> cd /d C:\
 C:\> dir *.exe
-opma-installer-2.0.000-windows-20210607.exe
+opma-installer-2.0.009-windows-20230202.exe
 ```
 
 ## 압축 해제 및 인스톨러 실행
 
 ```
-C:\> opma-installer-2.0.000-windows-20210607.exe
-C:\> cd opma-installer-2.0.000-windows-20210607
-C:\opma-installer-2.0.000-windows-20210607> install.bat
+C:\> opma-installer-2.0.009-windows-20230202.exe
+C:\> cd opma-installer-2.0.009-windows-20230202
+C:\opma-installer-2.0.009-windows-20230202> install.bat
 ```
 
 ## 입력
@@ -30,7 +30,7 @@ C:\opma-installer-2.0.000-windows-20210607> install.bat
 아래 입력값은 예시입니다. 자신의 마스터 정보를 확인하고 올바른 IP와 PORT를 입력하시기 바랍니다.
 
 ```
-Input installation directory (enter for C:\infsw\opma) :
+Input installation directory (enter for C:\infsw\opmnsa) :
 Input IP address of OPMATE MASTER : 10.0.0.1
 Input PORT number of OPMATE MASTER (enter for 34813) : 
 ...
@@ -39,10 +39,10 @@ Input 'yes' to proceed installation : yes
 
 ## 점검
 
-구동 후 로그 파일 (e.g. C:\infsw\opma\log\opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
+구동 후 로그 파일 (e.g. C:\infsw\opmnsa\log\opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
 
 ```
-C:\> type C:\infsw\opma\log\opm-agent.log
+C:\> type C:\infsw\opmnsa\log\opm-agent.log
 2021-11-19 15:45:37 INFO - Agent Starting...
 2021-11-19 15:45:37 INFO - Successfully registered to the master
 2021-11-19 15:45:37 INFO - Agent Started
