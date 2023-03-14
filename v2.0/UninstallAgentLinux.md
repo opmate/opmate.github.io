@@ -18,6 +18,10 @@ $ su -
 ```
 $ systemctl stop opmsvc
 ```
+- CentOS(RHEL) Linux 6 / CentOS(RHEL) Linux 5
+```
+$ service opmsvc stop
+```
 
 ## 중지 상태 확인
 
@@ -32,16 +36,21 @@ $ ps -ef | grep opmsvc
 $ systemctl disable opmsvc
 $ rm /etc/systemd/system/opmsvc.service
 ```
+- CentOS(RHEL) Linux 6 / CentOS(RHEL) Linux 5
+```
+$ chkconfig --del opmsvc
+$ rm /etc/init.d/opmsvc
+```
 
 ## 파일 삭제
 
-에이전트가 설치된 디렉토리 전체를 삭제합니다.
+에이전트가 설치된 디렉토리 및 파일을 삭제합니다.
 
 ```
 $ rm -rf /infsw/opmnsa
 $ rm -f /usr/bin/opmget
 $ rm -f /usr/bin/opmput
 $ rm -f /usr/bin/opmls
+$ rm -f /run/opmsvc.pid
 $ rm -f /var/run/opmsvc.pid
 ```
-
