@@ -29,7 +29,7 @@ Requesting https://127.0.0.1:8443/opmate;user=admin
 +--------+---------------+------+---------+------------------+
 | admin  | lovelyhana    | 0    | enable  | 2020/03/13 14:07 |
 | oprim  | smartsteel    | 1    | enable  | 2020/03/13 09:35 |
-| bumbee | cutyfly       | 3    | disable | 2020/03/11 15:12 |
+| bumbee | cuttyfly      | 3    | disable | 2020/03/11 15:12 |
 +--------+---------------+------+---------+------------------+
 
 ROWS COUNT : 3/3
