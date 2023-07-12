@@ -37,3 +37,8 @@ description: Web Console
 - [태스크 조건실행](PopupExecutionCondition.md)
 - [태스크 모의실행](PopupExecutionDryRun.md)
 - [태스크 실행상세](PopupExecutionDetail.md)
+
+### 참고  
+- [정규표현식 정보](Regexp.md)
+
+
