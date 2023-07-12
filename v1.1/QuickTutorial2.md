@@ -8,7 +8,7 @@ description: 계정 생성 및 로그인
 다음과 같이 나의 사용자 계정을 만듭니다. 사용자ID는 bumbee이고, 이름, 전화번호, 이메일 등을 입력합니다.
 
 ```
-$ opmate user create -id bumbee -nm 'Bumblebee' -pn '010-2222-2222' -ea 'bumbee@email.com'
+$ opmate user create -id bumbee -nm 'cutefly' -pn '010-2222-2222' -ea 'bumbee@email.com'
 Requesting https://127.0.0.1:8443/opmate
 Enter password: 
 Confirm password: 
@@ -27,9 +27,9 @@ Requesting https://127.0.0.1:8443/opmate;user=admin
 +--------+---------------+------+---------+------------------+
 | ID     | NAME          | ROLE | STATUS  | LAST LOGIN       |
 +--------+---------------+------+---------+------------------+
-| admin  | nimda         | 0    | enable  | 2020/03/13 14:07 |
-| oprim  | Optimus Prime | 1    | enable  | 2020/03/13 09:35 |
-| bumbee | Bumblebee     | 3    | disable | 2020/03/11 15:12 |
+| admin  | lovelyhana    | 0    | enable  | 2020/03/13 14:07 |
+| oprim  | smartsteel    | 1    | enable  | 2020/03/13 09:35 |
+| bumbee | cutefly       | 3    | disable | 2020/03/11 15:12 |
 +--------+---------------+------+---------+------------------+
 
 ROWS COUNT : 3/3
