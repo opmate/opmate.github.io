@@ -13,12 +13,12 @@ description: Web Console
 6. [역할](Role.md)
 7. [노드](Node.md)
 8. [태스크](Task.md)
-9. [태스크발행이력](TaskHistory.md)
+9. [태스크발행이력](Publist.md)
 10. [태스크실행결과](Execution.md)
-11. [단어사전](Dictionary.md)
+11. [단어사전](Dctnry.md)
 12. [파일허브](FileHub.md)
 13. [파일상세](File.md)
-14. [엑세스키](AccessKey.md)
+14. [엑세스키](AccKey.md)
 15. [시스템속성](System.md)
 
 ---

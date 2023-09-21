@@ -14,7 +14,7 @@ description: 태스크 목록/태스크 정보
 [ico-add]: img/icon/ico-add.png
 [ico-adduser]: img/icon/ico-adduser.png
 [ico-addusergrp]: img/icon/ico-addusergrp.png
-[task-hst]: TaskHistory.md
+[task-hst]: Publish.md
 [execution]: Execution.md
 [popup-user]: PopupUser.md
 [popup-usergrp]: PopupUserGroup.md
