@@ -6,9 +6,9 @@ use_directory_urls: false
 theme:
     name: material
     palette:
-      scheme: slate
-      primary: purple
-      accent: deep purple
+      scheme: default
+      primary: light blue
+      accent: blue
     font:
       text: Noto Sans Korean
       code: Nanum Gothic Coding
@@ -29,19 +29,20 @@ nav:
   - '목차': 'index.md'
   - '개요': 'Overview.md'
   - '로그인': 'Login.md'
-  - '화면구성': 'Layout.md'
-  - '사용자': 'User.md'
-  - '사용자그룹': 'UserGroup.md'
-  - '역할': 'Role.md'
-  - '노드': 'Node.md'
-  - '태스크': 'Task.md'
-  - '태스크발행이력': 'TaskHistory.md'
-  - '태스크실행결과': 'Execution.md'
-  - '단어사전': 'Dictionary.md'
-  - '파일허브': 'FileHub.md'
-  - '파일상세': 'File.md'
-  - '엑세스키': 'AccessKey.md'
-  - '시스템속성': 'System.md'
+  - '주요화면':
+      - '화면구성': 'Layout.md'
+      - '사용자': 'User.md'
+      - '사용자그룹': 'UserGroup.md'
+      - '역할': 'Role.md'
+      - '노드': 'Node.md'
+      - '태스크': 'Task.md'
+      - '태스크발행이력': 'Publist.md'
+      - '태스크실행결과': 'Execution.md'
+      - '단어사전': 'Dctnry.md'
+      - '파일허브': 'FileHub.md'
+      - '파일상세': 'File.md'
+      - '엑세스키': 'AccKey.md'
+      - '시스템속성': 'System.md'
   - 'Popup':
       - '사용자': 'PopupUser.md'
       - '사용자그룹': 'PopupUserGroup.md'
