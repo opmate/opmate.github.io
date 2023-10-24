@@ -21,6 +21,9 @@ description: 계정발급/로그인/로그아웃
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
 
+사용자 (user)<sup>[1](#footnote_1)</sup>
+시스템관리자가 생성할 수 있으며, 다음 속성으로 구성된다.<br>
+•사용자ID,비밀번호,이름,알림주소,연락처,비고,시스템관리자(Administrator) 여부,•활성화 여부<br>
 
 ## 계정발급
 OPMATE 사용을 위해서는 로그인에 필요한 계정 발급이 필요합니다.  
@@ -48,3 +51,4 @@ OPMATE 사용을 위해서는 로그인에 필요한 계정 발급이 필요합�
 ## 로그아웃
 화면 우측 상단의 폴딩 메뉴(사용자ID 표기 우측)를 열고,  
 <kbd class="btn-gray">&nbsp;로그아웃&nbsp;</kbd> 메뉴 클릭하여 로그아웃 합니다. ([참고](Layout.md))
+<a name="footnote_1">1</a>첫번째 각주 입니다.
