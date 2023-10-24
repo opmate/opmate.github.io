@@ -21,9 +21,13 @@ description: 사용자 목록/사용자 정보
 [![이전][ico-prev]{: class="ico-prev-float" }][prev]
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
-
+111
 {{ config.extra.version }}
-
+222
+{{ page.title }}
+{% if config.extra.version == '1.0' %}
+    About this blog
+{% endif %}
 ## 사용자 목록
 
 
