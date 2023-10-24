@@ -22,9 +22,9 @@ description: 사용자 목록/사용자 정보
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
-사용자 (user)<sup>[1](#footnote_1)</sup> 111
- 시스템관리자가 생성할 수 있으며, 다음 속성으로 구성된다.<br> 
-•사용자ID,비밀번호,이름,알림주소,연락처,비고,시스템관리자(Administrator) 여부,•활성화 여부<br>
+!!! note "Information"  
+    사용자 (user)<sup>[1](#footnote_1)</sup> 111 시스템관리자가 생성할 수 있으며, 다음 속성으로 구성된다.<br> 
+    •사용자ID,비밀번호,이름,알림주소,연락처,비고,시스템관리자(Administrator) 여부,•활성화 여부<br>
 
 
 ## 사용자 목록
