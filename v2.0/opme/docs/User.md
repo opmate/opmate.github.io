@@ -22,11 +22,16 @@ description: 사용자 목록/사용자 정보
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
+사용자 (user)<sup>[1](#footnote_1)</sup>
+ 시스템관리자가 생성할 수 있으며, 다음 속성으로 구성된다.<br> 
+•사용자ID,비밀번호,이름,알림주소,연락처,비고,시스템관리자(Administrator) 여부,•활성화 여부<br>
+
 
 ## 사용자 목록
-OPMATE 사용자 정보를 조회하고, 추가/삭제 할 수 있습니다.  
-모든 사용자가 조회 기능을 사용할 수 있지만,   
-추가/삭제 기능은 Super-User 권한의 사용자만 사용 가능합니다.
+
+
+
+
 
 > ![사용자 목록][user-lst]
 
@@ -90,4 +95,4 @@ Super-User 는 다른 사용자의 등록/수정이 가능합니다.
 > <kbd class="btn-gray">2차인증 등록</kbd> : 2차인증 Key 생성. 사용자는 생성된 QR 코드를 Google OTP App.에 등록  
 > <kbd class="btn-gray">2차인증 초기화</kbd> : 사용자계정에 적용된 2차인증을 초기화 (Super-User Only)  
 > <kbd class="btn-red">저장</kbd> : 등록/변경된 내용을 저장  
- 
+<a name="footnote_1">1</a>첫번째 각주 입니다.
