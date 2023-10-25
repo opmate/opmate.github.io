@@ -2,11 +2,10 @@ site_name: OPMATE Web Console
 # docs_dir: v2.0/opme
 site_dir: ../../../opme/opmedocs
 use_directory_urls: false
-
 theme:
     name: material
     palette:
-      scheme: default
+      scheme: defaulinfot
       primary: light blue
       accent: blue
     font:
@@ -24,7 +23,8 @@ theme:
 #   name: gitbook
 #   name: bootstrap4
 #   suppress_nextprev: false
-
+extra:
+    manual: 'opme'
 nav:
   - '목차': 'index.md'
   - '개요': 'Overview.md'
@@ -61,6 +61,11 @@ nav:
 
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.details
 #   - def_list
 #   - pymdownx.tasklist:
 #       custom_checkbox: true
+
+plugins:
+  - macros
