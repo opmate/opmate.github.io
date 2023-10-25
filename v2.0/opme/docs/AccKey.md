@@ -25,12 +25,17 @@ description: 엑세스 키 목록/엑세스 키 정보
 [![목차][ico-menu]{: class='ico-menu-float' }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
+{% if config.extra.manual == 'opme' %}
+??? info "액세스 키(access-key)"
+    CLI 외 타 시스템이나 어플리케이션에서 사용하기 위해 액세스키 발급 방식의 REST API 호출을 지원합니다.    
+{% endif %}
+
 ## 액세스 키 목록
 OPMATE 는 타 시스템이나 어플리케이션에서 사용하기 위한 REST API 를 제공합니다.  
 이를 활용하기 위해서는 액세스 키를 발급 받는 것이 필요합니다.  
 발급 받은 액세스 키를 사용하기 위해서는 Super-User 권한의 사용자가 Enable 로 설정해줘야 합니다.
 
-> ![엑세스 키 목록][accesskey-lst]
+![엑세스 키 목록][accesskey-lst]
 
 ### 조회 조건
 
@@ -62,7 +67,7 @@ OPMATE 는 타 시스템이나 어플리케이션에서 사용하기 위한 REST
 사용자는 여러 개의 엑세스 키를 생성하는 것이 가능합니다.  
 Super-User 권한의 사용자만 엑세스 키 정보의 수정이 가능합니다.  
 
-> ![엑세스 키 정보][accesskey-dtl]
+![엑세스 키 정보][accesskey-dtl]
  
 ### 기본정보
 
