@@ -18,7 +18,7 @@ description: 태스크실행결과 목록/태스크실행결과 정보
 <!-- Floating Menu -->
 [prev]: TaskHistory.html "태스크발행이력"
 [menu]: index.html "목차"
-[next]: Dictionary.html "단어사전"
+[next]: Dctnry.html "단어사전"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png
