@@ -21,6 +21,7 @@ description: 태스크 선택
 ![태스크선택][popup-task-select]
 
 ### **하단 버튼영역**
+
 > <kbd class="btn-gray">&nbsp;Editing(Rev. 0)&nbsp;</kbd> : 현재 작성/편집 중인 버전(Revision 0)을 부모창에 반영  
 > <kbd class="btn-gray">&nbsp;Running(Rev. X)&nbsp;</kbd> : 발행 및 적용된 버전(Latest Revision)을 부모창에 반영
  

@@ -21,6 +21,7 @@ description: 노드별 상세정보
 ![노드별실행상세][popup-execution-detail]
 
 ### **노드 실행 정보**
+
 > **노드세션ID** : 노드 식별 ID  
 > **Hostname**  
 > **IP주소**  
@@ -33,5 +34,6 @@ description: 노드별 상세정보
 > **표준에러**  : 스크립트 실행 표준에러(stderr)
 
 ### **하단 버튼영역**
+
 > <kbd class="btn-gray">&nbsp;닫기&nbsp;</kbd> : 팝업 닫기  
 > <kbd class="btn-gray">&nbsp;ESC&nbsp;</kbd> : 팝업 닫기  

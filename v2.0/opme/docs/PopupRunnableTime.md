@@ -21,11 +21,13 @@ description: 실행가능시간 추가
 
 ### **실행가능시간 정보**
 
-- 입력 항목  
+**입력 항목**
+
 > **유형** : 스케줄의 주기에 따른 유형(Yearly/Monthly/Weekly/Daily/Hourly/Once)  
 > **실행가능시간(From)** : 유형에 따른 실행가능시간을 지정. 실행가능시간의 시작 시점을 결정.  
 > **유효시간(Range)** : 실행가능시간 시작 시점부터 얼마동안 유효한지를 결정.  
  
-- 하단 버튼영역  
+**하단 버튼영역**
+
 > <kbd class="btn-red">&nbsp;추가&nbsp;</kbd> : 선택 내용을 부모창에 반영  
 > <kbd class="btn-gray">&nbsp;ESC&nbsp;</kbd> : 팝업 닫기  

@@ -17,7 +17,7 @@ description: 파일상세 목록/파일상세 정보
 <!-- Floating Menu -->
 [prev]: FileHub.html "파일허브"
 [menu]: index.html "목차"
-[next]: AccessKey.html "엑세스키"
+[next]: AccKey.html "엑세스키"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

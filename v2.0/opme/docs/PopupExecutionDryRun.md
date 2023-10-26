@@ -88,32 +88,39 @@ description: 태스크 모의 실행
 > **실행시간점검** : 성공/실패
 
 ### **결과노드검색**
+
 개별노드의 모의실행 결과를 확인할 수 있으며, 특정 조건에 해당하는 노드의 결과를 쉽게 확인하기 위한 조회 기능을 제공합니다.
 
-- 입력 항목  
+**입력 항목**
+
 > **Hostname** : 부분문자열 조회 가능(Like)   
 > **IP주소** : 부분문자열 조회 가능(Like)  
 > **OS계정** : 부분문자열 조회 가능(Like)  
 > **점검결과** : All/성공/실패 선택
 
-- 버튼  
+**버튼**
+
 > <kbd class="btn-gray">&nbsp;초기화&nbsp;</kbd> : 조회 조건 초기화  
 > <kbd class="btn-red">&nbsp;조회&nbsp;</kbd> : 조회 수행
 
 ### **조회결과**
 
-- Grid 본문영역  
+**Grid 본문영역**
+
 > **Grid Contents** : 조회 결과 출력  
 
-- Grid 하단영역  
+**Grid 하단영역**
+
 > **Left** : 조회 건수  
 > **Center** : 페이지 표시/선택  
 > **Right** : Grid 에 한번에 표시할 건수  
 
 ### **하단 버튼영역**
+
 > <kbd class="btn-gray">&nbsp;닫기&nbsp;</kbd> : 팝업 닫기  
 > <kbd class="btn-gray">&nbsp;ESC&nbsp;</kbd> : 팝업 닫기  
 
 ### **기타**
+
 결과보기 화면 좌측의 ![모의실행Page][arrow-left]{: class="ico-white" } 와 모의실행 화면 우측의 ![결과보기Page][arrow-right]{: class="ico-white" } 를 이용하여,  
 두 화면을 오가면서 조건과 결과를 비교/확인 하거나 조건을 변경하여 재수행 할 수 있습니다.

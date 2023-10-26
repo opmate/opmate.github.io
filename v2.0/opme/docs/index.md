@@ -12,6 +12,7 @@ description: Web Console
 5. [사용자그룹](UserGroup.md)
 6. [역할](Role.md)
 7. [노드](Node.md)
+8. [연결검토](NodeReview.md)
 8. [태스크](Task.md)
 9. [태스크발행이력](Publist.md)
 10. [태스크실행결과](Execution.md)
