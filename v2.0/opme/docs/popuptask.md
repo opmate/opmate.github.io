@@ -8,7 +8,7 @@ description: 태스크 조회
 <!-- Defined -->
 [popup-task-lst]: img/popup-task-lst.png
 [ico-search]: img/icon/ico-search.png
-[popup-user]: PopupUser.md
+[popup-user]: popupuser.md
 
 <!-- Floating Menu -->
 [menu]: index.html "목차"

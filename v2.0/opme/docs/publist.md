@@ -11,8 +11,8 @@ description: 태스크 발행이력 목록
 [ico-del]: img/icon/ico-del.png
 [ico-upload]: img/icon/ico-add.png
 [ico-download]: img/icon/ico-save.png
-[popup-filehub]: PopupFileHub.md
-[popup-fileupload]: PopupFileUpload.md
+[popup-filehub]: popupfilehub.md
+[popup-fileupload]: popupfileupload.md
 [popup-task-lst]: img/popup-task-lst.png
 
 <!-- Floating Menu -->

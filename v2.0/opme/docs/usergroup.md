@@ -11,7 +11,7 @@ description: 사용자그룹 목록/사용자그룹 정보
 [ico-search]: img/icon/ico-search.png
 [ico-del]: img/icon/ico-del.png
 [ico-add]: img/icon/ico-add.png  
-[popup-user]: PopupUser.md
+[popup-user]: popupuser.md
 
 <!-- Floating Menu -->
 [prev]: User.html "사용자"

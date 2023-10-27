@@ -12,9 +12,9 @@ description: 역할 목록/역할 정보
 [ico-add]: img/icon/ico-add.png
 [ico-adduser]: img/icon/ico-adduser.png
 [ico-addusergrp]: img/icon/ico-addusergrp.png
-[popup-user]: PopupUser.md
-[popup-usergrp]: PopupUserGroup.md
-[popup-node]: PopupNode.md
+[popup-user]: popupuser.md
+[popup-usergrp]: popupusergroup.md
+[popup-node]: popupnode.md
 
 <!-- Floating Menu -->
 [prev]: UserGroup.html "사용자그룹"

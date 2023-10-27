@@ -11,14 +11,14 @@ description: 태스크실행결과 목록/태스크실행결과 정보
 [ico-del]: img/icon/ico-del.png
 [ico-add]: img/icon/ico-add.png
 [ico-search]: img/icon/ico-search.png
-[popup-execution-detail]: PopupExecutionDetail.md
-[popup-user]: PopupUser.md
-[popup-task]: PopupTask.md
+[popup-execution-detail]: popupexecutiondetail.md
+[popup-user]: popupuser.md
+[popup-task]: popuptask.md
 
 <!-- Floating Menu -->
-[prev]: Publist.html "태스크발행이력"
+[prev]: publist.html "태스크발행이력"
 [menu]: index.html "목차"
-[next]: Dctnry.html "단어사전"
+[next]: dctnry.html "단어사전"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

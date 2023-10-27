@@ -14,19 +14,19 @@ description: 태스크 목록/태스크 정보
 [ico-add]: img/icon/ico-add.png
 [ico-adduser]: img/icon/ico-adduser.png
 [ico-addusergrp]: img/icon/ico-addusergrp.png
-[task-hst]: Publist.md
-[execution]: Execution.md
-[popup-user]: PopupUser.md
-[popup-usergrp]: PopupUserGroup.md
-[popup-exe-condition]: PopupExecutionCondition.md
-[popup-exe-detail]: PopupExecutionDetail.md
-[popup-exe-dryrun]: PopupExecutionDryRun.md
-[popup-task-select]: PopupTaskSelect.md
-[popup-task]: PopupTask.md
-[popup-schedule]: PopupSchedule.md
-[popup-node]: PopupNode.md
-[popup-runnabletime]: PopupRunnableTime.md
-[popup-task-hst]: PopupTaskHistory.md
+[task-hst]: publist.md
+[execution]: execution.md
+[popup-user]: popupuser.md
+[popup-usergrp]: popupusergroup.md
+[popup-exe-condition]: popupexecutioncondition.md
+[popup-exe-detail]: popupexecutiondetail.md
+[popup-exe-dryrun]: popupexecutiondryrun.md
+[popup-task-select]: popuptaskselect.md
+[popup-task]: popuptask.md
+[popup-schedule]: popupschedule.md
+[popup-node]: popupnode.md
+[popup-runnabletime]: popuprunnabletime.md
+[popup-task-hst]: popuptaskhistory.md
 
 <!-- Floating Menu -->
 [prev]: NodeReview.html "노드"

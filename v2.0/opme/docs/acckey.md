@@ -12,12 +12,12 @@ description: 엑세스 키 목록/엑세스 키 정보
 [ico-search]: img/icon/ico-search.png
 [ico-del]: img/icon/ico-del.png
 [ico-add]: img/icon/ico-add.png
-[popup-user]: PopupUser.md
+[popup-user]: popupuser.md
 
 <!-- Floating Menu -->
-[prev]: File.html "파일상세"
+[prev]: file.html "파일상세"
 [menu]: index.html "목차"
-[next]: System.html "시스템속성"
+[next]: system.html "시스템속성"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

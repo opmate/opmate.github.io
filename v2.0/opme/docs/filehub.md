@@ -8,20 +8,20 @@ description: 파일허브 목록/파일허브 정보
 <!-- Defined -->
 [filehub-lst]: img/filehub-lst.png
 [filehub-dtl]: img/filehub-dtl.png
-[file]: File.md
+[file]: file.md
 [ico-search]: img/icon/ico-search.png
 [ico-del]: img/icon/ico-del.png
 [ico-add]: img/icon/ico-add.png
 [ico-adduser]: img/icon/ico-adduser.png
 [ico-addusergrp]: img/icon/ico-addusergrp.png
-[popup-user]: PopupUser.md
-[popup-usergrp]: PopupUserGroup.md
-[popup-task]: PopupTask.md
+[popup-user]: popupuser.md
+[popup-usergrp]: popupusergroup.md
+[popup-task]: popuptask.md
 
 <!-- Floating Menu -->
-[prev]: Dctnry.html "단어사전"
+[prev]: dctnry.html "단어사전"
 [menu]: index.html "목차"
-[next]: File.html "파일"
+[next]: file.html "파일"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

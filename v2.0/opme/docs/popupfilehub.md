@@ -8,7 +8,7 @@ description: 파일허브 조회
 <!-- Defined -->
 [popup-filehub-lst]: img/popup-filehub-lst.png
 [ico-search]: img/icon/ico-search.png
-[popup-user]: PopupUser.md
+[popup-user]: popupuser.md
 
 <!-- Floating Menu -->
 [menu]: index.html "목차"

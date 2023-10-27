@@ -11,8 +11,8 @@ description: 태스크 모의 실행
 [ico-search]: img/icon/ico-search.png
 [arrow-right]: img/icon/ico-arrow-right.png
 [arrow-left]: img/icon/ico-arrow-left.png
-[popup-user]: PopupUser.md
-[popup-task]: PopupTask.md
+[popup-user]: popupuser.md
+[popup-task]: popuptask.md
 
 <!-- Floating Menu -->
 [menu]: index.html "목차"

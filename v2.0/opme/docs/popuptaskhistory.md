@@ -8,7 +8,7 @@ description: 태스크 비교대상 선택
 <!-- Defined -->
 [popup-task-hst]: img/popup-task-hst.png
 [ico-search]: img/icon/ico-search.png
-[popup-user]: PopupUser.md
+[popup-user]: popupuser.md
 
 <!-- Floating Menu -->
 [menu]: index.html "목차"

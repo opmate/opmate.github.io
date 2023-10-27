@@ -8,7 +8,7 @@ description: 사용자그룹 조회
 <!-- Defined -->
 [popup-usergrp-lst]: img/popup-usergrp-lst.png
 [ico-search]: img/icon/ico-search.png
-[popup-user]: PopupUser.md
+[popup-user]: popupuser.md
 
 <!-- Floating Menu -->
 [menu]: index.html "목차"
