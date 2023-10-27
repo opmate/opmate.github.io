@@ -10,9 +10,9 @@ description: 노드 연결검토 정보
 [node-dtl]: img/node-dtl.png
 
 <!-- Floating Menu -->
-[prev]: Node.html "역할"
+[prev]: node.html "역할"
 [menu]: index.html "목차"
-[next]: Task.html "태스크"
+[next]: task.html "태스크"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

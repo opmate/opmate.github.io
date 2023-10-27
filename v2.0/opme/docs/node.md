@@ -10,9 +10,9 @@ description: 노드 목록/노드 정보
 [node-dtl]: img/node-dtl.png
 
 <!-- Floating Menu -->
-[prev]: Role.html "역할"
+[prev]: role.html "역할"
 [menu]: index.html "목차"
-[next]: NodeReview.html "태스크"
+[next]: nodereview.html "태스크"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png
