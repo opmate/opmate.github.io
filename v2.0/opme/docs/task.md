@@ -29,9 +29,9 @@ description: 태스크 목록/태스크 정보
 [popup-task-hst]: popuptaskhistory.md
 
 <!-- Floating Menu -->
-[prev]: NodeReview.html "노드"
+[prev]: nodereview.html "노드"
 [menu]: index.html "목차"
-[next]: Publist.html "태스크발행이력"
+[next]: publist.html "태스크발행이력"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png

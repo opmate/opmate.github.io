@@ -9,7 +9,7 @@ description: 시스템속성 정보
 [system-dtl]: img/system-dtl.png
 
 <!-- Floating Menu -->
-[prev]: AccKey.html "액세스키"
+[prev]: acckey.html "액세스키"
 [menu]: index.html "목차"
 [next]: # "none"
 [ico-prev]: img/icon/ico-prev.png

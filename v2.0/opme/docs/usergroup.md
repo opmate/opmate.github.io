@@ -14,9 +14,9 @@ description: 사용자그룹 목록/사용자그룹 정보
 [popup-user]: popupuser.md
 
 <!-- Floating Menu -->
-[prev]: User.html "사용자"
+[prev]: user.html "사용자"
 [menu]: index.html "목차"
-[next]: Role.html "역할"
+[next]: role.html "역할"
 [ico-prev]: img/icon/ico-prev.png
 [ico-menu]: img/icon/ico-menu.png
 [ico-next]: img/icon/ico-next.png
