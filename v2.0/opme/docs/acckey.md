@@ -24,15 +24,9 @@ description: 엑세스 키 목록/엑세스 키 정보
 [![이전][ico-prev]{: class="ico-prev-float" }][prev]
 [![목차][ico-menu]{: class='ico-menu-float' }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
-
-
-<details>
-	<summary>액세스 키(access-key)</summary>
+<details><summary>액세스 키(access-key)</summary>
     CLI 외 타 시스템이나 어플리케이션에서 사용하기 위해 액세스키 발급 방식의 REST API 호출을 지원합니다.    
-</details>
-
-
-
+</details><br>
 
 ## 액세스 키 목록
 
