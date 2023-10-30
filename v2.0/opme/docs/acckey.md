@@ -27,7 +27,6 @@ description: 엑세스 키 목록/엑세스 키 정보
 <details><summary>액세스 키(access-key)</summary>
     CLI 외 타 시스템이나 어플리케이션에서 사용하기 위해 액세스키 발급 방식의 REST API 호출을 지원합니다.    
 </details><br>
-
 ## 액세스 키 목록
 
 OPMATE 는 타 시스템이나 어플리케이션에서 사용하기 위한 REST API 를 제공합니다.  
