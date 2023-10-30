@@ -42,7 +42,7 @@ description: 태스크 목록/태스크 정보
 <details>
 <summary>태스크(Task)</summary>
     태스크는 스크립트를 노드에 실행하기 위한 작업 정의서입니다.
-</details>
+</details><br>
 
 ## 태스크 목록
 OPMATE 태스크 목록을 조회/추가/삭제 할 수 있습니다.  

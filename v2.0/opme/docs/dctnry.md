@@ -26,9 +26,7 @@ description: 단어사전 목록/단어사전 정보
 <details>
 <summary>단어사전(Dictionary)</summary>
     태스크 스크립트 점검 용도의 Dictionary 입니다.  
-</details>
-
-
+</details><p><br>
 ## 단어사전 목록
 금지 또는 위험 명령어로 구분하여 사전에 정의할 수 있습니다.  
 Normal-User 는 확인만 가능합니다.

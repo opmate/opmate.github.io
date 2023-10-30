@@ -24,8 +24,7 @@ description: 노드 목록/노드 정보
 <details>
 <summary>노드(Node)</summary>
     노드는 Agent가 설치된 장비를 마스터가 인식하는 단위입니다.
-</details>
-
+</details><br>
 
 ## 노드 목록
 
