@@ -22,10 +22,12 @@ description: 단어사전 목록/단어사전 정보
 [![목차][ico-menu]{: class='ico-menu-float' }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
-{% if config.extra.manual == 'opme' %}
-??? info "단어사전(Dictionary)"
+
+<details>
+<summary>단어사전(Dictionary)</summary>
     태스크 스크립트 점검 용도의 Dictionary 입니다.  
-{% endif %}
+</details>
+
 
 ## 단어사전 목록
 금지 또는 위험 명령어로 구분하여 사전에 정의할 수 있습니다.  

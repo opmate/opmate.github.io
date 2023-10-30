@@ -22,9 +22,10 @@ description: 사용자 목록/사용자 정보
 [![목차][ico-menu]{: class="ico-menu-float" }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
-??? info "사용자(User)"
+<details>
+<summary>사용자(User)</summary>
      시스템관리자가 생성할 수 있으며, Opmate 시스템 사용이 필요한경우 담당자에게 사용자 생성을 요청합니다.  
-
+</details>
 
 ## 사용자 목록
 

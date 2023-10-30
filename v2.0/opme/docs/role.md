@@ -28,10 +28,10 @@ description: 역할 목록/역할 정보
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
 
-{% if config.extra.manual == 'opme' %}
-??? info "역할(Role)"
+<details>
+<summary>역할(Role)</summary>
     역할(Role)은 태스크 수행에 관련된 권한을 정의한 것입니다. 정의된 접근권한을 참조하여 태스크 실행시 권한 유무를 체크하는 용도로 사용됩니다.
-{% endif %}
+</details>
 
 ## 역할 목록
 태스크 수행에 필요한 노드집합과 OS계정에 대한 권한을 각 사용자에게 부여하고,  

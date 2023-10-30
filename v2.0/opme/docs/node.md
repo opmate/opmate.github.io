@@ -20,10 +20,12 @@ description: 노드 목록/노드 정보
 [![목차][ico-menu]{: class='ico-menu-float' }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
-{% if config.extra.manual == 'opme' %}
-??? info "노드(Node)"
+
+<details>
+<summary>노드(Node)</summary>
     노드는 Agent가 설치된 장비를 마스터가 인식하는 단위입니다.
-{% endif %}
+</details>
+
 
 ## 노드 목록
 

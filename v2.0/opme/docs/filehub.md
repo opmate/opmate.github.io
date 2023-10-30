@@ -29,10 +29,10 @@ description: 파일허브 목록/파일허브 정보
 [![목차][ico-menu]{: class='ico-menu-float' }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
-{% if config.extra.manual == 'opme' %}
-??? info "파일허브"
+<details>
+<summary>파일허브</summary>
     파일허브는 파일 송수신을 위한 임시 보관소입니다.  
-{% endif %}
+</details>
 
 ## 파일허브 목록
 OPMATE 파일허브 정보를 조회합니다.  

@@ -39,10 +39,10 @@ description: 태스크 목록/태스크 정보
 [![목차][ico-menu]{: class='ico-menu-float' }][menu]
 [![다음][ico-next]{: class="ico-next-float" }][next]
 
-{% if config.extra.manual == 'opme' %}
-??? info "태스크(Task)"
+<details>
+<summary>태스크(Task)</summary>
     태스크는 스크립트를 노드에 실행하기 위한 작업 정의서입니다.
-{% endif %}
+</details>
 
 ## 태스크 목록
 OPMATE 태스크 목록을 조회/추가/삭제 할 수 있습니다.  

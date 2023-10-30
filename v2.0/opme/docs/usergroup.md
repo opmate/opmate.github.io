@@ -25,12 +25,11 @@ description: 사용자그룹 목록/사용자그룹 정보
 [![다음][ico-next]{: class="ico-next-float" }][next]  
 
 
-
-{% if config.extra.manual == 'opme' %}
-??? info "사용자그룹(User Group)"
+<details>
+<summary>사용자그룹(User Group)</summary>
     사용자 그룹은 여러명의 사용자가 모여있는 집합입니다. 각종 작업시 다수 사용자를 지정할 때 편의를 위해 사용합니다.
     하나의 사용자는 동시에 여러개의 사용자 그룹에 소속될 수 있습니다.
-{% endif %}
+</details>
 
 ## 사용자그룹 목록
 사용자를 사용자그룹으로 묶어서 활용할 수 있습니다.  
