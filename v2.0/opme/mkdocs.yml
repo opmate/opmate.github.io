@@ -8,9 +8,9 @@ theme:
       scheme: defaulinfot
       primary: light blue
       accent: blue
-    font:
-      text: Noto Sans Korean
-      code: Nanum Gothic Coding
+    font: false
+      # text: NotoKrR
+      # code: NanumGothicCoding
       # text: Noto Sans Korean
       # text: Nanum Gothic
       # text: Gowun Batang
@@ -23,8 +23,10 @@ theme:
 #   name: gitbook
 #   name: bootstrap4
 #   suppress_nextprev: false
-extra:
-    manual: 'opme'
+# extra:
+#    manual: 'opme'
+extra_css:
+  - css/extra.css
 nav:
   - '목차': 'index.md'
   - '개요': 'overview.md'

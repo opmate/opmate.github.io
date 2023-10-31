@@ -1,0 +1,61 @@
+/*---------------------------------------
+	font
+---------------------------------------*/
+@font-face {
+	font-family: 'NotoKrR';
+	font-style: normal;
+	font-weight: 200;
+	src: /*url(../../fonts/NotoSansKR-Light-Hestia.woff2) format('woff2'),*/
+		 url(../fonts/NotoSans-Light.eot),
+		 url(../fonts/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+		 url(../fonts/NotoSans-Light.woff) format('woff'),
+		 url(../fonts/NotoSans-Light.otf) format('opentype');
+}
+@font-face {
+	font-family: 'NotoKrR';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Noto Sans Regular'),
+	     local('NotoSans-Regular'),
+	     url(../fonts/NotoSans-Regular.eot);
+	src: url(../fonts/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+	     url(../fonts/NotoSans-Regular.woff2) format('woff2'),
+	     url(../fonts/NotoSans-Regular.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'NanumGothicCoding';
+	font-style: normal;
+	font-weight: 200;
+	src: url(../fonts/NanumGothicCoding.eot),
+		 url(../fonts/NanumGothicCoding.eot?#iefix) format('embedded-opentype'),
+		 url(../fonts/NanumGothicCoding.woff) format('woff'),
+		 url(../fonts/NanumGothicCoding.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'NanumGothicCoding';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Nanum Gothic Coding'),
+	     local('NanumGothicCoding'),
+	     url(../fonts/NanumGothicCoding.eot);
+	src: url(../fonts/NanumGothicCoding.eot?#iefix) format('embedded-opentype'),
+	     url(../fonts/NanumGothicCoding.woff2) format('woff2'),
+	     url(../fonts/NanumGothicCoding.woff) format('woff');
+}
+@font-face {
+	font-family: 'NanumGothicCoding';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Nanum Gothic Coding'),
+	     local('NanumGothicCoding'),
+	     url(../fonts/NanumGothicCoding.eot);
+	src: url(../fonts/NanumGothicCoding.eot?#iefix) format('embedded-opentype'),
+	     url(../fonts/NanumGothicCoding.woff2) format('woff2'),
+	     url(../fonts/NanumGothicCoding.woff) format('woff');
+}
+
+:root > * {
+  --md-text-font:"NotoKrR";
+  --md-code-font:"NanumGothicCoding"
+}
