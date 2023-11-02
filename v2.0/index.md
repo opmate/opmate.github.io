@@ -6,7 +6,9 @@ title: OPMATE V2.0
 
 - 준비중
 
-## 운영 가이드
+## 에이전트 설치
+
+### 설치/제거 가이드
 
 - 프로그램 설치
   - [리눅스용 에이전트 설치](InstallAgentLinux.md)
@@ -16,7 +18,7 @@ title: OPMATE V2.0
   - [윈도우즈용 에이전트 제거](UninstallAgentWindows.md)
 
 
-## 다운로드
+### 다운로드
 
 - 준비중
 
@@ -27,5 +29,25 @@ title: OPMATE V2.0
   - [opma-installer-2.0.004-linux-20211230.tar.gz](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v2.0.004/opma-installer-2.0.004-linux-20211230.tar.gz)
   - [opma-installer-2.0.004-windows-20211230.exe](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v2.0.004/opma-installer-2.0.004-windows-20211230.exe)
 -->
+
+### 지원 운영체제
+
+- Linux
+  - RHEL(CentOS) 8 (x86_64bit / arm_64bit)
+  - RHEL(CentOS) 7 (x86_64bit)
+  - RHEL(CentOS) 6 (x86_64bit)
+  - RHEL(CentOS) 5 (x86_64bit)
+  - Amazon Linux 2 (x86_64bit / arm_64bit)
+  - SUSE Linux Enterprise Server 15 SP2 (x86_64bit / arm_64bit)
+  - Ubuntu Server 20.04 (x86_64bit / arm_64bit)
+  - Debian 10 (x86_64bit / arm_64bit)
+  - Oracle Linux 8.3 (x86_64bit)
+  
+- Windows
+  - Windows Server 2022 (x86_64bit)
+  - Windows Server 2019 (x86_64bit)
+  - Windows Server 2016 (x86_64bit)
+  - Windows Server 2012 (x86_64bit)
+  - Windows Server 2008 (x86_64bit)
 
 ![Alt text](/img/opmate-small.png)
