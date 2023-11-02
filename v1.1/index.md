@@ -7,7 +7,9 @@ title: OPMATE V1.1
 - [튜토리얼](QuickTutorial.md)
 - [사용자 매뉴얼](UserManual.md)
 
-## 운영 가이드
+## 에이전트 설치
+
+### 설치/제거 가이드
 
 - 프로그램 설치
   - [리눅스/유닉스용 에이전트 설치](InstallAgentLinux.md)
@@ -16,7 +18,7 @@ title: OPMATE V1.1
   - [리눅스/유닉스용 에이전트 제거](UninstallAgentLinux.md)
   - [윈도우즈용 에이전트 제거](UninstallAgentWindows.md)
 
-## 다운로드
+### 다운로드
 
 **주의** : **마스터의 버전이 V1.1**인 경우에만 아래 에이전트를 설치하시기 바랍니다.
 
