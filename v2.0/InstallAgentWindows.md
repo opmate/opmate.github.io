@@ -4,7 +4,7 @@ title: 윈도우용 에이전트 설치
 
 ## 파일 준비
 
-최신 버전의 설치 파일(e.g. opma-installer-2.0.009-windows-20230202.exe)을 준비하여 C:\ 에 복사합니다.
+최신 버전의 설치 파일(e.g. opm-agent-2.0.018-windows-20231116.exe)을 준비하여 C:\ 에 복사합니다.
 
 ## 명령 프롬프트 실행
 
@@ -13,15 +13,15 @@ title: 윈도우용 에이전트 설치
 ```
 C:\Users\Administrator> cd /d C:\
 C:\> dir *.exe
-opma-installer-2.0.009-windows-20230202.exe
+opm-agent-2.0.018-windows-20231116.exe
 ```
 
 ## 압축 해제 및 인스톨러 실행
 
 ```
-C:\> opma-installer-2.0.009-windows-20230202.exe
-C:\> cd opma-installer-2.0.009-windows-20230202
-C:\opma-installer-2.0.009-windows-20230202> install.bat
+C:\> opm-agent-2.0.018-windows-20231116.exe
+C:\> cd opm-agent-2.0.018-windows-20231116
+C:\opm-agent-2.0.018-windows-20231116> install.bat
 ```
 
 ## 입력
