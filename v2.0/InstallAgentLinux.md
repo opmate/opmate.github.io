@@ -4,11 +4,11 @@ title: 리눅스용 에이전트 설치
 
 ## 파일 준비
 
-최신 버전의 설치 파일을 준비합니다.(e.g. opma-installer-2.0.009-linux-20230202.tar.gz)
+최신 버전의 설치 파일을 준비합니다.(e.g. opm-agent-2.0.018-linux-20231116.tar.gz)
 
 ```
 $ ls
-opma-installer-2.0.009-linux-20230202.tar.gz
+opm-agent-2.0.018-linux-20231116.tar.gz
 ```
 
 ## root 로 로그인
@@ -20,9 +20,9 @@ $ su -
 ## 압축 해제 및 인스톨러 실행
 
 ```
-$ gunzip opma-installer-2.0.009-linux-20230202.tar.gz
-$ tar -xvf opma-installer-2.0.009-linux-20230202.tar
-$ cd opma-installer-2.0.009-linux-20230202
+$ gunzip opm-agent-2.0.018-linux-20231116.tar.gz
+$ tar -xvf opm-agent-2.0.018-linux-20231116.tar
+$ cd opm-agent-2.0.018-linux-20231116
 $ ./install.sh
 ```
 
