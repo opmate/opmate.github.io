@@ -1,1 +1,4 @@
 /.settings
+Gemfile
+Gemfile.lock
+_site
