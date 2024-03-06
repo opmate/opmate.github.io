@@ -5,8 +5,7 @@ title: OPMATE V2.0
 ## 활용 가이드
 
 - [OPMATE란?](OpmateIntro.md)
-- [CLI 튜토리얼](CLITutorial.md)
-- WebConsole 튜토리얼 (준비중)
+- [OPMATE 튜토리얼](Tutorial.md)
 
 ## 에이전트 설치
 

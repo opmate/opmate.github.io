@@ -1,9 +1,10 @@
-
 ---
-title: OPMATE v2.0 Tutorial 작성 계획 
+title: OPMATE V2.0
+description: Tutorial 작성 계획
 ---
 
-# OPMATE v2.0 Tutorial 작성 계획
+## OPMATE v2.0 Tutorial 작성 계획
+
 
 ### 목표
 
@@ -50,7 +51,7 @@ title: OPMATE v2.0 Tutorial 작성 계획
 	
 	2. 	'OS-TYPE'이 'Linux'인 모든 Node에서
 
-	3. 	'hostname' 명령어 결과 조회
+	3. 	'uptime' 명령어 결과 조회
 
 <br>
 <br>
@@ -61,14 +62,10 @@ title: OPMATE v2.0 Tutorial 작성 계획
 | -------------------------- | ------ | -------------------------------------------------------------------------------------------------- |
 | **제목**                     | 콘텐츠 유형 | 내용                                                                                                 |
 | OPMATE란?                   | 개념 가이드 | 1. OPMATE 서비스 요약<br>2. OPMATE 구조 요약 (도표 활용)<br>3. 핵심 용어 설명<br>- User<br>- Task<br>- Role<br>- Node |
-| OPMATE 2.0에서 달라진 점         | 개념 가이드 | 1. 노드 관리 및 지정<br>2. Task 인증<br>3. User 권한 간소화 및 Role 추가<br>4. WebConsole<br>5. 기타 변경사항             |
-| CLI 튜토리얼 1: CLI 설치         | 튜토리얼   | 1. CLI 설치<br>2. 환경변수 파일 생성                                                                         |
-| CLI 튜토리얼 2: 로그인            | 튜토리얼   | 1. 로그인 및 로그아웃                                                                                      |
-| CLI 튜토리얼 3: Node 및 Role 조회 | 튜토리얼   | 1. 가용 Node 조회<br>2. 가용 Role 조회                                                                     |
-| CLI 튜토리얼 4: Task 생성        | 튜토리얼   | 1. Template 생성<br>2. Template 수정 및 Script 생성<br>3. Task 생성                                         |
-| CLI 튜토리얼 5: Task 실행        | 튜토리얼   | 1. Task 실행 권한 확인<br>2. Task 실행<br>3. 결과 확인                                                         |
-| WebConsole 튜토리얼            | 튜토리얼   |                                                                                                    |
-| OPMATE Template 작성가이드      | 추가 가이드 | Tdf 파일 작성 가이드                                                                                      |
+| 튜토리얼 1: 로그인            | 튜토리얼   | 1. 로그인 및 로그아웃                                                                                      |
+| 튜토리얼 2: Node 및 Role 조회 | 튜토리얼   | 1. 가용 Node 조회<br>2. 가용 Role 조회                                                                     |
+| 튜토리얼 3: Task 생성        | 튜토리얼   | 1. Template 생성<br>2. Template 수정 및 Script 생성<br>3. Task 생성                                         |
+| 튜토리얼 4: Task 실행        | 튜토리얼   | 1. Task 실행 권한 확인<br>2. Task 실행<br>3. 결과 확인                                                         |
 
 <br>
 
@@ -76,7 +73,7 @@ title: OPMATE v2.0 Tutorial 작성 계획
 
 3*.* 6 (수) : 'OPMATE란?' 작성
 
-3*.* 7 (목) : 'CLI 설치, 로그인' 작성
+3*.* 7 (목) : '로그인' 작성
 
 3*.* 8 (금) : 'Node 및 Role 조회' 작성
 
