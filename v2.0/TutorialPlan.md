@@ -73,7 +73,7 @@ description: Tutorial 작성 계획
 
 3*.* 6 (수) : 'OPMATE란?' 작성
 
-3*.* 7 (목) : '로그인' 작성
+3*.* 7 (목) : '로그인' 작성, 도표 작성
 
 3*.* 8 (금) : 'Node 및 Role 조회' 작성
 
@@ -81,4 +81,4 @@ description: Tutorial 작성 계획
 
 3.14 (목) : 'Task 실행' 작성
 
-3.15 (금) : 내용 검토 및 Web Publish
+3.15 (금) : 

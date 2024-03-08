@@ -3,3 +3,11 @@
 
 @import "{{ site.theme }}";
 
+inline {
+    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+    color:rgb(204, 0, 27);
+    font-size:12px;
+    padding: 6px 4px 4px;
+    background: #e0e1e2;
+    border-radius: 3px;
+  }

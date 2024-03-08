@@ -66,6 +66,8 @@ markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
 #   - def_list
 #   - pymdownx.tasklist:
 #       custom_checkbox: true
