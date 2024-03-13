@@ -5,7 +5,7 @@ description: Tutorial 1 - User Login
 
 ## Tutorial 1 : 로그인
 
-**OPMATE**를 사용하기에 앞서 인증 절차를 밟습니다.
+**OPMATE**에 액세스하기 위해서는 사용자 인증이 필요합니다.
 
  <br>
 
@@ -26,7 +26,7 @@ $ opmate user login -id GilDong
 
 ```
 
-- <body>사전에 부여받은 User ID를 <inline>-id</inline> 파라미터값으로 입력합니다.</body>
+- <body>사전에 부여받은 <u>User ID</u>를 <inline>-id</inline> 파라미터값으로 입력합니다.</body>
 - 계정이 없으면 관리자에게 계정 생성을 요청합니다.
 
 

@@ -67,7 +67,7 @@ $ opmate ro view -id ro-linux-admin
 
 ```
 
-- <div><inline>opmate role list</inline>로 확인했던 <inline>Role ID</inline>를 복사해 <inline>-id</inline> 파라미터값으로 입력합니다.<div>
+- <div><inline>opmate role list</inline>로 확인했던 <u>Role ID</u>를 복사해 <inline>-id</inline> 파라미터값으로 입력합니다.<div>
 
 - <div><inline>NODE-SET</inline>은 <u>사용할 수 있는 Node</u>입니다. 정규 표현식으로 지정되어 있습니다.</div>
 

@@ -5,7 +5,7 @@ description: Tutorial 5 - Exectue Task
 
 ## Tutorial 5 : Task 실행
 
-**Execution**은 Task 인스턴스입니다. Task 실행의 단위이기도 합니다.
+**Execution**은 Task 실행의 단위, 즉 인스턴스입니다.
 
 <br>
 
@@ -23,10 +23,10 @@ $ opmate execution run -ts test_uptime
 > execution #1 has been created successfully.
 ```
 
-- <div>Task ID를 <inline>-ts</inline> 파라미터값으로 입력합니다.</div>
+- <div><u>Task ID</u>를 <inline>-ts</inline> 파라미터값으로 입력합니다.</div>
 
-- Execution #'1'로 Task가 실행된 것을 확인할 수 있습니다. 
-    - 이때 '1'은 해당 Execution의 <u>Execution ID</u>입니다.
+- Execution <u><b>#1</b></u>으로 Task가 실행된 것을 확인할 수 있습니다. 
+    - 이때 <b><u>'1'</u></b> 은 해당 Execution의 <u>Execution ID</u>입니다.
 
 <br>
 
@@ -89,9 +89,9 @@ No content.
 
 ```
 
-- <div>Execution ID를 <inline>-id</inline> 파라미터값으로 입력합니다.</div>
+- <div><u>Execution ID</u>를 <inline>-id</inline> 파라미터값으로 입력합니다.</div>
 
-- <div>Node ID를 <inline>-nd</inline> 파라미터값으로 입력합니다.</div>
+- <div><u>Node ID</u>를 <inline>-nd</inline> 파라미터값으로 입력합니다.</div>
 
 - 해당 Node의 Script 실행 결과(<inline>uptime</inline>)가 하단에 출력됩니다.
     - 표준 출력이 <u>STDOUT</u>에 출력됩니다.

@@ -76,6 +76,6 @@ $ opmate node view -id 1a2b3c4d-aaaa...
 
 ```
 
-- <div><inline>opmate node list</inline>로 확인했던 <inline>NODE-SESSION-ID</inline>를 복사해 <inline>-id</inline> 파라미터값으로 입력합니다.<div>
+- <div><inline>opmate node list</inline>로 확인했던 <u>NODE-SESSION-ID</u>를 복사해 <inline>-id</inline> 파라미터값으로 입력합니다.<div>
 
-- _Session 정보, OS 버전, CSP 태그_ 등 추가 정보를 확인할 수 있습니다.
+- <u>Session 정보, OS 버전, CSP 태그</u> 등 추가 정보를 확인할 수 있습니다.

@@ -84,7 +84,7 @@ permission:
 
 예시로 주어진 TDF 파일을 다음과 같이 해석할 수 있습니다:  
 - Task ID는 <inline>test_uptime</inline>
-- owner, publisher, script-account는 모두 <inline>Gildong</inline>
+- Owner, Publisher, Script-account는 모두 <inline>Gildong</inline>
 - OS가 <inline>Linux</inline>인 노드 대상으로만 Task 실행
 - 또 다른 유저인 <inline>Chulsoo</inline>에게 실행(--x) 권한 부여
 
@@ -92,7 +92,7 @@ permission:
 
 > <u><b>참고</b></u>  
 > ① [Node 조회](Tutorial2.md)로 수집한 정보(id, hostname..)를 활용해 타겟 Node를 지정해보세요.  
-> ② **주의**  Target(Node-set)을 지정할 때 반드시 선택된 모든 노드에 대한 Role을 가지고 있어야 합니다.    
+> ② **주의**  Target Node(Node-set)를 지정할 때 반드시 선택한 모든 노드에 대해 Role을 가지고 있어야 합니다.    
 >   -> Node-set으로 지정된 모든 Node에 대한 권한, 즉 Role이 없을 시 Task가 배포되지 않습니다.  
 >   -> Role 관련 내용은 [Role 조회](Tutorial2.md)를 참고해주세요.
 
@@ -147,4 +147,4 @@ $ opmate task publish -id test_uptime
 > test_uptime has been published successfully.
 ```
 
-- <body>Task ID를 <inline>-id</inline> 파라미터값으로 입력합니다.</body>
+- <body><u>Task ID</u>를 <inline>-id</inline> 파라미터값으로 입력합니다.</body>
