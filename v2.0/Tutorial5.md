@@ -5,32 +5,35 @@ description: Tutorial 5 - Exectue Task
 
 ## Tutorial 5 : Task 실행
 
-**Execution**은 Task 실행의 단위입니다. Task가 실행될 때마다 가산됩니다.
+**Execution**은 Task 인스턴스입니다. Task 실행의 단위이기도 합니다.
 
 <br>
 
 ### Task 실행
 - - -
 
-<div><inline>opmate execution run</inline>을 활용해 이전 단계에서 생성한 Task를 실행합니다.</div>
+<div><inline>opmate execution run</inline>으로 이전 단계에서 생성한 Task를 실행합니다.</div>
 
 <br>
 
 ```
-$ opmate execution run -
+$ opmate execution run -ts test_uptime
 
 > Requesting https://XXX.XXX.XXX.XXX:8443/opmate;user=Gildong
 > execution #1 has been created successfully.
 ```
 
-- Execution #"1"으로 Task가 실행된 것을 확인할 수 있습니다. 이 때 "1"이 Execution의 ID값이 됩니다.
+- <div>Task ID를 <inline>-ts</inline> 파라미터값으로 입력합니다.</div>
+
+- Execution #'1'로 Task가 실행된 것을 확인할 수 있습니다. 
+    - 이때 '1'은 해당 Execution의 <u>Execution ID</u>입니다.
 
 <br>
 
 ### Execution 결과 조회
 - - -
 
-<div><inline>opmate execution listnode</inline>으로 Task 실행 결과를 조회합니다.</div>
+<div><inline>opmate execution listnode</inline>로 모든 타깃 Node에서의 Task 실행 결과를 조회합니다.</div>
 
 <br>
 
@@ -38,7 +41,7 @@ $ opmate execution run -
 $ opmate execution listnode -id 1
 
 > Requesting https://XXX.XXX.XXX.XXX:8443/opmate;user=Gildong
-> 
+
 +------------------+-----------+---------------+-----------+---------+
 | NODE-SESSION-ID  | HOSTNAME  | REMOTE-ADDR   | STATUS    | RESULT  |
 +------------------+-----------+---------------+-----------+---------+
@@ -47,14 +50,14 @@ $ opmate execution listnode -id 1
 +------------------+-----------+---------------+-----------+---------+
 ```
 
-- 'Execution ID'를 복사해 <inline>-id</inline> 파라미터로 입력합니다.<div>
+- <div><u>Execution ID</u>를 <inline>-id</inline> 파라미터값으로 입력합니다.</div>
 
 <br>
 
 ### Execution 상세 조회
 - - -
 
-<div><inline>opmate execution viewnode</inline>로 각 Node에서의 Task 실행 결과를 확인합니다.</div>
+<div><inline>opmate execution viewnode</inline>로 각 타깃 Node에서의 Task 실행 결과를 확인합니다.</div>
 
 <br>
 
@@ -86,8 +89,10 @@ No content.
 
 ```
 
-- <div>Execution ID를 <inline>-id</inline> 파라미터에 입력합니다.</div>
+- <div>Execution ID를 <inline>-id</inline> 파라미터값으로 입력합니다.</div>
 
-- <div>Node ID를 <inline>-nd</inline> 파라미터에 입력합니다.</div>
+- <div>Node ID를 <inline>-nd</inline> 파라미터값으로 입력합니다.</div>
 
-- 해당 Node의 Script 실행 결과(<inline>uptime</inline>)가 STDOUT에 표시됩니다.
+- 해당 Node의 Script 실행 결과(<inline>uptime</inline>)가 하단에 출력됩니다.
+    - 표준 출력이 <u>STDOUT</u>에 출력됩니다.
+    - 표준 에러가 <u>STDERR</u>에 출력됩니다.

@@ -5,12 +5,16 @@ description: Tutorial 1 - User Login
 
 ## Tutorial 1 : 로그인
 
-**OPMATE**를 사용하기에 앞서 <inline>user login</inline>이 필요합니다.
+**OPMATE**를 사용하기에 앞서 인증 절차를 밟습니다.
 
-<br>
+ <br>
 
 ### User Login
 - - -
+
+<div><inline>opmate user login</inline>로 로그인합니다.</div>
+
+<br>
 
 ```bash
 
@@ -22,7 +26,7 @@ $ opmate user login -id GilDong
 
 ```
 
-- <body><inline>-id</inline> 파라미터값에 사전에 부여받은 계정 ID를 입력합니다.</body>
-- 계정이 없을 경우 관리자에게 계정 생성을 요청합니다.
+- <body>사전에 부여받은 User ID를 <inline>-id</inline> 파라미터값으로 입력합니다.</body>
+- 계정이 없으면 관리자에게 계정 생성을 요청합니다.
 
 
