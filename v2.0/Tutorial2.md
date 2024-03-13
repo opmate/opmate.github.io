@@ -1,19 +1,24 @@
 ---
 title: OPMATE V2.0
-description: Tutorial
+description: Tutorial 2 - View Node
 ---
 
-## Tutorial 2 : Node 및 Role 조회
+## Tutorial 2 : Node 조회
 - - -
 
-사용 가능한 Node 조회해보겠습니다.
+**Node**는 Task 실행의 주체입니다.
+
+Task 생성에 앞서 활용할 수 있는 **Node**를 조회합니다.
+
 
 <br>
 
 ### Node 목록 조회
 - - -
 
-먼저 Node 목록입니다.
+<div><inline>opmate node list</inline>로 <b>전체 Node 목록</b>을 조회합니다.</div>
+
+<br>
 
 ```bash
 
@@ -31,23 +36,16 @@ $ opmate node list
 
 ```
 
-<body><inline>opmate node list</inline>로 리스트 조회 명령</body>
-
-*>* subject를 node(nd)로, action을 list으로 하여 Node 리스트 조회 명령을 트리거합니다. <br>
-
-*>* Requesting...으로 시작하는 줄이 'user=Gildong'으로 끝나는 것으로 보아, Gildong 명의로 명령을 실행한 것을 알 수 있습니다.
-
-*>* 총 3개의 Node가 조회되는 것을 확인할 수 있습니다. 이 3개의 노드는 현재 Master에 연결되어 가용 상태인 노드입니다.
+- Master에 연결되어 가용 상태에 있는 모든 **Node**가 조회됩니다.
 
 <br><br>
 
 ### Node 상세 조회
 - - -
 
-각 Node의 상세 정보가 궁금하다면 'view' 명령을 활용 할 수 있습니다
+<div><inline>opmate node view</inline>로 <b>Node의 상세 정보</b>를 확인합니다.</div>
 
-hostname이 test1인 노드를 살펴볼까요?
-
+<br>
 
 ```bash
 
@@ -77,6 +75,8 @@ $ opmate node view -id 1a2b3c4d-aaaa...
 
 ```
 
-* node list로 확인했던 NODE-SESSION-ID를 복사해 -id 파라미터로 입력합니다.
+- <div><inline>opmate node list</inline>로 확인했던 'NODE-SESSION-ID'를 복사해 <inline>-id</inline> 파라미터로 입력합니다.<div>
 
-* ID에 해당되는 노드의 상세 정보를 조회할 수 있습니다.
+
+
+- _Session 정보, OS 버전, CSP 태그_ 등 추가 정보를 확인할 수 있습니다.
