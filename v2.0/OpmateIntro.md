@@ -17,7 +17,9 @@ Agent 기반의 안정적인 자동화 프로세스를 **CLI, Webconsole**로 �
 
 ### OPMATE 구조
 
-![OPMATE_STRUCTURE](/img/opmate-summary.png)
+![OPMATE_STRUCTURE](/img/opmate-structure.png)
+
+<!-- ![OPMATE_STRUCTURE](/img/opmate-summary.png) -->
 
 - **CLI, WebConsole**
     - <u>자동화 인터페이스</u>
