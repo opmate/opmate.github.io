@@ -1,0 +1,10 @@
+---
+id: task_uptime
+owner: gildong
+publisher: gildong
+script-account: root
+description: 서버 가동 시간 조회
+
+target:
+- node-set: HOSTNAME:"DB+", OS-TYPE:"^Linux$"
+  description: OS가 Linux인 모든 DB 대상으로 Task 실행

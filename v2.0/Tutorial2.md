@@ -1,81 +1,28 @@
 ---
 title: OPMATE V2.0
-description: Tutorial 2 - View Node
+description: Tutorial 2 - User Login
 ---
 
-## Tutorial 2 : Node 조회
+## Tutorial 2 : 사용자 로그인
 
-**Node**는 Task가 실행되는 서버입니다.
+**OPMATE**에 액세스하기 위해서는 인증이 필요합니다.
 
-Task 생성에 앞서 활용할 수 있는 **Node**를 조회합니다.
+본 튜토리얼에선 'gildong' 명의로 자동화 작업을 만들어보겠습니다.
 
-<br>
+ <br>
 
-### Node 목록 조회
-- - -
-
-<div><inline>opmate node list</inline>로 전체 Node 목록을 조회합니다.</div>
-
-<br>
+<div><inline>opmate user login</inline>으로 로그인합니다.</div>
 
 ```bash
 
-$ opmate node list
+$ opmate user login -id gildong
 
-> Requesting https://XXX.XXX.XXX.XXX:8443/opmate;user=Gildong
-
-+------------------+-----------+---------------+---------+-----------+-------------------------+
-| NODE-SESSION-ID  | HOSTNAME  | REMOTE-ADDR   | OS-TYPE | AGENT-VER | HEARTBEAT               |
-+------------------+-----------+---------------+---------+-----------+-------------------------+
-| 1a2b3c4d-aaaa... | test1     | XX.XXX.XXX.XX | Linux   | 2.0.02X   | 202X-XX-XX XX:XX:XX KST |
-| 1a2b3c4d-bbbb... | test2     | XX.XXX.XXX.XX | Linux   | 2.0.01X   | 202X-XX-XX XX:XX:XX KST |
-| 1a2b3c4d-cccc... | test3     | XX.XXX.XXX.XX | Windows | 2.0.01X   | 202X-XX-XX XX:XX:XX KST |
-+------------------+-----------+---------------+---------+-----------+-------------------------+
-
-> ROWS COUNT : 3/3
+> Requesting https://3.36.57.8:8443/opmate
+> Enter password: 
+> Last login: 2024-03-20 15:17:33 KST
 
 ```
 
-- Master에 연결되어 가용 상태에 있는 모든 Node의 목록이 조회됩니다.
-
-<br><br>
-
-### Node 상세 조회
-- - -
-
-<div><inline>opmate node view</inline>로 Node의 상세 정보를 확인합니다.</div>
-
-<br>
-
-```bash
-
-$ opmate node view -id 1a2b3c4d-aaaa...
-
-> Requesting https://XXX.XXX.XXX.XXX:8443/opmate;user=Gildong
-
-+-----------------------+----------------------------------------------------------------------+
-| FIELD                 | VALUE                                                                |
-+-----------------------+----------------------------------------------------------------------+
-| NODE-SESSION-ID       | 1a2b3c4d-aaaa....                                                    |
-| SESSION-ESTABLISHMENT | 202X-XX-XX XX:XX:XX KST                                              |
-| SESSION-STATUS        | normal                                                               |
-| AGENT-VERSION         | 2.0.02X.Linux.x86_64.202XXXXX.X                                      |
-| REMOTE-ADDRESS        | XXX.XXX.XXX.XXX                                                      |
-| HEARTBEAT             | 202X-XX-XX XX:XX:XX KST                                              |
-| HOSTNAME              | test1                                                                |
-| OS-TYPE               | Linux                                                                |
-| OS-NAME               | Amazon Linux 2077                                                    |
-| OS-VERSION            | X.X.XX-XX.XXX.amzn2077.x86_64                                        |
-+-----------------------+----------------------------------------------------------------------+
-| CSP-RESOURCE-ID       | i-XXXXXXXXXXXXXXXXX                                                  |
-| CSP-TAG               | AWS                                                                  |
-+-----------------------+----------------------------------------------------------------------+
-| EXT-TAG               | Test                                                                 |
-+-----------------------+----------------------------------------------------------------------+
+<div>비밀번호를 입력하면 Last Login이 뜨면서 정상적으로 로그인되는 것을 확인할 수 있습니다.</div>
 
 
-```
-
-- <div><inline>opmate node list</inline>로 확인했던 <u>NODE-SESSION-ID</u>를 복사해 <inline>-id</inline> 파라미터값으로 입력합니다.<div>
-
-- <u>Session 정보, OS 버전, CSP 태그</u> 등 추가 정보를 확인할 수 있습니다.
