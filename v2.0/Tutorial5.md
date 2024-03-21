@@ -44,7 +44,7 @@ $ opmate execution listnode -id 1
 | NODE-SESSION-ID                      | HOSTNAME        | REMOTE-ADDR   | STATUS    | RESULT  |
 +--------------------------------------+-----------------+---------------+-----------+---------+
 | 9510d4b6-4269-4b00-a2be-cb408c6e668d | APP-DEV-LINUX   | 3.36.57.199   | stopped   | n/a     |
-| 01d5020e-dc5f-4744-ad9c-22f23727db76 | DB-DEV-LINUX    | 203.236.3.225 | completed | success |
+| 01d5020e-dc5f-4744-ad9c-22f23727db76 | DB-DEV-LINUX    | 3.36.57.9     | completed | success |
 | ea3117fe-2c16-4533-afb7-8b0fe7685251 | DB-PROD-LINUX   | 3.36.57.8     | completed | success |
 +--------------------------------------+-----------------+---------------+-----------+---------+
 
@@ -71,7 +71,7 @@ $ opmate execution viewnode -id 1 -nd 01d5020e-dc5f-4744-ad9c-22f23727db76
 +-----------------+--------------------------------------+
 | NODE-SESSION-ID | 01d5020e-dc5f-4744-ad9c-22f23727db76 |
 | HOSTNAME        | DB-DEV-LINUX                         |
-| REMOTE-ADDRESS  | 203.236.3.225                        |
+| REMOTE-ADDRESS  | 3.36.57.9                            |
 | ACCOUNT         | root                                 |
 | STATUS          | completed                            |
 | RESULT          | success                              |
@@ -219,7 +219,7 @@ $ opmate execution listnode -id 2
 +--------------------------------------+-----------------+---------------+-----------+---------+
 | NODE-SESSION-ID                      | HOSTNAME        | REMOTE-ADDR   | STATUS    | RESULT  |
 +--------------------------------------+-----------------+---------------+-----------+---------+
-| 01d5020e-dc5f-4744-ad9c-22f23727db76 | DB-DEV-LINUX    | 203.236.3.225 | completed | success |
+| 01d5020e-dc5f-4744-ad9c-22f23727db76 | DB-DEV-LINUX    | 3.36.57.9     | completed | success |
 | ea3117fe-2c16-4533-afb7-8b0fe7685251 | DB-PROD-LINUX   | 3.36.57.8     | completed | success |
 +--------------------------------------+-----------------+---------------+-----------+---------+
 
