@@ -4,14 +4,14 @@ description: Tutorial 3 - View Node
 ---
 
 ## Tutorial 3 : 노드 조회
+- - -
+
 
 **노드(Node)**는 자동화 작업의 대상이 되는 호스트(Host)입니다.\
-호스트에 에이전트를 설치하면, 해당 호스트가 마스터 서버에 노드로서 등록됩니다.
+에이전트를 호스트에 설치하면, 해당 호스트가 마스터 서버에 노드로 등록됩니다.
 
-그럼 사용할 수 있는 노드가 어떤게 있는지 조회해보겠습니다.
-<div><inline>opmate node list</inline>로 전체 Node 목록을 조회합니다.</div>
-
-<br>
+그러면 사용 가능한 노드가 어떤 것들이 있는지 확인해 보겠습니다.\
+<span>우선 <inline>opmate node list</inline>로 전체 노드 목록을 조회합니다.</span>
 
 ```bash
 
@@ -32,16 +32,14 @@ $ opmate node list
 
 ```
 
-Linux 3대, Windows 1대를 포함해 총 4개의 노드가 조회되는 것을 확인할 수 있습니다.
+<span><u>OS-TYPE</u>을 기준으로 윈도우 노드가 1개, 리눅스 노드가 3개 - 총 4개의 노드가 조회됩니다.<br></span>
 
-<div>이 중 HOSTNAME이 'DB-PROD-LINUX'인 노드를 좀 더 자세히 살펴볼까요?</div>
-<div><inline>opmate node view</inline>로 Node의 상세 정보를 확인할 수 있습니다.</div>
-
-<br>
+<span>이 중 <u>HOSTNAME</u>이 'DB-PROD-LINUX'인 노드를 좀 더 자세히 살펴볼까요?</span>\
+<span><inline>opmate node view</inline>로 노드의 상세 정보를 조회할 수 있습니다.</span>
 
 ```bash
 
-$ opmate node view -id 1a2b3c4d-aaaa...
+$ opmate node view -id e8167cfe-a696-4733-b5a0-8de5823f5a95
 
 > Requesting https://3.36.57.8:8443/opmate;user=gildong
 
@@ -70,8 +68,18 @@ $ opmate node view -id 1a2b3c4d-aaaa...
 
 ```
 
-<div><inline>opmate node list</inline>로 확인했던 해동 노드의 <u>NODE-SESSION-ID</u>를 복사해 <inline>-id</inline> 파라미터값으로 입력합니다.<div>
+<span>노드 목록에서 조회할 수 없었던 노드의 추가 정보(OS명, 세션 정보 등)를 확인할 수 있습니다.</span>
+
+<span>또한 호스트가 클라우드에 있다면, CSP가 제공하는 메타데이터인 <u>Resource ID</u>와 <u>Tag</u>를 조회할 수 있습니다.</span>
+
+<span>이러한 데이터를 기반으로 어떤 노드가 자동화 작업의 대상이 되는지 지정할 수 있습니다.</span>
+
+<!-- <span><inline>opmate node list</inline>로 확인했던 해동 노드의 <u>NODE-SESSION-ID</u>를 복사해 <inline>-id</inline> 파라미터값으로 입력합니다.<span>
 
 노드 목록에서 확인할 수 없었던 각종 정보(OS 버전, CSP 태그 등)를 확인 할 수 있습니다.
 
-이러한 정보는 추후 자동화 작업의 대상을 지정할 때 활용됩니다.
+이러한 정보는 추후 자동화 작업의 대상을 지정할 때 유용합니다. -->
+
+<br>
+
+[이전페이지](Tutorial2.md) / [목차](Tutorial.md) / [다음페이지](Tutorial4.md)

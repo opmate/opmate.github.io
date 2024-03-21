@@ -3,7 +3,7 @@ title: OPMATE V2.0
 description: Tutorial
 ---
 
-- [Tutorial 1: OPMATE CLI 명령어](Tutorial1.md)
+- [Tutorial 1: CLI 명령어](Tutorial1.md)
 
 - [Tutorial 2: 사용자 로그인](Tutorial2.md)
 

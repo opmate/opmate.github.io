@@ -3,20 +3,19 @@ title: OPMATE V2.0
 description: Tutorial 5 - Exectue Task
 ---
 
-## Tutorial 5 : Task 실행 및 권한 확인
-
-저번 단계에서 Task를 정상적으로 배포했다면, 태스크를 **실행(Execution)** 할 수 있습니다.
-
-태스크를 실행한다면 실행 인스턴스가 만들어지고, 실행 인스턴스별로 실행 ID를 부여받게 됩니다.
-
-<br>
-
-### Task 실행
+## Tutorial 5 : 태스크 실행 및 권한 확인
 - - -
 
-<div><inline>opmate execution run</inline>으로 이전 단계에서 생성한 Task를 실행할 수 있습니다.</div>
+태스크가 정상적으로 배포됐다면, 태스크를 **실행(Execution)** 할 수 있습니다.
+
+태스크가 실행되면 실행 인스턴스가 만들어지고, 실행 인스턴스별로 <u>실행 ID</u>를 부여받게 됩니다.
 
 <br>
+
+### 태스크 실행
+- - -
+
+<span><inline>opmate execution run</inline>으로 이전 단계에서 배포한 태스크를 실행할 수 있습니다.</span>
 
 ```
 $ opmate execution run -ts task_uptime
@@ -25,17 +24,15 @@ $ opmate execution run -ts task_uptime
 > execution #1 has been created successfully.
 ```
 
-- Execution <u><b>#1</b></u>으로 Task가 실행된 것을 확인할 수 있습니다. 
-    - 이때 <b><u>'1'</u></b> 은 해당 Execution의 <u>Execution ID</u>입니다.
+- 'Execution <u><b>#1</b></u>'으로 태스크가 실행된 것을 확인할 수 있습니다. 
+    - 이때 <b><u>'1'</u></b> 은 해당 실행의 <u>실행 ID</u>입니다.
 
 <br>
 
 ### Execution 결과 조회
 - - -
 
-<div><inline>opmate execution listnode</inline>로 타깃 노드에서의 태스크 실행 결과 리스트를 조회합니다.</div>
-
-<br>
+<span><inline>opmate execution listnode</inline>로 태스크 실행 결과 목록을 조회합니다.</span>
 
 ```bash
 $ opmate execution listnode -id 1
@@ -54,12 +51,14 @@ $ opmate execution listnode -id 1
 
 ```
 
-3개의 Linux 노드에 대해서 2대는 completed, 1개는 stopped가 된 것을 확인할 수 있습니다.
+모든 리눅스 노드를 대상으로 태스크를 실행했기에 총 3개의 노드가 조회됩니다.
 
-STATUS가 completed면 스크립트가 정상적으로 실행 완료되었다는 뜻입니다.
-만약 status가 running이라면 스크립트가 실행 중이라는 뜻으로 조금만 대기합니다.
+여기서 <u>STATUS</u>가 <inline>completed</inline>라면 태스크가 정상적으로 실행 완료되었다는 뜻입니다.\
+<span><u>STATUS</u>가 <inline>requesting</inline>이나 <inline>running</inline>라면 태스크가 실행 중이라는 뜻으로 잠시 대기합니다.</span>\
+<span>만약 <u>STATUS</u>가 <inline>stopped</inline>라면 모종의 이유로 태스크가 중지되었다는 뜻입니다.</span>
 
-completed된 노드 중 하나인 'DB-DEV-LINUX'를 <div><inline>opmate execution viewnode</inline>로 조회해보겠습니다.
+
+<span>실행 완료된 노드 중 하나인 'DB-DEV-LINUX'를 <inline>opmate execution viewnode</inline>로 상세 조회해 보겠습니다.</span>
 
 ```bash
 $ opmate execution viewnode -id 1 -nd 01d5020e-dc5f-4744-ad9c-22f23727db76
@@ -89,9 +88,9 @@ No content.
 
 ```
 
-표준 출력(STDOUT)으로 스크립트(uptime)의 결과가 출력되는 것을 확인할 수 있습니다.
+표준 출력(STDOUT)으로 스크립트(<inline>uptime</inline>)의 결과가 출력되는 것을 확인할 수 있습니다.
 
-그러면 STATUS가 stopped인 노드를 조회해볼까요?
+그렇다면 이번엔 <u>STATUS</u>가 <inline>stopped</inline>였던 'APP-DEV-LINUX' 노드를 상세 조회해 볼까요?
 
 
 ```bash
@@ -121,24 +120,20 @@ No content.
 
 ```
 
-'no role of node'라고 태스크 실행이 멈춘 것을 확인할 수 있습니다.
+<span><inline>'no role of node'</inline>라는 메시지와 함께 태스크 실행이 중단된 것을 확인할 수 있습니다.</span>
 
-그러면 role이란 과연 무엇이고, 왜 태스크 실행이 중지되었을까요?
+그러면 role이란 과연 무엇이고, 왜 태스크 실행이 중단되었을까요?
 
-
+<br>
 
 ### 권한 확인
 - - -
 
-**역할(Role)**은 노드에서의 태스크 실행 권한입니다.
-
+**역할(Role)**은 노드에서의 태스크 실행 권한입니다.\
 노드를 태스크의 대상으로 지정할 때는 반드시 지정한 노드에 대한 역할을 가지고 있어야 합니다.
 
-<br>
-
-그럼 Gildong은 어떤 역할을 가지고 있는 지 조회해보겠습니다.
-
-<div>우선 <inline>opmate role list</inline>로 전체 Role 목록을 조회합니다.</div>
+그럼 <span style="color:#0000FF">'gildong'</span> 이 어떤 역할을 가지고 있는 지 조회해 보겠습니다.\
+<span>우선 <inline>opmate role list</inline>로 전체 역할 목록을 조회합니다.</span>
 
 ```bash
 
@@ -158,7 +153,10 @@ $ opmate role list
 
 ```
 
-여기서 <inline>opmate role view</inline>로 DB 관리자 역할을 조회합니다
+총 3개의 역할이 조회됩니다.
+
+다시 한번 상기하자면, <span style="color:#0000FF">'gildong'</span>은 DB 관리자입니다.\
+따라서 <inline>opmate role view</inline>로 <u>'DB 관리자'</u> 역할을 상세 조회해 보겠습니다.
 
 ```bash
 
@@ -182,20 +180,17 @@ $ opmate ro view -id ro-db-admin
 
 ```
 
-해당 역할은 DB 관리자에 대한 역할입니다.
+<u>USER</u>는 역할을 사용할 수 있는 사용자입니다. 예시에선 <span style="color:#0000FF">'admin'</span>과 <span style="color:#0000FF">'gildong'</span> 이 해당합니다.
 
-USER는 역할을 사용할 수 있는 사용자 목록입니다.
-gildong이 해당됩니다.
+<u>NODE-SET</u>은 역할을 가진 사용자가 사용할 수 있는 노드입니다. 정규 표현식으로 지정되어 있습니다.
 
-NODE-SET으로 지정되어 있는 노드 집합 표현식입니다.
-예시에서는 호스트명이 'DB'로 시작되는 모든 노드를 지정하고 있습니다.
+예시에서는 호스트명이 'DB'로 시작되는 모든 노드가 지정되어 있는데요,
 
-아하!
-stopped 상태의 노드는 호스트명이 'APP'으로 시작되는 노드이므로,
-DB 관리자인 gildong에게는 해당 노드에 대한 권한, 즉 역할이 없습니다.
+<span><inline>stopped</inline> 상태였던 'APP-DEV-LINUX' 노드는 'DB'로 시작되는 노드가 아니므로,</span>\
+<u>'DB 관리자'</u> 역할만 가지고 있는 <span style="color:#0000FF">'gildong'</span> 에게는 해당 노드에 대한 권한, 즉 역할이 없습니다.
 
-따라서 DB 노드에서만 태스크를 실행하고 싶다면
-4장에서 만들었던 태스크 정의서를 다음과 같이 수정해야 됩니다:
+따라서 해당 노드를 제외하여, DB 노드에서만 태스크를 실행하고 싶다면\
+[4장: 태스크 정의](Tutorial4.md)에서 만들었던 태스크 정의서(<inline>test_uptime.tdf</inline>)를 다음과 같이 수정해야 합니다:
 
 ```yaml
 ---
@@ -210,10 +205,9 @@ target:
   description: OS가 Linux인 모든 DB 대상으로 Task 실행
 
 ```
-
-수정 후 task_uptime 태스크를 수정(opmate task edit) 및 배포(opmate task publish)하고,
-
-태스크 실행(opmate execution run)까지 완료하면 실행 결과가 다음과 같이 변경됩니다:
+<br>
+수정 후 task_uptime 태스크를 수정(<inline>opmate task edit</inline>) 및 배포(<inline>opmate task publish</inline>)하고,\
+실행(<inline>opmate execution run</inline>)까지 완료하면 태스크 실행 결과가 다음과 같이 변경됩니다:
 
 
 ```bash
@@ -232,7 +226,8 @@ $ opmate execution listnode -id 2
 
 ```
 
-APP-DEV-LINUX 노드가 실행 목록에서 제외된 것을 확인할 수 있습니다.
+'APP-DEV-LINUX' 노드가 실행 목록에서 제외된 것을 확인할 수 있습니다.
 
+<br>
 
--EOD-
+[이전페이지](Tutorial4.md) / [목차](Tutorial.md)
