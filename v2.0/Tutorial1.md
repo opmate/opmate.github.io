@@ -1,6 +1,7 @@
 ---
 title: OPMATE V2.0
 description: Tutorial 0 - Before you Start
+# version: v1.00
 ---
 
 ## Tutorial 1 : CLI 명령어 
@@ -54,7 +55,7 @@ $ opmate user login -h
 
 ```
 
-<span>해당 명령어를 사용하려면 <u>사용자 ID</u>(<inline>-id</inline>)라는 파라미터를 입력해야 함을 알 수 있습니다.</span>
+<span>이 명령어를 사용하려면 <u>사용자 ID</u>(<inline>-id</inline>)라는 파라미터를 입력해야 함을 알 수 있습니다.</span>
 
 <br>
 

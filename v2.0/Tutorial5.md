@@ -1,12 +1,13 @@
 ---
 title: OPMATE V2.0
 description: Tutorial 5 - Exectue Task
+# version: v1.00
 ---
 
 ## Tutorial 5 : 태스크 실행 및 권한 확인
 - - -
 
-태스크가 정상적으로 배포됐다면, 태스크를 **실행(Execution)** 할 수 있습니다.
+태스크가 정상적으로 발행됐다면, 태스크를 **실행(Execution)** 할 수 있습니다.
 
 태스크가 실행되면 실행 인스턴스가 만들어지고, 실행 인스턴스별로 <u>실행 ID</u>를 부여받게 됩니다.
 
@@ -15,7 +16,7 @@ description: Tutorial 5 - Exectue Task
 ### 태스크 실행
 - - -
 
-<span><inline>opmate execution run</inline>으로 이전 단계에서 배포한 태스크를 실행할 수 있습니다.</span>
+<span><inline>opmate execution run</inline>으로 이전 단계에서 발행한 태스크를 실행할 수 있습니다.</span>
 
 ```
 $ opmate execution run -ts task_uptime
@@ -130,7 +131,7 @@ No content.
 - - -
 
 **역할(Role)**은 노드에서의 태스크 실행 권한입니다.\
-노드를 태스크의 대상으로 지정할 때는 반드시 지정한 노드에 대한 역할을 가지고 있어야 합니다.
+태스크의 소유자(Owner)가 노드를 태스크의 대상으로 지정할 때는 반드시 지정한 노드에 대한 역할을 가지고 있어야 합니다.
 
 그럼 <span style="color:#0000FF">'gildong'</span> 이 어떤 역할을 가지고 있는 지 조회해 보겠습니다.\
 <span>우선 <inline>opmate role list</inline>로 전체 역할 목록을 조회합니다.</span>
@@ -206,7 +207,7 @@ target:
 
 ```
 <br>
-수정 후 task_uptime 태스크를 수정(<inline>opmate task edit</inline>) 및 배포(<inline>opmate task publish</inline>)하고,\
+수정 후 task_uptime 태스크를 수정(<inline>opmate task edit</inline>) 및 발행(<inline>opmate task publish</inline>)하고,\
 실행(<inline>opmate execution run</inline>)까지 완료하면 태스크 실행 결과가 다음과 같이 변경됩니다:
 
 

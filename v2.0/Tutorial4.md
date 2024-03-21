@@ -1,7 +1,10 @@
 ---
 title: OPMATE V2.0
 description: Tutorial 4 - Create Task
+# version: v1.00
 ---
+
+
 
 ## Tutorial 4 : 태스크 생성
 - - -
@@ -19,7 +22,7 @@ description: Tutorial 4 - Create Task
 
 - **태스크 생성** : <inline>opmate task create</inline>
 
-- **태스크 배포** : <inline>opmate task publish</inline>
+- **태스크 발행** : <inline>opmate task publish</inline>
 
 <br>
 
@@ -76,6 +79,7 @@ description: 서버 가동 시간 조회
 target:
 - node-set: OS-TYPE:"^Linux$"
   description: OS가 Linux인 모든 노드 대상으로 Task 실행
+...
 
 ```
 
@@ -102,14 +106,14 @@ $ opmate task create -tf task_uptime.tdf -sf task_uptime.sh
 > task_uptime has been created successfully.
 ```
 
-이 때 태스크는 수정 가능한 상태로 Master 서버에 저장됩니다.
+이 때 태스크는 수정 가능한 상태로 Master 서버에 등록됩니다.
 
 <br>
 
-### 태스크 배포
+### 태스크 발행
 - - -
 
-<span><inline>opmate task publish</inline>로 태스크를 실행 가능한 상태로 배포합니다.</span>
+<span><inline>opmate task publish</inline>로 태스크를 실행 가능한 상태로 발행합니다.</span>
 
 ```bash
 $ opmate task publish -id task_uptime
