@@ -7,7 +7,7 @@ title: OPMATE V2.0
 - [OPMATE 튜토리얼](Tutorial.md)
 
 
-## 에이전트 프로그램 설치/삭제
+## 에이전트 가이드
 
 ### 설치 가이드
 
