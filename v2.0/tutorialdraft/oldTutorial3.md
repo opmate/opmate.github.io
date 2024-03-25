@@ -14,7 +14,7 @@ Task 생성에 앞서 User에게 할당된 **Role**를 조회합니다.
 ### Role 목록 조회
 - - -
 
-<div><inline>opmate role list</inline>로 전체 Role 목록을 조회합니다.</div>
+<div><inline style="color:#ff4500">opmate role list</inline>로 전체 Role 목록을 조회합니다.</div>
 
 <br>
 
@@ -41,7 +41,7 @@ $ opmate role list
 ### Role 상세 조회
 - - -
 
-<div><inline>opmate role view</inline>로 Role의 상세 정보를 확인합니다.</div>
+<div><inline style="color:#ff4500">opmate role view</inline>로 Role의 상세 정보를 확인합니다.</div>
 
 <br>
 
@@ -67,10 +67,10 @@ $ opmate ro view -id ro-linux-admin
 
 ```
 
-- <div><inline>opmate role list</inline>로 확인했던 <u>Role ID</u>를 복사해 <inline>-id</inline> 파라미터값으로 입력합니다.<div>
+- <div><inline style="color:#ff4500">opmate role list</inline>로 확인했던 <u>Role ID</u>를 복사해 <inline style="color:#ff4500">-id</inline> 파라미터값으로 입력합니다.<div>
 
-- <div><inline>NODE-SET</inline>은 <u>사용할 수 있는 Node</u>입니다. 정규 표현식으로 지정되어 있습니다.</div>
+- <div><inline style="color:#ff4500">NODE-SET</inline>은 <u>사용할 수 있는 Node</u>입니다. 정규 표현식으로 지정되어 있습니다.</div>
 
-- <div><inline>USER</inline>는 <u>Role이 할당된 User 목록</u>입니다.</div>
+- <div><inline style="color:#ff4500">USER</inline>는 <u>Role이 할당된 User 목록</u>입니다.</div>
 
 - Role 생성, 수정 등의 작업이 필요할 경우 관리자에게 요청합니다.

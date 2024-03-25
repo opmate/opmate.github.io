@@ -16,7 +16,7 @@ $ opmate <subject> <action> [<parameter>]
 <br>
 
 또한, 각각의 명령어의 활용법이 궁금하다면,\
-<span>명령어 맨 뒤에 <inline>-h</inline>나 <inline>--help</inline>를 붙여 사용 가능한 명령어와 매뉴얼을 조회할 수 있습니다.</span>
+<span>명령어 맨 뒤에 <inline style="color:#ff4500">-h</inline>나 <inline style="color:#ff4500">--help</inline>를 붙여 사용 가능한 명령어와 매뉴얼을 조회할 수 있습니다.</span>
 
 ```bash
 
@@ -42,8 +42,8 @@ $ opmate <subject> <action> --help
 
 <br>
 
-<span><inline>opmate user login</inline>이란 명령어를 예시로 들어볼까요?</span>\
-명령어 맨 뒤에 <inline>-h</inline>를 추가로 입력하여 <inline>opmate user login</inline>의 사용법을 알아봅니다.
+<span><inline style="color:#ff4500">opmate user login</inline>이란 명령어를 예시로 들어볼까요?</span>\
+명령어 맨 뒤에 <inline style="color:#ff4500">-h</inline>를 추가로 입력하여 <inline style="color:#ff4500">opmate user login</inline>의 사용법을 알아봅니다.
 
 ```bash
 
@@ -55,7 +55,7 @@ $ opmate user login -h
 
 ```
 
-<span>이 명령어를 사용하려면 <u>사용자 ID</u>(<inline>-id</inline>)라는 파라미터를 입력해야 함을 알 수 있습니다.</span>
+<span>이 명령어를 사용하려면 <u>사용자 ID</u>(<inline style="color:#ff4500">-id</inline>)라는 파라미터를 입력해야 함을 알 수 있습니다.</span>
 
 <br>
 
