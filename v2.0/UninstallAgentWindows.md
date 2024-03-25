@@ -45,7 +45,3 @@ C:\Users\Administrator> sc delete "opmsvc"
 C:\Users\Administrator> rmdir /s /q C:\infsw\opmnsa
 ```
 
-## 환경 변수 수정
-
-시스템 변수의 수정 화면(제어판 -> 시스템 -> 고급 시스템 설정 -> 환경변수 -> **시스템 변수**)을 열고,
-**Path** 항목의 변수값에서 에이전트의 실행 파일 경로(C:\infsw\opmnsa\bin)를 제거합니다.
