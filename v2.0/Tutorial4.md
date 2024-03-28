@@ -72,7 +72,6 @@ $ opmate task gentmpl -id task_uptime
 ---
 id: task_uptime
 owner: gildong
-publisher: gildong
 script-account: root
 description: 서버 가동 시간 조회
 
