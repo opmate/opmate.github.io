@@ -63,9 +63,9 @@ Input 'yes' to proceed installation : yes
 
 구동 후 로그 파일 (e.g. /infsw/opmnsa/log/opm-agent.log) 을 확인하여 에러없이 정상적으로 시작되었는지 확인합니다.
 
-  ```
-  $ cat /infsw/opmnsa/log/opm-agent.log
-  2024-03-19 16:12:42 INFO - Agent Starting...
-  2024-03-19 16:12:42 INFO - Successfully registered to the master
-  2024-03-19 16:12:42 INFO - Agent Started
-  ```
+```
+$ cat /infsw/opmnsa/log/opm-agent.log
+2024-03-19 16:12:42 INFO - Agent Starting...
+2024-03-19 16:12:42 INFO - Successfully registered to the master
+2024-03-19 16:12:42 INFO - Agent Started
+```
