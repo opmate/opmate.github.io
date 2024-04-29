@@ -120,7 +120,7 @@ $ opmate task create -tf task_uptime.tdf -sf task_uptime.sh
 
 수정을 거쳐 태스크의 최종본이 확정되면 태스크를 발행해 실행 가능한 상태로 만듭니다.
 
-<span><inline style="color:#ff4500">opmate task publish</inline>로 태스크를 행합니다.</span>
+<span><inline style="color:#ff4500">opmate task publish</inline>로 태스크를 발행합니다.</span>
 
 ```bash
 $ opmate task publish -id task_uptime
