@@ -2,9 +2,13 @@
 title: 윈도우용 에이전트 설치
 ---
 
-## 파일 준비
+MASTER의 IP 주소는 10.0.0.1, Agent 접속 포트는 34813으로 가정하여 설명합니다. 실제 환경에 맞춰 진행하시기 바랍니다.
 
-최신 버전의 설치 파일(e.g. opm-agent-2.0.018-windows-20231116.exe)을 준비하여 C:\ 에 복사합니다.
+## 파일 다운로드
+
+웹브라우져를 통해 MASTER의 다운로드 안내 페이지(e.g. http://10.0.0.1:34813)에 접속합니다.
+
+설치 파일별 링크를 클릭하여, 최신 버전의 설치 파일(e.g. opm-agent-2.0.020-windows-20240216.exe)을 C:\ 에 다운로드 합니다.
 
 ## 명령 프롬프트 실행
 
@@ -13,21 +17,22 @@ title: 윈도우용 에이전트 설치
 ```
 C:\Users\Administrator> cd /d C:\
 C:\> dir *.exe
-opm-agent-2.0.018-windows-20231116.exe
+opm-agent-2.0.020-windows-20240216.exe
 ```
 
 ## 압축 해제 및 인스톨러 실행
 
 ```
-C:\> opm-agent-2.0.018-windows-20231116.exe
-C:\> cd opm-agent-2.0.018-windows-20231116
-C:\opm-agent-2.0.018-windows-20231116> install.bat
+C:\> opm-agent-2.0.020-windows-20240216.exe
+C:\> cd opm-agent-2.0.020-windows-20240216
+C:\opm-agent-2.0.020-windows-20240216> install.bat
 ```
 
 ## 입력
 
 설치할 경로 등을 입력하고, 출력되는 내용을 확인 후 설치를 진행합니다.
 아래 입력값은 예시입니다. 자신의 마스터 정보를 확인하고 올바른 IP와 PORT를 입력하시기 바랍니다.
+(일부 설치 파일의 경우, MASTER 접속 정보가 내장되어 입력 과정이 생략될 수 있습니다.)
 
 ```
 Input installation directory (enter for C:\infsw\opmnsa) :
@@ -43,7 +48,7 @@ Input 'yes' to proceed installation : yes
 
 ```
 C:\> type C:\infsw\opmnsa\log\opm-agent.log
-2021-11-19 15:45:37 INFO - Agent Starting...
-2021-11-19 15:45:37 INFO - Successfully registered to the master
-2021-11-19 15:45:37 INFO - Agent Started
+2024-03-19 15:45:37 INFO - Agent Starting...
+2024-03-19 15:45:37 INFO - Successfully registered to the master
+2024-03-19 15:45:37 INFO - Agent Started
 ```
