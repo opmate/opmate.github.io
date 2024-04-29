@@ -51,7 +51,7 @@ $ ./install.sh
 
 아래 입력값은 예시입니다. 자신의 마스터 정보를 확인하고 올바른 IP와 PORT를 입력하시기 바랍니다.
 
-(일부 설치 파일의 경우, MASTER 접속 정보가 내장되어 입력 과정이 생략될 수 있습니다.)
+일부 설치 파일의 경우, MASTER 접속 정보가 내장되어 입력 과정이 생략될 수 있습니다.
 
 ```
 Input installation directory (enter for /infsw/opmnsa) :
