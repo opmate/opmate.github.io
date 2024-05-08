@@ -22,6 +22,7 @@ title: OPMATE V2.0
 ### 지원 운영체제
 
 - Linux
+  - RHEL(CentOS) 9 (x86_64bit / arm_64bit)
   - RHEL(CentOS) 8 (x86_64bit / arm_64bit)
   - RHEL(CentOS) 7 (x86_64bit)
   - RHEL(CentOS) 6 (x86_64bit)
@@ -31,6 +32,8 @@ title: OPMATE V2.0
   - Ubuntu Server 20.04 (x86_64bit / arm_64bit)
   - Debian 10 (x86_64bit / arm_64bit)
   - Oracle Linux 8.3 (x86_64bit)
+  - Rocky Linux 9 (x86_64bit / arm_64bit)
+  - Rocky Linux 8 (x86_64bit / arm_64bit)
   
 - Windows
   - Windows Server 2022 (x86_64bit)
