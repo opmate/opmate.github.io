@@ -6,7 +6,7 @@ title: 윈도우즈용 에이전트 삭제
 
 ## 명령 프롬프트 실행
 
-실행 메뉴에서 cmd 를 입력하여 명령프롬프트를 관리자 권한으로 실행합니다.
+실행 메뉴에서 cmd 를 입력하여 명령프롬프트를 **관리자 권한으로 실행**합니다.
 
 ```
 C:\Users\Administrator> 
@@ -45,7 +45,3 @@ C:\Users\Administrator> sc delete "opmsvc"
 C:\Users\Administrator> rmdir /s /q C:\infsw\opmnsa
 ```
 
-## 환경 변수 수정
-
-시스템 변수의 수정 화면(제어판 -> 시스템 -> 고급 시스템 설정 -> 환경변수 -> **시스템 변수**)을 열고,
-**Path** 항목의 변수값에서 에이전트의 실행 파일 경로(C:\infsw\opmnsa\bin)를 제거합니다.

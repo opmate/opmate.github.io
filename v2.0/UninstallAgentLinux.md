@@ -48,9 +48,6 @@ $ rm /etc/init.d/opmsvc
 
 ```
 $ rm -rf /infsw/opmnsa
-$ rm -f /usr/bin/opmget
-$ rm -f /usr/bin/opmput
-$ rm -f /usr/bin/opmls
 $ rm -f /run/opmsvc.pid
 $ rm -f /var/run/opmsvc.pid
 ```

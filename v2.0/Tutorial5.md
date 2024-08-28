@@ -173,7 +173,7 @@ $ opmate role view -id ro-db-admin
 | CREATED  | 2024-03-20 16:02:14 KST BY admin   |
 | UPDATED  | 2024-03-20 16:14:04 KST BY admin   |
 +----------+------------------------------------+
-| NODE-SET | #1. HOSTNAME:"DB+" AS * # DB 서버   |
+| NODE-SET | #1. HOSTNAME:"^DB-" AS * # DB 서버  |
 +----------+------------------------------------+
 | USER     | admin(관리자)                       |
 |          | gildong(홍길동)                     |
@@ -185,9 +185,9 @@ $ opmate role view -id ro-db-admin
 
 <u>NODE-SET</u>은 역할을 가진 사용자가 사용할 수 있는 노드입니다. 정규 표현식으로 지정되어 있습니다.
 
-예시에서는 호스트명이 'DB'로 시작되는 모든 노드가 지정되어 있는데요,
+예시에서는 호스트명이 'DB-'로 시작되는 모든 노드가 지정되어 있는데요,
 
-<span><inline style="color:#ff4500">stopped</inline> 상태였던 'APP-DEV-LINUX' 노드는 'DB'로 시작되는 노드가 아니므로,</span>\
+<span><inline style="color:#ff4500">stopped</inline> 상태였던 'APP-DEV-LINUX' 노드는 'DB-'로 시작되는 노드가 아니므로,</span>\
 <u>'DB 관리자'</u> 역할만 가지고 있는 <span style="color:#0000FF">'gildong'</span> 에게는 해당 노드에 대한 권한, 즉 역할이 없습니다.
 
 따라서 해당 노드를 제외하여, DB 노드에서만 태스크를 실행하고 싶다면\
@@ -202,14 +202,13 @@ script-account: root
 description: 서버 가동 시간 조회
 
 target:
-- node-set: HOSTNAME:"DB+", OS-TYPE:"^Linux$"
+- node-set: HOSTNAME:"^DB-", OS-TYPE:"^Linux$"
   description: OS가 Linux인 모든 DB 대상으로 Task 실행
 
 ```
 
-<span><inline style="color:#ff4500">node-set</inline>에 <inline style="color:#ff4500">HOSTNAME: "DB+"</inline>라는 표현식을 추가했습니다.<span><br>
-<span>이는 <inline style="color:#ff4500">HOSTNAME</inline>에 'DB'라는 식별자가 들어간 노드만을 포함한다는 뜻입니다.</span><br>
-<span><inline style="color:#ff4500">DB+</inline>는 'DB'라는 문자열이 한번 이상 반복됨을 의미합니다. 
+<span><inline style="color:#ff4500">node-set</inline>에 <inline style="color:#ff4500">HOSTNAME: "^DB-"</inline>라는 표현식을 추가했습니다.<span><br>
+<span>이는 <inline style="color:#ff4500">HOSTNAME</inline>에 'DB-'라는 식별자로 시작하는 노드만을 포함한다는 뜻입니다.</span><br>
 
 <br>
 수정 후 task_uptime 태스크를 수정(<inline style="color:#ff4500">opmate task edit</inline>) 및 발행(<inline style="color:#ff4500">opmate task publish</inline>)하고,\
