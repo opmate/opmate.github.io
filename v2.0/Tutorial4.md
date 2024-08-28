@@ -51,7 +51,7 @@ exit 0
 
 태스크를 생성할 때는 스크립트 외에도 스크립트를 <u>누가, 언제, 어디서, 어떻게</u> 실행할 건지 정의해야 됩니다. 
 
-이 때 사용되는 파일이 태스크 정의서 파일(Task Definition Form, TDF)입니다.
+이 때 사용되는 파일이 **태스크 정의서 파일(Task Definition Form, TDF)**입니다.
 
 <span><inline style="color:#ff4500">opmate task gentmpl</inline>로 태스크 정의서의 템플릿 파일을 생성합니다.</span> 
 
