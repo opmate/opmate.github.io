@@ -15,4 +15,4 @@ description: Tutorial
 
 - [Tutorial 5 : 태스크 실행 및 권한 확인](Tutorial5.md)
 
-- [Tutorial 6 : 파일 전송](Tutorial5.md)
+- [Tutorial 6 : 파일 전송](Tutorial6.md)
