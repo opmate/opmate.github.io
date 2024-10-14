@@ -20,7 +20,7 @@ mainSections = ["docs"]
 
   ## Button
   navBarButton = true # false (default) or true
-  navBarButtonUrl = "https://www.skcc.co.kr/cloud/server-automation"
+  navBarButtonUrl = "https://opmate.github.io/v2/about/"
   navBarButtonText = "OPMATE 시작하기"
 
   # FlexSearch
