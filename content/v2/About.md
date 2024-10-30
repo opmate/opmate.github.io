@@ -1,6 +1,6 @@
 ---
 title: 시작하기
-date: 2023-08-21
+date: 2024-10-30
 weight: 1
 menu:
   v2:

@@ -1,7 +1,7 @@
 ---
 title: "에이전트 제거"
 description: "Tutorial"
-date: 2023-08-21
+date: 2024-10-30
 menu:
   v2:
     parent: v2-intro
@@ -12,7 +12,7 @@ toc: false
 ---
 
 {{< tabs "AgentInstallation" >}}
-{{< tab "Linux" >}} 
+{{< tab "Linux" >}}
 
 <br>
 
@@ -74,15 +74,12 @@ $ rm /etc/init.d/opmsvc
 
 ```bash
 $ rm -rf /infsw/opmnsa
-$ rm -f /usr/bin/opmget
-$ rm -f /usr/bin/opmput
-$ rm -f /usr/bin/opmls
 $ rm -f /run/opmsvc.pid
 $ rm -f /var/run/opmsvc.pid
 ```
 
 {{< /tab >}}
-{{< tab "Windows" >}} 
+{{< tab "Windows" >}}
 
 에이전트가 **``C:\infsw\opmnsa``** 디렉토리에 설치되어 있다고 가정하였습니다.
 
@@ -90,10 +87,10 @@ $ rm -f /var/run/opmsvc.pid
 
 ### 명령 프롬프트 실행
 
-실행 메뉴에서 cmd 를 입력하여 명령프롬프트를 관리자 권한으로 실행합니다.
+실행 메뉴에서 cmd 를 입력하여 명령프롬프트를 **관리자 권한으로 실행**합니다.
 
 ```powershell
-C:\Users\Administrator> 
+C:\Users\Administrator>
 ```
 
 ### 에이전트 중지
@@ -102,7 +99,6 @@ C:\Users\Administrator>
 
 ```powershell
 C:\Users\Administrator> sc stop "opmsvc"
-
 ```
 
 ### 중지 상태 확인
@@ -128,11 +124,6 @@ C:\Users\Administrator> sc delete "opmsvc"
 ```powershell
 C:\Users\Administrator> rmdir /s /q C:\infsw\opmnsa
 ```
-
-### 환경 변수 수정
-
-시스템 변수의 수정 화면(제어판 -> 시스템 -> 고급 시스템 설정 -> 환경변수 -> **시스템 변수**)을 열고,
-**Path** 항목의 변수값에서 에이전트의 실행 파일 경로(`C:\infsw\opmnsa\bin`)를 제거합니다.
 
 <br>
 
