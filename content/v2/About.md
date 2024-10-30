@@ -25,23 +25,11 @@ hideNav: true
   - [리눅스용 에이전트 제거](../agentuninstall#Linux)
   - [윈도우즈용 에이전트 제거](../agentuninstall#Windows)
 
-
-#### 다운로드
-
-- 준비중
-
-<!--
-**주의** : **마스터의 버전이 V2.0**인 경우에만 아래 에이전트를 설치하시기 바랍니다.
-
-- **OPMATE Agent _v2.0.004_**
-  - [opma-installer-2.0.004-linux-20211230.tar.gz](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v2.0.004/opma-installer-2.0.004-linux-20211230.tar.gz)
-  - [opma-installer-2.0.004-windows-20211230.exe](https://github.com/opmate/opmate.github.io/releases/download/OPMATE-AGENT-v2.0.004/opma-installer-2.0.004-windows-20211230.exe)
--->
-
 ### 지원 운영체제
 
 | Linux                                  				   		|
 |---------------------------------------------------------------|
+| `RHEL(CentOS) 9 (x86_64bit / arm_64bit)`                      |
 | `RHEL(CentOS) 8 (x86_64bit / arm_64bit)`				  		|
 | `RHEL(CentOS) 7 (x86_64bit)`             					 	|
 | `RHEL(CentOS) 6 (x86_64bit)`                               	|
@@ -51,6 +39,9 @@ hideNav: true
 | `Ubuntu Server 20.04 (x86_64bit / arm_64bit)`                 |
 | `Debian 10 (x86_64bit / arm_64bit)`                   		|
 | `Oracle Linux 8.3 (x86_64bit)	`								|
+| `Rocky Linux 9 (x86_64bit / arm_64bit)	`								|
+| `Rocky Linux 8 (x86_64bit / arm_64bit)	`								|
+
 
 | Windows                                  				   		|
 |---------------------------------------------------------------|
