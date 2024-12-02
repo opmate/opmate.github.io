@@ -3,9 +3,8 @@ title: 에이전트 삭제 (Linux, UNIX)
 menu:
   v11:
     parent: v11-about
-weight: 3
 hideNav: true
-
+weight: 19
 ---
 
 에이전트가 **/infsw/opma** 디렉토리에 설치되어 있다고 가정하였습니다. 실제 설치된 경로에 따라 진행하시기 바랍니다.

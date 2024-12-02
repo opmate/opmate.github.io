@@ -1,7 +1,7 @@
 ---
 title: 4. 태스크 정의
 description: 태스크 정의
-weight: 4
+weight: 5
 menu:
   v11:
     parent: v11-tutorial

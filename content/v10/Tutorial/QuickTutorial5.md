@@ -4,6 +4,7 @@ description: 태스크 승인
 menu:
   v10:
     parent: v10-tutorial
+weight: 10
 ---
 
 

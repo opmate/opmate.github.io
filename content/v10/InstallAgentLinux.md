@@ -4,8 +4,7 @@ menu:
   v10:
     parent: v10-about
 hideNav: true
-weight: 2
-hideNav: true
+weight: 13
 ---
 
 ## 파일 준비
@@ -67,7 +66,7 @@ master_port = 34813
   ```bash
   $ chkconfig --add opmagent
   ```
-  
+
 - AIX 기준
   ```bash
   $ ln -s /etc/rc.d/init.d/opmagent /etc/rc.d/rc2.d/S99opmagent

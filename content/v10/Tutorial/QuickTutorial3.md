@@ -4,7 +4,7 @@ description: 노드 활성화
 menu:
   v10:
     parent: v10-tutorial
-
+weight: 8
 ---
 
 

@@ -4,6 +4,7 @@ description: Overview
 menu:
   v10:
     parent: v10-manual
+weight: 12
 ---
 
 ## 사용자 (User)
@@ -210,7 +211,7 @@ menu:
 
 ### 파일 배포
 
-마스터 서버의 파일을 노드에 배포할 경우에 사용한다. 
+마스터 서버의 파일을 노드에 배포할 경우에 사용한다.
 
 다음 예제는, 마스터 서버 리파지토리의 /mydir/install-tomcat-1.0.tar.gz 파일을 받아와 노드의 /home/was/install-tomcat-1.0.tar.gz 에 저장하는 명령이다.
 

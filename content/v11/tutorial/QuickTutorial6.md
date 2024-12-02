@@ -1,7 +1,7 @@
 ---
 title: 6. 태스크 실행
 description: 태스크 실행
-weight: 6
+weight: 7
 menu:
   v11:
     parent: v11-tutorial

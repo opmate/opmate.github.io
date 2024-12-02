@@ -4,7 +4,7 @@ description: 1. CLI 명령어
 menu:
   v2:
     parent: v2-tutorial
-weight: 1
+weight: 2
 
 # version: v1.00
 ---

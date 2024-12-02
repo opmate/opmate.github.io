@@ -1,4 +1,5 @@
 // Put your custom JS code here
+
 document.addEventListener('DOMContentLoaded', function() {
     const logo = document.getElementById('opmateLogo');
     const lightLogo = 'images/Logo_b_394x72.png';

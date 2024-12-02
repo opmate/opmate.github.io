@@ -6,18 +6,20 @@ menu:
   v2:
     parent: v2-intro
 hideNav: true
-toc: false
+toc: true
+tabs: true
 
 ---
+
+<!-- tab 전환 관련 자바스크립트 -->
+<script src="/js/tabs.js"></script>
+
 ---
-
-{{< tabs "AgentInstallation" >}}
-{{< tab "Linux" >}}
-
 현재 설치되어 있는 MASTER의 IP 주소는 10.0.0.1, AGENT 접속 포트는 34813으로 가정하여 설명합니다.
 실제 환경에 맞춰 진행하시기 바랍니다.
 
-
+{{< tabs "AgentInstallation" >}}
+{{< tab "Linux" >}}
 
 ### 파일 다운로드
 
@@ -89,8 +91,6 @@ Input 'yes' to proceed installation : yes
 
 {{< /tab >}}
 {{< tab "Windows">}}
-
-현재 설치되어 있는 MASTER의 IP 주소는 10.0.0.1, AGENT 접속 포트는 34813으로 가정하여 설명합니다. 실제 환경에 맞춰 진행하시기 바랍니다.
 
 ### 파일 다운로드
 

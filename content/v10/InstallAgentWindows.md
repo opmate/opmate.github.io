@@ -4,8 +4,7 @@ menu:
   v10:
     parent: v10-about
 hideNav: true
-weight: 4
-hideNav: true
+weight: 15
 
 ---
 ---

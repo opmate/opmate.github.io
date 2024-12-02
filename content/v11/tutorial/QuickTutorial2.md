@@ -1,7 +1,7 @@
 ---
 title: 2. 계정 생성 및 로그인
 description: 계정 생성 및 로그인
-weight: 2
+weight: 3
 menu:
   v11:
     parent: v11-tutorial
@@ -12,8 +12,8 @@ menu:
 ```bash
 $ opmate user create -id bumbee -nm 'cutefly' -pn '010-2222-2222' -ea 'bumbee@email.com'
 Requesting https://127.0.0.1:8443/opmate
-Enter password: 
-Confirm password: 
+Enter password:
+Confirm password:
 bumbee has been created successfully.
 ```
 
@@ -51,6 +51,6 @@ bumbee has been modified successfully.
 ```bash
 $ opmate user login -id bumbee
 Requesting https://127.0.0.1:8443/opmate
-Enter password: 
+Enter password:
 bumbee has been logged in successfully.
 ```

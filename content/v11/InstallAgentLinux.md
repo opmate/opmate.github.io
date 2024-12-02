@@ -3,7 +3,7 @@ title: 에이전트 설치 (Linux, UNIX)
 menu:
   v11:
     parent: v11-about
-weight: 2
+weight: 18
 hideNav: true
 
 ---

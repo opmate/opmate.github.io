@@ -3,9 +3,8 @@ title: 에이전트 삭제 (Windows)
 menu:
   v11:
     parent: v11-about
-weight: 5
 hideNav: true
-
+weight: 22
 ---
 
 에이전트가 **C:\infsw\opma** 디렉토리에 설치되어 있다고 가정하였습니다. 실제 설치된 경로에 따라 진행하시기 바랍니다.
@@ -15,7 +14,7 @@ hideNav: true
 실행 메뉴에서 cmd 를 입력하여 명령프롬프트를 관리자 권한으로 실행합니다.
 
 ```powershell
-C:\Users\Administrator> 
+C:\Users\Administrator>
 ```
 
 ## 에이전트 중지

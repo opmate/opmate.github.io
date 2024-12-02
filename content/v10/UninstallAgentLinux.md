@@ -4,9 +4,7 @@ menu:
   v10:
     parent: v10-about
 hideNav: true
-weight: 3
-hideNav: true
-
+weight: 14
 ---
 ---
 에이전트가 **/infsw/opma** 디렉토리에 설치되어 있다고 가정하였습니다. 실제 설치된 경로에 따라 진행하시기 바랍니다.

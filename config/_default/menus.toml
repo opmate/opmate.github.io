@@ -57,7 +57,6 @@
   url = "/v10/tutorial"
   weight = 2
 
-
 [[v10]]
   identifier = "v10-manual"
   name = "사용자 매뉴얼(v1.0)"

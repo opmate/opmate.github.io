@@ -5,6 +5,7 @@ description: Tutorial 6 - File Transfer
 menu:
   v2:
     parent: v2-tutorial
+weight: 7
 ---
 
 

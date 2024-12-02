@@ -1,7 +1,7 @@
 ---
 title: 5. 태스크 승인
 description: 태스크 승인
-weight: 5
+weight: 6
 menu:
   v11:
     parent: v11-tutorial

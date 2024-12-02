@@ -4,6 +4,7 @@ description: 태스크 실행
 menu:
   v10:
     parent: v10-tutorial
+weight: 11
 ---
 
 
@@ -21,7 +22,7 @@ Instance(142) of task has been created.
 태스크 diskusage의 인스턴스를 조회해보겠습니다.
 
 ```bash
-$ opmate task listrun -id diskusage   
+$ opmate task listrun -id diskusage
 Requesting https://127.0.0.1:8443/opmate;user=bumbee
 +------------------+---------------------+---------------------+--------------+-----------+
 | TASK INSTANCE NO | START DT            | END DT              | RUNNER       | NEXT TASK |

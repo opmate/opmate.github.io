@@ -4,6 +4,7 @@ description: 사용자 계정 생성 및 로그인
 menu:
   v10:
     parent: v10-tutorial
+weight: 7
 ---
 
 다음과 같이 나의 사용자 계정을 만듭니다. 사용자ID는 bumbee이고, 이름, 전화번호, 이메일 등을 입력합니다.
@@ -11,8 +12,8 @@ menu:
 ```bash
 $ opmate user create -id bumbee -nm 'Bumblebee' -pn '010-2222-2222' -ea 'bumbee@email.com'
 Requesting https://127.0.0.1:8443/opmate
-Enter password: 
-Confirm password: 
+Enter password:
+Confirm password:
 bumbee has been created successfully.
 ```
 
@@ -50,7 +51,7 @@ bumbee has been modified successfully.
 ```bash
 $ opmate user login -id bumbee
 Requesting https://127.0.0.1:8443/opmate
-Enter password: 
+Enter password:
 bumbee has been logged in successfully.
 ```
 

@@ -12,7 +12,7 @@ hideNav: true
 
 ### 활용 가이드
 
-[OPMATE 사용자 튜토리얼](../tutorial/tutorial1)
+- [OPMATE 사용자 튜토리얼](../tutorial/tutorial1)
 
 ### 에이전트 설치
 

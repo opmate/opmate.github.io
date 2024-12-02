@@ -1,7 +1,7 @@
 ---
 title: 1. CLI 사용법
 description: CLI 사용법
-weight: 1
+weight: 2
 menu:
   v11:
     parent: v11-tutorial

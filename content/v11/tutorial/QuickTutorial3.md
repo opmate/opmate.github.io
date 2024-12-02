@@ -1,7 +1,7 @@
 ---
 title: 3. 노드 활성화
 description: 노드 활성화
-weight: 3
+weight: 4
 menu:
   v11:
     parent: v11-tutorial

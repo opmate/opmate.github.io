@@ -6,11 +6,14 @@ menu:
   v2:
     parent: v2-intro
 hideNav: true
-toc: false
+toc: true
+tabs: true
 
 ---
----
+<!-- tab 전환 관련 자바스크립트 -->
+<script src="/js/tabs.js"></script>
 
+---
 {{< tabs "AgentInstallation" >}}
 {{< tab "Linux" >}}
 

@@ -4,6 +4,7 @@ description: CLI 사용법 및 초기 설정
 menu:
   v10:
     parent: v10-tutorial
+weight: 6
 ---
 
 OPMATE CLI 명령어는 `opmate <object> <action> <option>`의 형식으로 이루어져 있습니다. 가능한 파라미터와 설명을 보고 싶다면, 다음의 형식으로 마지막에 `help`를 붙여주면 됩니다.

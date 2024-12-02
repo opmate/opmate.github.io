@@ -5,6 +5,7 @@ description: Tutorial 3 - View Node
 menu:
   v2:
     parent: v2-tutorial
+weight: 4
 ---
 
 ---

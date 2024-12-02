@@ -3,9 +3,8 @@ title: 에이전트 설치 (Windows)
 menu:
   v11:
     parent: v11-about
-weight: 4
 hideNav: true
-
+weight: 21
 ---
 
 ## 파일 준비

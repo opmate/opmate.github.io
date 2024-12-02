@@ -5,6 +5,7 @@ description: Tutorial 5 - Exectue Task
 menu:
   v2:
     parent: v2-tutorial
+weight: 6
 ---
 
 - - -

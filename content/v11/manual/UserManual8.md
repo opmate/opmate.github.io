@@ -4,6 +4,7 @@ description: 8. 파일 배포/수집
 menu:
   v11:
     parent: v11-manual
+weight: 15
 ---
 
 ## 파일 배포/수집
