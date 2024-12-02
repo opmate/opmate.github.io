@@ -5,6 +5,7 @@ menu:
   v11:
     parent: v11-manual
 weight: 17
+lastpage: true
 ---
 
 ## 스크립트내 예약어

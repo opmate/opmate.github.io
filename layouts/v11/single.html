@@ -31,7 +31,13 @@
 				{{ partial "main/edit-page.html" . }}
 			{{ end -}}
 			{{ if and .Site.Params.pageNavigation (not .Params.hideNav) -}}
-				{{ partial "main/docs-navigation.html" . }}
+				{{ if .Params.lastpage }}
+					{{ partial "main/docs-last-navigation.html" . }}
+        {{ else if .Params.firstpage }}
+					{{ partial "main/docs-first-navigation.html" . }}
+				{{ else }}
+					{{ partial "main/docs-navigation.html" . }}
+				{{ end }}
 			{{ end -}}
 		</main>
 	</div>

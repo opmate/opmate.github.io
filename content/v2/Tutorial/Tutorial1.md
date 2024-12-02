@@ -5,13 +5,13 @@ menu:
   v2:
     parent: v2-tutorial
 weight: 2
-
+firstpage: true
 # version: v1.00
 ---
 
 ---
 
-**OPMATE CLI 명령어**의 형식은 다음과 같습니다: 
+**OPMATE CLI 명령어**의 형식은 다음과 같습니다:
 
 ```bash
 $ opmate <subject> <action> [<parameter>]

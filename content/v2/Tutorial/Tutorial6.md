@@ -6,6 +6,7 @@ menu:
   v2:
     parent: v2-tutorial
 weight: 7
+lastpage: true
 ---
 
 
@@ -76,7 +77,7 @@ CLI 명령어를 활용하려면 <u><b>현재 로그인된 사용자</b></u>가 
 ```bash
 $ opmate filehub --help
 ...
-actions: 
+actions:
   list        파일 허브 목록 출력
   view        파일 허브 상세 출력
   create      파일 허브 생성
@@ -108,22 +109,22 @@ Example  : @OPM_ATTR.FILE_PUT@ --overwrite master:/myfilehub/tomcat.tar.gz /tmp/
 ```
 FILE_GET : 파일허브에서 파일 다운로드
 Usage    : @OPM_ATTR.FILE_GET@ [–-overwrite] <master:/filehub-id/master-file-path> <local-file-path>
-Example  : @OPM_ATTR.FILE_GET@ --overwrite master:/myfilehub/hostname/passwd /etc/passwd 
+Example  : @OPM_ATTR.FILE_GET@ --overwrite master:/myfilehub/hostname/passwd /etc/passwd
 ```
 
 스크립트 예약어를 사용하려면 반드시 <u><b>스크립트를 실행하는 태스크</b></u>가 파일허브 권한을 가지고 있어야 합니다.
 
 <br><br>
 
-## CLI 튜토리얼 : 파일 다운로드 & 업로드 
-- - - 
+## CLI 튜토리얼 : 파일 다운로드 & 업로드
+- - -
 
 다음과 같이 간단한 튜토리얼을 통해 파일 다운로드 업로드 과정을 학습해봅니다:
 
 1. 파일허브 생성 및 권한 부여
 
 2. 파일 배포 (CLI → Master → Agent)
-   
+
 3. 파일 수집 (Agent → Master → CLI)
 <br><br>
 
@@ -180,7 +181,7 @@ $ vi a.txt
 
 
 ```bash
-$ opmate file put -lp a.txt -rp master:/myfilehub/textfile/a.txt 
+$ opmate file put -lp a.txt -rp master:/myfilehub/textfile/a.txt
  ...
  checksum success
 ```
@@ -237,7 +238,7 @@ script-account: root # Shell을 실행하는 OS 계정명으로 변경
 description: "Text Upload"
 publisher: gildong # 현재 유저명으로 변경
 target:
-- node-set: OS-TYPE:"^Linux$" # Node-set을 현재 연결된 노드에 따라 변경 
+- node-set: OS-TYPE:"^Linux$" # Node-set을 현재 연결된 노드에 따라 변경
   account: root
   description: OS가 Linux인 모든 노드 대상으로 태스크 실행
 ...
@@ -356,7 +357,7 @@ script-account: root # Shell을 실행하는 OS 계정명으로 변경
 description: "Collect /etc/passwd from Node-set"
 publisher: gildong # 현재 유저명으로 변경
 target:
-- node-set: OS-TYPE:"^Linux$" # Node-set을 현재 연결된 노드에 따라 변경 
+- node-set: OS-TYPE:"^Linux$" # Node-set을 현재 연결된 노드에 따라 변경
   account: root
   description: OS가 Linux인 모든 노드 대상으로 태스크 실행
 ...

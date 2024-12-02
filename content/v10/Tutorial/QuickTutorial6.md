@@ -5,6 +5,7 @@ menu:
   v10:
     parent: v10-tutorial
 weight: 11
+lastpage: true
 ---
 
 

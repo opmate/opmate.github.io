@@ -5,6 +5,7 @@ weight: 7
 menu:
   v11:
     parent: v11-tutorial
+lastpage: true
 ---
 
 드디어, 태스크 실행입니다.

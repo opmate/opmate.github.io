@@ -30,13 +30,13 @@
 
 [[v11]]
   identifier = "v11-tutorial"
-  name = "사용자 튜토리얼(v1.1)"
+  name = "사용자 튜토리얼 (v1.1)"
   url = "/v11/tutorial"
   weight = 2
 
 [[v11]]
   identifier = "v11-manual"
-  name = "사용자 매뉴얼(v1.1)"
+  name = "사용자 매뉴얼 (v1.1)"
   url = "/v11/manual"
   weight = 3
 
@@ -53,12 +53,12 @@
 
 [[v10]]
   identifier = "v10-tutorial"
-  name = "사용자 튜토리얼(v1.0)"
+  name = "사용자 튜토리얼 (v1.0)"
   url = "/v10/tutorial"
   weight = 2
 
 [[v10]]
   identifier = "v10-manual"
-  name = "사용자 매뉴얼(v1.0)"
+  name = "사용자 매뉴얼 (v1.0)"
   url = "/v10/manual"
   weight = 3

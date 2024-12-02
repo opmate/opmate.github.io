@@ -5,6 +5,7 @@ menu:
   v10:
     parent: v10-manual
 weight: 12
+hideNav: true
 ---
 
 ## 사용자 (User)

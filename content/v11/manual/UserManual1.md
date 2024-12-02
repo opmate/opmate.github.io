@@ -5,6 +5,7 @@ menu:
   v11:
     parent: v11-manual
 weight: 8
+firstpage: true
 ---
 ---
 
