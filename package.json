@@ -17,8 +17,14 @@
     "@thulite/images": "^3.3.0",
     "@thulite/inline-svg": "^1.1.0",
     "@thulite/seo": "^2.4.1",
+    "cross-spawn": "^7.0.6",
     "doks": "^0.3.3",
-    "thulite": "^2.5.0"
+    "findup-sync": "^5.0.0",
+    "load-grunt-tasks": "^5.1.0",
+    "lodash": "^4.17.21",
+    "minimatch": "^3.1.2",
+    "thulite": "^2.5.0",
+    "underscore.string": "^3.3.6"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
