@@ -44,8 +44,6 @@ opm-agent-2.0.020-windows-20240216.exe
 
 ```bash
 $ wget http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz
-$ ls
-opm-agent-2.0.020-linux-20240216.tar.gz
 ```
 
 ### root 로 로그인
@@ -57,6 +55,8 @@ $ su -
 ### 압축 해제 및 인스톨러 실행
 
 ```bash
+$ ls
+opm-agent-2.0.020-linux-20240216.tar.gz
 $ gunzip opm-agent-2.0.020-linux-20240216.tar.gz
 $ tar -xvf opm-agent-2.0.020-linux-20240216.tar
 $ cd opm-agent-2.0.020-linux-20240216
@@ -118,8 +118,6 @@ opm-agent-2.0.020-windows-20240216.exe
 
 ```powershell
 PS C:\> Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe -OutFile opm-agent-2.0.020-windows-20240216.exe
-$ ls
-opm-agent-2.0.020-linux-20240216.tar.gz
 ```
 
 ### 명령 프롬프트 실행
