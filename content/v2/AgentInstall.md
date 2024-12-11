@@ -32,10 +32,12 @@ DOWNLOAD OPMATE AGENT INSTALLER
 opm-agent-2.0.020-linux-20240216.tar.gz
     $ wget http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz
     $ curl -O http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz
+    PS > Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz -OutFile opm-agent-2.0.020-linux-20240216.tar.gz
 
 opm-agent-2.0.020-windows-20240216.exe
     $ wget http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe
     $ curl -O http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe
+    PS > Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe -OutFile opm-agent-2.0.020-windows-20240216.exe
 ```
 
 설치 파일별 안내에 따라 명령을 수행하여, 최신 버전의 설치 파일을 다운로드 합니다.
