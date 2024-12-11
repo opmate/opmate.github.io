@@ -55,7 +55,7 @@ $ su -
 ### 압축 해제 및 인스톨러 실행
 
 ```bash
-$ ls
+$ ls opm-agent-*.gz
 opm-agent-2.0.020-linux-20240216.tar.gz
 $ gunzip opm-agent-2.0.020-linux-20240216.tar.gz
 $ tar -xvf opm-agent-2.0.020-linux-20240216.tar
@@ -124,15 +124,15 @@ PS C:\> Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-windows-2
 
 실행 메뉴에서 `cmd` 를 입력하여 명령프롬프트를 **관리자 권한으로 실행**한 후, 설치파일이 존재하는 디렉토리로 이동합니다.
 
-```bat
+```powershell
 C:\Users\Administrator> cd /d C:\
-C:\> dir *.exe
-opm-agent-2.0.020-windows-20240216.exe
 ```
 
 ### 압축 해제 및 인스톨러 실행
 
 ```powershell
+C:\> dir opm-agent-*.exe
+opm-agent-2.0.020-windows-20240216.exe
 C:\> opm-agent-2.0.020-windows-20240216.exe
 C:\> cd opm-agent-2.0.020-windows-20240216
 C:\opm-agent-2.0.020-windows-20240216> install.bat
