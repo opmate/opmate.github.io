@@ -101,12 +101,12 @@ FILE_LS  : 파일 조회
 Usage    : @OPM_ATTR.FILE_LS@ <master:/master-directory-path> [glob]
 Example  : @OPM_ATTR.FILE_LS@ master:/myfilehub/textfile/ "*.txt"
 ```
-```
+```bash
 FILE_PUT : 파일허브로 파일 업로드
 Usage    : @OPM_ATTR.FILE_PUT@ [–-overwrite] <master:/filehub-id/master-file-path> <local-file-path>
 Example  : @OPM_ATTR.FILE_PUT@ --overwrite master:/myfilehub/tomcat.tar.gz /tmp/tomcat.tar.gz
 ```
-```
+```bash
 FILE_GET : 파일허브에서 파일 다운로드
 Usage    : @OPM_ATTR.FILE_GET@ [–-overwrite] <master:/filehub-id/master-file-path> <local-file-path>
 Example  : @OPM_ATTR.FILE_GET@ --overwrite master:/myfilehub/hostname/passwd /etc/passwd
