@@ -23,10 +23,7 @@ tabs: true
 
 ### 파일 다운로드
 
-MASTER의 다운로드 안내 페이지를 조회합니다.
-
-> [!IMPORTANT]  
-> `https`로 접속하지 마세요
+MASTER의 다운로드 안내 페이지를 조회합니다. (`https`로 접속하지 마세요)
 
 ```bash
 $ curl http://10.0.0.1:34813
