@@ -33,24 +33,24 @@ target:
 
 echo "CHECKING CPU USAGE..."
 cpu_idle=$(top -bn2 | grep "Cpu(s)" | tail -n 1 | awk '{print $8}')
-cpu_usage_percent=$(echo "100 - $cpu_idle" | bc)
+cpu_percent=$(echo "100 - $cpu_idle" | bc)
 
 echo "CHECKING MEMORY USAGE..."
 mem_info=$(free -m | awk '/^Mem:/ {print $2, $3}')
 total_memory=$(echo "$mem_info" | awk '{print $1}')
 used_memory=$(echo "$mem_info" | awk '{print $2}')
-memory_usage_percent=$((used_memory * 100 / total_memory))
+memory_percent=$((used_memory * 100 / total_memory))
 
 echo "CHECKING DISK USAGE..."
-disk_usage_percent=$(df / | tail -n 1 | grep -oP '\d+(?=%)' || echo "0")
+disk_percent=$(df / | tail -n 1 | grep -oP '\d+(?=%)' || echo "0")
 
 echo "CHECKING UPTIME..."
 uptime_days=$(uptime | awk -F, '{print $1}' | grep -oP '\d+(?= day)' || echo "0")
 
 echo "@OPM_ATTR.GATHER_START@"
-echo "cpu_usage_percent:$cpu_usage_percent"
-echo "memory_usage_percent:$memory_usage_percent"
-echo "disk_usage_percent:$disk_usage_percent"
+echo "cpu_percent:$cpu_percent"
+echo "memory_percent:$memory_percent"
+echo "disk_percent:$disk_percent"
 echo "uptime_days:$uptime_days"
 echo "@OPM_ATTR.GATHER_END@"
 
@@ -67,9 +67,9 @@ CHECKING MEMORY USAGE...
 CHECKING DISK USAGE...
 CHECKING UPTIME...
 @OPM_ATTR.GATHER_START@
-cpu_usage_percent:2.0
-memory_usage_percent:48
-disk_usage_percent:76
+cpu_percent:2.0
+memory_percent:48
+disk_percent:76
 uptime_days:96
 @OPM_ATTR.GATHER_END@
 ```
@@ -93,9 +93,9 @@ OUTPUT
         "remoteAddr": "172.31.3.147",
         "result": "S",
         "gather": {
-            "cpu_usage_percent": "2.0",
-            "memory_usage_percent": "48",
-            "disk_usage_percent": "76",
+            "cpu_percent": "2.0",
+            "memory_percent": "48",
+            "disk_percent": "76",
             "uptime_days": "96"
         }
     },
@@ -105,9 +105,9 @@ OUTPUT
         "remoteAddr": "172.31.3.148",
         "result": "S",
         "gather": {
-            "cpu_usage_percent": "28.9",
-            "memory_usage_percent": "10",
-            "disk_usage_percent": "21",
+            "cpu_percent": "28.9",
+            "memory_percent": "10",
+            "disk_percent": "21",
             "uptime_days": "125"
         }
     }
@@ -116,7 +116,7 @@ OUTPUT
 
 만약, 태스크에 통지(notification) 설정을 통하여 결과를 메일 등으로 받게 된다면, 다음과 같이 테이블 형식으로 내용을 확인해 보실 수도 있습니다.
 
-| nodeSessionId | hostname      | remoteAddr   | result  | cpu_usage_percent | memory_usage_percent | disk_usage_percent | uptime_days |
-| -             | -             | -            | -       | -                 | -                    | -                  | -           |
-| 01d5020e-...  | DB-DEV-LINUX  | 172.31.3.147 | success | 2.0               | 48                   | 76                 | 96          |
-| ea3117fe-...  | DB-PROD-LINUX | 172.31.3.148 | success | 28.9              | 10                   | 21                 | 125         |
+| nodeSessionId | hostname      | remoteAddr   | result  | cpu_percent | memory_percent | disk_percent | uptime_days |
+| -             | -             | -            | -       | -           | -              | -            | -           |
+| 01d5020e-...  | DB-DEV-LINUX  | 172.31.3.147 | success | 2.0         | 48             | 76           | 96          |
+| ea3117fe-...  | DB-PROD-LINUX | 172.31.3.148 | success | 28.9        | 10             | 21           | 125         |
