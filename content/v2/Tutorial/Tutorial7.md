@@ -33,7 +33,7 @@ target:
 
 echo "CHECKING CPU USAGE..."
 cpu_idle=$(top -bn2 | grep "Cpu(s)" | tail -n 1 | awk '{print $8}')
-cpu_percent=$(echo "100 - $cpu_idle" | bc)
+cpu_percent=$((100 - cpu_idle))
 
 echo "CHECKING MEMORY USAGE..."
 mem_info=$(free -m | awk '/^Mem:/ {print $2, $3}')
