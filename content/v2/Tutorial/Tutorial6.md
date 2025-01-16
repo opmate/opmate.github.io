@@ -304,14 +304,12 @@ execution #1 has been created successfully.
 
 ```bash
 $ opmate execution listnode -id 1
-+------------------------------+------------+-------------+--------+--------+
-| NODE-SESSION-ID              | HOSTNAME   | REMOTE-ADDR | STATUS | RESULT |
-+------------------------------+------------+-------------+--------+--------+
-| 635df610-fd46-4c6a-b9ae-78c4 | opmate-dev | 123.0.0.1   | comple | succes |
-| 92c00147                     |            |             | ted    | s      |
-| 10ca6b2e-ee06-48f1-a5eb-236f | opmate-db  | 123.0.0.2   | comple | succes |
-| 4c5b2aac                     |            |             | ted    | s      |
-+------------------------------+------------+-------------+--------+--------+
++--------------------------------------+------------+-------------+-----------+---------+
+| NODE-SESSION-ID                      | HOSTNAME   | REMOTE-ADDR | STATUS    | RESULT  |
++--------------------------------------+------------+-------------+-----------+---------+
+| 635df610-fd46-4c6a-b9ae-78c492c00147 | opmate-dev | 123.0.0.1   | completed | success |
+| 10ca6b2e-ee06-48f1-a5eb-236f4c5b2aac | opmate-db  | 123.0.0.2   | completed | success |
++--------------------------------------+------------+-------------+-----------+---------+
 ROW COUNT : 2/2
 
 $ opmate execution viewnode -id 1 -nd 635df610-fd46-4c6a-b9ae-78c492c00147
