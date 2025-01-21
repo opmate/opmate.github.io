@@ -116,6 +116,17 @@ OUTPUT
 
 만약, 태스크에 통지(notification)를 설정하여 실행 결과를 E-Mail 등으로 받게 된다면, 아래 구조와 같은 HTML 테이블이나 xls 파일로 내용을 확인할 수도 있습니다.
 
+```yaml
+---
+id: oscheck
+(중략)
+notification:
+- event: terminate
+  method: mail
+  receiver: gildong@example.com
+...
+```
+
 ```
 +---------------+---------------+--------------+---------+-------------+----------------+--------------+-------------+
 | nodeSessionId | hostname      | remoteAddr   | result  | cpu_percent | memory_percent | disk_percent | uptime_days |
