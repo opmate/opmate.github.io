@@ -6,7 +6,6 @@ menu:
   v2:
     parent: v2-tutorial
 weight: 7
-lastpage: true
 ---
 
 
@@ -101,12 +100,12 @@ FILE_LS  : 파일 조회
 Usage    : @OPM_ATTR.FILE_LS@ <master:/master-directory-path> [glob]
 Example  : @OPM_ATTR.FILE_LS@ master:/myfilehub/textfile/ "*.txt"
 ```
-```
+```bash
 FILE_PUT : 파일허브로 파일 업로드
 Usage    : @OPM_ATTR.FILE_PUT@ [–-overwrite] <master:/filehub-id/master-file-path> <local-file-path>
 Example  : @OPM_ATTR.FILE_PUT@ --overwrite master:/myfilehub/tomcat.tar.gz /tmp/tomcat.tar.gz
 ```
-```
+```bash
 FILE_GET : 파일허브에서 파일 다운로드
 Usage    : @OPM_ATTR.FILE_GET@ [–-overwrite] <master:/filehub-id/master-file-path> <local-file-path>
 Example  : @OPM_ATTR.FILE_GET@ --overwrite master:/myfilehub/hostname/passwd /etc/passwd
@@ -305,14 +304,12 @@ execution #1 has been created successfully.
 
 ```bash
 $ opmate execution listnode -id 1
-+------------------------------+------------+-------------+--------+--------+
-| NODE-SESSION-ID              | HOSTNAME   | REMOTE-ADDR | STATUS | RESULT |
-+------------------------------+------------+-------------+--------+--------+
-| 635df610-fd46-4c6a-b9ae-78c4 | opmate-dev | 123.0.0.1   | comple | succes |
-| 92c00147                     |            |             | ted    | s      |
-| 10ca6b2e-ee06-48f1-a5eb-236f | opmate-db  | 123.0.0.2   | comple | succes |
-| 4c5b2aac                     |            |             | ted    | s      |
-+------------------------------+------------+-------------+--------+--------+
++--------------------------------------+------------+-------------+-----------+---------+
+| NODE-SESSION-ID                      | HOSTNAME   | REMOTE-ADDR | STATUS    | RESULT  |
++--------------------------------------+------------+-------------+-----------+---------+
+| 635df610-fd46-4c6a-b9ae-78c492c00147 | opmate-dev | 123.0.0.1   | completed | success |
+| 10ca6b2e-ee06-48f1-a5eb-236f4c5b2aac | opmate-db  | 123.0.0.2   | completed | success |
++--------------------------------------+------------+-------------+-----------+---------+
 ROW COUNT : 2/2
 
 $ opmate execution viewnode -id 1 -nd 635df610-fd46-4c6a-b9ae-78c492c00147

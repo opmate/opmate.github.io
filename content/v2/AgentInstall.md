@@ -32,18 +32,18 @@ DOWNLOAD OPMATE AGENT INSTALLER
 opm-agent-2.0.020-linux-20240216.tar.gz
     $ wget http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz
     $ curl -O http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz
+    PS > Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz -OutFile opm-agent-2.0.020-linux-20240216.tar.gz
 
 opm-agent-2.0.020-windows-20240216.exe
     $ wget http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe
     $ curl -O http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe
+    PS > Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe -OutFile opm-agent-2.0.020-windows-20240216.exe
 ```
 
 설치 파일별 안내에 따라 명령을 수행하여, 최신 버전의 설치 파일을 다운로드 합니다.
 
 ```bash
 $ wget http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz
-$ ls
-opm-agent-2.0.020-linux-20240216.tar.gz
 ```
 
 ### root 로 로그인
@@ -55,6 +55,8 @@ $ su -
 ### 압축 해제 및 인스톨러 실행
 
 ```bash
+$ ls opm-agent-*.gz
+opm-agent-2.0.020-linux-20240216.tar.gz
 $ gunzip opm-agent-2.0.020-linux-20240216.tar.gz
 $ tar -xvf opm-agent-2.0.020-linux-20240216.tar
 $ cd opm-agent-2.0.020-linux-20240216
@@ -94,23 +96,43 @@ Input 'yes' to proceed installation : yes
 
 ### 파일 다운로드
 
-웹브라우져를 통해 MASTER의 다운로드 안내 페이지 http://10.0.0.1:34813 에 접속합니다. (https 로 접속하지 마세요)
+웹브라우져를 통해 MASTER의 다운로드 안내 페이지 http://10.0.0.1:34813 에 접속하거나, 다음과 같이 powershell을 통해 다운로드 안내 페이지를 조회합니다. (https 로 접속하지 마세요)
 
-설치 파일별 링크를 클릭하여, 최신 버전의 설치 파일(e.g. opm-agent-2.0.020-windows-20240216.exe)을 C:\ 에 다운로드 합니다.
+```powershell
+PS C:\Users\Administrator> cd C:\
+PS C:\> (Invoke-WebRequest -Uri http://10.0.0.1:34813).Content
+DOWNLOAD OPMATE AGENT INSTALLER
+
+opm-agent-2.0.020-linux-20240216.tar.gz
+    $ wget http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz
+    $ curl -O http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz
+    PS > Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-linux-20240216.tar.gz -OutFile opm-agent-2.0.020-linux-20240216.tar.gz
+
+opm-agent-2.0.020-windows-20240216.exe
+    $ wget http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe
+    $ curl -O http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe
+    PS > Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe -OutFile opm-agent-2.0.020-windows-20240216.exe
+```
+
+웹브라우져에서 설치 파일별 링크를 클릭하거나, 설치 파일별 안내에 따라 powershell 명령을 수행하여 최신 버전의 설치 파일을 다운로드 합니다.
+
+```powershell
+PS C:\> Invoke-WebRequest -Uri http://10.0.0.1:34813/opm-agent-2.0.020-windows-20240216.exe -OutFile opm-agent-2.0.020-windows-20240216.exe
+```
 
 ### 명령 프롬프트 실행
 
-실행 메뉴에서 `cmd` 를 입력하여 명령프롬프트를 관리자 권한으로 실행한 후, 설치파일이 존재하는 디렉토리로 이동합니다.
+실행 메뉴에서 `cmd` 를 입력하여 명령프롬프트를 **관리자 권한으로 실행**한 후, 설치파일이 존재하는 디렉토리로 이동합니다.
 
 ```powershell
 C:\Users\Administrator> cd /d C:\
-C:\> dir *.exe
-opm-agent-2.0.020-windows-20240216.exe
 ```
 
 ### 압축 해제 및 인스톨러 실행
 
 ```powershell
+C:\> dir opm-agent-*.exe
+opm-agent-2.0.020-windows-20240216.exe
 C:\> opm-agent-2.0.020-windows-20240216.exe
 C:\> cd opm-agent-2.0.020-windows-20240216
 C:\opm-agent-2.0.020-windows-20240216> install.bat
