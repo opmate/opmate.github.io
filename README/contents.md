@@ -186,6 +186,13 @@ hideNav: true
 #### 랜딩 페이지
 ```
 
+#### 4. Github 푸쉬
+```
+$ git add .
+$ git commit -m "Update Node Modules"
+$ git push
+```
+
 
 ## 컨텐츠 업데이트
 
