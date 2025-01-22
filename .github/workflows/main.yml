@@ -2,10 +2,12 @@
 name: OPMATE.GITHUB.IO Hugo 빌드 및 배포
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches:
       - gh-pages
+    paths-ignore: # GITHUB README 파일 수정 제외
+      - 'README.md'
+      - 'README/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
