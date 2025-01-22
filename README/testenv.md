@@ -63,7 +63,7 @@ hugo server -D
 
 
 
-### `node module` 업데이트 방법
+### `node module` 업데이트 방법 (`doks`, `thulite` 의존성)
 
 
 ```
