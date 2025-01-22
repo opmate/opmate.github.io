@@ -115,6 +115,7 @@ This Boolean attribute indicates whether the details — that is, the contents o
 ```
 
 -> 기존 메뉴에 서브메뉴만 생성 시 [[메뉴명]] 만 지정
+
 #### 2. `layouts/` 수정 (서브메뉴만 생성 시 생략)
 
 1. `layouts/partials/sidebar` 수정 (사이드바 관련 설정)
@@ -183,7 +184,10 @@ hideNav: true
 ---
 
 #### 랜딩 페이지
-```## 컨텐츠 업데이트
+```
+
+
+## 컨텐츠 업데이트
 
 ### 단순 마크다운 파일 생성, 변경
 
@@ -206,7 +210,6 @@ cd v11
 cd v10
 
 # 홈페이지 수정은 이동 X
-
 ```
 
 #### 3. `.md` 에디터로 열기
