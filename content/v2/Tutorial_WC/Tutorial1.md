@@ -1,6 +1,6 @@
 ---
-title: 1. WebConsole 명령어
-description: 1. WebConsole 명령어
+title: 1. WebConsole
+description: 1. WebConsole
 menu:
   v2:
     parent: v2-tutorial-wc
@@ -11,53 +11,13 @@ firstpage: true
 
 ---
 
-**OPMATE WebConsole 명령어**의 형식은 다음과 같습니다:
+**OPMATE WebConsole**은 OPMATE Web Console 은 OPMATE 에 대한 Web 기반 인터페이스 입니다.
+GUI 형태의 인터페이스 임을 고려하여 OPMATE eyes 라는 이름을 사용하고 있습니다.
 
-```bash
-$ opmate <subject> <action> [<parameter>]
-```
+웹 브라우저를 통해 OPMATE 의 사용자/노드/태스크 등을 관리할 수 있으며,
+모든 데이터는 OPMATE Master 서버에 저장되고 관리되므로 웹콘솔과 CLI 의 교차 사용이 가능합니다.
 
+Super-User 권한의 관리자를 통해 OPMATE 의 계정을 발급받으면,
+Chrome 브라우저로 OPMATE Web Console 을 사용할 수 있습니다.
 
-또한, 각각의 명령어의 활용법이 궁금하다면,\
-명령어 맨 뒤에 `-h`나 `--help`를 붙여 사용 가능한 명령어와 매뉴얼을 조회할 수 있습니다.
-
-
-```bash
-
-# OPMATE CLI 가용 Subject 조회
-$ opmate -h
-
-# OPMATE CLI 매뉴얼 조회
-$ opmate --help
-
-# Subject에서 사용 가능한 Action 조회
-$ opmate <subject> -h
-
-# Subject 매뉴얼 조회
-$ opmate <subject> --help
-
-# Action에서 사용되는 파라미터 조회
-$ opmate <subject> <action> -h
-
-# Action 매뉴얼 조회
-$ opmate <subject> <action> --help
-
-```
-
-
-`opmate user login`이란 명령어를 예시로 들어볼까요?\
-명령어 맨 뒤에 `-h`를 추가로 입력하여 `opmate user login`의 사용법을 알아봅니다.
-
-```bash
-
-$ opmate user login -h
-
-usage: opmate user login -id <user-id>
-parameters:
-  -id,--id <user-id> 사용자 ID
-
-```
-
-이 명령어를 사용하려면 <u>사용자 ID</u>(`-id`)라는 파라미터를 입력해야 함을 알 수 있습니다.
-
-<br>
+※ 본 문서에서는 OPMATE Web Console 화면에 대한 사용법을 중점적으로 다루고 있습니다.
