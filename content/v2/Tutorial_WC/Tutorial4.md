@@ -1,6 +1,6 @@
 ---
-title: 4. WebConsole 태스크
-description: 4. WebConsole 태스크
+title: 4. WebConsole 태스크 생성
+description: 4. WebConsole 태스크 생성
 menu:
   v2:
     parent: v2-tutorial-wc
@@ -16,7 +16,7 @@ OPMATE 태스크 목록을 조회/추가/삭제 할 수 있습니다.
 조회 결과의 Revision No. 는 가장 최근 발행 버전의 결과를 표시합니다.  
 이전 발행 버전의 태스크는 태스크 발행이력 메뉴에서 확인할 수 있습니다.
 
-![WC_task_dtl](images/task-dtl.PNG)
+![WC_task_dtl](images/task-lst.png)
 
 ### **조회 조건**
 
@@ -62,16 +62,18 @@ Grid Contents 내의 버튼 클릭 시, 색상에 따라서 파란색은 팝업 
 태스크의 저장은 편집 중인 데이터의 손실을 막기 위함이며, 최종적으로 발행이 완료된 태스크만 실행할 수 있습니다.  
 Normal-User의 경우 다른 사용자의 태스크 정보는 확인만 가능합니다.
 
-![WC_task_dtl](images/task-dtl.PNG)
+![WC_task_dtl](images/task-dtl.png)
 
 ### **태스크 비교**
 
-태스크 비교 버튼(우측 상단)을 Click 하여 출력되는 팝업에서  
-비교할 태스크, Revision No. 를 선택합니다.  
+태스크 비교 버튼(우측 상단)을 Click 하여 출력되는 팝업에서 비교할 태스크, Revision No. 를 선택합니다.  
+
+![WC_task-popup](images/popup-task-hst.png)
+
 선택이 완료되면 태스크 정보 화면은 좌우로 분할되어 좌측에는 현재 확인 또는 생성/편집 중인 태스크,  
 우측에는 비교대상으로 선택한 태스크를 보여줍니다.
 
-> <kbd class="btn-blue">&nbsp;태스크 비교&nbsp;</kbd> : 태스크 비교대상 선택 팝업
+> <kbd class="btn-blue">&nbsp;태스크 비교&nbsp;</kbd> : 태스크 비교대상 선택 팝업  
 > <kbd class="btn-gray">&nbsp;태스크 비교 닫기&nbsp;</kbd> : 태스크 비교 닫기
  
 ### **기본정보**
@@ -79,9 +81,9 @@ Normal-User의 경우 다른 사용자의 태스크 정보는 확인만 가능�
 > **태스크ID** : <kbd class="btn-gray">&nbsp;확인&nbsp;</kbd> 버튼으로 중복 여부 확인 가능  
 > **Revision No.** : 태스크의 발행 버전  
 > **소유자 ID** : 사용자ID 를 정확하게 입력하거나, ![WC_icon_search](images/icon/ico-search.png) 아이콘을 통해 선택  
-> **설명**  
+> **설명** : 해당 태스크의 설명을 작성합니다.  
 > **강제마감시간** : 태스크의 강제 마감 시간을 지정할 수 있습니다.  
-태스크별로 마감 시간을 기술하여 해당 시간까지 완료되지 않을 경우 강제로 마감하여 태스크 종료 처리
+태스크별로 마감 시간을 기술하여 해당 시간까지 완료되지 않을 경우 강제로 마감하여 태스크 종료 처리를 수행합니다.
 
 ### **스크립트정보**
 
@@ -98,10 +100,12 @@ Local Disk 의 파일을 불러와서 편집할 수도 있습니다.
 > **실행계정** : 스크립트 수행을 위한 OS 계정   
 > **내용**  : 수행할 스크립트
 
-내용에 <u>노드별 결과 취합</u>을 위한 GATHER용 스크립트 태그를 추가할 수 있다.   
-형식: Informal Json 형식 / Formal Json형식 중 한 가지를 선택하여 작성
+내용에 <u>노드별 결과 취합</u>을 위한 GATHER용 스크립트 태그를 추가할 수 있습니다.   
+형식: Informal Json 형식 / Formal Json형식 중 한 가지를 선택하여 작성합니다.
 
-> **Informal Json 형식(축약)** : 필드명:필드값 형식으로 라인별로 출력, Master가 JSON형식으로 가공 후 취합, 다차원 데이터 표현 불가  
+> **Informal Json 형식(축약)** <u>권장하는 방식입니다.</u>  
+> 필드명:필드값 형식으로 라인별로 출력, Master가 JSON형식으로 가공 후 취합, 다차원 데이터 표현 불가   
+
 ```
 echo "@OPM_ATTR.GATHER_START@"  
 echo "uptime:${uptime}"  
@@ -112,7 +116,8 @@ echo "@OPM_ATTR.GATHER_END@"
 ```
 
 
-> **Formal Json형식** : Json 문법으로 출력, 그대로 취합결과에 포함할 수 있음, 다차원 데이터 표현 가능  
+> **Formal Json형식**  
+> Json 문법으로 출력, 그대로 취합결과에 포함할 수 있음, 다차원 데이터 표현 가능  
 ```
 echo "@OPM_ATTR.GATHER_START@"  
 echo "{ \"uptime\":\"${uptime}\", \"timesync\":\"${timesync}\", \"disk\":\"${disk}\", \"memory\":\"${memory}\" }"  
@@ -123,6 +128,9 @@ echo "@OPM_ATTR.GATHER_END@"
 
 실행대상정보에 OS계정을 명기하는 경우에는 해당 노드들에 대해서 스크립트 정보의 실행계정을 무시하고 명기된 OS계정으로 수행합니다.  
 OS계정 미입력 시에는 스크립트 정보의 실행계정에 입력된 값으로 수행됩니다.  
+
+> ![WC_node-lst](images/popup-node-lst-01.png)
+> ![WC_node-lst](images/popup-node-lst-02.png)
 
 **Grid 상단영역**
 
@@ -142,6 +150,8 @@ OS계정 미입력 시에는 스크립트 정보의 실행계정에 입력된 �
 태스크 수행을 위한 스케줄을 지정할 수 있습니다.  
 스케줄은 실행가능시간의 제약 없이 실행됩니다.  
 
+> ![WC_schdule](images/popup-schedule.png)
+
 **Grid 상단영역**
 
 > ![WC_icon_add](images/icon/ico-add.png) : 스케줄 정보 추가  
@@ -158,6 +168,8 @@ OS계정 미입력 시에는 스크립트 정보의 실행계정에 입력된 �
 ### **실행가능시간정보**
 
 실행가능시간에 어떤 조건도 없을 경우, 항상 실행 가능합니다.  
+
+![WC_task-popup](images/popup-runnabletime.png)
 
 **Grid 상단영역**
 
@@ -205,10 +217,10 @@ Grid 의 check 박스를 통해 read/write/execute 권한을 부여합니다.
 
 **Grid 상단영역**
 
-> ![추가/등록][ico-adduser]{: class="ico-white" } : 사용자 정보를 추가  
-> ![추가/등록][ico-addusergrp]{: class="ico-white" } : 사용자그룹 정보를 추가  
-> ![추가/등록][ico-add]{: class="ico-white" } : 태스크 정보를 추가  
-> ![삭제][ico-del]{: class="ico-white" } : Check 된 Row 삭제  
+> ![WC_icon_adduser](images/icon/ico-adduser.png) : 사용자 정보를 추가  
+> ![WC_icon_addusergrp](images/icon/ico-addusergrp.png) : 사용자그룹 정보를 추가  
+> ![WC_icon_add](images/icon/ico-add.png) : 태스크 정보를 추가  
+> ![WC_icon_del](images/icon/ico-del.png) : Check 된 Row 삭제  
 
 **Grid 본문영역**
 
@@ -225,8 +237,10 @@ Grid 의 check 박스를 통해 read/write/execute 권한을 부여합니다.
 
 **Grid 상단영역**
 
-> ![WC_icon_add](images/icon/ico-add.png) : 태스크 정보를 추가
+> ![WC_icon_add](images/icon/ico-add.png) : 태스크 정보를 추가  
 > ![WC_icon_del](images/icon/ico-del.png) : Check 된 Row 삭제  
+
+![WC_task_noti](images/task-noti.png)
 
 **Grid 본문영역**
 

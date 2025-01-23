@@ -1,12 +1,12 @@
 ---
-title: 5. WebConsole 태스크 실행 결과
-description: 5. WebConsole 태스크 실행 결과
+title: 5. 태스크 실행 결과
+description: 5. 태스크 실행 결과
 menu:
   v2:
     parent: v2-tutorial-wc
 weight: 13
 #firstpage: true
-# lastpage: false
+lastpage: true
 ---
 
 ---
@@ -66,11 +66,13 @@ Double Click 하면 해당 노드에서 실행된 정보가 팝업으로 출력�
 
 ### **조회 결과(태스크 실행 상세)**
 
+> ![WC_execution_dtl](images/popup-execution-detail.png)
+
 **Grid 본문영역**
 
 > **Grid Contents** : 조회 결과 출력  
-> **Double Click** : 해당 Row(노드) 의 태스크 실행 상세 정보 팝업 출력
-> <kbd class="btn-red">&nbsp;강제종료&nbsp;</kbd> : 수행 중인 태스크 일 때 활성화 되며, 클릭 시 강제 종료 실행
+> **Double Click** : 해당 Row(노드) 의 태스크 실행 상세 정보 팝업 출력  
+> <kbd class="btn-red">&nbsp;강제종료&nbsp;</kbd> : 수행 중인 태스크 일 때 활성화 되며, 클릭 시 강제 종료 실행  
 
 **Grid 하단영역**
 
