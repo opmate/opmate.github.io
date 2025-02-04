@@ -2,7 +2,7 @@
 
 > [!TIP]
 > 윈도우 설치 시 인스톨러로 `nodejs`, `go`를 설치 한 뒤
-> Hugo v0.141.0 윈도우 버전을 받아 설치 (https://github.com/gohugoio/hugo/releases/tag/v0.141.0)
+> Hugo v0.141.0 <u><b>Extended</b></u> 윈도우 버전을 받아 설치 (https://github.com/gohugoio/hugo/releases/tag/v0.141.0)
 
 #### 1. `nodejs` 설치
 https://nodejs.org/ko/download
