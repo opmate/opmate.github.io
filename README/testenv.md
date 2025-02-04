@@ -1,5 +1,9 @@
 ## 로컬 테스트 환경 구축(RHEL 기준)
 
+> [!TIP]
+> 윈도우 설치 시 인스톨러로 `nodejs`, `go`를 설치 한 뒤
+> Hugo v0.141.0 윈도우 버전을 받아 설치 (https://github.com/gohugoio/hugo/releases/tag/v0.141.0)
+
 #### 1. `nodejs` 설치
 https://nodejs.org/ko/download
 ```
