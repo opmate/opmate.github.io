@@ -90,7 +90,7 @@ OUTPUT
     {
         "nodeSessionId": "01d5020e-dc5f-4744-ad9c-22f23727db76",
         "hostname": "DB-DEV-LINUX",
-        "remoteAddr": "172.31.3.147",
+        "remoteAddr": "11.22.33.43",
         "result": "S",
         "gather": {
             "cpu_percent": "2.0",
@@ -102,7 +102,7 @@ OUTPUT
     {
         "nodeSessionId": "ea3117fe-2c16-4533-afb7-8b0fe7685251",
         "hostname": "DB-PROD-LINUX",
-        "remoteAddr": "172.31.3.148",
+        "remoteAddr": "11.22.33.45",
         "result": "S",
         "gather": {
             "cpu_percent": "28.9",
@@ -133,7 +133,7 @@ notification:
 +---------------+---------------+--------------+---------+-------------+----------------+--------------+-------------+
 | nodeSessionId | hostname      | remoteAddr   | result  | cpu_percent | memory_percent | disk_percent | uptime_days |
 +---------------+---------------+--------------+---------+-------------+----------------+--------------+-------------+
-| 01d5020e-...  | DB-DEV-LINUX  | 172.31.3.147 | success | 2.0         | 48             | 76           | 96          |
-| ea3117fe-...  | DB-PROD-LINUX | 172.31.3.148 | success | 28.9        | 10             | 21           | 125         |
+| 01d5020e-...  | DB-DEV-LINUX  | 11.22.33.43  | success | 2.0         | 48             | 76           | 96          |
+| ea3117fe-...  | DB-PROD-LINUX | 11.22.33.45  | success | 28.9        | 10             | 21           | 125         |
 +---------------+---------------+--------------+---------+-------------+----------------+--------------+-------------+
 ```

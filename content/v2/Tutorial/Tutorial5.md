@@ -46,9 +46,9 @@ $ opmate execution listnode -id 1
 +--------------------------------------+-----------------+---------------+-----------+---------+
 | NODE-SESSION-ID                      | HOSTNAME        | REMOTE-ADDR   | STATUS    | RESULT  |
 +--------------------------------------+-----------------+---------------+-----------+---------+
-| 9510d4b6-4269-4b00-a2be-cb408c6e668d | APP-DEV-LINUX   | 172.31.8.75   | stopped   | n/a     |
-| 01d5020e-dc5f-4744-ad9c-22f23727db76 | DB-DEV-LINUX    | 172.31.3.147  | completed | success |
-| ea3117fe-2c16-4533-afb7-8b0fe7685251 | DB-PROD-LINUX   | 172.31.8.148  | completed | success |
+| 9510d4b6-4269-4b00-a2be-cb408c6e668d | APP-DEV-LINUX   | 11.22.33.46   | stopped   | n/a     |
+| 01d5020e-dc5f-4744-ad9c-22f23727db76 | DB-DEV-LINUX    | 11.22.33.43   | completed | success |
+| ea3117fe-2c16-4533-afb7-8b0fe7685251 | DB-PROD-LINUX   | 11.22.33.45   | completed | success |
 +--------------------------------------+-----------------+---------------+-----------+---------+
 
 > ROWS COUNT : 3/3
@@ -74,7 +74,7 @@ $ opmate execution viewnode -id 1 -nd 01d5020e-dc5f-4744-ad9c-22f23727db76
 +-----------------+--------------------------------------+
 | NODE-SESSION-ID | 01d5020e-dc5f-4744-ad9c-22f23727db76 |
 | HOSTNAME        | DB-DEV-LINUX                         |
-| REMOTE-ADDRESS  | 172.31.3.147                         |
+| REMOTE-ADDRESS  | 11.22.33.43                          |
 | ACCOUNT         | root                                 |
 | STATUS          | completed                            |
 | RESULT          | success                              |
@@ -107,7 +107,7 @@ $ opmate execution viewnode -id 1 -nd 9510d4b6-4269-4b00-a2be-cb408c6e668d
 +-----------------+--------------------------------------+
 | NODE-SESSION-ID | 9510d4b6-4269-4b00-a2be-cb408c6e668d |
 | HOSTNAME        | APP-DEV-LINUX                        |
-| REMOTE-ADDRESS  | 172.31.8.75                          |
+| REMOTE-ADDRESS  | 11.22.33.46                          |
 | ACCOUNT         | root                                 |
 | STATUS          | stopped : no role of node            |
 | RESULT          | n/a                                  |
@@ -226,8 +226,8 @@ $ opmate execution listnode -id 2
 +--------------------------------------+-----------------+---------------+-----------+---------+
 | NODE-SESSION-ID                      | HOSTNAME        | REMOTE-ADDR   | STATUS    | RESULT  |
 +--------------------------------------+-----------------+---------------+-----------+---------+
-| 01d5020e-dc5f-4744-ad9c-22f23727db76 | DB-DEV-LINUX    | 172.31.3.147  | completed | success |
-| ea3117fe-2c16-4533-afb7-8b0fe7685251 | DB-PROD-LINUX   | 172.31.3.148  | completed | success |
+| 01d5020e-dc5f-4744-ad9c-22f23727db76 | DB-DEV-LINUX    | 11.22.33.43   | completed | success |
+| ea3117fe-2c16-4533-afb7-8b0fe7685251 | DB-PROD-LINUX   | 11.22.33.45   | completed | success |
 +--------------------------------------+-----------------+---------------+-----------+---------+
 
 > ROWS COUNT : 2/2
