@@ -89,7 +89,7 @@ Double Click 하면 해당 노드에서 실행된 정보가 팝업으로 출력�
 태스크 실행결과 화면에서 태스크 실행 조회 결과를 클릭한 후에  
 우측 하단의 <u>실행 정보 조회 결과</u>의 내보내기 아이콘으로 모음 데이터를 excel로 내보내기 할 수 있습니다.  
 
-![WC_task_exe](images/execution-dtl.PNG)  
+![WC_task_exe](images/execution-dtl.png)  
 
 **Informal Json 형식(축약)**  
 <u>권장하는 방식입니다.</u>  

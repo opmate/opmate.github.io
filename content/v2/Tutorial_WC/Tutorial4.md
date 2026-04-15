@@ -15,7 +15,7 @@ OPMATE 태스크 목록을 조회/추가/삭제 할 수 있습니다.
 이전 발행 버전의 태스크는 태스크 발행이력 메뉴에서 확인할 수 있습니다.  
 우측의 <u>내 태스크만 보기</u> 토글 스위치를 통해 내가 작성한 태스크만 조회할 수 있습니다.
 
-![WC_task_dtl](images/task-lst.PNG) 
+![WC_task_dtl](images/task-lst.png) 
 
 ### **조회 조건**
 
@@ -262,7 +262,7 @@ Grid 의 check 박스를 통해 read/write/execute 권한을 부여합니다.
 
 
 ## TCS 인증코드
-![WC_task_noti](images/tcs-1.PNG)
+![WC_task_noti](images/tcs-1.png)
 
 > Task Certification System의 약자로 Task를 작성한 후 실행할 때 인증하는 방식  
 OPMATE Webconsole의 모든 사용자에게 부여되는 것은 아님  

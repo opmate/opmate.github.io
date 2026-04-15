@@ -23,14 +23,14 @@ weight: 10
 
 아이디/비밀번호를 입력하고, <kbd class="btn-red">&nbsp;로그인&nbsp;</kbd> 버튼을 클릭합니다.
 
-![WC_login](images/login-1.PNG)
+![WC_login](images/login-1.png)
 
 
 ### **2차인증**
 
 #### **등록** ####
 
-![WC_login](images/login-2.PNG)
+![WC_login](images/login-2.png)
 
 > 인증은 로그인 시 하단에서 <u>2차인증 등록 버튼</u>을 통해 등록할 수 있습니다.  
 본인 소유 모바일 기기에서 **Google OTP** App.을 설치 및 실행하여 등록합니다.

@@ -25,7 +25,7 @@ Tag 기반으로 관리하면 그룹핑하여 수행 대상 서버로 지정할 
 WorkPortal 태그는 기준정보관리 양식에 맞게 작성이 필요합니다.  
 담당자 문의 부탁드립니다.
 
-![WC_dashboard](images/taglst.PNG)  
+![WC_dashboard](images/taglst.png)  
 
 ### Tag 동기화 주기
 > CSP에서 제공하는 Tag 수집은 각 Agent가 <B>10분마다</B> 동기화합니다.  
