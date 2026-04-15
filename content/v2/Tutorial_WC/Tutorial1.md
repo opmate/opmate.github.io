@@ -9,8 +9,6 @@ firstpage: true
 # lastpage: false
 ---
 
----
-
 **OPMATE WebConsole**은 OPMATE Web Console 은 OPMATE 에 대한 Web 기반 인터페이스 입니다.
 GUI 형태의 인터페이스 임을 고려하여 OPMATE eyes 라는 이름을 사용하고 있습니다.
 
@@ -21,3 +19,9 @@ Super-User 권한의 관리자를 통해 OPMATE 의 계정을 발급받으면,
 Chrome 브라우저로 OPMATE Web Console 을 사용할 수 있습니다.
 
 ※ 본 문서에서는 OPMATE Web Console 화면에 대한 사용법을 중점적으로 다루고 있습니다.
+
+[//]: # (> 웹콘솔 사용예제 퀵토리얼)
+
+[//]: # (> > 동영상 첨부  )
+
+![WC_dashboard](images/maindashboards.png)

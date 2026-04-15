@@ -9,14 +9,13 @@ weight: 12
 #lastpage: false
 ---
 
----
-
 ## 태스크 목록
 OPMATE 태스크 목록을 조회/추가/삭제 할 수 있습니다.  
 조회 결과의 Revision No. 는 가장 최근 발행 버전의 결과를 표시합니다.  
-이전 발행 버전의 태스크는 태스크 발행이력 메뉴에서 확인할 수 있습니다.
+이전 발행 버전의 태스크는 태스크 발행이력 메뉴에서 확인할 수 있습니다.  
+우측의 <u>내 태스크만 보기</u> 토글 스위치를 통해 내가 작성한 태스크만 조회할 수 있습니다.
 
-![WC_task_dtl](images/task-lst.png)
+![WC_task_dtl](images/task-lst.PNG) 
 
 ### **조회 조건**
 
@@ -260,4 +259,21 @@ Grid 의 check 박스를 통해 read/write/execute 권한을 부여합니다.
 > <kbd class="btn-red">저장</kbd> : 등록/변경된 내용을 저장  
 > <kbd class="btn-red">폐기</kbd> : 편집 중(발행 이전)인 Revision 폐기  
 > <kbd class="btn-red">발행</kbd> : 편집 중(발행 이전)인 Revision 발행
+
+
+## TCS 인증코드
+![WC_task_noti](images/tcs-1.PNG)
+
+> Task Certification System의 약자로 Task를 작성한 후 실행할 때 인증하는 방식  
+OPMATE Webconsole의 모든 사용자에게 부여되는 것은 아님  
+운영 담당자에게 발급 요청 필요. (메일, 메신저 등)  
+발급이 되면 QR코드를 생성할 수 있는 URL을 전달받음  
+로컬 브라우저에서 https://qr.io 에 접속하여 `text` 선택 후 URL 붙여넣기 하면 QR코드 생성  
+구글 인증 앱을 통해 등록
+이 외에도 Task를 실행할 수 있는 권한(역할, 노드 등)이 부여가 되어야함  
+
+![WC_task_noti](images/tcs-2.png)  
+> 만약 사진 촬영 등이 어려운 Site 근무자의 경우, 구글 Authenticator 앱의 우측 하단 `+` 아이콘 클릭  
+`설정 키 입력` 선택 후 `내 키`에 입력받은 key값을 넣어서 등록합니다.
+`코드명`은 인증 코드 항목을 구분하기 위해 적절하게 네이밍합니다.
  
