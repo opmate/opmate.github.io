@@ -27,26 +27,26 @@ hideNav: true
 
 ### 지원 운영체제
 
-| Linux                                  				   		|
+| Linux                                                         |
 |---------------------------------------------------------------|
-| `RHEL(Rocky Linux, Oracle Linux) 9 (x86_64bit / arm_64bit)`   |
-| `RHEL(Rocky Linux, Oracle Linux) 8 (x86_64bit / arm_64bit)`   |
-| `RHEL(CentOS) 7 (x86_64bit)`             					 	|
-| `RHEL(CentOS) 6 (x86_64bit)`                               	|
-| `RHEL(CentOS) 5 (x86_64bit)`                             	 	|
-| `Ubuntu Server 24.04 (x86_64bit / arm_64bit)`                 |
-| `Ubuntu Server 22.04 (x86_64bit / arm_64bit)`                 |
-| `Ubuntu Server 20.04 (x86_64bit / arm_64bit)`                 |
-| `Amazon Linux 2 (x86_64bit / arm_64bit)`                    	|
-| `SUSE Linux Enterprise Server 15 SP2 (x86_64bit / arm_64bit)`	|
-| `Debian 10 (x86_64bit / arm_64bit)`                   		|
+| `RHEL(Rocky Linux, Oracle Linux) 9 : x86_64bit / arm_64bit`   |
+| `RHEL(Rocky Linux, Oracle Linux) 8 : x86_64bit / arm_64bit`   |
+| `RHEL(CentOS) 7 : x86_64bit`                                  |
+| `RHEL(CentOS) 6 : x86_64bit`                               	|
+| `RHEL(CentOS) 5 : x86_64bit`                             	 	|
+| `Ubuntu Server 24.04 : x86_64bit / arm_64bit`                 |
+| `Ubuntu Server 22.04 : x86_64bit / arm_64bit`                 |
+| `Ubuntu Server 20.04 : x86_64bit / arm_64bit`                 |
+| `Amazon Linux 2 : x86_64bit / arm_64bit`                    	|
+| `SUSE Linux Enterprise Server 15 SP2 : x86_64bit / arm_64bit` |
+| `Debian 10 : x86_64bit / arm_64bit`                           |
 
 
 | Windows                                  				   		|
 |---------------------------------------------------------------|
-| `Windows Server 2022 (x86_64bit)`			  					|
-| `Windows Server 2019 (x86_64bit)`          					|
-| `Windows Server 2016 (x86_64bit)`           					|
-| `Windows Server 2012 (x86_64bit)`             				|
-| `Windows Server 2008 (x86_64bit)`             				|
+| `Windows Server 2022 : x86_64bit`			  					|
+| `Windows Server 2019 : x86_64bit`          					|
+| `Windows Server 2016 : x86_64bit`           					|
+| `Windows Server 2012 : x86_64bit`             				|
+| `Windows Server 2008 : x86_64bit`             				|
 
