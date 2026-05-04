@@ -29,8 +29,8 @@ hideNav: true
 
 | Linux                                  				   		|
 |---------------------------------------------------------------|
-| `RHEL(CentOS) 9 (x86_64bit / arm_64bit)`                      |
-| `RHEL(CentOS) 8 (x86_64bit / arm_64bit)`				  		|
+| `RHEL(Rocky Linux, Oracle Linux) 9 (x86_64bit / arm_64bit)`   |
+| `RHEL(Rocky Linux, Oracle Linux) 8 (x86_64bit / arm_64bit)`   |
 | `RHEL(CentOS) 7 (x86_64bit)`             					 	|
 | `RHEL(CentOS) 6 (x86_64bit)`                               	|
 | `RHEL(CentOS) 5 (x86_64bit)`                             	 	|
@@ -38,9 +38,6 @@ hideNav: true
 | `SUSE Linux Enterprise Server 15 SP2 (x86_64bit / arm_64bit)`	|
 | `Ubuntu Server 20.04 (x86_64bit / arm_64bit)`                 |
 | `Debian 10 (x86_64bit / arm_64bit)`                   		|
-| `Oracle Linux 8.3 (x86_64bit)	`								|
-| `Rocky Linux 9 (x86_64bit / arm_64bit)	`								|
-| `Rocky Linux 8 (x86_64bit / arm_64bit)	`								|
 
 
 | Windows                                  				   		|
