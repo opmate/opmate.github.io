@@ -37,7 +37,8 @@ hideNav: true
 | `Ubuntu Server 24.04 : x86_64bit / arm_64bit`                 |
 | `Ubuntu Server 22.04 : x86_64bit / arm_64bit`                 |
 | `Ubuntu Server 20.04 : x86_64bit / arm_64bit`                 |
-| `Amazon Linux 2 : x86_64bit / arm_64bit`                    	|
+| `Amazon Linux 2023 : x86_64bit / arm_64bit`                   |
+| `Amazon Linux 2 : x86_64bit / arm_64bit`                      |
 | `SUSE Linux Enterprise Server 15 SP2 : x86_64bit / arm_64bit` |
 | `Debian 10 : x86_64bit / arm_64bit`                           |
 
